@@ -356,7 +356,7 @@ window.IEEE_DATA = {
         "id": "rajesh-ingle",
         "name": "Dr. Rajesh Ingle",
         "role": "Professor & IEEE Leader",
-        "organization": "IEEE Region 10 / Pune Section",
+        "organization": "IEEE Region 10 / Former Chair, IEEE Pune Section",
         "photo": null,
         "linkedin": null,
         "website": "https://ieeepunesection.org/",
@@ -365,7 +365,7 @@ window.IEEE_DATA = {
         "events": [
           "symposium-2024-02-02"
         ],
-        "bio": "Distinguished IEEE Region 10 leader and academician active in IEEE educational and humanitarian technology initiatives."
+        "bio": "Distinguished IEEE Region 10 leader, former Chair of IEEE Pune Section, and academician active in IEEE educational and humanitarian technology initiatives."
       }
     ]
   },
@@ -506,8 +506,8 @@ window.IEEE_DATA = {
       {
         "id": "surekha-deshmukh",
         "name": "Dr. Surekha Deshmukh",
-        "role": "Domain Consultant",
-        "organization": "Tata Consultancy Services (TCS) Pune",
+        "role": "Domain Consultant (IoT & Digital Engineering), TCS",
+        "organization": "Tata Consultancy Services (TCS) Pune / Former Chair, IEEE Pune Section",
         "photo": null,
         "linkedin": null,
         "website": "https://www.tcs.com",
@@ -517,13 +517,13 @@ window.IEEE_DATA = {
           "symposium-2024-02-02",
           "ebct-2024-07"
         ],
-        "bio": "Expert in blockchain for energy transition, decarbonisation, and industrial distributed ledger applications."
+        "bio": "Domain Consultant at TCS IoT & Digital Engineering; Former Chair of IEEE Pune Section and IEEE PES India Chapters Council; speaker on 'Blockchain for Energy Transition and Decarbonisation'."
       },
       {
         "id": "rajesh-ingle",
         "name": "Dr. Rajesh Ingle",
         "role": "Professor & IEEE Leader",
-        "organization": "IEEE Region 10 / Pune Section",
+        "organization": "IEEE Region 10 / Former Chair, IEEE Pune Section",
         "photo": null,
         "linkedin": null,
         "website": "https://ieeepunesection.org/",
@@ -532,13 +532,13 @@ window.IEEE_DATA = {
         "events": [
           "symposium-2024-02-02"
         ],
-        "bio": "Distinguished IEEE Region 10 leader and academician active in IEEE educational and humanitarian technology initiatives."
+        "bio": "Distinguished IEEE Region 10 leader, former Chair of IEEE Pune Section, and academician active in IEEE educational and humanitarian technology initiatives."
       },
       {
         "id": "bk-murthy",
         "name": "Dr. B. K. Murthy",
-        "role": "Former Director / Senior Consultant",
-        "organization": "MeitY / C-DAC",
+        "role": "Former Senior Director (Scientist G) & Group Coordinator, MeitY",
+        "organization": "MeitY, Government of India (Former) / IIT Bhilai",
         "photo": null,
         "linkedin": null,
         "website": "https://www.meity.gov.in/",
@@ -547,13 +547,13 @@ window.IEEE_DATA = {
         "events": [
           "symposium-2024-02-02"
         ],
-        "bio": "Pioneer of national research roadmaps in distributed systems, high-performance computing, and digital governance."
+        "bio": "Served 35 years at MeitY overseeing national R&D in IT, NKN, and C-DAC; CEO of Innovation and Technology Foundation at IIT Bhilai; keynote speaker on 'NFT and Tokenization of Real-World Assets'."
       },
       {
         "id": "padmaja-joshi",
         "name": "Dr. Padmaja Joshi",
-        "role": "Senior Director",
-        "organization": "C-DAC Pune",
+        "role": "Scientist G & Senior Director",
+        "organization": "Centre for Development of Advanced Computing (C-DAC)",
         "photo": null,
         "linkedin": null,
         "website": "https://www.cdac.in/",
@@ -562,7 +562,7 @@ window.IEEE_DATA = {
         "events": [
           "symposium-2024-02-02"
         ],
-        "bio": "Leading software technologist and researcher heading blockchain and trust infrastructure initiatives at C-DAC."
+        "bio": "Scientist G and Senior Director at C-DAC leading high-assurance software engineering, national trust platforms, and distributed systems."
       },
       {
         "id": "mehul-gaidhani",
@@ -705,7 +705,7 @@ window.IEEE_DATA = {
       {
         "id": "kamlesh-nagware",
         "name": "Mr. Kamlesh Nagware",
-        "role": "Co-Founder & Hyperledger Leader",
+        "role": "Co-Founder & Hyperledger India Leader",
         "organization": "FSV Capital / Hyperledger India",
         "photo": null,
         "linkedin": null,
@@ -715,12 +715,12 @@ window.IEEE_DATA = {
         "events": [
           "ebct-2024-07"
         ],
-        "bio": "Top blockchain influencer, Hyperledger India leader, and co-founder of FSV Capital advising on enterprise Web3 architecture."
+        "bio": "Top blockchain influencer, Hyperledger India leader, Hyperledger TSC member, and mentor at APIARY Blockchain CoE (STPI & MeitY)."
       },
       {
         "id": "gaurav-somvanshi",
         "name": "Mr. Gaurav Somvanshi",
-        "role": "Co-Founder",
+        "role": "Co-Founder & CEO",
         "organization": "EmerTech Innovations Pvt Ltd",
         "photo": null,
         "linkedin": null,
@@ -730,7 +730,7 @@ window.IEEE_DATA = {
         "events": [
           "ebct-2024-07"
         ],
-        "bio": "Social entrepreneur and pioneer in implementing blockchain for provenance, agriculture, and rural livelihood empowerment."
+        "bio": "IIT Bombay and IIM Lucknow alumnus, pioneer in implementing enterprise blockchain traceability systems for agricultural cooperatives and supply chains."
       },
       {
         "id": "garima-singh",
@@ -765,8 +765,8 @@ window.IEEE_DATA = {
       {
         "id": "surekha-deshmukh",
         "name": "Dr. Surekha Deshmukh",
-        "role": "Domain Consultant",
-        "organization": "Tata Consultancy Services (TCS) Pune",
+        "role": "Domain Consultant (IoT & Digital Engineering), TCS",
+        "organization": "Tata Consultancy Services (TCS) Pune / Former Chair, IEEE Pune Section",
         "photo": null,
         "linkedin": null,
         "website": "https://www.tcs.com",
@@ -776,7 +776,7 @@ window.IEEE_DATA = {
           "symposium-2024-02-02",
           "ebct-2024-07"
         ],
-        "bio": "Expert in blockchain for energy transition, decarbonisation, and industrial distributed ledger applications."
+        "bio": "Domain Consultant at TCS IoT & Digital Engineering; Former Chair of IEEE Pune Section and IEEE PES India Chapters Council; speaker on 'Blockchain for Energy Transition and Decarbonisation'."
       },
       {
         "id": "shreekant-kulkarni",
@@ -841,7 +841,7 @@ window.IEEE_DATA = {
       {
         "id": "amar-tumballi",
         "name": "Mr. Amar Tumballi",
-        "role": "Co-Founder & VP Engineering",
+        "role": "Co-Founder & Chief Technology Officer (CTO)",
         "organization": "Dhiway",
         "photo": null,
         "linkedin": null,
@@ -851,7 +851,7 @@ window.IEEE_DATA = {
         "events": [
           "ebct-2024-07"
         ],
-        "bio": "Open-source veteran and core engineer developing CORD network for verifiable digital identity and cryptographic credentials."
+        "bio": "Open-source veteran and CTO at Dhiway architecting the CORD blockchain network for verifiable credentials, data integrity, and persistent digital trust."
       }
     ]
   },
@@ -980,8 +980,8 @@ window.IEEE_DATA = {
   {
     "id": "surekha-deshmukh",
     "name": "Dr. Surekha Deshmukh",
-    "role": "Domain Consultant",
-    "organization": "Tata Consultancy Services (TCS) Pune",
+    "role": "Domain Consultant (IoT & Digital Engineering), TCS",
+    "organization": "Tata Consultancy Services (TCS) Pune / Former Chair, IEEE Pune Section",
     "photo": null,
     "linkedin": null,
     "website": "https://www.tcs.com",
@@ -991,13 +991,13 @@ window.IEEE_DATA = {
       "symposium-2024-02-02",
       "ebct-2024-07"
     ],
-    "bio": "Expert in blockchain for energy transition, decarbonisation, and industrial distributed ledger applications."
+    "bio": "Domain Consultant at TCS IoT & Digital Engineering; Former Chair of IEEE Pune Section and IEEE PES India Chapters Council; speaker on 'Blockchain for Energy Transition and Decarbonisation'."
   },
   {
     "id": "rajesh-ingle",
     "name": "Dr. Rajesh Ingle",
     "role": "Professor & IEEE Leader",
-    "organization": "IEEE Region 10 / Pune Section",
+    "organization": "IEEE Region 10 / Former Chair, IEEE Pune Section",
     "photo": null,
     "linkedin": null,
     "website": "https://ieeepunesection.org/",
@@ -1006,13 +1006,13 @@ window.IEEE_DATA = {
     "events": [
       "symposium-2024-02-02"
     ],
-    "bio": "Distinguished IEEE Region 10 leader and academician active in IEEE educational and humanitarian technology initiatives."
+    "bio": "Distinguished IEEE Region 10 leader, former Chair of IEEE Pune Section, and academician active in IEEE educational and humanitarian technology initiatives."
   },
   {
     "id": "bk-murthy",
     "name": "Dr. B. K. Murthy",
-    "role": "Former Director / Senior Consultant",
-    "organization": "MeitY / C-DAC",
+    "role": "Former Senior Director (Scientist G) & Group Coordinator, MeitY",
+    "organization": "MeitY, Government of India (Former) / IIT Bhilai",
     "photo": null,
     "linkedin": null,
     "website": "https://www.meity.gov.in/",
@@ -1021,13 +1021,13 @@ window.IEEE_DATA = {
     "events": [
       "symposium-2024-02-02"
     ],
-    "bio": "Pioneer of national research roadmaps in distributed systems, high-performance computing, and digital governance."
+    "bio": "Served 35 years at MeitY overseeing national R&D in IT, NKN, and C-DAC; CEO of Innovation and Technology Foundation at IIT Bhilai; keynote speaker on 'NFT and Tokenization of Real-World Assets'."
   },
   {
     "id": "padmaja-joshi",
     "name": "Dr. Padmaja Joshi",
-    "role": "Senior Director",
-    "organization": "C-DAC Pune",
+    "role": "Scientist G & Senior Director",
+    "organization": "Centre for Development of Advanced Computing (C-DAC)",
     "photo": null,
     "linkedin": null,
     "website": "https://www.cdac.in/",
@@ -1036,12 +1036,12 @@ window.IEEE_DATA = {
     "events": [
       "symposium-2024-02-02"
     ],
-    "bio": "Leading software technologist and researcher heading blockchain and trust infrastructure initiatives at C-DAC."
+    "bio": "Scientist G and Senior Director at C-DAC leading high-assurance software engineering, national trust platforms, and distributed systems."
   },
   {
     "id": "kamlesh-nagware",
     "name": "Mr. Kamlesh Nagware",
-    "role": "Co-Founder & Hyperledger Leader",
+    "role": "Co-Founder & Hyperledger India Leader",
     "organization": "FSV Capital / Hyperledger India",
     "photo": null,
     "linkedin": null,
@@ -1051,12 +1051,12 @@ window.IEEE_DATA = {
     "events": [
       "ebct-2024-07"
     ],
-    "bio": "Top blockchain influencer, Hyperledger India leader, and co-founder of FSV Capital advising on enterprise Web3 architecture."
+    "bio": "Top blockchain influencer, Hyperledger India leader, Hyperledger TSC member, and mentor at APIARY Blockchain CoE (STPI & MeitY)."
   },
   {
     "id": "gaurav-somvanshi",
     "name": "Mr. Gaurav Somvanshi",
-    "role": "Co-Founder",
+    "role": "Co-Founder & CEO",
     "organization": "EmerTech Innovations Pvt Ltd",
     "photo": null,
     "linkedin": null,
@@ -1066,12 +1066,12 @@ window.IEEE_DATA = {
     "events": [
       "ebct-2024-07"
     ],
-    "bio": "Social entrepreneur and pioneer in implementing blockchain for provenance, agriculture, and rural livelihood empowerment."
+    "bio": "IIT Bombay and IIM Lucknow alumnus, pioneer in implementing enterprise blockchain traceability systems for agricultural cooperatives and supply chains."
   },
   {
     "id": "amar-tumballi",
     "name": "Mr. Amar Tumballi",
-    "role": "Co-Founder & VP Engineering",
+    "role": "Co-Founder & Chief Technology Officer (CTO)",
     "organization": "Dhiway",
     "photo": null,
     "linkedin": null,
@@ -1081,7 +1081,7 @@ window.IEEE_DATA = {
     "events": [
       "ebct-2024-07"
     ],
-    "bio": "Open-source veteran and core engineer developing CORD network for verifiable digital identity and cryptographic credentials."
+    "bio": "Open-source veteran and CTO at Dhiway architecting the CORD blockchain network for verifiable credentials, data integrity, and persistent digital trust."
   },
   {
     "id": "surendrasingh-s",

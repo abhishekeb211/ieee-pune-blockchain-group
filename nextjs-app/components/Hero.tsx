@@ -43,6 +43,12 @@ export default function Hero({ onOpenLightbox }: HeroProps) {
             <a href="#lab" className="btn-secondary">
               Lab Infrastructure
             </a>
+            <a href="https://www.linkedin.com/company/ieee-pune-blockchain-group" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              Follow on LinkedIn ↗
+            </a>
+            <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              IEEE Collabratec ↗
+            </a>
             <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               IEEE Pune Section ↗
             </a>

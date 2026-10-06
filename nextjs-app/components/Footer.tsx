@@ -36,6 +36,16 @@ export default function Footer() {
               </a>
             </li>
             <li>
+              <a href="https://www.linkedin.com/company/ieee-pune-blockchain-group" target="_blank" rel="noopener noreferrer" className="hover:text-white transition text-ieee-brightcyan">
+                LinkedIn Official Group ↗
+              </a>
+            </li>
+            <li>
+              <a href="https://vtools.vtools.ieee.org/home/local_groups/view/62" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                IEEE vTools Local Group (62) ↗
+              </a>
+            </li>
+            <li>
               <a href="https://www.ieee.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                 IEEE Worldwide
               </a>

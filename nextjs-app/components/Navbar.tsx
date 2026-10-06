@@ -29,6 +29,8 @@ export default function Navbar() {
             <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">IEEE Pune Section</a>
             <span className="text-slate-600">|</span>
             <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="hover:text-white transition text-ieee-brightcyan">Collabratec Workspace</a>
+            <span className="text-slate-600">|</span>
+            <a href="https://www.linkedin.com/company/ieee-pune-blockchain-group" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">LinkedIn</a>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-slate-400">Spoid: <strong className="text-slate-200">LGR00120BC</strong></span>

@@ -36,6 +36,10 @@ media_mappings = [
     ('research/media/PCCOE_CESA_MAGAZINE_2026_p113_img1.jpeg', '2026/decai-fdp', 'decai-fdp-2026.jpg'),
     ('research/media/PCCOE_CESA_MAGAZINE_2026_p113_img2.jpeg', '2026/decai-fdp', 'decai-fdp-hands-on.jpg'),
     ('research/media/PCCOE_CESA_MAGAZINE_2026_p113_img3.jpeg', '2026/decai-fdp', 'decai-fdp-valedictory.jpg'),
+
+    # Additional 2025 Activities
+    ('research/media/PCCOE_CESA_MAGAZINE_2026_p110_img1.jpeg', '2025/buildathon', 'buildathon-2025.jpg'),
+    ('research/media/PCCOE_CESA_MAGAZINE_2026_p111_img1.jpeg', '2025/demystifying', 'demystifying-blockchain-2025.jpg'),
 ]
 
 for src, subfolder, dest_name in media_mappings:

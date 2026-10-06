@@ -110,14 +110,25 @@ export default function Leadership() {
               >
                 IEEE Pune Section Portal ↗
               </a>
-              <a
-                href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-500 hover:text-ieee-primary"
-              >
-                Collabratec Workspace ↗
-              </a>
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://www.linkedin.com/company/ieee-pune-blockchain-group"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-500 hover:text-ieee-primary"
+                >
+                  LinkedIn Page ↗
+                </a>
+                <span className="text-slate-300">|</span>
+                <a
+                  href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-500 hover:text-ieee-primary"
+                >
+                  Collabratec Workspace ↗
+                </a>
+              </div>
             </div>
           </div>
         </div>

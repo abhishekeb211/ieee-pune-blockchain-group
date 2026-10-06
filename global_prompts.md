@@ -152,3 +152,23 @@
   - `styles.css` & `nextjs-app/app/globals.css`: Flutter M3 styling for event selector pills, guest cards, hero highlights, and lightbox navigation controls.
   - `nextjs-app/`: Created `Guests.tsx`, updated `Navbar.tsx`, `Hero.tsx`, `Events.tsx`, `Lightbox.tsx`, and `page.tsx`.
   - `tests/verify_events_gallery.py`, `tests/verify_integration.py`, `tests/verify_ui_ux.py`: All 3 test suites passing with 100% green assertions.
+
+### Entry 14
+- **Timestamp**: 2026-10-06T23:54:00+05:30
+- **Original Prompt**:
+  > search whatever images and info needefrom use previous chat contentxt and linkd websearch
+- **Enhanced Prompt**:
+  > Perform an exhaustive contextual extraction and targeted web research to retrieve all verified metadata, official URLs, and authentic institutional images from the conversation history (specifically step 293 in transcript_full.jsonl) and external web sources. Discover and verify official organizational assets—including the IEEE Pune Blockchain Group LinkedIn Company Page, IEEE vTools Local Group record (Spoid LGR00120BC), IEEE Collabratec activity workspace, and keynote lecture topics. Verify speaker biographies and designations for Dr. Surekha Deshmukh, Dr. B. K. Murthy, Dr. Padmaja Joshi, Gaurav Somvanshi, Amar Tumballi, and Kamlesh Nagware. Map newly discovered authentic event media from the CESA 2025–2026 publication (Build-a-Thon 2025 and Demystifying Blockchain SDP 2025). Ensure complete synchronization across static HTML (`index.html`, `data/`, `app.js`) and Next.js 14 (`nextjs-app/`).
+- **User Preferences**:
+  - Uncompromising data fidelity: zero fabricated URLs or unverified credentials.
+  - Active integration of the official IEEE Pune Blockchain Group LinkedIn Company Page across hero, top bar, leadership, and footer.
+  - Parity across both static HTML and Next.js implementations.
+- **Delivered Outputs**:
+  - Retrieved official LinkedIn Company Page: `https://www.linkedin.com/company/ieee-pune-blockchain-group`.
+  - Integrated official LinkedIn link into hero action buttons, utility bar, leadership governance cards, and footer in both `index.html` and Next.js (`Hero.tsx`, `Navbar.tsx`, `Leadership.tsx`, `Footer.tsx`).
+  - Researched and updated detailed bios, designations, and affiliations for Dr. Surekha Deshmukh (Domain Consultant, TCS), Dr. B. K. Murthy (Former Scientist G & Group Coordinator, MeitY / CEO IIT Bhilai), Dr. Padmaja Joshi (Scientist G & Senior Director, C-DAC), Amar Tumballi (CTO, Dhiway), Gaurav Somvanshi (CEO, EmerTech), and Kamlesh Nagware (FSV Capital / Hyperledger India).
+  - Regenerated master structured data files: `data/events.json`, `data/guests.json`, `data/site-data.js`, and `nextjs-app/data/`.
+  - Structured authentic event photos: `assets/images/events/2025/buildathon/buildathon-2025.jpg` and `assets/images/events/2025/demystifying/demystifying-blockchain-2025.jpg` along with Next.js mirrors.
+  - Cleaned up scratch working files.
+  - Passed all verification test suites (`verify_events_gallery.py`, `verify_integration.py`, `verify_ui_ux.py`) with 100% green status.
+
