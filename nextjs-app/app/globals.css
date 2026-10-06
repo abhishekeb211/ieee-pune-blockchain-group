@@ -146,3 +146,127 @@
   border-color: #006699;
   box-shadow: 0 0 0 3px rgba(0, 102, 153, 0.15);
 }
+
+/* Interest Selectable Badges */
+.pill-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border-radius: 9999px;
+  border: 1px solid #E2E8F0;
+  background-color: #FFFFFF;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.82rem;
+  color: #1E293B;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease;
+}
+
+.pill-checkbox:hover {
+  border-color: #006699;
+  background-color: #F8FAFC;
+}
+
+.pill-checkbox.is-checked {
+  border-color: #006699;
+  background-color: #006699;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+/* Interactive Timeline Tabs */
+.timeline-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1.15rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #94A3B8;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.timeline-tab:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(0, 180, 216, 0.4);
+}
+
+.timeline-tab.active {
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(0, 180, 216, 0.35);
+}
+
+/* Event Badges */
+.event-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.18rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-symposium {
+  background-color: rgba(0, 180, 216, 0.15);
+  color: #00B4D8;
+  border: 1px solid rgba(0, 180, 216, 0.35);
+}
+
+.badge-sttp, .badge-fdp {
+  background-color: rgba(255, 184, 28, 0.15);
+  color: #FFB81C;
+  border: 1px solid rgba(255, 184, 28, 0.35);
+}
+
+.badge-conference {
+  background-color: rgba(0, 102, 153, 0.25);
+  color: #38BDF8;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
+.badge-hackathon {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #10B981;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.badge-expert {
+  background-color: rgba(148, 163, 184, 0.15);
+  color: #CBD5E1;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+/* Hardware Specification Grid Item */
+.spec-badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  background-color: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.spec-badge span:first-child {
+  color: #64748B;
+  font-weight: 500;
+}
+
+.spec-badge span:last-child {
+  color: #002855;
+  font-weight: 700;
+  font-family: var(--font-outfit), sans-serif;
+}
+

@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <h4 className="font-heading text-sm font-bold text-white">IEEE Pune Blockchain Group</h4>
           <p className="mt-2 text-xs leading-relaxed text-slate-400">
-            A specialized technical chapter under the IEEE Blockchain Technical Community, fostering academic excellence and industry leadership across Maharashtra.
+            A recognized local technical group under the IEEE Blockchain Technical Community, IEEE Pune Section, and IEEE Region 10 (Asia-Pacific). Spoid: <strong>LGR00120BC</strong>.
           </p>
         </div>
 
@@ -17,17 +17,22 @@ export default function Footer() {
           <ul className="mt-2 space-y-1.5 text-xs">
             <li>
               <a href="https://blockchain.ieee.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Blockchain Community
+                IEEE Blockchain Technical Community
               </a>
             </li>
             <li>
-              <a href="https://ieeepune.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+              <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                 IEEE Pune Section
               </a>
             </li>
             <li>
               <a href="https://www.ieeer10.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                 IEEE Region 10 (Asia-Pacific)
+              </a>
+            </li>
+            <li>
+              <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                IEEE Collabratec Workspace
               </a>
             </li>
             <li>
@@ -42,16 +47,19 @@ export default function Footer() {
           <h4 className="font-heading text-sm font-bold text-white">Quick Navigation</h4>
           <ul className="mt-2 space-y-1.5 text-xs">
             <li>
-              <a href="#about" className="hover:text-white transition">About Chapter</a>
+              <a href="#about" className="hover:text-white transition">About &amp; Mission</a>
             </li>
             <li>
-              <a href="#objectives" className="hover:text-white transition">Who We Serve</a>
+              <a href="#focus" className="hover:text-white transition">12 Technical Focus Areas</a>
             </li>
             <li>
-              <a href="#events" className="hover:text-white transition">Past Conferences</a>
+              <a href="#lab" className="hover:text-white transition">Blockchain Lab Infrastructure</a>
             </li>
             <li>
-              <a href="#leadership" className="hover:text-white transition">Executive Committee</a>
+              <a href="#events" className="hover:text-white transition">Chronological Timeline</a>
+            </li>
+            <li>
+              <a href="#leadership" className="hover:text-white transition">Leadership &amp; Governance</a>
             </li>
           </ul>
         </div>
@@ -59,11 +67,14 @@ export default function Footer() {
         <div>
           <h4 className="font-heading text-sm font-bold text-white">Contact &amp; Support</h4>
           <p className="mt-2 text-xs leading-relaxed text-slate-400">
-            Inquiries regarding workshops, partnerships, or conference tracks:
+            For academic inquiries, event partnerships, or laboratory research:
           </p>
-          <a href="mailto:chair@ieeepune.org" className="mt-2 inline-block font-semibold text-ieee-brightcyan hover:underline">
-            chair@ieeepune.org
+          <a href="mailto:sonalimpatil@gmail.com" className="mt-2 inline-block font-semibold text-ieee-brightcyan hover:underline">
+            sonalimpatil@gmail.com
           </a>
+          <p className="mt-2 text-[11px] text-slate-500">
+            Pimpri Chinchwad College of Engineering (PCCOE) / MMCOE, Pune
+          </p>
         </div>
       </div>
 
@@ -72,9 +83,9 @@ export default function Footer() {
         <div className="section-container flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500">
           <p>© 2026 IEEE Pune Blockchain Group. All rights reserved.</p>
           <p className="flex items-center gap-3 text-[11px]">
-            <span>Designed for IEEE Engineering Societies</span>
+            <span>Designed for IEEE Technical Communities</span>
             <span>·</span>
-            <a href="#top" class="hover:text-slate-300">Back to Top ↑</a>
+            <a href="#top" className="hover:text-slate-300">Back to Top ↑</a>
           </p>
         </div>
       </div>

@@ -10,14 +10,14 @@ const categories = [
 ]
 
 const areas = [
-  'Blockchain Research',
-  'DLT Applications & Use Cases',
+  'Blockchain & DLT Architecture',
+  'Decentralized AI & Agentic Systems',
+  'Applied Cryptography & ZKP',
   'Smart Contracts & Web3',
-  'FinTech & Digital Assets',
-  'Healthcare & Supply Chain',
-  'Education & Outreach',
-  'Events & Hackathons',
-  'Standards & Policy',
+  'Enterprise Blockchain (Hyperledger)',
+  'Digital Identity & SSI',
+  'Security & Smart Contract Auditing',
+  'Sustainability & DePIN',
 ]
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
@@ -101,19 +101,20 @@ export default function JoinForm() {
         {/* Left Column */}
         <div className="lg:col-span-2">
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
-            Membership &amp; Registration
+            Membership &amp; Engagement
           </span>
           <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
             Join the Community
           </h2>
           <p className="mt-3 text-xs text-slate-600 leading-relaxed sm:text-sm">
-            Whether you are an existing IEEE Member or a newcomer passionate about decentralized architectures, registering ensures you receive invitations to workshops, technical talks, hackathons, and conference publication tracks.
+            Whether you are an active IEEE Member or a student, researcher, or practitioner passionate about decentralized architectures, registering connects you directly with our research initiatives, FDPs, hackathons, and laboratory resources.
           </p>
           <div className="mt-5 rounded-lg border border-slate-200 bg-white p-3.5 text-xs text-slate-600">
-            <strong className="block font-semibold text-ieee-navy">Review Process</strong>
-            Submissions are reviewed by the chapter officers. Direct inquiries can be routed to{' '}
-            <a href="mailto:chair@ieeepune.org" className="text-ieee-primary font-medium hover:underline">
-              chair@ieeepune.org
+            <strong className="block font-semibold text-ieee-navy">Official Local Group Record</strong>
+            IEEE vTools Spoid: <strong>LGR00120BC</strong>.<br />
+            For institutional inquiries or technical collaborations, contact Chair Dr. Sonali D. Patil at{' '}
+            <a href="mailto:sonalimpatil@gmail.com" className="text-ieee-primary font-medium hover:underline">
+              sonalimpatil@gmail.com
             </a>.
           </div>
         </div>
@@ -207,13 +208,16 @@ export default function JoinForm() {
                     Primary Affiliation <span className="text-rose-500">*</span>
                   </span>
                   <div className="mt-1">
-                    <select name="category" required defaultValue="" className="form-input text-xs">
-                      <option value="" disabled>
-                        Select category
-                      </option>
-                      {categories.map((c) => (
-                        <option key={c.value} value={c.value}>
-                          {c.label}
+                    <select
+                      name="category"
+                      required
+                      defaultValue=""
+                      className="form-input text-xs"
+                    >
+                      <option value="" disabled>Select category</option>
+                      {categories.map((cat) => (
+                        <option key={cat.value} value={cat.value}>
+                          {cat.label}
                         </option>
                       ))}
                     </select>
@@ -228,7 +232,7 @@ export default function JoinForm() {
                     <input
                       name="organization"
                       type="text"
-                      placeholder="e.g. COEP, PICT, PCCOE, Infosys"
+                      placeholder="e.g. PCCOE, MMCOE, COEP, PICT, Infosys"
                       className="form-input"
                     />
                   </div>
@@ -240,24 +244,20 @@ export default function JoinForm() {
                   Technical Focus &amp; Interests <span className="text-rose-500">*</span>
                 </legend>
                 <div className="mt-2 flex flex-wrap gap-2">
-                  {areas.map((area) => {
-                    const isChecked = selectedInterests.includes(area)
+                  {areas.map((item) => {
+                    const isChecked = selectedInterests.includes(item)
                     return (
                       <label
-                        key={area}
-                        className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition cursor-pointer select-none ${
-                          isChecked
-                            ? 'border-ieee-primary bg-ieee-primary text-white font-medium'
-                            : 'border-slate-200 bg-white text-slate-700 hover:border-ieee-primary hover:bg-slate-50'
-                        }`}
+                        key={item}
+                        className={`pill-checkbox ${isChecked ? 'is-checked' : ''}`}
                       >
                         <input
                           type="checkbox"
-                          checked={isChecked}
-                          onChange={() => handleInterestToggle(area)}
                           className="sr-only"
+                          checked={isChecked}
+                          onChange={() => handleInterestToggle(item)}
                         />
-                        <span>{area}</span>
+                        <span>{item}</span>
                       </label>
                     )
                   })}
@@ -272,7 +272,7 @@ export default function JoinForm() {
                   <textarea
                     name="message"
                     rows={2}
-                    placeholder="Tell us about your ongoing projects or research areas"
+                    placeholder="Tell us about your ongoing projects, research interests, or laboratory queries"
                     className="form-input resize-none"
                   />
                 </div>

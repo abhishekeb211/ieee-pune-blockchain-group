@@ -36,6 +36,36 @@ document.addEventListener('DOMContentLoaded', () => {
     updateStyle();
   });
 
+  // Interactive Event Timeline Year Filtering
+  const timelineTabs = document.querySelectorAll('.timeline-tab');
+  const eventCards = document.querySelectorAll('[data-event-year]');
+
+  timelineTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const selectedYear = tab.getAttribute('data-year');
+
+      // Update active tab button state
+      timelineTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // Filter event cards
+      eventCards.forEach(card => {
+        const cardYear = card.getAttribute('data-event-year');
+        if (selectedYear === 'all' || cardYear === selectedYear) {
+          card.classList.remove('hidden');
+          card.style.opacity = '0';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transition = 'opacity 0.25s ease';
+          }, 10);
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+
   // Join Form Validation & Submission
   const joinForm = document.getElementById('join-form');
   const formStatus = document.getElementById('form-status');

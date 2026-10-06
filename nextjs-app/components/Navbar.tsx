@@ -4,8 +4,10 @@ import React, { useState } from 'react'
 
 const navLinks = [
   { href: '#about', label: 'About' },
-  { href: '#objectives', label: 'Who We Serve' },
-  { href: '#events', label: 'Past Events' },
+  { href: '#objectives', label: 'Objectives' },
+  { href: '#focus', label: 'Focus Areas' },
+  { href: '#events', label: 'Events' },
+  { href: '#lab', label: 'Research Lab' },
   { href: '#leadership', label: 'Leadership' },
 ]
 
@@ -24,10 +26,12 @@ export default function Navbar() {
             <span className="text-slate-600">|</span>
             <a href="https://www.ieeer10.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">IEEE Region 10 (APAC)</a>
             <span className="text-slate-600">|</span>
-            <a href="https://ieeepune.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">IEEE Pune Section</a>
+            <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">IEEE Pune Section</a>
+            <span className="text-slate-600">|</span>
+            <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="hover:text-white transition text-ieee-brightcyan">Collabratec Workspace</a>
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-slate-400">Technical Community</span>
+            <span className="text-slate-400">Spoid: <strong className="text-slate-200">LGR00120BC</strong></span>
             <a href="#join" className="text-ieee-brightcyan hover:underline font-medium">Join Community</a>
           </div>
         </div>
@@ -48,13 +52,13 @@ export default function Navbar() {
                 Pune Blockchain Group
               </span>
               <span className="block text-[11px] font-medium text-slate-500">
-                IEEE Blockchain Technical Community
+                IEEE Blockchain Technical Community · Region 10
               </span>
             </div>
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-7">
+          <nav className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -68,7 +72,7 @@ export default function Navbar() {
               href="#join"
               className="btn-primary text-xs py-2 px-4 shadow-sm"
             >
-              Join the Community
+              Join Community
             </a>
           </nav>
 
@@ -77,7 +81,7 @@ export default function Navbar() {
             type="button"
             aria-label="Toggle navigation menu"
             onClick={() => setIsOpen((prev) => !prev)}
-            className="flex h-9 w-9 items-center justify-center rounded-md border border-slate-200 md:hidden"
+            className="flex h-9 w-9 items-center justify-center rounded-md border border-slate-200 lg:hidden"
           >
             <span className="sr-only">Menu</span>
             <div className="space-y-1">
@@ -90,7 +94,7 @@ export default function Navbar() {
 
         {/* Mobile Dropdown Nav */}
         {isOpen && (
-          <div className="border-t border-slate-200 bg-white md:hidden">
+          <div className="border-t border-slate-200 bg-white lg:hidden">
             <div className="section-container flex flex-col gap-1 py-3">
               {navLinks.map((link) => (
                 <a
@@ -107,7 +111,7 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className="mt-2 rounded-full bg-ieee-primary py-2.5 text-center text-xs font-semibold text-white"
               >
-                Join the Community
+                Join Community
               </a>
             </div>
           </div>
