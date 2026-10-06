@@ -3,10 +3,10 @@
 import React, { useState } from 'react'
 
 const categories = [
-  'Student',
-  'Researcher',
-  'Academician',
-  'Industry Professional',
+  { label: 'Student (UG / PG)', value: 'Student' },
+  { label: 'Researcher / PhD Scholar', value: 'Researcher' },
+  { label: 'Academician / Faculty', value: 'Academician' },
+  { label: 'Industry Professional', value: 'Industry Professional' },
 ]
 
 const areas = [
@@ -14,9 +14,9 @@ const areas = [
   'DLT Applications & Use Cases',
   'Smart Contracts & Web3',
   'FinTech & Digital Assets',
-  'Healthcare & Supply Chain Blockchain',
+  'Healthcare & Supply Chain',
   'Education & Outreach',
-  'Events, Hackathons & Networking',
+  'Events & Hackathons',
   'Standards & Policy',
 ]
 
@@ -48,15 +48,15 @@ export default function JoinForm() {
       return
     }
     if (!email || !emailRegex.test(email)) {
-      setErrorMsg('Please enter a valid email address.')
+      setErrorMsg('Please enter a valid academic or professional email address.')
       return
     }
     if (!category) {
-      setErrorMsg('Please select what best describes you.')
+      setErrorMsg('Please select your primary affiliation category.')
       return
     }
     if (selectedInterests.length === 0) {
-      setErrorMsg('Please select at least one area of interest.')
+      setErrorMsg('Please select at least one technical area of interest.')
       return
     }
 
@@ -96,83 +96,87 @@ export default function JoinForm() {
   }
 
   return (
-    <section id="join" className="bg-slate-100 py-20">
-      <div className="section-container grid gap-10 lg:grid-cols-5">
+    <section id="join" className="section-padding bg-slate-50 border-t border-slate-200">
+      <div className="section-container grid gap-8 lg:grid-cols-5">
+        {/* Left Column */}
         <div className="lg:col-span-2">
-          <span className="text-xs font-semibold uppercase tracking-wider text-ieee-blue">
-            Get Involved
+          <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
+            Membership &amp; Registration
           </span>
-          <h2 className="mt-3 text-3xl font-bold text-ieee-navy sm:text-4xl">
+          <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
             Join the Community
           </h2>
-          <p className="mt-4 text-slate-600 leading-relaxed">
-            Whether you’re an IEEE member or new to the community, tell us a bit about yourself and your interests. Your registration is recorded and reviewed by the IEEE Pune Blockchain Group leadership.
+          <p className="mt-3 text-xs text-slate-600 leading-relaxed sm:text-sm">
+            Whether you are an existing IEEE Member or a newcomer passionate about decentralized architectures, registering ensures you receive invitations to workshops, technical talks, hackathons, and conference publication tracks.
           </p>
-          <p className="mt-4 text-sm text-slate-500">
-            Questions before joining? Reach the leads directly via the{' '}
-            <a href="#leadership" className="font-medium text-ieee-blue hover:underline">
-              Leadership
-            </a>{' '}
-            section above.
-          </p>
+          <div className="mt-5 rounded-lg border border-slate-200 bg-white p-3.5 text-xs text-slate-600">
+            <strong className="block font-semibold text-ieee-navy">Review Process</strong>
+            Submissions are reviewed by the chapter officers. Direct inquiries can be routed to{' '}
+            <a href="mailto:chair@ieeepune.org" className="text-ieee-primary font-medium hover:underline">
+              chair@ieeepune.org
+            </a>.
+          </div>
         </div>
 
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:col-span-3">
+        {/* Right Form Card */}
+        <div className="institutional-card lg:col-span-3 p-5 sm:p-6">
           {status === 'success' ? (
-            <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-8 text-center">
-              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-2xl text-white">
+            <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-6 text-center">
+              <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-emerald-600 text-white font-bold">
                 ✓
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-emerald-900">You’re on the list!</h3>
-              <p className="mt-2 text-sm text-emerald-800">
-                Thanks for your interest in the IEEE Pune Blockchain Group. Your details have been recorded and the group leads will be in touch.
+              <h3 className="font-heading mt-3 text-base font-bold text-emerald-900">
+                Registration Recorded
+              </h3>
+              <p className="mt-1.5 text-xs text-emerald-800 leading-relaxed">
+                Thank you for registering with the IEEE Pune Blockchain Group. Your details have been submitted to the chapter coordinators.
               </p>
               <button
                 type="button"
                 onClick={() => setStatus('idle')}
-                className="mt-5 rounded-full border border-emerald-300 px-4 py-2 text-sm font-semibold text-emerald-800 hover:bg-emerald-100 transition"
+                className="mt-4 rounded-full border border-emerald-300 px-4 py-1.5 text-xs font-semibold text-emerald-800 hover:bg-emerald-100 transition"
               >
                 Submit another response
               </button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="grid gap-5">
-              <div className="grid gap-5 sm:grid-cols-2">
+            <form onSubmit={handleSubmit} className="grid gap-4">
+              <div className="grid gap-4 sm:grid-cols-2">
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">
+                  <span className="text-xs font-semibold text-slate-700">
                     Full Name <span className="text-rose-500">*</span>
                   </span>
-                  <div className="mt-1.5">
+                  <div className="mt-1">
                     <input
                       name="fullName"
                       required
                       type="text"
-                      placeholder="Jane Doe"
+                      placeholder="Dr. / Prof. / Jane Doe"
                       className="form-input"
                     />
                   </div>
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">
+                  <span className="text-xs font-semibold text-slate-700">
                     Email Address <span className="text-rose-500">*</span>
                   </span>
-                  <div className="mt-1.5">
+                  <div className="mt-1">
                     <input
                       name="email"
                       required
                       type="email"
-                      placeholder="jane@example.com"
+                      placeholder="jane@institute.edu"
                       className="form-input"
                     />
                   </div>
                 </label>
               </div>
 
-              <div className="grid gap-5 sm:grid-cols-2">
+              <div className="grid gap-4 sm:grid-cols-2">
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">Phone Number</span>
-                  <div className="mt-1.5">
+                  <span className="text-xs font-semibold text-slate-700">Phone Number</span>
+                  <div className="mt-1">
                     <input
                       name="phone"
                       type="tel"
@@ -183,33 +187,33 @@ export default function JoinForm() {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">
+                  <span className="text-xs font-semibold text-slate-700">
                     IEEE Membership Number
                   </span>
-                  <div className="mt-1.5">
+                  <div className="mt-1">
                     <input
                       name="membershipNumber"
                       type="text"
-                      placeholder="Optional"
+                      placeholder="Optional (e.g. 98765432)"
                       className="form-input"
                     />
                   </div>
                 </label>
               </div>
 
-              <div className="grid gap-5 sm:grid-cols-2">
+              <div className="grid gap-4 sm:grid-cols-2">
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">
-                    I am a… <span className="text-rose-500">*</span>
+                  <span className="text-xs font-semibold text-slate-700">
+                    Primary Affiliation <span className="text-rose-500">*</span>
                   </span>
-                  <div className="mt-1.5">
-                    <select name="category" required defaultValue="" className="form-input">
+                  <div className="mt-1">
+                    <select name="category" required defaultValue="" className="form-input text-xs">
                       <option value="" disabled>
                         Select category
                       </option>
                       {categories.map((c) => (
-                        <option key={c} value={c}>
-                          {c}
+                        <option key={c.value} value={c.value}>
+                          {c.label}
                         </option>
                       ))}
                     </select>
@@ -217,14 +221,14 @@ export default function JoinForm() {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-slate-700">
-                    Organization / Institution
+                  <span className="text-xs font-semibold text-slate-700">
+                    Organization / University
                   </span>
-                  <div className="mt-1.5">
+                  <div className="mt-1">
                     <input
                       name="organization"
                       type="text"
-                      placeholder="Company or university name"
+                      placeholder="e.g. COEP, PICT, PCCOE, Infosys"
                       className="form-input"
                     />
                   </div>
@@ -232,28 +236,28 @@ export default function JoinForm() {
               </div>
 
               <fieldset>
-                <legend className="text-sm font-medium text-slate-700">
-                  Areas of Interest <span className="text-rose-500">*</span>
+                <legend className="text-xs font-semibold text-slate-700">
+                  Technical Focus &amp; Interests <span className="text-rose-500">*</span>
                 </legend>
-                <div className="mt-3 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
+                <div className="mt-2 flex flex-wrap gap-2">
                   {areas.map((area) => {
                     const isChecked = selectedInterests.includes(area)
                     return (
                       <label
                         key={area}
-                        className={`flex cursor-pointer items-center gap-2.5 rounded-lg border px-3 py-2.5 text-sm transition ${
+                        className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition cursor-pointer select-none ${
                           isChecked
-                            ? 'border-ieee-blue bg-ieee-blue/5 text-ieee-navy font-medium'
-                            : 'border-slate-200 text-slate-700 hover:border-slate-300'
+                            ? 'border-ieee-primary bg-ieee-primary text-white font-medium'
+                            : 'border-slate-200 bg-white text-slate-700 hover:border-ieee-primary hover:bg-slate-50'
                         }`}
                       >
                         <input
                           type="checkbox"
                           checked={isChecked}
                           onChange={() => handleInterestToggle(area)}
-                          className="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue"
+                          className="sr-only"
                         />
-                        {area}
+                        <span>{area}</span>
                       </label>
                     )
                   })}
@@ -261,30 +265,34 @@ export default function JoinForm() {
               </fieldset>
 
               <label className="block">
-                <span className="text-sm font-medium text-slate-700">Message (optional)</span>
-                <div className="mt-1.5">
+                <span className="text-xs font-semibold text-slate-700">
+                  Comments or Research Notes (optional)
+                </span>
+                <div className="mt-1">
                   <textarea
                     name="message"
-                    rows={3}
-                    placeholder="Tell us anything else you'd like the leads to know"
+                    rows={2}
+                    placeholder="Tell us about your ongoing projects or research areas"
                     className="form-input resize-none"
-                  ></textarea>
+                  />
                 </div>
               </label>
 
               {errorMsg && (
-                <p className="rounded-lg bg-rose-50 px-3 py-2 text-sm font-medium text-rose-700">
+                <p className="rounded-md bg-rose-50 px-3 py-2 text-xs font-medium text-rose-700">
                   {errorMsg}
                 </p>
               )}
 
-              <button
-                type="submit"
-                disabled={status === 'submitting'}
-                className="mt-1 inline-flex w-full items-center justify-center gap-2 rounded-full bg-ieee-blue px-6 py-3.5 text-sm font-semibold text-white shadow-md shadow-ieee-blue/30 transition hover:bg-ieee-navy disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
-              >
-                {status === 'submitting' ? 'Submitting…' : 'Join the Community'}
-              </button>
+              <div className="pt-1">
+                <button
+                  type="submit"
+                  disabled={status === 'submitting'}
+                  className="btn-primary w-full sm:w-auto"
+                >
+                  {status === 'submitting' ? 'Submitting Application…' : 'Submit Registration'}
+                </button>
+              </div>
             </form>
           )}
         </div>

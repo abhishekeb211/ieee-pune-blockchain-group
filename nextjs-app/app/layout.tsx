@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Outfit } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ 
@@ -8,9 +8,15 @@ const inter = Inter({
   display: 'swap',
 })
 
+const outfit = Outfit({
+  subsets: ['latin'],
+  variable: '--font-outfit',
+  display: 'swap',
+})
+
 export const metadata: Metadata = {
-  title: 'IEEE Pune Blockchain Group',
-  description: 'IEEE Pune Blockchain Group — connecting students, researchers, academicians, and industry professionals across the blockchain and distributed ledger technology ecosystem.',
+  title: 'IEEE Pune Blockchain Group | IEEE Blockchain Technical Community',
+  description: 'Official portal for the IEEE Pune Blockchain Group — connecting students, researchers, academicians, and industry professionals across distributed ledger technologies in Pune and Region 10 APAC.',
   icons: {
     icon: '/favicon.ico',
   },
@@ -22,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} scroll-smooth`}>
-      <body className="font-sans antialiased">{children}</body>
+    <html lang="en" className={`${inter.variable} ${outfit.variable} scroll-smooth`}>
+      <body className="font-sans antialiased bg-white text-slate-800">{children}</body>
     </html>
   )
 }

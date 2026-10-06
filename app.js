@@ -1,7 +1,7 @@
-// IEEE Pune Blockchain Group - Client Application Logic
+// IEEE Pune Blockchain Group - Institutional Theme Client Logic
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Mobile Menu Toggle
+  // Mobile Navigation Drawer Toggle
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
@@ -20,15 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Interactive Interest Checkboxes Styling
-  const interestCheckboxes = document.querySelectorAll('input[name="areasOfInterest"]');
-  interestCheckboxes.forEach(checkbox => {
-    const parentLabel = checkbox.closest('label');
+  // Pill Checkbox Multi-Select Handling
+  const pillCheckboxes = document.querySelectorAll('input[name="areasOfInterest"]');
+  pillCheckboxes.forEach(checkbox => {
+    const parentLabel = checkbox.closest('.pill-checkbox');
     const updateStyle = () => {
       if (checkbox.checked) {
-        parentLabel?.classList.add('is-checked', 'border-ieee-blue', 'bg-ieee-blue/5');
+        parentLabel?.classList.add('is-checked');
       } else {
-        parentLabel?.classList.remove('is-checked', 'border-ieee-blue', 'bg-ieee-blue/5');
+        parentLabel?.classList.remove('is-checked');
       }
     };
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateStyle();
   });
 
-  // Join Community Form Submission & Validation
+  // Join Form Validation & Submission
   const joinForm = document.getElementById('join-form');
   const formStatus = document.getElementById('form-status');
   const formSuccess = document.getElementById('form-success');
@@ -44,13 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitAnotherBtn = document.getElementById('submit-another-btn');
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  // Endpoint configuration: Replace with your own Google Apps Script or webhook URL if needed
   const SUBMISSION_ENDPOINT = "https://script.google.com/macros/s/AKfycbzwS5F36cS8behn9sgMW-tfEBiRtcY2zzlfUqbhGu62gkwxNtgCuKSawPD0W-v3bOhZsg/exec";
 
-  function showError(message) {
+  function showError(msg) {
     if (formStatus) {
-      formStatus.textContent = message;
+      formStatus.textContent = msg;
       formStatus.classList.remove('hidden');
     }
   }
@@ -80,17 +78,16 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('input[name="areasOfInterest"]:checked')
       ).map(cb => cb.value);
 
-      // Validation
       if (!fullName) {
         showError('Please enter your full name.');
         return;
       }
       if (!email || !emailRegex.test(email)) {
-        showError('Please enter a valid email address.');
+        showError('Please enter a valid academic or professional email address.');
         return;
       }
       if (!category) {
-        showError('Please select what best describes you.');
+        showError('Please select what best describes your primary affiliation.');
         return;
       }
       if (checkedInterests.length === 0) {
@@ -111,39 +108,35 @@ document.addEventListener('DOMContentLoaded', () => {
         submittedAt: new Date().toISOString()
       };
 
-      // Set Submitting State
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.innerText = 'Submitting…';
+        submitBtn.innerText = 'Submitting Application…';
       }
 
       try {
         await fetch(SUBMISSION_ENDPOINT, {
           method: 'POST',
           mode: 'no-cors',
-          headers: {
-            'Content-Type': 'text/plain'
-          },
+          headers: { 'Content-Type': 'text/plain' },
           body: JSON.stringify(payload)
         });
 
-        // Show Success UI
         joinForm.classList.add('hidden');
         if (formSuccess) {
           formSuccess.classList.remove('hidden');
         }
         joinForm.reset();
-        interestCheckboxes.forEach(cb => {
+        pillCheckboxes.forEach(cb => {
           cb.checked = false;
-          cb.closest('label')?.classList.remove('is-checked', 'border-ieee-blue', 'bg-ieee-blue/5');
+          cb.closest('.pill-checkbox')?.classList.remove('is-checked');
         });
       } catch (err) {
         console.error('Submission error:', err);
-        showError('Something went wrong. Please check your connection and try again.');
+        showError('Something went wrong. Please check your network connection and try again.');
       } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
-          submitBtn.innerText = 'Join the Community';
+          submitBtn.innerText = 'Submit Registration';
         }
       }
     });

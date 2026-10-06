@@ -3,60 +3,101 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IEEE Pune Blockchain Group</title>
-  <meta name="description" content="IEEE Pune Blockchain Group — connecting students, researchers, academicians, and industry professionals across the blockchain and distributed ledger technology ecosystem." />
+  <title>IEEE Pune Blockchain Group | IEEE Blockchain Technical Community</title>
+  <meta name="description" content="Official website for the IEEE Pune Blockchain Group — an engineering society connecting students, researchers, academicians, and industry practitioners across DLT and Web3 in Pune and Region 10 APAC." />
   
-  <!-- Favicon & Assets -->
+  <!-- Favicon -->
   <link rel="icon" href="favicon.ico" />
   <link rel="preload" as="image" href="ieee-blockchain-logo.png" />
-  
-  <!-- Tailwind CSS CDN with Custom Theme Config -->
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN with Institutional Palette Config -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            'ieee-navy': '#00274D',
-            'ieee-blue': '#00629B',
-            'ieee-gold': '#F5A623',
-            'chain-teal': '#0FBFB8',
-            'chain-purple': '#5B4FE9',
+            'ieee-primary': '#006699',
+            'ieee-dark': '#004B75',
+            'ieee-navy': '#002855',
+            'ieee-nearblack': '#001E3D',
+            'ieee-cyan': '#0099D8',
+            'ieee-brightcyan': '#00B4D8',
+            'ieee-gold': '#FFB81C',
+            'ieee-golddark': '#E09B00',
+            'footer-main': '#091A2B',
+            'footer-deep': '#05101D',
           },
           fontFamily: {
             sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            heading: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          boxShadow: {
+            'card-soft': '0 2px 8px -2px rgba(0, 40, 85, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04)',
+            'card-hover': '0 8px 18px -6px rgba(0, 102, 153, 0.18)',
           }
         }
       }
     }
   </script>
-  
+
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+<body class="bg-white text-slate-800 antialiased font-sans">
 
-  <!-- ==================== HEADER / NAVBAR ==================== -->
-  <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/85 backdrop-blur">
+  <!-- ==================== 1. TOP NAVY UTILITY BAR ==================== -->
+  <div class="bg-ieee-nearblack text-slate-300 text-xs py-1.5 border-b border-white/10 hidden sm:block">
+    <div class="section-container flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="https://www.ieee.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE.org</a>
+        <span class="text-slate-600">|</span>
+        <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Xplore Digital Library</a>
+        <span class="text-slate-600">|</span>
+        <a href="https://www.ieeer10.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Region 10 (APAC)</a>
+        <span class="text-slate-600">|</span>
+        <a href="https://ieeepune.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Pune Section</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="text-slate-400">Technical Community</span>
+        <a href="#join" class="text-ieee-brightcyan hover:underline font-medium">Join Community</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 2. BRAND HEADER & NAV ==================== -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
     <div class="section-container flex h-16 items-center justify-between">
-      <a href="#top" class="flex items-center gap-2.5">
-        <img src="ieee-blockchain-logo.png" alt="IEEE Blockchain" class="h-11 w-auto sm:h-12" style="width:auto" />
-        <span class="leading-tight">
-          <span class="block text-sm font-semibold text-ieee-navy">Pune Blockchain Group</span>
-          <span class="block text-[11px] font-medium text-slate-500">IEEE Blockchain Technical Community</span>
-        </span>
+      <!-- Logo & Title -->
+      <a href="#top" class="flex items-center gap-3">
+        <img src="ieee-blockchain-logo.png" alt="IEEE Blockchain Logo" class="h-10 w-auto sm:h-11" style="width: auto;" />
+        <div class="leading-tight border-l border-slate-200 pl-3">
+          <span class="block font-heading text-base font-bold text-ieee-navy tracking-tight">
+            Pune Blockchain Group
+          </span>
+          <span class="block text-[11px] font-medium text-slate-500">
+            IEEE Blockchain Technical Community
+          </span>
+        </div>
       </a>
 
-      <!-- Desktop Navigation -->
-      <nav class="hidden items-center gap-8 md:flex">
-        <a href="#about" class="text-sm font-medium text-slate-600 transition hover:text-ieee-blue">About</a>
-        <a href="#objectives" class="text-sm font-medium text-slate-600 transition hover:text-ieee-blue">Who We Serve</a>
-        <a href="#events" class="text-sm font-medium text-slate-600 transition hover:text-ieee-blue">Past Events</a>
-        <a href="#leadership" class="text-sm font-medium text-slate-600 transition hover:text-ieee-blue">Leadership</a>
-        <a href="#join" class="rounded-full bg-ieee-blue px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-ieee-blue/30 transition hover:bg-ieee-navy">Join the Community</a>
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="#about" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">About</a>
+        <a href="#objectives" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Who We Serve</a>
+        <a href="#events" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Past Events</a>
+        <a href="#leadership" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Leadership</a>
+        <a href="#join" class="btn-primary text-xs py-2 px-4 shadow-sm">
+          Join the Community
+        </a>
       </nav>
 
-      <!-- Mobile Menu Toggle Button -->
+      <!-- Mobile Hamburger Button -->
       <button type="button" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" class="flex h-9 w-9 items-center justify-center rounded-md border border-slate-200 md:hidden">
         <span class="sr-only">Menu</span>
         <div class="space-y-1">
@@ -67,379 +108,501 @@
       </button>
     </div>
 
-    <!-- Mobile Dropdown Navigation -->
+    <!-- Mobile Dropdown Nav -->
     <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white md:hidden">
       <div class="section-container flex flex-col gap-1 py-3">
-        <a href="#about" class="mobile-nav-link rounded-md px-2 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">About</a>
-        <a href="#objectives" class="mobile-nav-link rounded-md px-2 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Who We Serve</a>
-        <a href="#events" class="mobile-nav-link rounded-md px-2 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Past Events</a>
-        <a href="#leadership" class="mobile-nav-link rounded-md px-2 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Leadership</a>
-        <a href="#join" class="mobile-nav-link mt-1 rounded-md bg-ieee-blue px-2 py-2.5 text-center text-sm font-semibold text-white">Join the Community</a>
+        <a href="#about" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">About</a>
+        <a href="#objectives" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Who We Serve</a>
+        <a href="#events" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Past Events</a>
+        <a href="#leadership" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Leadership</a>
+        <a href="#join" class="mobile-nav-link mt-2 rounded-full bg-ieee-primary py-2.5 text-center text-xs font-semibold text-white">Join the Community</a>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- ==================== HERO SECTION ==================== -->
-    <section id="top" class="relative overflow-hidden bg-gradient-to-br from-ieee-navy via-ieee-blue to-chain-purple text-white">
-      <div class="bg-hero-grid absolute inset-0 opacity-40"></div>
-      <div class="section-container relative flex flex-col items-start gap-6 py-20 sm:py-28">
-        <span class="chip">IEEE Blockchain Technical Community · Region 10, APAC · Pune Section</span>
-        <h1 class="max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl">IEEE Pune Blockchain Group</h1>
-        <p class="max-w-2xl text-lg text-white/85 sm:text-xl">
-          A local network of students, researchers, academicians, and industry professionals in Pune advancing blockchain and distributed ledger technologies through education, research, and outreach — part of the global IEEE Blockchain Technical Community.
+    <!-- ==================== 3. COMPACT HERO SECTION ==================== -->
+    <section id="top" class="relative overflow-hidden bg-gradient-to-br from-ieee-navy via-[#003b75] to-ieee-primary text-white py-12 sm:py-16">
+      <div class="section-container relative flex flex-col items-start gap-4">
+        <!-- Status Chip -->
+        <span class="chip">
+          <svg class="w-3.5 h-3.5 text-ieee-brightcyan" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+          IEEE Blockchain Technical Community · Region 10 APAC · Pune Section
+        </span>
+
+        <!-- Main Title -->
+        <h1 class="font-heading max-w-4xl text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+          IEEE Pune Blockchain Group
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="max-w-2xl text-sm leading-relaxed text-slate-200 sm:text-base">
+          A dedicated engineering network connecting researchers, academicians, students, and technology practitioners in Pune to advance distributed ledger systems, smart contract architectures, and decentralized innovations.
         </p>
-        <div class="flex flex-wrap items-center gap-4 pt-2">
-          <a href="#join" class="rounded-full bg-white px-6 py-3 text-sm font-semibold text-ieee-navy shadow-lg shadow-black/10 transition hover:bg-ieee-gold hover:text-ieee-navy">Join the Community</a>
-          <a href="#events" class="rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">See Past Events</a>
+
+        <!-- Actions -->
+        <div class="flex flex-wrap items-center gap-3 pt-2">
+          <a href="#join" class="btn-primary">
+            Join the Community
+          </a>
+          <a href="#events" class="btn-secondary">
+            Explore Past Events
+          </a>
         </div>
-        <dl class="mt-8 grid w-full max-w-xl grid-cols-3 gap-6 border-t border-white/15 pt-6">
-          <div>
-            <dt class="text-2xl font-bold sm:text-3xl">3+</dt>
-            <dd class="text-xs text-white/70 sm:text-sm">Flagship events supported</dd>
+      </div>
+    </section>
+
+    <!-- ==================== 4. DARK MILESTONE STAT RIBBON ==================== -->
+    <section class="bg-gradient-to-r from-ieee-nearblack via-ieee-navy to-ieee-nearblack border-y border-white/10 py-5 text-white">
+      <div class="section-container">
+        <dl class="grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div class="border-l-2 border-ieee-brightcyan/60 pl-3">
+            <dt class="font-heading text-2xl font-bold text-ieee-brightcyan sm:text-3xl">3+</dt>
+            <dd class="text-xs text-slate-300 font-medium">Flagship Forums &amp; Events</dd>
           </div>
-          <div>
-            <dt class="text-2xl font-bold sm:text-3xl">4</dt>
-            <dd class="text-xs text-white/70 sm:text-sm">Communities served</dd>
+          <div class="border-l-2 border-ieee-brightcyan/60 pl-3">
+            <dt class="font-heading text-2xl font-bold text-ieee-brightcyan sm:text-3xl">4</dt>
+            <dd class="text-xs text-slate-300 font-medium">Core Stakeholder Groups</dd>
           </div>
-          <div>
-            <dt class="text-2xl font-bold sm:text-3xl">100%</dt>
-            <dd class="text-xs text-white/70 sm:text-sm">Open community access</dd>
+          <div class="border-l-2 border-ieee-brightcyan/60 pl-3">
+            <dt class="font-heading text-2xl font-bold text-ieee-brightcyan sm:text-3xl">ICDLT '25</dt>
+            <dd class="text-xs text-slate-300 font-medium">Pune Section Co-Host</dd>
+          </div>
+          <div class="border-l-2 border-ieee-brightcyan/60 pl-3">
+            <dt class="font-heading text-2xl font-bold text-ieee-brightcyan sm:text-3xl">100%</dt>
+            <dd class="text-xs text-slate-300 font-medium">Open Technical Network</dd>
           </div>
         </dl>
       </div>
     </section>
 
-    <!-- ==================== ABOUT SECTION ==================== -->
-    <section id="about" class="section-container py-20">
-      <div class="max-w-2xl">
-        <span class="text-xs font-semibold uppercase tracking-wider text-ieee-blue">About the Group</span>
-        <h2 class="mt-3 text-3xl font-bold text-ieee-navy sm:text-4xl">Advancing blockchain in Pune, together</h2>
-        <p class="mt-4 text-slate-600 leading-relaxed">
-          The IEEE Pune Blockchain Group is a local chapter aligned with the mission of the 
-          <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" class="font-medium text-ieee-blue underline decoration-ieee-blue/30 underline-offset-2 hover:decoration-ieee-blue">IEEE Blockchain Technical Community</a>: to promote educational and outreach activities and collaborate with organizations working in the blockchain space — forming a vibrant network of professionals, researchers, and students interested in networking, collaborating, learning, sharing, and advancing technology across Maharashtra, India, and the broader Region 10 (APAC).
-        </p>
-      </div>
-
-      <!-- ==================== WHO WE SERVE ==================== -->
-      <div id="objectives" class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <!-- Students -->
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-ieee-blue/10 text-xl">🎓</div>
-          <h3 class="mt-4 text-base font-semibold text-ieee-navy">Students</h3>
-          <p class="mt-2 text-sm leading-relaxed text-slate-600">University blockchain clubs and student branch members across Pune get access to hackathons, mentorship, and entrepreneurship programs run in partnership with the global IEEE Blockchain Technical Community.</p>
+    <!-- ==================== 5. ABOUT SECTION ==================== -->
+    <section id="about" class="section-padding bg-slate-50">
+      <div class="section-container">
+        <div class="max-w-3xl">
+          <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">About the Chapter</span>
+          <h2 class="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+            Advancing blockchain in Pune, together
+          </h2>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+            The <strong>IEEE Pune Blockchain Group</strong> is a professional community chapter operating under the 
+            <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" class="font-semibold text-ieee-primary hover:underline">
+              IEEE Blockchain Technical Community
+            </a> 
+            and aligned with the 
+            <a href="https://ieeepune.org/" target="_blank" rel="noopener noreferrer" class="font-semibold text-ieee-primary hover:underline">
+              IEEE Pune Section
+            </a>. 
+            Our mission is to foster rigorous educational activities, advance foundational research, and establish industry collaboration across distributed computing, consensus engineering, cryptography, and Web3 technologies across Maharashtra.
+          </p>
         </div>
 
-        <!-- Researchers -->
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-ieee-blue/10 text-xl">🔬</div>
-          <h3 class="mt-4 text-base font-semibold text-ieee-navy">Researchers</h3>
-          <p class="mt-2 text-sm leading-relaxed text-slate-600">A forum to present work, exchange ideas, and collaborate on distributed ledger technology, cryptography, consensus mechanisms, and Web3 research with peers across Region 10 (APAC) and beyond.</p>
-        </div>
+        <!-- ==================== 6. WHO WE SERVE (CLEAN SVG ICONS) ==================== -->
+        <div id="objectives" class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- 1. Students -->
+          <div class="institutional-card top-accent-card">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
+              <!-- Academic Cap SVG -->
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+              </svg>
+            </div>
+            <h3 class="font-heading mt-3 text-base font-bold text-ieee-navy">Students</h3>
+            <p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+              University student branches and blockchain clubs receive access to technical hackathons, project mentorship, and skill accelerators backed by IEEE global resources.
+            </p>
+          </div>
 
-        <!-- Academicians -->
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-ieee-blue/10 text-xl">🏛️</div>
-          <h3 class="mt-4 text-base font-semibold text-ieee-navy">Academicians</h3>
-          <p class="mt-2 text-sm leading-relaxed text-slate-600">Channels for curriculum development, joint publications, faculty development programs, and outreach activities that bring blockchain education into classrooms and premier institutions across Pune.</p>
-        </div>
+          <!-- 2. Researchers -->
+          <div class="institutional-card top-accent-card">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
+              <!-- Microscope / Research SVG -->
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+              </svg>
+            </div>
+            <h3 class="font-heading mt-3 text-base font-bold text-ieee-navy">Researchers</h3>
+            <p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+              Peer-reviewed technical forums, symposiums, and collaborative investigation into consensus algorithms, zero-knowledge proofs, and distributed systems security.
+            </p>
+          </div>
 
-        <!-- Industry Professionals -->
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-ieee-blue/10 text-xl">💼</div>
-          <h3 class="mt-4 text-base font-semibold text-ieee-navy">Industry Professionals</h3>
-          <p class="mt-2 text-sm leading-relaxed text-slate-600">Networking with practitioners building real-world enterprise blockchain, FinTech, and DLT applications in Pune's IT and tech corridors, plus discounted access to IEEE educational content and conferences.</p>
+          <!-- 3. Academicians -->
+          <div class="institutional-card top-accent-card">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
+              <!-- University / Institution Columns SVG -->
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+              </svg>
+            </div>
+            <h3 class="font-heading mt-3 text-base font-bold text-ieee-navy">Academicians</h3>
+            <p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+              Curriculum modernization frameworks, Faculty Development Programs (FDPs), and joint publication support across Pune engineering colleges and institutes.
+            </p>
+          </div>
+
+          <!-- 4. Industry Professionals -->
+          <div class="institutional-card top-accent-card">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
+              <!-- Enterprise Building / Industry SVG -->
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="font-heading mt-3 text-base font-bold text-ieee-navy">Industry Professionals</h3>
+            <p class="mt-1.5 text-xs text-slate-600 leading-relaxed">
+              Connecting IT, automotive, and FinTech practitioners in Hinjawadi, Magarpatta, and Baner with enterprise DLT standards, case studies, and networking sessions.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ==================== PAST EVENTS SECTION ==================== -->
-    <section id="events" class="bg-slate-900 py-20 text-white">
+    <!-- ==================== 7. PAST & FLAGSHIP EVENTS ==================== -->
+    <section id="events" class="bg-ieee-nearblack py-12 text-white border-t border-slate-800">
       <div class="section-container">
-        <span class="text-xs font-semibold uppercase tracking-wider text-chain-teal">Past Events</span>
-        <h2 class="mt-3 max-w-xl text-3xl font-bold sm:text-4xl">From Pune to the flagship global stage</h2>
-        <p class="mt-4 max-w-2xl text-slate-300">
-          Since 2023, the community has helped organize and support marquee IEEE blockchain gatherings — from the India Blockchain Forum editions to the flagship international conference co-hosted in Pune.
-        </p>
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-ieee-brightcyan">
+              Conference &amp; Forum Milestones
+            </span>
+            <h2 class="font-heading mt-1.5 text-2xl font-bold sm:text-3xl">
+              From Pune to the Flagship Global Stage
+            </h2>
+          </div>
+          <p class="text-xs text-slate-300 max-w-md">
+            The community actively co-hosts and organizes major IEEE blockchain conventions, linking local engineering hubs with global standards committees.
+          </p>
+        </div>
 
-        <div class="mt-12 grid gap-6 lg:grid-cols-3">
+        <div class="mt-8 grid gap-4 lg:grid-cols-3">
           <!-- Event 1: IIBF 2023 -->
-          <a href="https://blockchain.ieee.org/conferences/2023-ieee-india-blockchain-forum" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-chain-teal/50 hover:bg-white/10">
+          <a href="https://blockchain.ieee.org/conferences/2023-ieee-india-blockchain-forum" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10">
             <div class="flex items-center justify-between">
-              <span class="rounded-full bg-chain-teal/15 px-3 py-1 text-xs font-semibold text-chain-teal">IIBF 2023</span>
-              <span class="text-xs text-slate-400">2023</span>
+              <span class="chip">IIBF 2023</span>
+              <span class="text-xs text-slate-400">Sep 8–9, 2023</span>
             </div>
-            <h3 class="mt-4 text-lg font-semibold leading-snug text-white group-hover:text-chain-teal">1st IEEE India Blockchain Forum</h3>
-            <p class="mt-2 text-sm font-medium text-slate-300">September 8–9, 2023</p>
-            <p class="text-sm text-slate-400">Satish Dhawan Auditorium, IISc Bangalore</p>
-            <p class="mt-3 flex-1 text-sm leading-relaxed text-slate-300">
-              The inaugural IEEE India Blockchain Forum brought together blockchain researchers, industry experts, and the startup ecosystem to explore advancements and opportunities in blockchain technology.
+            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white group-hover:text-ieee-brightcyan">
+              1st IEEE India Blockchain Forum
+            </h3>
+            <p class="mt-1 text-xs text-slate-300">Satish Dhawan Auditorium, IISc Bangalore</p>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300 flex-1">
+              Inaugural national symposium connecting researchers, enterprise leaders, and policymakers on distributed ledger technology opportunities across India.
             </p>
-            <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-chain-teal">
-              Learn more <span aria-hidden="true" class="transition group-hover:translate-x-0.5">→</span>
+            <span class="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-ieee-brightcyan">
+              Conference Proceedings ↗
             </span>
           </a>
 
           <!-- Event 2: IIBF 2024 -->
-          <a href="https://blockchain.ieee.org/conferences/iibf-2024" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-chain-teal/50 hover:bg-white/10">
+          <a href="https://blockchain.ieee.org/conferences/iibf-2024" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10">
             <div class="flex items-center justify-between">
-              <span class="rounded-full bg-chain-teal/15 px-3 py-1 text-xs font-semibold text-chain-teal">IIBF 2024</span>
-              <span class="text-xs text-slate-400">2024</span>
+              <span class="chip">IIBF 2024</span>
+              <span class="text-xs text-slate-400">Sep 20, 2024</span>
             </div>
-            <h3 class="mt-4 text-lg font-semibold leading-snug text-white group-hover:text-chain-teal">2nd IEEE India Blockchain Forum</h3>
-            <p class="mt-2 text-sm font-medium text-slate-300">September 20, 2024</p>
-            <p class="text-sm text-slate-400">CHRIST (Deemed to be University), Bengaluru</p>
-            <p class="mt-3 flex-1 text-sm leading-relaxed text-slate-300">
-              The second edition expanded the forum to cover Blockchain, AI, Metaverse, and Web3, connecting academic researchers and industry innovators to accelerate adoption of blockchain and immersive technologies in India.
+            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white group-hover:text-ieee-brightcyan">
+              2nd IEEE India Blockchain Forum
+            </h3>
+            <p class="mt-1 text-xs text-slate-300">CHRIST University, Bengaluru</p>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300 flex-1">
+              Expanded edition featuring convergence of Blockchain, AI, Metaverse, and Web3 with technical research tracks and cross-disciplinary keynotes.
             </p>
-            <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-chain-teal">
-              Learn more <span aria-hidden="true" class="transition group-hover:translate-x-0.5">→</span>
+            <span class="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-ieee-brightcyan">
+              Forum Summary ↗
             </span>
           </a>
 
-          <!-- Event 3: ICDLT 2025 -->
-          <a href="https://www.ieeeicdlt.org/" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-chain-teal/50 hover:bg-white/10">
+          <!-- Event 3: ICDLT 2025 (PUNE CO-HOST HIGHLIGHT) -->
+          <a href="https://www.ieeeicdlt.org/" target="_blank" rel="noopener noreferrer" class="group flex flex-col rounded-xl border border-ieee-gold/30 bg-white/5 p-4.5 transition hover:border-ieee-gold hover:bg-white/10">
             <div class="flex items-center justify-between">
-              <span class="rounded-full bg-chain-teal/15 px-3 py-1 text-xs font-semibold text-chain-teal">ICDLT 2025</span>
-              <span class="text-xs text-slate-400">2025</span>
+              <span class="chip chip-gold">ICDLT 2025</span>
+              <span class="text-xs text-ieee-gold">Nov 5–7, 2025</span>
             </div>
-            <h3 class="mt-4 text-lg font-semibold leading-snug text-white group-hover:text-chain-teal">IEEE International Conference on Distributed Ledger Technologies</h3>
-            <p class="mt-2 text-sm font-medium text-slate-300">November 5–7, 2025</p>
-            <p class="text-sm text-slate-400">Organized with IEEE Pune Section &amp; IEEE Blockchain Technical Community</p>
-            <p class="mt-3 flex-1 text-sm leading-relaxed text-slate-300">
-              The flagship research conference of the IEEE Blockchain Technical Community, featuring tracks on core DLT, security &amp; privacy, scalability, FinTech, healthcare, and AI &amp; blockchain — co-organized with active leadership from the IEEE Pune Section.
+            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white group-hover:text-ieee-gold">
+              IEEE Int'l Conference on Distributed Ledger Technologies
+            </h3>
+            <p class="mt-1 text-xs text-ieee-gold font-medium">Co-Organized with IEEE Pune Section &amp; IEEE BCTC</p>
+            <p class="mt-2 text-xs leading-relaxed text-slate-300 flex-1">
+              The flagship global research conference of the IEEE Blockchain Technical Community featuring peer-reviewed research on cryptography, scalability, and FinTech.
             </p>
-            <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-chain-teal">
-              Learn more <span aria-hidden="true" class="transition group-hover:translate-x-0.5">→</span>
+            <span class="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-ieee-gold">
+              Official Conference Portal ↗
             </span>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- ==================== LEADERSHIP SECTION ==================== -->
-    <section id="leadership" class="section-container py-20">
-      <span class="text-xs font-semibold uppercase tracking-wider text-ieee-blue">Leadership</span>
-      <h2 class="mt-3 text-3xl font-bold text-ieee-navy sm:text-4xl">Group Leads &amp; Chairs</h2>
-      <p class="mt-4 max-w-2xl text-slate-600">
-        The IEEE Pune Blockchain Group is driven by dedicated IEEE chairs, academics, and industry advisors who welcome connections from students, researchers, academicians, and practitioners alike.
-      </p>
+    <!-- ==================== 8. LEADERSHIP SECTION ==================== -->
+    <section id="leadership" class="section-padding bg-white">
+      <div class="section-container">
+        <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Governance &amp; Officers</span>
+        <h2 class="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+          Group Leads &amp; Executive Committee
+        </h2>
+        <p class="mt-2 max-w-2xl text-xs text-slate-600 sm:text-sm">
+          The IEEE Pune Blockchain Group is guided by academic researchers, technical chairs, and IEEE Section officers dedicated to serving the region.
+        </p>
 
-      <div class="mt-10 grid gap-6 sm:grid-cols-2">
-        <!-- Lead 1 -->
-        <div class="flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-ieee-blue to-chain-purple text-lg font-bold text-white">
-            PG
-          </div>
-          <div class="min-w-0">
-            <h3 class="text-base font-semibold text-ieee-navy">Pune Blockchain Group Chair</h3>
-            <p class="text-sm text-slate-500">Chair, IEEE Pune Blockchain Group</p>
-            <div class="mt-3 flex flex-wrap items-center gap-3 text-sm">
-              <a href="https://ieeepune.org/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-medium text-ieee-blue hover:underline">
-                IEEE Pune Section ↗
-              </a>
-              <span class="text-slate-300">|</span>
-              <a href="mailto:chair@ieeepune.org" class="inline-flex items-center gap-1 font-medium text-slate-600 hover:text-ieee-blue hover:underline">
-                chair@ieeepune.org
-              </a>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+          <!-- Officer 1 -->
+          <div class="institutional-card flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-ieee-navy text-base font-bold text-white font-heading">
+              PG
+            </div>
+            <div class="min-w-0 flex-1">
+              <h3 class="font-heading text-base font-bold text-ieee-navy">Pune Blockchain Group Chair</h3>
+              <p class="text-xs text-slate-500 font-medium">Chair, IEEE Pune Blockchain Group</p>
+              <div class="mt-2.5 flex flex-wrap items-center gap-2.5 text-xs">
+                <a href="https://ieeepune.org/" target="_blank" rel="noopener noreferrer" class="font-medium text-ieee-primary hover:underline">
+                  IEEE Pune Section ↗
+                </a>
+                <span class="text-slate-300">|</span>
+                <a href="mailto:chair@ieeepune.org" class="text-slate-600 hover:text-ieee-primary">
+                  chair@ieeepune.org
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Lead 2 -->
-        <div class="flex items-start gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-ieee-blue to-chain-purple text-lg font-bold text-white">
-            TC
-          </div>
-          <div class="min-w-0">
-            <h3 class="text-base font-semibold text-ieee-navy">Technical Community Lead</h3>
-            <p class="text-sm text-slate-500">Co-Chair &amp; Outreach Lead, IEEE Pune Blockchain Group</p>
-            <div class="mt-3 flex flex-wrap items-center gap-3 text-sm">
-              <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-medium text-ieee-blue hover:underline">
-                IEEE BCTC ↗
-              </a>
-              <span class="text-slate-300">|</span>
-              <a href="mailto:contact@ieeepune.org" class="inline-flex items-center gap-1 font-medium text-slate-600 hover:text-ieee-blue hover:underline">
-                contact@ieeepune.org
-              </a>
+          <!-- Officer 2 -->
+          <div class="institutional-card flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-ieee-dark text-base font-bold text-white font-heading">
+              TC
+            </div>
+            <div class="min-w-0 flex-1">
+              <h3 class="font-heading text-base font-bold text-ieee-navy">Technical Outreach Lead</h3>
+              <p class="text-xs text-slate-500 font-medium">Vice-Chair &amp; Outreach, IEEE Pune Blockchain Group</p>
+              <div class="mt-2.5 flex flex-wrap items-center gap-2.5 text-xs">
+                <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" class="font-medium text-ieee-primary hover:underline">
+                  IEEE BCTC Global ↗
+                </a>
+                <span class="text-slate-300">|</span>
+                <a href="mailto:contact@ieeepune.org" class="text-slate-600 hover:text-ieee-primary">
+                  contact@ieeepune.org
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ==================== JOIN THE COMMUNITY ==================== -->
-    <section id="join" class="bg-slate-100 py-20">
-      <div class="section-container grid gap-10 lg:grid-cols-5">
-        <!-- Left Info -->
+    <!-- ==================== 9. JOIN COMMUNITY / REGISTRATION ==================== -->
+    <section id="join" class="section-padding bg-slate-50 border-t border-slate-200">
+      <div class="section-container grid gap-8 lg:grid-cols-5">
+        <!-- Left Explanatory Column -->
         <div class="lg:col-span-2">
-          <span class="text-xs font-semibold uppercase tracking-wider text-ieee-blue">Get Involved</span>
-          <h2 class="mt-3 text-3xl font-bold text-ieee-navy sm:text-4xl">Join the Community</h2>
-          <p class="mt-4 text-slate-600 leading-relaxed">
-            Whether you’re an IEEE member or new to the community, tell us a bit about yourself and your interests. Your registration is recorded and reviewed by the IEEE Pune Blockchain Group leadership.
+          <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Membership &amp; Registration</span>
+          <h2 class="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+            Join the Community
+          </h2>
+          <p class="mt-3 text-xs text-slate-600 leading-relaxed sm:text-sm">
+            Whether you are an existing IEEE Member or a newcomer passionate about decentralized architectures, registering ensures you receive invitations to workshops, technical talks, hackathons, and conference publication tracks.
           </p>
-          <p class="mt-4 text-sm text-slate-500">
-            Questions before joining? Reach the leads directly via the 
-            <a href="#leadership" class="font-medium text-ieee-blue hover:underline">Leadership</a> section above.
-          </p>
+          <div class="mt-5 rounded-lg border border-slate-200 bg-white p-3.5 text-xs text-slate-600">
+            <strong class="block font-semibold text-ieee-navy">Review Process</strong>
+            Submissions are reviewed by the chapter officers. Direct inquiries can be routed to 
+            <a href="mailto:chair@ieeepune.org" class="text-ieee-primary font-medium hover:underline">chair@ieeepune.org</a>.
+          </div>
         </div>
 
         <!-- Right Form Card -->
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:col-span-3">
-          <!-- Success Banner -->
-          <div id="form-success" class="hidden rounded-2xl border border-emerald-200 bg-emerald-50 p-8 text-center">
-            <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-2xl text-white">✓</div>
-            <h3 class="mt-4 text-lg font-semibold text-emerald-900">You’re on the list!</h3>
-            <p class="mt-2 text-sm text-emerald-800">
-              Thanks for your interest in the IEEE Pune Blockchain Group. Your details have been recorded and the group leads will be in touch with updates and upcoming sessions.
+        <div class="institutional-card lg:col-span-3 p-5 sm:p-6">
+          <!-- Success State Banner -->
+          <div id="form-success" class="hidden rounded-xl border border-emerald-200 bg-emerald-50 p-6 text-center">
+            <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-emerald-600 text-white font-bold">✓</div>
+            <h3 class="font-heading mt-3 text-base font-bold text-emerald-900">Registration Recorded</h3>
+            <p class="mt-1.5 text-xs text-emerald-800 leading-relaxed">
+              Thank you for registering with the IEEE Pune Blockchain Group. Your details have been submitted to the chapter coordinators.
             </p>
-            <button type="button" id="submit-another-btn" class="mt-5 rounded-full border border-emerald-300 px-4 py-2 text-sm font-semibold text-emerald-800 hover:bg-emerald-100 transition">
+            <button type="button" id="submit-another-btn" class="mt-4 rounded-full border border-emerald-300 px-4 py-1.5 text-xs font-semibold text-emerald-800 hover:bg-emerald-100 transition">
               Submit another response
             </button>
           </div>
 
-          <!-- Registration Form -->
-          <form id="join-form" class="grid gap-5">
-            <!-- Row 1: Name & Email -->
-            <div class="grid gap-5 sm:grid-cols-2">
+          <!-- The Registration Form -->
+          <form id="join-form" class="grid gap-4">
+            <!-- Full Name & Email -->
+            <div class="grid gap-4 sm:grid-cols-2">
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">Full Name <span class="text-rose-500">*</span></span>
-                <div class="mt-1.5">
-                  <input required type="text" name="fullName" placeholder="Jane Doe" class="form-input" />
+                <span class="text-xs font-semibold text-slate-700">Full Name <span class="text-rose-500">*</span></span>
+                <div class="mt-1">
+                  <input required type="text" name="fullName" placeholder="Dr. / Prof. / Jane Doe" class="form-input" />
                 </div>
               </label>
 
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">Email Address <span class="text-rose-500">*</span></span>
-                <div class="mt-1.5">
-                  <input required type="email" name="email" placeholder="jane@example.com" class="form-input" />
+                <span class="text-xs font-semibold text-slate-700">Email Address <span class="text-rose-500">*</span></span>
+                <div class="mt-1">
+                  <input required type="email" name="email" placeholder="jane@institute.edu" class="form-input" />
                 </div>
               </label>
             </div>
 
-            <!-- Row 2: Phone & IEEE Membership -->
-            <div class="grid gap-5 sm:grid-cols-2">
+            <!-- Phone & Membership # -->
+            <div class="grid gap-4 sm:grid-cols-2">
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">Phone Number</span>
-                <div class="mt-1.5">
+                <span class="text-xs font-semibold text-slate-700">Phone Number</span>
+                <div class="mt-1">
                   <input type="tel" name="phone" placeholder="+91 90000 00000" class="form-input" />
                 </div>
               </label>
 
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">IEEE Membership Number</span>
-                <div class="mt-1.5">
-                  <input type="text" name="membershipNumber" placeholder="Optional" class="form-input" />
+                <span class="text-xs font-semibold text-slate-700">IEEE Membership Number</span>
+                <div class="mt-1">
+                  <input type="text" name="membershipNumber" placeholder="Optional (e.g. 98765432)" class="form-input" />
                 </div>
               </label>
             </div>
 
-            <!-- Row 3: Role & Organization -->
-            <div class="grid gap-5 sm:grid-cols-2">
+            <!-- Affiliation Role & Institution -->
+            <div class="grid gap-4 sm:grid-cols-2">
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">I am a… <span class="text-rose-500">*</span></span>
-                <div class="mt-1.5">
-                  <select name="category" required class="form-input">
+                <span class="text-xs font-semibold text-slate-700">Primary Affiliation <span class="text-rose-500">*</span></span>
+                <div class="mt-1">
+                  <select name="category" required class="form-input text-xs">
                     <option value="" disabled selected>Select category</option>
-                    <option value="Student">Student</option>
-                    <option value="Researcher">Researcher</option>
-                    <option value="Academician">Academician</option>
+                    <option value="Student">Student (UG / PG)</option>
+                    <option value="Researcher">Researcher / PhD Scholar</option>
+                    <option value="Academician">Academician / Faculty</option>
                     <option value="Industry Professional">Industry Professional</option>
                   </select>
                 </div>
               </label>
 
               <label class="block">
-                <span class="text-sm font-medium text-slate-700">Organization / Institution</span>
-                <div class="mt-1.5">
-                  <input type="text" name="organization" placeholder="Company or university name" class="form-input" />
+                <span class="text-xs font-semibold text-slate-700">Organization / University</span>
+                <div class="mt-1">
+                  <input type="text" name="organization" placeholder="e.g. COEP, PICT, PCCOE, Infosys" class="form-input" />
                 </div>
               </label>
             </div>
 
-            <!-- Row 4: Areas of Interest -->
+            <!-- Areas of Interest (Pill-Checkboxes) -->
             <fieldset>
-              <legend class="text-sm font-medium text-slate-700">Areas of Interest <span class="text-rose-500">*</span></legend>
-              <div class="mt-3 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Blockchain Research" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+              <legend class="text-xs font-semibold text-slate-700">
+                Technical Focus &amp; Interests <span class="text-rose-500">*</span>
+              </legend>
+              <div class="mt-2 flex flex-wrap gap-2">
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Blockchain Research" class="sr-only" />
                   <span>Blockchain Research</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="DLT Applications & Use Cases" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="DLT Applications & Use Cases" class="sr-only" />
                   <span>DLT Applications &amp; Use Cases</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Smart Contracts & Web3" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Smart Contracts & Web3" class="sr-only" />
                   <span>Smart Contracts &amp; Web3</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="FinTech & Digital Assets" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="FinTech & Digital Assets" class="sr-only" />
                   <span>FinTech &amp; Digital Assets</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Healthcare & Supply Chain Blockchain" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
-                  <span>Healthcare &amp; Supply Chain Blockchain</span>
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Healthcare & Supply Chain" class="sr-only" />
+                  <span>Healthcare &amp; Supply Chain</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Education & Outreach" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Education & Outreach" class="sr-only" />
                   <span>Education &amp; Outreach</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Events, Hackathons & Networking" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
-                  <span>Events, Hackathons &amp; Networking</span>
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Events & Hackathons" class="sr-only" />
+                  <span>Events &amp; Hackathons</span>
                 </label>
-
-                <label class="checkbox-card">
-                  <input type="checkbox" name="areasOfInterest" value="Standards & Policy" class="h-4 w-4 rounded border-slate-300 text-ieee-blue focus:ring-ieee-blue" />
+                <label class="pill-checkbox">
+                  <input type="checkbox" name="areasOfInterest" value="Standards & Policy" class="sr-only" />
                   <span>Standards &amp; Policy</span>
                 </label>
               </div>
             </fieldset>
 
-            <!-- Row 5: Message -->
+            <!-- Message -->
             <label class="block">
-              <span class="text-sm font-medium text-slate-700">Message (optional)</span>
-              <div class="mt-1.5">
-                <textarea name="message" rows="3" placeholder="Tell us anything else you'd like the leads to know" class="form-input resize-none"></textarea>
+              <span class="text-xs font-semibold text-slate-700">Comments or Research Notes (optional)</span>
+              <div class="mt-1">
+                <textarea name="message" rows="2" placeholder="Tell us about your ongoing projects or research areas" class="form-input resize-none"></textarea>
               </div>
             </label>
 
             <!-- Error Banner -->
-            <p id="form-status" class="hidden rounded-lg bg-rose-50 px-3 py-2 text-sm font-medium text-rose-700"></p>
+            <p id="form-status" class="hidden rounded-md bg-rose-50 px-3 py-2 text-xs font-medium text-rose-700"></p>
 
             <!-- Submit Button -->
-            <button type="submit" id="submit-btn" class="mt-1 inline-flex w-full items-center justify-center gap-2 rounded-full bg-ieee-blue px-6 py-3.5 text-sm font-semibold text-white shadow-md shadow-ieee-blue/30 transition hover:bg-ieee-navy disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto">
-              Join the Community
-            </button>
+            <div class="pt-1">
+              <button type="submit" id="submit-btn" class="btn-primary w-full sm:w-auto">
+                Submit Registration
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </section>
 
-    <!-- ==================== FOOTER ==================== -->
-    <footer class="bg-ieee-navy py-10 text-white/70">
-      <div class="section-container flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
+    <!-- ==================== 10. DUAL-TIER NEAR-BLACK FOOTER ==================== -->
+    <footer class="bg-footer-main text-slate-400 text-xs border-t border-slate-800">
+      <!-- Upper Footer -->
+      <div class="section-container py-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p class="text-sm font-semibold text-white">IEEE Pune Blockchain Group</p>
-          <p class="mt-1 text-xs">
-            Affiliated with the 
-            <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">IEEE Blockchain Technical Community</a> 
-            &amp; <a href="https://ieeepune.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">IEEE Pune Section</a>
+          <h4 class="font-heading text-sm font-bold text-white">IEEE Pune Blockchain Group</h4>
+          <p class="mt-2 text-xs leading-relaxed text-slate-400">
+            A specialized technical chapter under the IEEE Blockchain Technical Community, fostering academic excellence and industry leadership across Maharashtra.
           </p>
         </div>
-        <p class="text-xs">© 2026 IEEE Pune Blockchain Group. All rights reserved.</p>
+
+        <div>
+          <h4 class="font-heading text-sm font-bold text-white">Institutional Affiliations</h4>
+          <ul class="mt-2 space-y-1.5 text-xs">
+            <li><a href="https://blockchain.ieee.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Blockchain Community</a></li>
+            <li><a href="https://ieeepune.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Pune Section</a></li>
+            <li><a href="https://www.ieeer10.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Region 10 (Asia-Pacific)</a></li>
+            <li><a href="https://www.ieee.org" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">IEEE Worldwide</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading text-sm font-bold text-white">Quick Navigation</h4>
+          <ul class="mt-2 space-y-1.5 text-xs">
+            <li><a href="#about" class="hover:text-white transition">About Chapter</a></li>
+            <li><a href="#objectives" class="hover:text-white transition">Who We Serve</a></li>
+            <li><a href="#events" class="hover:text-white transition">Past Conferences</a></li>
+            <li><a href="#leadership" class="hover:text-white transition">Executive Committee</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading text-sm font-bold text-white">Contact &amp; Support</h4>
+          <p class="mt-2 text-xs leading-relaxed text-slate-400">
+            Inquiries regarding workshops, partnerships, or conference tracks:
+          </p>
+          <a href="mailto:chair@ieeepune.org" class="mt-2 inline-block font-semibold text-ieee-brightcyan hover:underline">
+            chair@ieeepune.org
+          </a>
+        </div>
+      </div>
+
+      <!-- Lower Baseline Footer -->
+      <div class="bg-footer-deep py-4 border-t border-white/5">
+        <div class="section-container flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500">
+          <p>© 2026 IEEE Pune Blockchain Group. All rights reserved.</p>
+          <p class="flex items-center gap-3 text-[11px]">
+            <span>Designed for IEEE Engineering Societies</span>
+            <span>·</span>
+            <a href="#top" class="hover:text-slate-300">Back to Top ↑</a>
+          </p>
+        </div>
       </div>
     </footer>
   </main>
 
-  <!-- Application Logic -->
+  <!-- Script -->
   <script src="app.js"></script>
 </body>
 </html>

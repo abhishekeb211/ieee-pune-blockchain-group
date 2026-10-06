@@ -3,78 +3,94 @@ import React from 'react'
 const events = [
   {
     badge: 'IIBF 2023',
-    year: '2023',
+    date: 'Sep 8–9, 2023',
     title: '1st IEEE India Blockchain Forum',
-    date: 'September 8–9, 2023',
     venue: 'Satish Dhawan Auditorium, IISc Bangalore',
     description:
-      'The inaugural IEEE India Blockchain Forum brought together blockchain researchers, industry experts, and the startup ecosystem to explore advancements and opportunities in blockchain technology.',
-    url: 'https://blockchain.ieee.org/conferences/2023-ieee-india-blockchain-forum',
+      'Inaugural national symposium connecting researchers, enterprise leaders, and policymakers on distributed ledger technology opportunities across India.',
+    link: 'https://blockchain.ieee.org/conferences/2023-ieee-india-blockchain-forum',
+    isFlagship: false,
   },
   {
     badge: 'IIBF 2024',
-    year: '2024',
+    date: 'Sep 20, 2024',
     title: '2nd IEEE India Blockchain Forum',
-    date: 'September 20, 2024',
-    venue: 'CHRIST (Deemed to be University), Bengaluru',
+    venue: 'CHRIST University, Bengaluru',
     description:
-      'The second edition expanded the forum to cover Blockchain, AI, Metaverse, and Web3, connecting academic researchers and industry innovators to accelerate adoption of blockchain and immersive technologies in India.',
-    url: 'https://blockchain.ieee.org/conferences/iibf-2024',
+      'Expanded edition featuring convergence of Blockchain, AI, Metaverse, and Web3 with technical research tracks and cross-disciplinary keynotes.',
+    link: 'https://blockchain.ieee.org/conferences/iibf-2024',
+    isFlagship: false,
   },
   {
     badge: 'ICDLT 2025',
-    year: '2025',
-    title: 'IEEE International Conference on Distributed Ledger Technologies',
-    date: 'November 5–7, 2025',
-    venue: 'Organized with IEEE Pune Section & IEEE Blockchain Technical Community',
+    date: 'Nov 5–7, 2025',
+    title: "IEEE Int'l Conference on Distributed Ledger Technologies",
+    venue: 'Co-Organized with IEEE Pune Section & IEEE BCTC',
     description:
-      'The flagship research conference of the IEEE Blockchain Technical Community, featuring tracks on core DLT, security & privacy, scalability, FinTech, healthcare, and AI & blockchain — co-organized with active leadership from the IEEE Pune Section.',
-    url: 'https://www.ieeeicdlt.org/',
+      'The flagship global research conference of the IEEE Blockchain Technical Community featuring peer-reviewed research on cryptography, scalability, and FinTech.',
+    link: 'https://www.ieeeicdlt.org/',
+    isFlagship: true,
   },
 ]
 
 export default function Events() {
   return (
-    <section id="events" className="bg-slate-900 py-20 text-white">
+    <section id="events" className="bg-ieee-nearblack py-12 text-white border-t border-slate-800">
       <div className="section-container">
-        <span className="text-xs font-semibold uppercase tracking-wider text-chain-teal">
-          Past Events
-        </span>
-        <h2 className="mt-3 max-w-xl text-3xl font-bold sm:text-4xl">
-          From Pune to the flagship global stage
-        </h2>
-        <p className="mt-4 max-w-2xl text-slate-300">
-          Since 2023, the community has helped organize and support marquee IEEE blockchain gatherings — from the India Blockchain Forum editions to the flagship international conference co-hosted in Pune.
-        </p>
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-wider text-ieee-brightcyan">
+              Conference &amp; Forum Milestones
+            </span>
+            <h2 className="font-heading mt-1.5 text-2xl font-bold sm:text-3xl">
+              From Pune to the Flagship Global Stage
+            </h2>
+          </div>
+          <p className="text-xs text-slate-300 max-w-md">
+            The community actively co-hosts and organizes major IEEE blockchain conventions, linking local engineering hubs with global standards committees.
+          </p>
+        </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+        <div className="mt-8 grid gap-4 lg:grid-cols-3">
           {events.map((ev) => (
             <a
               key={ev.badge}
-              href={ev.url}
+              href={ev.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-chain-teal/50 hover:bg-white/10"
+              className={`group flex flex-col rounded-xl border bg-white/5 p-4.5 transition hover:bg-white/10 ${
+                ev.isFlagship
+                  ? 'border-ieee-gold/30 hover:border-ieee-gold'
+                  : 'border-white/10 hover:border-ieee-brightcyan/60'
+              }`}
             >
               <div className="flex items-center justify-between">
-                <span className="rounded-full bg-chain-teal/15 px-3 py-1 text-xs font-semibold text-chain-teal">
+                <span className={ev.isFlagship ? 'chip chip-gold' : 'chip'}>
                   {ev.badge}
                 </span>
-                <span className="text-xs text-slate-400">{ev.year}</span>
+                <span className={`text-xs ${ev.isFlagship ? 'text-ieee-gold' : 'text-slate-400'}`}>
+                  {ev.date}
+                </span>
               </div>
-              <h3 className="mt-4 text-lg font-semibold leading-snug text-white group-hover:text-chain-teal">
+              <h3
+                className={`font-heading mt-3 text-base font-semibold leading-snug text-white ${
+                  ev.isFlagship ? 'group-hover:text-ieee-gold' : 'group-hover:text-ieee-brightcyan'
+                }`}
+              >
                 {ev.title}
               </h3>
-              <p className="mt-2 text-sm font-medium text-slate-300">{ev.date}</p>
-              <p className="text-sm text-slate-400">{ev.venue}</p>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-300">
+              <p className={`mt-1 text-xs ${ev.isFlagship ? 'text-ieee-gold font-medium' : 'text-slate-300'}`}>
+                {ev.venue}
+              </p>
+              <p className="mt-2 text-xs leading-relaxed text-slate-300 flex-1">
                 {ev.description}
               </p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-chain-teal">
-                Learn more{' '}
-                <span aria-hidden="true" className="transition group-hover:translate-x-0.5">
-                  →
-                </span>
+              <span
+                className={`mt-3 inline-flex items-center gap-1 text-xs font-semibold ${
+                  ev.isFlagship ? 'text-ieee-gold' : 'text-ieee-brightcyan'
+                }`}
+              >
+                {ev.isFlagship ? 'Official Conference Portal ↗' : 'View Details ↗'}
               </span>
             </a>
           ))}
