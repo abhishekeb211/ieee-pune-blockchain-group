@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import { LightboxData } from './Lightbox'
 
 interface EventItem {
   id: string
@@ -17,6 +18,7 @@ interface EventItem {
   source: string
   isFlagship?: boolean
   link?: string
+  thumb?: string
 }
 
 const verifiedEvents: EventItem[] = [
@@ -30,8 +32,10 @@ const verifiedEvents: EventItem[] = [
     venue: 'Seminar Hall, Mechanical Dept, PCCOE, Pune',
     organizer: 'IEEE Pune Blockchain Group & Dept of IT, PCCOE',
     attendance: '110+ Attendees (68 External, 15 Industry, 32 PCCOE)',
-    speakers: 'Dr. Ramesh Ramadoss (Chair, IEEE BCTC), Dr. Surekha Deshmukh (TCS), Dr. Rajesh Ingle (IEEE R10), Dr. B. K. Murthy (MeitY/C-DAC), Dr. Padmaja Joshi (C-DAC)',
+    speakers:
+      'Dr. Ramesh Ramadoss (Chair, IEEE BCTC), Dr. Surekha Deshmukh (TCS), Dr. Rajesh Ingle (IEEE R10), Dr. B. K. Murthy (MeitY/C-DAC), Dr. Padmaja Joshi (C-DAC)',
     source: 'PCCOE Samvaad Jan 2024',
+    thumb: '/images/events/symposium-2024-stage.jpg',
   },
   {
     id: 'smart-cities-2024',
@@ -42,8 +46,10 @@ const verifiedEvents: EventItem[] = [
     title: 'SecureChainCityCoin: Convergence of Blockchain in Smart Cities',
     venue: 'MMCOE, Pune',
     organizer: 'Dept. of IT, MMCOE in association with IEEE Pune Blockchain Group',
-    description: 'Digital trust frameworks in smart cities, decentralized identity management, and IoT public infrastructure security.',
+    description:
+      'Digital trust frameworks in smart cities, decentralized identity management, and IoT public infrastructure security.',
     source: 'MMCOE Workshop Records',
+    thumb: '/images/lab/mmcoe-lab-workstation.png',
   },
   {
     id: 'ebct-2024',
@@ -55,8 +61,10 @@ const verifiedEvents: EventItem[] = [
     venue: 'PCCOE, Nigdi, Pune',
     organizer: 'Coordinators: Dr. Rachana Y. Patil & Prof. Dr. Sonali D. Patil',
     attendance: '156 Pan-India Participants (J&K, AP, TN, UP, MH)',
-    speakers: 'Dr. Ramesh Ramadoss, Ms. Nirmala Salam (CDAC), Kamlesh Nagware (FSV Capital), Gaurav Somvanshi (EmerTech), Garima Singh (Bitviraj), SurendraSingh S. (Dhiway)',
+    speakers:
+      'Dr. Ramesh Ramadoss, Ms. Nirmala Salam (CDAC), Kamlesh Nagware (FSV Capital), Gaurav Somvanshi (EmerTech), Garima Singh (Bitviraj), SurendraSingh S. (Dhiway)',
     source: 'PCCOE EBCT-24 Flyer',
+    thumb: '/images/events/ebct-2024-poster.png',
   },
   {
     id: 'cybersecurity-2024',
@@ -67,7 +75,8 @@ const verifiedEvents: EventItem[] = [
     title: 'Blockchain: Frontier in Cybersecurity and Privacy',
     venue: 'MMCOE, Pune',
     organizer: 'Dept. of IT, MMCOE in association with IEEE Pune Blockchain Group',
-    description: 'Cryptographic security, privacy-preservation primitives, smart contract vulnerabilities, and decentralized key management.',
+    description:
+      'Cryptographic security, privacy-preservation primitives, smart contract vulnerabilities, and decentralized key management.',
     source: 'MMCOE Co-Curricular',
   },
   {
@@ -80,7 +89,8 @@ const verifiedEvents: EventItem[] = [
     venue: 'Dept. of Computer Engineering, PCCOE, Pune',
     organizer: 'Coordinators: Mrs. Swati Chandurkar & Dr. Asmita Manna',
     attendance: '90 Verified Participants',
-    description: 'AI + Blockchain Convergence, Agentic Web, Federated Learning, Verifiable AI, and Zero-Knowledge Proofs.',
+    description:
+      'AI + Blockchain Convergence, Agentic Web, Federated Learning, Verifiable AI, and Zero-Knowledge Proofs.',
     source: 'PCCOE FDP Archive',
   },
   {
@@ -92,8 +102,10 @@ const verifiedEvents: EventItem[] = [
     title: 'Expert Session on Hyperledger and Applications',
     venue: 'PCCOE, Pune (Hybrid Mode)',
     organizer: 'LFDT Student Chapter, PCCOE with IEEE Pune Blockchain Group',
-    speakers: 'Dr. Anasuya Threse Innocent (BiniWorld Innovations Pvt. Ltd.) on Linux Foundation Decentralized Trust projects (Fabric, Firefly, Indy).',
+    speakers:
+      'Dr. Anasuya Threse Innocent (BiniWorld Innovations Pvt. Ltd.) on Linux Foundation Decentralized Trust projects (Fabric, Firefly, Indy).',
     source: 'PCCOE CESA Magazine',
+    thumb: '/images/events/hyperledger-session-2025.jpg',
   },
   {
     id: 'icdlt-2025',
@@ -104,7 +116,8 @@ const verifiedEvents: EventItem[] = [
     title: "IEEE Int'l Conference on Distributed Ledger Technologies (ICDLT 2025)",
     venue: 'Pune, India · Hosted by IEEE Pune Section & IEEE BCTC',
     organizer: 'IEEE Blockchain Technical Community & IEEE Pune Section',
-    description: 'The premier global research convention of the IEEE Blockchain Technical Community covering cryptographic proofs, Layer-2 scalability, and FinTech tokenization.',
+    description:
+      'The premier global research convention of the IEEE Blockchain Technical Community covering cryptographic proofs, Layer-2 scalability, and FinTech tokenization.',
     source: 'IEEE ICDLT Portal',
     isFlagship: true,
     link: 'https://www.ieeeicdlt.org/',
@@ -118,7 +131,8 @@ const verifiedEvents: EventItem[] = [
     title: 'Blockchain for Sustainable Development',
     venue: 'MMCOE, Pune',
     organizer: 'Department of IT, MMCOE',
-    description: 'Peer-to-peer energy trading, private chaincode, IPFS, sustainable finance, and UN Sustainable Development Goals (SDGs).',
+    description:
+      'Peer-to-peer energy trading, private chaincode, IPFS, sustainable finance, and UN Sustainable Development Goals (SDGs).',
     source: 'MMCOE IT Workshops',
   },
   {
@@ -130,8 +144,10 @@ const verifiedEvents: EventItem[] = [
     title: 'DecentraHACK 2026',
     venue: 'National / Hybrid Challenge',
     organizer: 'LFDT Student Chapter & PCCOE with IEEE Pune Blockchain Group',
-    description: 'Web3, Agentic AI, Zero-Knowledge Identity, and Cybersecurity systems evaluated by industry judges.',
+    description:
+      'Web3, Agentic AI, Zero-Knowledge Identity, and Cybersecurity systems evaluated by industry judges.',
     source: 'PCCOE CESA Records',
+    thumb: '/images/events/decentrahack-2026.jpg',
   },
   {
     id: 'fdp-decai-2026',
@@ -141,19 +157,30 @@ const verifiedEvents: EventItem[] = [
     date: 'Feb 2–7, 2026',
     title: 'National-Level FDP on Decentralized AI',
     venue: 'PCCOE, Pune',
-    organizer: 'Coordinators: Dr. Sonali Patil (Chair, IEEE Pune Blockchain Group), Dr. Meghana Lokhande, Prof. Deepali Jawale, Prof. Trupti Deshmukh, Prof. Sonika Gill, Mr. Pratik Jagdale',
+    organizer:
+      'Coordinators: Dr. Sonali Patil (Chair, IEEE Pune Blockchain Group), Dr. Meghana Lokhande, Prof. Deepali Jawale, Prof. Trupti Deshmukh, Prof. Sonika Gill, Mr. Pratik Jagdale',
     attendance: '86 Verified Faculty Participants',
-    description: 'AI + Blockchain Convergence, Decentralized Trust Models, On-Chain AI Agent Registries, and Privacy-Preserving Machine Learning.',
+    description:
+      'AI + Blockchain Convergence, Decentralized Trust Models, On-Chain AI Agent Registries, and Privacy-Preserving Machine Learning.',
     source: 'PCCOE FDP Official',
+    thumb: '/images/events/decai-fdp-2026.jpg',
   },
 ]
 
-export default function Events() {
-  const [selectedYear, setSelectedYear] = useState<'all' | '2024' | '2025' | '2026'>('all')
+interface EventsProps {
+  onSelectPhoto?: (data: LightboxData) => void
+}
 
-  const filteredEvents = verifiedEvents.filter((ev) =>
-    selectedYear === 'all' ? true : ev.year === selectedYear
-  )
+export default function Events({ onSelectPhoto }: EventsProps) {
+  const [selectedYear, setSelectedYear] = useState<'all' | '2024' | '2025' | '2026'>('all')
+  const [searchQuery, setSearchQuery] = useState('')
+
+  const filteredEvents = verifiedEvents.filter((ev) => {
+    const matchesYear = selectedYear === 'all' || ev.year === selectedYear
+    const textCorpus = `${ev.title} ${ev.venue} ${ev.organizer} ${ev.speakers || ''} ${ev.description || ''}`.toLowerCase()
+    const matchesSearch = !searchQuery || textCorpus.includes(searchQuery.toLowerCase().trim())
+    return matchesYear && matchesSearch
+  })
 
   return (
     <section id="events" className="bg-ieee-nearblack py-12 text-white border-t border-slate-800">
@@ -180,14 +207,32 @@ export default function Events() {
                 onClick={() => setSelectedYear(year)}
                 className={`timeline-tab ${selectedYear === year ? 'active' : ''}`}
               >
-                {year === 'all' ? 'All Events (10)' : `${year} (${verifiedEvents.filter((e) => e.year === year).length})`}
+                {year === 'all'
+                  ? 'All Events (10)'
+                  : `${year} (${verifiedEvents.filter((e) => e.year === year).length})`}
               </button>
             ))}
           </div>
         </div>
 
+        {/* Live Search Bar */}
+        <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white/5 border border-white/10 rounded-xl p-3">
+          <div className="relative flex-1">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search events by speaker, topic, keyword (e.g. Ramesh Ramadoss, AI, Hyperledger, Smart Cities)..."
+              className="w-full bg-slate-900/80 border border-white/15 rounded-lg px-3.5 py-2 text-xs text-white placeholder-slate-400 outline-none focus:border-ieee-brightcyan"
+            />
+          </div>
+          <span className="text-xs text-slate-300 font-medium px-2">
+            Showing {filteredEvents.length} of {verifiedEvents.length} events
+          </span>
+        </div>
+
         {/* 10 Verified Events Grid */}
-        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredEvents.map((ev) => (
             <div
               key={ev.id}
@@ -197,6 +242,26 @@ export default function Events() {
                   : 'border-white/10 hover:border-ieee-brightcyan/60'
               }`}
             >
+              {ev.thumb && (
+                <div
+                  className="cursor-pointer group relative overflow-hidden rounded-lg mb-3"
+                  onClick={() =>
+                    onSelectPhoto &&
+                    onSelectPhoto({
+                      src: ev.thumb!,
+                      title: ev.title,
+                      meta: `${ev.date} · ${ev.venue}`,
+                      source: ev.link || undefined,
+                    })
+                  }
+                >
+                  <img src={ev.thumb} alt={ev.title} className="event-thumb" />
+                  <span className="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">
+                    Zoom Photo
+                  </span>
+                </div>
+              )}
+
               <div className="flex items-center justify-between">
                 <span className={`event-badge ${ev.badgeClass}`}>
                   {ev.badge}
@@ -206,10 +271,14 @@ export default function Events() {
                 </span>
               </div>
 
-              <h3 className="font-heading mt-3 text-base font-semibold leading-snug text-white">
+              <h3 className="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
                 {ev.title}
               </h3>
-              <p className={`mt-1 text-xs ${ev.isFlagship ? 'text-ieee-gold font-medium' : 'text-ieee-brightcyan font-medium'}`}>
+              <p
+                className={`mt-1 text-xs ${
+                  ev.isFlagship ? 'text-ieee-gold font-medium' : 'text-ieee-brightcyan font-medium'
+                }`}
+              >
                 {ev.venue}
               </p>
 

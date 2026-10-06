@@ -270,3 +270,182 @@
   font-family: var(--font-outfit), sans-serif;
 }
 
+/* Flutter M3 Light Surfaces & Elevators */
+.flutter-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 40, 85, 0.05), 0 1px 2px -1px rgba(0, 40, 85, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.flutter-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(0, 102, 153, 0.16), 0 4px 10px -2px rgba(0, 40, 85, 0.06);
+  border-color: rgba(0, 102, 153, 0.35);
+}
+
+/* Filter Pill Chips */
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748B;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-chip:hover {
+  color: #006699;
+  border-color: #0099D8;
+  background-color: #F8FAFC;
+}
+
+.filter-chip.active {
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(0, 180, 216, 0.35);
+}
+
+/* Photo Showcase Gallery Cards */
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: #0F172A;
+  box-shadow: 0 4px 12px -2px rgba(0, 40, 85, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.gallery-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -4px rgba(0, 102, 153, 0.22);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(5, 16, 29, 0.88) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  color: #FFFFFF;
+}
+
+/* Modal Media Lightbox */
+.lightbox-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: rgba(5, 16, 29, 0.85);
+  backdrop-filter: blur(8px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.lightbox-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-dialog {
+  max-width: 900px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lightbox-modal.is-open .lightbox-dialog {
+  transform: scale(1);
+}
+
+.lightbox-image-wrap {
+  width: 100%;
+  max-height: 520px;
+  background-color: #05101D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lightbox-image-wrap img {
+  max-width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+}
+
+/* Interactive Hardware Rig Inspector */
+.inspector-hotspot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.95rem;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1E293B;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.inspector-hotspot:hover {
+  border-color: #006699;
+  background-color: #F8FAFC;
+  transform: translateX(2px);
+}
+
+.inspector-hotspot.active {
+  border-color: #006699;
+  background: linear-gradient(135deg, rgba(0, 102, 153, 0.08) 0%, rgba(0, 180, 216, 0.12) 100%);
+  color: #006699;
+  box-shadow: 0 2px 6px rgba(0, 102, 153, 0.1);
+}
+
+/* Event Thumbnail Previews */
+.event-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.event-thumb:hover {
+  transform: scale(1.02);
+}
+
+

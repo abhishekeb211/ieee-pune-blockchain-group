@@ -4,12 +4,13 @@ import React, { useState } from 'react'
 
 const navLinks = [
   { href: '#about', label: 'About' },
-  { href: '#objectives', label: 'Objectives' },
   { href: '#focus', label: 'Focus Areas' },
-  { href: '#events', label: 'Events' },
   { href: '#lab', label: 'Research Lab' },
+  { href: '#gallery', label: 'Photo Gallery' },
+  { href: '#events', label: 'Timeline' },
   { href: '#leadership', label: 'Leadership' },
 ]
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)

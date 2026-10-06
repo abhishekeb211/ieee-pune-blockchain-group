@@ -1,7 +1,7 @@
-// IEEE Pune Blockchain Group - Institutional Theme Client Logic
+// IEEE Pune Blockchain Group - Interactive Client Logic & Flutter M3 Widget Handlers
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Mobile Navigation Drawer Toggle
+  // ==================== 1. MOBILE NAVIGATION DRAWER ====================
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Pill Checkbox Multi-Select Handling
+  // ==================== 2. PILL CHECKBOX MULTI-SELECT ====================
   const pillCheckboxes = document.querySelectorAll('input[name="areasOfInterest"]');
   pillCheckboxes.forEach(checkbox => {
     const parentLabel = checkbox.closest('.pill-checkbox');
@@ -31,27 +31,80 @@ document.addEventListener('DOMContentLoaded', () => {
         parentLabel?.classList.remove('is-checked');
       }
     };
-
     checkbox.addEventListener('change', updateStyle);
     updateStyle();
   });
 
-  // Interactive Event Timeline Year Filtering
-  const timelineTabs = document.querySelectorAll('.timeline-tab');
-  const eventCards = document.querySelectorAll('[data-event-year]');
+  // ==================== 3. MODAL MEDIA LIGHTBOX ====================
+  const lightbox = document.getElementById('media-lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxTitle = document.getElementById('lightbox-title');
+  const lightboxMeta = document.getElementById('lightbox-meta');
+  const lightboxSource = document.getElementById('lightbox-source');
+  const lightboxClose = document.getElementById('lightbox-close');
 
-  timelineTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const selectedYear = tab.getAttribute('data-year');
+  function openLightbox(src, title, meta, sourceUrl) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    if (lightboxTitle) lightboxTitle.textContent = title || 'Institutional Media';
+    if (lightboxMeta) lightboxMeta.textContent = meta || '';
+    if (lightboxSource) {
+      if (sourceUrl) {
+        lightboxSource.href = sourceUrl;
+        lightboxSource.classList.remove('hidden');
+      } else {
+        lightboxSource.classList.add('hidden');
+      }
+    }
+    lightbox.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
 
-      // Update active tab button state
-      timelineTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
 
-      // Filter event cards
-      eventCards.forEach(card => {
-        const cardYear = card.getAttribute('data-event-year');
-        if (selectedYear === 'all' || cardYear === selectedYear) {
+  if (lightboxClose) {
+    lightboxClose.addEventListener('click', closeLightbox);
+  }
+  if (lightbox) {
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox?.classList.contains('is-open')) {
+      closeLightbox();
+    }
+  });
+
+  // Attach Lightbox triggers to gallery cards and thumbnails
+  document.querySelectorAll('[data-lightbox-src]').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      const src = trigger.getAttribute('data-lightbox-src');
+      const title = trigger.getAttribute('data-lightbox-title') || '';
+      const meta = trigger.getAttribute('data-lightbox-meta') || '';
+      const source = trigger.getAttribute('data-lightbox-source') || '';
+      openLightbox(src, title, meta, source);
+    });
+  });
+
+  // ==================== 4. PHOTO SHOWCASE GALLERY FILTER CHIPS ====================
+  const galleryChips = document.querySelectorAll('.gallery-filter-chip');
+  const galleryCards = document.querySelectorAll('[data-gallery-category]');
+
+  galleryChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const selectedCategory = chip.getAttribute('data-category');
+      galleryChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+
+      galleryCards.forEach(card => {
+        const cardCat = card.getAttribute('data-gallery-category');
+        if (selectedCategory === 'all' || cardCat === selectedCategory) {
           card.classList.remove('hidden');
           card.style.opacity = '0';
           setTimeout(() => {
@@ -65,8 +118,85 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // ==================== 5. HARDWARE RIG INSPECTOR SWITCHER ====================
+  const inspectorHotspots = document.querySelectorAll('.inspector-hotspot');
+  const inspectorMainImg = document.getElementById('inspector-main-img');
+  const inspectorImgCaption = document.getElementById('inspector-img-caption');
+  const inspectorDetailTitle = document.getElementById('inspector-detail-title');
+  const inspectorDetailDesc = document.getElementById('inspector-detail-desc');
 
-  // Join Form Validation & Submission
+  inspectorHotspots.forEach(hotspot => {
+    hotspot.addEventListener('click', () => {
+      inspectorHotspots.forEach(h => h.classList.remove('active'));
+      hotspot.classList.add('active');
+
+      const imgSrc = hotspot.getAttribute('data-img');
+      const imgCaption = hotspot.getAttribute('data-caption');
+      const title = hotspot.getAttribute('data-title');
+      const desc = hotspot.getAttribute('data-desc');
+
+      if (inspectorMainImg && imgSrc) {
+        inspectorMainImg.style.opacity = '0.3';
+        setTimeout(() => {
+          inspectorMainImg.src = imgSrc;
+          inspectorMainImg.style.opacity = '1';
+        }, 120);
+      }
+      if (inspectorImgCaption && imgCaption) inspectorImgCaption.textContent = imgCaption;
+      if (inspectorDetailTitle && title) inspectorDetailTitle.textContent = title;
+      if (inspectorDetailDesc && desc) inspectorDetailDesc.textContent = desc;
+    });
+  });
+
+  // ==================== 6. INTERACTIVE EVENT TIMELINE & LIVE SEARCH ====================
+  const timelineTabs = document.querySelectorAll('.timeline-tab');
+  const eventCards = document.querySelectorAll('[data-event-year]');
+  const eventSearchInput = document.getElementById('event-search-input');
+  const eventCountBadge = document.getElementById('event-count-badge');
+
+  let currentYearFilter = 'all';
+  let currentSearchQuery = '';
+
+  function applyEventFilters() {
+    let visibleCount = 0;
+
+    eventCards.forEach(card => {
+      const cardYear = card.getAttribute('data-event-year') || '';
+      const textContent = card.textContent.toLowerCase();
+
+      const matchesYear = (currentYearFilter === 'all' || cardYear === currentYearFilter);
+      const matchesSearch = (!currentSearchQuery || textContent.includes(currentSearchQuery));
+
+      if (matchesYear && matchesSearch) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    if (eventCountBadge) {
+      eventCountBadge.textContent = `Showing ${visibleCount} of ${eventCards.length} events`;
+    }
+  }
+
+  timelineTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      timelineTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentYearFilter = tab.getAttribute('data-year') || 'all';
+      applyEventFilters();
+    });
+  });
+
+  if (eventSearchInput) {
+    eventSearchInput.addEventListener('input', (e) => {
+      currentSearchQuery = e.target.value.toLowerCase().trim();
+      applyEventFilters();
+    });
+  }
+
+  // ==================== 7. JOIN FORM VALIDATION & SUBMISSION ====================
   const joinForm = document.getElementById('join-form');
   const formStatus = document.getElementById('form-status');
   const formSuccess = document.getElementById('form-success');

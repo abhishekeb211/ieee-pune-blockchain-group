@@ -38,8 +38,8 @@
             heading: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
           },
           boxShadow: {
-            'card-soft': '0 2px 8px -2px rgba(0, 40, 85, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04)',
-            'card-hover': '0 8px 18px -6px rgba(0, 102, 153, 0.18)',
+            'card-soft': '0 1px 3px 0 rgba(0, 40, 85, 0.06), 0 1px 2px -1px rgba(0, 40, 85, 0.04)',
+            'card-hover': '0 12px 24px -4px rgba(0, 102, 153, 0.16)',
           }
         }
       }
@@ -49,7 +49,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-white text-slate-800 antialiased font-sans">
+<body class="bg-[#F8FAFC] text-slate-800 antialiased font-sans">
 
   <!-- ==================== 1. TOP NAVY UTILITY BAR ==================== -->
   <div class="bg-ieee-nearblack text-slate-300 text-xs py-1.5 border-b border-white/10 hidden sm:block">
@@ -73,7 +73,7 @@
   </div>
 
   <!-- ==================== 2. BRAND HEADER & NAV ==================== -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
     <div class="section-container flex h-16 items-center justify-between">
       <!-- Logo & Title -->
       <a href="#top" class="flex items-center gap-3">
@@ -89,12 +89,12 @@
       </a>
 
       <!-- Desktop Nav -->
-      <nav class="hidden lg:flex items-center gap-6">
+      <nav class="hidden lg:flex items-center gap-5">
         <a href="#about" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">About</a>
-        <a href="#objectives" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Objectives</a>
         <a href="#focus" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Focus Areas</a>
-        <a href="#events" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Events Timeline</a>
         <a href="#lab" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Research Lab</a>
+        <a href="#gallery" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Photo Gallery</a>
+        <a href="#events" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Timeline</a>
         <a href="#leadership" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Leadership</a>
         <a href="#join" class="btn-primary text-xs py-2 px-4 shadow-sm">
           Join Community
@@ -116,10 +116,10 @@
     <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white lg:hidden">
       <div class="section-container flex flex-col gap-1 py-3">
         <a href="#about" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">About</a>
-        <a href="#objectives" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Objectives</a>
         <a href="#focus" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Focus Areas</a>
-        <a href="#events" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Events Timeline</a>
         <a href="#lab" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Research Lab</a>
+        <a href="#gallery" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Photo Gallery</a>
+        <a href="#events" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Timeline</a>
         <a href="#leadership" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Leadership</a>
         <a href="#join" class="mobile-nav-link mt-2 rounded-full bg-ieee-primary py-2.5 text-center text-xs font-semibold text-white">Join Community</a>
       </div>
@@ -163,14 +163,14 @@
           <a href="#join" class="btn-primary">
             Join the Community
           </a>
-          <a href="#events" class="btn-secondary">
-            Explore Events
+          <a href="#gallery" class="btn-secondary">
+            Photo Gallery
           </a>
           <a href="#lab" class="btn-secondary">
             Lab Infrastructure
           </a>
-          <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" class="btn-secondary">
-            IEEE Collabratec ↗
+          <a href="#events" class="btn-secondary">
+            Explore Events
           </a>
           <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" class="btn-secondary">
             IEEE Pune Section ↗
@@ -201,14 +201,14 @@
           </div>
           <div class="border-l-2 border-ieee-brightcyan/60 pl-3">
             <dt class="font-heading text-2xl font-bold text-ieee-brightcyan sm:text-3xl">66</dt>
-            <dd class="text-xs text-slate-300 font-medium">Global BCTC Local Groups</dd>
+            <dd class="text-xs text-slate-300 font-medium">Global BCTC Groups</dd>
           </div>
         </dl>
       </div>
     </section>
 
     <!-- ==================== 5. ABOUT US & MISSION/VISION ==================== -->
-    <section id="about" class="section-padding bg-slate-50">
+    <section id="about" class="section-padding bg-white">
       <div class="section-container">
         <div class="max-w-3xl">
           <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">About the Chapter</span>
@@ -231,10 +231,10 @@
           </p>
         </div>
 
-        <!-- Mission & Vision Cards -->
+        <!-- Mission & Vision Cards (Flutter M3 Style) -->
         <div class="mt-8 grid gap-4 md:grid-cols-2">
           <!-- Mission -->
-          <div class="institutional-card top-accent-card p-5">
+          <div class="flutter-card p-5">
             <div class="flex items-center gap-2 text-ieee-primary">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
@@ -247,7 +247,7 @@
           </div>
 
           <!-- Vision -->
-          <div class="institutional-card top-accent-card p-5">
+          <div class="flutter-card p-5">
             <div class="flex items-center gap-2 text-ieee-primary">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -261,7 +261,7 @@
           </div>
         </div>
 
-        <!-- ==================== 6. KEY OBJECTIVES ==================== -->
+        <!-- Strategic Objectives Grid -->
         <div id="objectives" class="mt-10">
           <div class="max-w-2xl">
             <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Strategic Framework</span>
@@ -320,8 +320,8 @@
       </div>
     </section>
 
-    <!-- ==================== 7. 12 TECHNICAL FOCUS AREAS ==================== -->
-    <section id="focus" class="section-padding bg-white border-t border-slate-200">
+    <!-- ==================== 6. 12 TECHNICAL FOCUS AREAS ==================== -->
+    <section id="focus" class="section-padding bg-slate-50 border-t border-slate-200">
       <div class="section-container">
         <div class="max-w-3xl">
           <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Research &amp; Engineering Scope</span>
@@ -335,7 +335,7 @@
 
         <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <!-- 1. Blockchain & DLT -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
             </div>
@@ -346,7 +346,7 @@
           </div>
 
           <!-- 2. Applied Cryptography -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
             </div>
@@ -357,7 +357,7 @@
           </div>
 
           <!-- 3. Smart Contracts & DApps -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
             </div>
@@ -368,7 +368,7 @@
           </div>
 
           <!-- 4. Enterprise Blockchain -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
             </div>
@@ -379,7 +379,7 @@
           </div>
 
           <!-- 5. Decentralized AI -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
             </div>
@@ -390,7 +390,7 @@
           </div>
 
           <!-- 6. Federated Learning -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
             </div>
@@ -401,7 +401,7 @@
           </div>
 
           <!-- 7. Digital Identity & SSI -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"></path></svg>
             </div>
@@ -412,7 +412,7 @@
           </div>
 
           <!-- 8. Zero-Knowledge Proofs -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
             </div>
@@ -423,7 +423,7 @@
           </div>
 
           <!-- 9. DePIN -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
             </div>
@@ -434,7 +434,7 @@
           </div>
 
           <!-- 10. Security & Auditing -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
             </div>
@@ -445,7 +445,7 @@
           </div>
 
           <!-- 11. Sustainability & Green DLT -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
@@ -456,7 +456,7 @@
           </div>
 
           <!-- 12. Interoperability -->
-          <div class="institutional-card top-accent-card">
+          <div class="flutter-card p-4">
             <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
               <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
             </div>
@@ -469,8 +469,8 @@
       </div>
     </section>
 
-    <!-- ==================== 8. RESEARCH INFRASTRUCTURE (MMCOE LAB) ==================== -->
-    <section id="lab" class="section-padding bg-slate-50 border-t border-slate-200">
+    <!-- ==================== 7. RESEARCH LAB & HARDWARE RIG INSPECTOR ==================== -->
+    <section id="lab" class="section-padding bg-white border-t border-slate-200">
       <div class="section-container">
         <div class="max-w-3xl">
           <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Research Facilities &amp; CoE</span>
@@ -478,132 +478,301 @@
             Blockchain Laboratory &amp; Research Infrastructure
           </h2>
           <p class="mt-2 text-sm text-slate-600">
-            Dedicated high-performance compute and testbed environments established in direct association with the IEEE Pune Blockchain Group.
+            Dedicated high-performance compute and testbed environments established at <strong>Marathwada Mitra Mandal's College of Engineering (MMCOE)</strong>, Pune in direct association with the IEEE Pune Blockchain Group.
           </p>
         </div>
 
-        <div class="mt-8 grid gap-6 lg:grid-cols-3">
-          <!-- Main Lab Profile Card -->
-          <div class="institutional-card lg:col-span-2 p-5 sm:p-6">
-            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3">
+
+        <!-- Interactive Hardware Rig Inspector Widget -->
+        <div class="mt-8 grid gap-6 lg:grid-cols-12">
+          <!-- Left: High-Definition Image Display & Lightbox Trigger (7 cols) -->
+          <div class="lg:col-span-7 flutter-card overflow-hidden flex flex-col justify-between">
+            <div class="relative bg-slate-900 group">
+              <img 
+                id="inspector-main-img" 
+                src="assets/images/lab/mmcoe-hpc-rig.png" 
+                alt="MMCOE 19 GPU HPC Server Rig" 
+                class="w-full h-80 sm:h-96 object-contain bg-slate-950 transition-opacity duration-200"
+              />
+              <button 
+                type="button" 
+                class="absolute bottom-3 right-3 bg-white/90 backdrop-blur hover:bg-white text-ieee-navy px-3 py-1.5 rounded-full text-xs font-bold shadow flex items-center gap-1.5 transition"
+                data-lightbox-src="assets/images/lab/mmcoe-hpc-rig.png"
+                data-lightbox-title="MMCOE 19 GPU HPC Server Rig"
+                data-lightbox-meta="Department of IT, MMCOE Pune · Centre of Excellence in Blockchain Technology"
+                data-lightbox-source="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/"
+              >
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                Expand Photo
+              </button>
+            </div>
+
+            <div class="p-5 bg-white border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="chip">Centre of Excellence</span>
-                <h3 class="font-heading mt-2 text-lg font-bold text-ieee-navy">
-                  Blockchain Server Room-Lab
-                </h3>
-                <p class="text-xs text-slate-500 font-medium">
-                  In association with IEEE Pune Blockchain Group · Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune
+                <span class="chip">Live Hardware Visualizer</span>
+                <p id="inspector-img-caption" class="font-heading mt-1 text-sm font-bold text-ieee-navy">
+                  19 GPU HPC Server Rig (Multi-GPU Compute &amp; Consensus Benchmark Testbed)
                 </p>
               </div>
-              <a href="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-ieee-primary hover:underline">
-                Facility Portal ↗
+              <a href="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-ieee-primary hover:underline">
+                Portal ↗
               </a>
-            </div>
-
-            <p class="mt-4 text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Established within the Department of Information Technology at MMCOE, this Centre of Excellence operates an advanced hardware and software facility designed for hands-on blockchain research, smart contract execution, enterprise testing, and distributed consensus benchmarking.
-            </p>
-
-            <!-- Hardware Specs Grid -->
-            <div class="mt-5">
-              <h4 class="font-heading text-xs font-bold uppercase tracking-wider text-slate-700">
-                Hardware Rig Specifications
-              </h4>
-              <div class="mt-3 grid gap-2.5 sm:grid-cols-2">
-                <div class="spec-badge">
-                  <span>Server Rig:</span>
-                  <span>19 GPU HPC Server</span>
-                </div>
-                <div class="spec-badge">
-                  <span>Processor:</span>
-                  <span>3U 64 Cores</span>
-                </div>
-                <div class="spec-badge">
-                  <span>GPU Compute Support:</span>
-                  <span>Up to 19 GPUs (8 GB each)</span>
-                </div>
-                <div class="spec-badge">
-                  <span>System Memory:</span>
-                  <span>32GB DDR4 (2x16GB)</span>
-                </div>
-                <div class="spec-badge">
-                  <span>Fast Storage:</span>
-                  <span>1TB High-Speed SSD</span>
-                </div>
-                <div class="spec-badge">
-                  <span>Motherboard:</span>
-                  <span>Asus B250ME</span>
-                </div>
-                <div class="spec-badge">
-                  <span>Rack &amp; PDU:</span>
-                  <span>42U Rack / 50KVA Unit</span>
-                </div>
-                <div class="spec-badge">
-                  <span>Mining / Accelerator:</span>
-                  <span>BTC/ETH GPU Rig &amp; Accelerators</span>
-                </div>
-              </div>
             </div>
           </div>
 
-          <!-- Software & Tooling Ecosystem Card -->
-          <div class="institutional-card p-5 sm:p-6 flex flex-col justify-between">
+          <!-- Right: Interactive Subsystem Hotspots (5 cols) -->
+          <div class="lg:col-span-5 flex flex-col justify-between gap-4">
             <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Software Stack</span>
-              <h3 class="font-heading mt-1 text-base font-bold text-ieee-navy">
-                Supported Frameworks &amp; Tooling
+              <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Subsystem Inspector</span>
+              <h3 id="inspector-detail-title" class="font-heading mt-1 text-lg font-bold text-ieee-navy">
+                19 GPU Accelerator Array
               </h3>
+              <p id="inspector-detail-desc" class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Equipped with up to 19 discrete GPU compute sets (8GB memory each) mounted on dedicated riser cards, optimized for cryptographic proof-of-work simulation, consensus latency benchmarking, and verifiable AI acceleration.
+              </p>
+            </div>
 
-              <div class="mt-4 space-y-3 text-xs">
-                <div>
-                  <strong class="block text-slate-700">Protocols:</strong>
-                  <div class="mt-1 flex flex-wrap gap-1.5">
-                    <span class="chip">Ethereum</span>
-                    <span class="chip">Hyperledger Fabric</span>
-                    <span class="chip">Solana</span>
-                  </div>
-                </div>
+            <!-- Hotspot Buttons -->
+            <div class="space-y-2">
+              <button 
+                type="button" 
+                class="inspector-hotspot active w-full"
+                data-img="assets/images/lab/mmcoe-hpc-rig.png"
+                data-caption="19 GPU HPC Server Rig (Multi-GPU Compute &amp; Consensus Benchmark Testbed)"
+                data-title="19 GPU Accelerator Array"
+                data-desc="Equipped with up to 19 discrete GPU compute sets (8GB memory each) mounted on dedicated riser cards, optimized for cryptographic proof-of-work simulation, consensus latency benchmarking, and verifiable AI acceleration."
+              >
+                <span>1. 19 GPU Accelerator Rig</span>
+                <span class="text-xs font-bold text-ieee-primary">Up to 19 GPUs</span>
+              </button>
 
-                <div>
-                  <strong class="block text-slate-700">Languages:</strong>
-                  <div class="mt-1 flex flex-wrap gap-1.5">
-                    <span class="chip">Solidity</span>
-                    <span class="chip">Rust</span>
-                    <span class="chip">Go</span>
-                  </div>
-                </div>
+              <button 
+                type="button" 
+                class="inspector-hotspot w-full"
+                data-img="assets/images/lab/mmcoe-server-rack.png"
+                data-caption="42U High-Density Server Rack with KR-PDU-50KVA Power Unit"
+                data-title="42U Enterprise Server Rack"
+                data-desc="Standard 42U rack enclosure engineered with multi-point ventilation, dedicated thermal monitoring, and a KR-PDU-50KVA power management system operating at 100-240VAC 50/60Hz for continuous enterprise load testing."
+              >
+                <span>2. 42U Rack &amp; 50KVA Power Unit</span>
+                <span class="text-xs font-bold text-ieee-primary">42U Enclosure</span>
+              </button>
 
-                <div>
-                  <strong class="block text-slate-700">Developer Tools:</strong>
-                  <div class="mt-1 flex flex-wrap gap-1.5">
-                    <span class="chip">Hardhat</span>
-                    <span class="chip">Truffle Suite</span>
-                    <span class="chip">Ganache</span>
-                    <span class="chip">Web3.js</span>
-                    <span class="chip">Docker</span>
-                    <span class="chip">Kubernetes</span>
-                  </div>
-                </div>
+              <button 
+                type="button" 
+                class="inspector-hotspot w-full"
+                data-img="assets/images/lab/mmcoe-lab-workstation.png"
+                data-caption="Research Workstations &amp; Student Developer Terminals at MMCOE"
+                data-title="Student Workstations &amp; Smart Contract Terminals"
+                data-desc="Multi-seat developer lab equipped with Truffle, Hardhat, Ganache, and Docker for compiling, debugging, and formal verification of Solidity and Rust smart contracts connected to local testnets."
+              >
+                <span>3. Developer Workstations &amp; Terminals</span>
+                <span class="text-xs font-bold text-ieee-primary">Full Dev Stack</span>
+              </button>
 
-                <div>
-                  <strong class="block text-slate-700">Consensus &amp; DeFi:</strong>
-                  <div class="mt-1 flex flex-wrap gap-1.5">
-                    <span class="chip">SHA-256</span>
-                    <span class="chip">ECC</span>
-                    <span class="chip">PoW / PoS</span>
-                    <span class="chip">Uniswap</span>
-                    <span class="chip">Aave</span>
-                  </div>
-                </div>
+              <button 
+                type="button" 
+                class="inspector-hotspot w-full"
+                data-img="assets/images/lab/mmcoe-coe-facility.png"
+                data-caption="Centre of Excellence in Blockchain Technology Facility Entrance"
+                data-title="Centre of Excellence Facility"
+                data-desc="Officially recognized Centre of Excellence within MMCOE Information Technology department, operating in direct partnership with the IEEE Pune Blockchain Group to facilitate academic research, FDPs, and prototypes."
+              >
+                <span>4. Centre of Excellence (CoE) Facility</span>
+                <span class="text-xs font-bold text-ieee-primary">MMCOE IT Dept</span>
+              </button>
+            </div>
+
+            <!-- Software Stack Summary Chips -->
+            <div class="pt-3 border-t border-slate-200">
+              <span class="block text-xs font-semibold text-slate-700">Supported Protocols &amp; Environments:</span>
+              <div class="mt-2 flex flex-wrap gap-1.5 text-xs">
+                <span class="chip">Ethereum</span>
+                <span class="chip">Hyperledger Fabric</span>
+                <span class="chip">Solana</span>
+                <span class="chip">Solidity</span>
+                <span class="chip">Rust</span>
+                <span class="chip">Hardhat</span>
+                <span class="chip">Docker</span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="mt-6 pt-4 border-t border-slate-200">
-              <a href="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/" target="_blank" rel="noopener noreferrer" class="btn-primary w-full text-center text-xs py-2">
-                Explore Lab Infrastructure ↗
-              </a>
+    <!-- ==================== 8. BRAND NEW PHOTO SHOWCASE GALLERY ==================== -->
+    <section id="gallery" class="section-padding bg-[#F0F4F8] border-t border-slate-200">
+      <div class="section-container">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">
+              Visual Archives &amp; Authentic Media
+            </span>
+            <h2 class="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+              Photo Showcase Gallery
+            </h2>
+            <p class="mt-1 text-xs sm:text-sm text-slate-600 max-w-xl">
+              Authentic photographic documentation from our symposia, laboratory facilities, faculty programs, and national hackathons. Click any image for full-screen inspection.
+            </p>
+          </div>
+
+          <!-- Flutter Filter Chips -->
+          <div class="flex flex-wrap items-center gap-2">
+            <button type="button" class="filter-chip gallery-filter-chip active" data-category="all">
+              All Photos (8)
+            </button>
+            <button type="button" class="filter-chip gallery-filter-chip" data-category="symposium">
+              Symposium 2024
+            </button>
+            <button type="button" class="filter-chip gallery-filter-chip" data-category="lab">
+              Blockchain Lab
+            </button>
+            <button type="button" class="filter-chip gallery-filter-chip" data-category="events">
+              FDPs &amp; Hackathons
+            </button>
+          </div>
+        </div>
+
+        <!-- 8 Curated Gallery Cards Grid -->
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          
+          <!-- Photo 1: Symposium Stage -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="symposium"
+            data-lightbox-src="assets/images/events/symposium-2024-stage.jpg"
+            data-lightbox-title="IEEE Pune Blockchain Symposium 2024 Stage Inauguration"
+            data-lightbox-meta="Feb 2, 2024 · Seminar Hall, Mechanical Dept, PCCOE · Dr. Ramesh Ramadoss, Dr. Sonali Patil, Dr. Surekha Deshmukh, Dr. Rajesh Ingle"
+            data-lightbox-source="https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf"
+          >
+            <img src="assets/images/events/symposium-2024-stage.jpg" alt="Symposium 2024 Stage" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">Symposium 2024</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">Stage Inauguration &amp; Keynote Panel</h4>
+              <p class="text-[11px] text-slate-300">PCCOE Seminar Hall · 110+ Delegates</p>
             </div>
           </div>
+
+          <!-- Photo 2: Symposium Audience -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="symposium"
+            data-lightbox-src="assets/images/events/symposium-2024-audience.jpg"
+            data-lightbox-title="Symposium Technical Audience & Felicitation"
+            data-lightbox-meta="Feb 2, 2024 · PCCOE · 115 Total Attendees (68 external, 15 industry, 32 PCCOE)"
+            data-lightbox-source="https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf"
+          >
+            <img src="assets/images/events/symposium-2024-audience.jpg" alt="Symposium Technical Audience" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">Symposium 2024</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">Audience &amp; Industry Participants</h4>
+              <p class="text-[11px] text-slate-300">Full Hall Engagement</p>
+            </div>
+          </div>
+
+          <!-- Photo 3: MMCOE HPC Rig -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="lab"
+            data-lightbox-src="assets/images/lab/mmcoe-hpc-rig.png"
+            data-lightbox-title="MMCOE 19 GPU HPC Server Rig"
+            data-lightbox-meta="Department of IT, MMCOE Pune · 3U 64 Cores, 32GB RAM, 1TB SSD"
+            data-lightbox-source="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/"
+          >
+            <img src="assets/images/lab/mmcoe-hpc-rig.png" alt="19 GPU Server Rig" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">HPC Laboratory</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">19 GPU Compute Server Rig</h4>
+              <p class="text-[11px] text-slate-300">Consensus &amp; AI Acceleration</p>
+            </div>
+          </div>
+
+          <!-- Photo 4: MMCOE Server Rack -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="lab"
+            data-lightbox-src="assets/images/lab/mmcoe-server-rack.png"
+            data-lightbox-title="42U Server Rack & 50KVA Power Unit"
+            data-lightbox-meta="MMCOE Centre of Excellence in Blockchain Technology"
+            data-lightbox-source="https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/"
+          >
+            <img src="assets/images/lab/mmcoe-server-rack.png" alt="42U Server Rack" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">HPC Laboratory</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">42U Enterprise Server Rack</h4>
+              <p class="text-[11px] text-slate-300">50KVA PDU Power Infrastructure</p>
+            </div>
+          </div>
+
+          <!-- Photo 5: EBCT-24 Poster -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="events"
+            data-lightbox-src="assets/images/events/ebct-2024-poster.png"
+            data-lightbox-title="Emerging Trends in Blockchain Technology (EBCT-24) STTP"
+            data-lightbox-meta="Jul 15–20, 2024 · ISTE Approved · 156 Pan-India Participants"
+            data-lightbox-source="https://www.pccoepune.com/pdf/Flyer_STTP_EBCT-2024_PCCOE.pdf"
+          >
+            <img src="assets/images/events/ebct-2024-poster.png" alt="EBCT-24 Poster" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip chip-gold mb-1.5 w-fit">ISTE STTP</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">EBCT-24 National Training Program</h4>
+              <p class="text-[11px] text-slate-300">156 Participants Across 5+ States</p>
+            </div>
+          </div>
+
+          <!-- Photo 6: Hyperledger Session -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="events"
+            data-lightbox-src="assets/images/events/hyperledger-session-2025.jpg"
+            data-lightbox-title="Expert Session on Hyperledger & Decentralized Trust"
+            data-lightbox-meta="Aug 26, 2025 · PCCOE · Dr. Anasuya Threse Innocent (BiniWorld)"
+            data-lightbox-source="https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf"
+          >
+            <img src="assets/images/events/hyperledger-session-2025.jpg" alt="Hyperledger Expert Session" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">Expert Session</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">Hyperledger Enterprise Trust Session</h4>
+              <p class="text-[11px] text-slate-300">LFDT Chapter &amp; IEEE Pune</p>
+            </div>
+          </div>
+
+          <!-- Photo 7: DecentraHACK 2026 -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="events"
+            data-lightbox-src="assets/images/events/decentrahack-2026.jpg"
+            data-lightbox-title="DecentraHACK 2026 National Hackathon"
+            data-lightbox-meta="Jan 17–23, 2026 · 5-Day National Web3 & Agentic AI Hackathon"
+            data-lightbox-source="https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf"
+          >
+            <img src="assets/images/events/decentrahack-2026.jpg" alt="DecentraHACK 2026" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip mb-1.5 w-fit">Hackathon</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">DecentraHACK 2026</h4>
+              <p class="text-[11px] text-slate-300">Agentic AI &amp; Web3 Buildathon</p>
+            </div>
+          </div>
+
+          <!-- Photo 8: Decentralized AI FDP -->
+          <div 
+            class="gallery-card" 
+            data-gallery-category="events"
+            data-lightbox-src="assets/images/events/decai-fdp-2026.jpg"
+            data-lightbox-title="National Faculty Development Program on Decentralized AI"
+            data-lightbox-meta="Feb 2–7, 2026 · PCCOE Pune · 86 Verified Faculty Participants"
+            data-lightbox-source="https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf"
+          >
+            <img src="assets/images/events/decai-fdp-2026.jpg" alt="Decentralized AI FDP" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="chip chip-gold mb-1.5 w-fit">National FDP</span>
+              <h4 class="font-heading text-xs font-bold text-white line-clamp-1">Decentralized AI FDP 2026</h4>
+              <p class="text-[11px] text-slate-300">86 Faculty Participants</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -624,7 +793,7 @@
             </p>
           </div>
 
-          <!-- Interactive Year Filter Pills -->
+          <!-- Year Filter Pills -->
           <div class="flex flex-wrap items-center gap-2">
             <button type="button" class="timeline-tab active" data-year="all">
               All Events (10)
@@ -641,16 +810,35 @@
           </div>
         </div>
 
-        <!-- 10 Verified Events Grid -->
-        <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Live Search Bar -->
+        <div class="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white/5 border border-white/10 rounded-xl p-3">
+          <div class="relative flex-1">
+            <input 
+              type="text" 
+              id="event-search-input" 
+              placeholder="Search events by speaker, topic, keyword (e.g. Ramesh Ramadoss, AI, Hyperledger, Smart Cities)..." 
+              class="w-full bg-slate-900/80 border border-white/15 rounded-lg px-3.5 py-2 text-xs text-white placeholder-slate-400 outline-none focus:border-ieee-brightcyan"
+            />
+          </div>
+          <span id="event-count-badge" class="text-xs text-slate-300 font-medium px-2">
+            Showing 10 of 10 events
+          </span>
+        </div>
+
+        <!-- 10 Verified Events Grid with Authentic Media Previews -->
+        <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
 
           <!-- 1. Symposium 2024 (PCCOE) -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2024">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/events/symposium-2024-stage.jpg" data-lightbox-title="IEEE Pune Blockchain Symposium 2024 Stage" data-lightbox-meta="Feb 2, 2024 · PCCOE · 110+ Attendees">
+              <img src="assets/images/events/symposium-2024-stage.jpg" alt="Symposium Stage" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-symposium">Symposium</span>
               <span class="text-xs text-slate-400">Feb 2, 2024</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               IEEE Pune Blockchain Symposium
             </h3>
             <p class="mt-1 text-xs text-ieee-brightcyan font-medium">Seminar Hall, Mechanical Dept, PCCOE, Pune</p>
@@ -671,11 +859,15 @@
 
           <!-- 2. SecureChainCityCoin Workshop (MMCOE) -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2024">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/lab/mmcoe-lab-workstation.png" data-lightbox-title="SecureChainCityCoin Smart Cities Workshop Lab" data-lightbox-meta="Mar 18–22, 2024 · MMCOE Pune">
+              <img src="assets/images/lab/mmcoe-lab-workstation.png" alt="MMCOE Workstations" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-sttp">Workshop</span>
               <span class="text-xs text-slate-400">Mar 18–22, 2024</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               SecureChainCityCoin: Convergence of Blockchain in Smart Cities
             </h3>
             <p class="mt-1 text-xs text-slate-300">MMCOE, Pune</p>
@@ -693,11 +885,15 @@
 
           <!-- 3. EBCT-24 (PCCOE) -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2024">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/events/ebct-2024-poster.png" data-lightbox-title="Emerging Trends in Blockchain Technology (EBCT-24)" data-lightbox-meta="Jul 15–20, 2024 · PCCOE · 156 Pan-India Participants">
+              <img src="assets/images/events/ebct-2024-poster.png" alt="EBCT-24 Poster" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-sttp">ISTE STTP</span>
               <span class="text-xs text-slate-400">Jul 15–20, 2024</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               Emerging Trends in Blockchain Technology (EBCT-24)
             </h3>
             <p class="mt-1 text-xs text-ieee-brightcyan font-medium">PCCOE, Nigdi, Pune</p>
@@ -765,11 +961,15 @@
 
           <!-- 6. Hyperledger Expert Session (PCCOE LFDT) -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2025">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/events/hyperledger-session-2025.jpg" data-lightbox-title="Expert Session on Hyperledger & Decentralized Trust" data-lightbox-meta="Aug 26, 2025 · PCCOE · Dr. Anasuya Threse Innocent">
+              <img src="assets/images/events/hyperledger-session-2025.jpg" alt="Hyperledger Session" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-expert">Expert Session</span>
               <span class="text-xs text-slate-400">Aug 26, 2025</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               Expert Session on Hyperledger and Applications
             </h3>
             <p class="mt-1 text-xs text-slate-300">PCCOE, Pune (Hybrid Mode)</p>
@@ -830,11 +1030,15 @@
 
           <!-- 9. DecentraHACK 2026 -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2026">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/events/decentrahack-2026.jpg" data-lightbox-title="DecentraHACK 2026 National Hackathon" data-lightbox-meta="Jan 17–23, 2026 · LFDT Chapter & PCCOE with IEEE Pune">
+              <img src="assets/images/events/decentrahack-2026.jpg" alt="DecentraHACK 2026" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-hackathon">Hackathon</span>
               <span class="text-xs text-slate-400">Jan 17–23, 2026</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               DecentraHACK 2026
             </h3>
             <p class="mt-1 text-xs text-slate-300">National / Hybrid Challenge</p>
@@ -852,11 +1056,15 @@
 
           <!-- 10. National FDP on Decentralized AI 2026 (PCCOE) -->
           <div class="flex flex-col rounded-xl border border-white/10 bg-white/5 p-4.5 transition hover:border-ieee-brightcyan/60 hover:bg-white/10" data-event-year="2026">
+            <div class="cursor-pointer group relative overflow-hidden rounded-lg mb-3" data-lightbox-src="assets/images/events/decai-fdp-2026.jpg" data-lightbox-title="National-Level FDP on Decentralized AI" data-lightbox-meta="Feb 2–7, 2026 · PCCOE Pune · 86 Verified Participants">
+              <img src="assets/images/events/decai-fdp-2026.jpg" alt="Decentralized AI FDP" class="event-thumb" />
+              <span class="absolute bottom-2 right-2 bg-black/70 backdrop-blur text-[10px] text-white px-2 py-0.5 rounded font-medium">Zoom Photo</span>
+            </div>
             <div class="flex items-center justify-between">
               <span class="event-badge badge-fdp">National FDP</span>
               <span class="text-xs text-slate-400">Feb 2–7, 2026</span>
             </div>
-            <h3 class="font-heading mt-3 text-base font-semibold leading-snug text-white">
+            <h3 class="font-heading mt-2.5 text-base font-semibold leading-snug text-white">
               National-Level FDP on Decentralized AI
             </h3>
             <p class="mt-1 text-xs text-ieee-brightcyan font-medium">PCCOE, Pune</p>
@@ -892,10 +1100,10 @@
 
         <div class="mt-6 grid gap-6 md:grid-cols-2">
           <!-- Officer 1: Dr. Sonali D. Patil (Chair) -->
-          <div class="institutional-card top-accent-card p-5 sm:p-6 flex flex-col justify-between">
+          <div class="flutter-card p-5 sm:p-6 flex flex-col justify-between">
             <div>
               <div class="flex items-start gap-4">
-                <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-ieee-navy to-ieee-primary text-lg font-bold text-white font-heading">
+                <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-ieee-navy to-ieee-primary text-lg font-bold text-white font-heading shadow">
                   SP
                 </div>
                 <div class="min-w-0 flex-1">
@@ -936,11 +1144,11 @@
             </div>
           </div>
 
-          <!-- Institutional Governance & Alliance Card -->
-          <div class="institutional-card top-accent-card p-5 sm:p-6 flex flex-col justify-between">
+          <!-- Institutional Governance Card -->
+          <div class="flutter-card p-5 sm:p-6 flex flex-col justify-between">
             <div>
               <div class="flex items-start gap-4">
-                <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-ieee-dark text-lg font-bold text-white font-heading">
+                <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-ieee-dark text-lg font-bold text-white font-heading shadow">
                   IEEE
                 </div>
                 <div class="min-w-0 flex-1">
@@ -981,7 +1189,7 @@
     </section>
 
     <!-- ==================== 11. JOIN COMMUNITY / REGISTRATION ==================== -->
-    <section id="join" class="section-padding bg-slate-50 border-t border-slate-200">
+    <section id="join" class="section-padding bg-[#F8FAFC] border-t border-slate-200">
       <div class="section-container grid gap-8 lg:grid-cols-5">
         <!-- Left Explanatory Column -->
         <div class="lg:col-span-2">
@@ -992,7 +1200,7 @@
           <p class="mt-3 text-xs text-slate-600 leading-relaxed sm:text-sm">
             Whether you are an active IEEE Member or a student, researcher, or practitioner passionate about decentralized architectures, registering connects you directly with our research initiatives, FDPs, hackathons, and laboratory resources.
           </p>
-          <div class="mt-5 rounded-lg border border-slate-200 bg-white p-3.5 text-xs text-slate-600">
+          <div class="mt-5 rounded-xl border border-slate-200 bg-white p-4 text-xs text-slate-600 shadow-sm">
             <strong class="block font-semibold text-ieee-navy">Official Local Group Record</strong>
             IEEE vTools Spoid: <strong>LGR00120BC</strong>.<br />
             For institutional inquiries or technical collaborations, contact Chair Dr. Sonali D. Patil at 
@@ -1001,7 +1209,7 @@
         </div>
 
         <!-- Right Form Card -->
-        <div class="institutional-card lg:col-span-3 p-5 sm:p-6">
+        <div class="flutter-card lg:col-span-3 p-5 sm:p-6">
           <!-- Success State Banner -->
           <div id="form-success" class="hidden rounded-xl border border-emerald-200 bg-emerald-50 p-6 text-center">
             <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-emerald-600 text-white font-bold">✓</div>
@@ -1164,6 +1372,7 @@
             <li><a href="#about" class="hover:text-white transition">About &amp; Mission</a></li>
             <li><a href="#focus" class="hover:text-white transition">12 Technical Focus Areas</a></li>
             <li><a href="#lab" class="hover:text-white transition">Blockchain Lab Infrastructure</a></li>
+            <li><a href="#gallery" class="hover:text-white transition">Photo Showcase Gallery</a></li>
             <li><a href="#events" class="hover:text-white transition">Chronological Timeline</a></li>
             <li><a href="#leadership" class="hover:text-white transition">Leadership &amp; Governance</a></li>
           </ul>
@@ -1197,7 +1406,29 @@
     </footer>
   </main>
 
-  <!-- Script -->
+  <!-- ==================== 13. FULL-SCREEN MODAL MEDIA LIGHTBOX ==================== -->
+  <div id="media-lightbox" class="lightbox-modal">
+    <div class="lightbox-dialog flex flex-col">
+      <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between text-white">
+        <span class="chip">Institutional Photo Inspector</span>
+        <button type="button" id="lightbox-close" class="text-slate-400 hover:text-white text-lg p-1 transition" aria-label="Close dialog">✕</button>
+      </div>
+      <div class="lightbox-image-wrap">
+        <img id="lightbox-img" src="" alt="Expanded View" />
+      </div>
+      <div class="p-4 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-t border-slate-100">
+        <div>
+          <h3 id="lightbox-title" class="font-heading text-base font-bold text-ieee-navy"></h3>
+          <p id="lightbox-meta" class="text-xs text-slate-600 mt-0.5"></p>
+        </div>
+        <a id="lightbox-source" href="" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs py-1.5 px-3 self-start sm:self-auto shrink-0">
+          Source Document ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Client Script -->
   <script src="app.js"></script>
 </body>
 </html>
