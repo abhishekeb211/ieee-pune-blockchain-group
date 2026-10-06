@@ -23,3 +23,12 @@
   - `nextjs-app/`: Full Next.js 14 App Router project with TypeScript, Tailwind CSS, and modular React components.
   - `README.md`: Quick start guide, preview commands, and deployment instructions.
   - Version controlled in Git with initial commit.
+
+### Entry 3
+- **Timestamp**: 2026-10-06T22:01:00+05:30
+- **Action**: GitHub Repository Connection & Deployment
+- **Delivered Outputs**:
+  - Created repository `ieee-pune-blockchain-group` under user account `abhishekeb211`.
+  - Configured git remote origin to `https://github.com/abhishekeb211/ieee-pune-blockchain-group.git`.
+  - Pushed `main` branch with all assets, components, Next.js application, and docs.
+  - Ensured credentials were removed from disk remote configurations.
