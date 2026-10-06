@@ -12,3 +12,14 @@
   - Full-fidelity UI cloning with accurate branding.
   - Rebrand to IEEE Pune Blockchain Group.
   - Retain all functional sections, responsive states, and form fields.
+
+### Entry 2
+- **Timestamp**: 2026-10-06T20:45:00+05:30
+- **Action**: Execution of Cloning & Rebranding Blueprint
+- **Delivered Outputs**:
+  - `index.html`: Complete standalone landing page with Inter typography, sticky navbar, mobile drawer, hero section with stats, about section, 4-card objectives, past events (IIBF 2023, IIBF 2024, ICDLT 2025 Pune), leadership cards, validated interactive registration form with feedback states, and footer.
+  - `styles.css`: Custom IEEE brand colors, hero grid background, form controls, and checkbox card states.
+  - `app.js`: Mobile drawer toggle, dynamic multi-select checkbox styles, full form validation (email regex, required fields), state machine (idle, submitting, success, error), and reset handlers.
+  - `nextjs-app/`: Full Next.js 14 App Router project with TypeScript, Tailwind CSS, and modular React components.
+  - `README.md`: Quick start guide, preview commands, and deployment instructions.
+  - Version controlled in Git with initial commit.
