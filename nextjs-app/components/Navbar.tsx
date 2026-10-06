@@ -3,12 +3,11 @@
 import React, { useState } from 'react'
 
 const navLinks = [
+  { href: '#top', label: 'Home' },
+  { href: '#events', label: 'Events' },
+  { href: '#gallery', label: 'Gallery' },
+  { href: '#guests', label: 'Guests' },
   { href: '#about', label: 'About' },
-  { href: '#focus', label: 'Focus Areas' },
-  { href: '#lab', label: 'Research Lab' },
-  { href: '#gallery', label: 'Photo Gallery' },
-  { href: '#events', label: 'Timeline' },
-  { href: '#leadership', label: 'Leadership' },
 ]
 
 

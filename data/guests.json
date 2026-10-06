@@ -1,0 +1,324 @@
+{
+  "guests": [
+    {
+      "id": "ramesh-ramadoss",
+      "name": "Dr. Ramesh Ramadoss",
+      "role": "Chair, IEEE Blockchain Technical Community",
+      "organization": "IEEE Blockchain",
+      "photo": "assets/images/events/2024/symposium/symposium-2024-stage.jpg",
+      "linkedin": "https://www.linkedin.com/in/ramesh-ramadoss-phd-5130b54b/",
+      "website": "https://blockchain.ieee.org/",
+      "linkedinVerified": true,
+      "websiteVerified": true,
+      "events": [
+        "symposium-2024-02-02",
+        "ebct-2024-07"
+      ],
+      "bio": "Keynote speaker, author, and global chair of the IEEE Blockchain Technical Community leading international blockchain initiatives."
+    },
+    {
+      "id": "sonali-patil",
+      "name": "Dr. Sonali D. Patil",
+      "role": "Chair & Coordinator",
+      "organization": "IEEE Pune Blockchain Group & PCCOE",
+      "photo": "assets/images/events/2026/decai-fdp/decai-fdp-2026.jpg",
+      "linkedin": null,
+      "website": "https://www.pccoepune.com/",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "email": "sonalimpatil@gmail.com",
+      "events": [
+        "symposium-2024-02-02",
+        "ebct-2024-07",
+        "fdp-decentralized-ai-2026-02"
+      ],
+      "bio": "Chair of IEEE Pune Blockchain Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
+    },
+    {
+      "id": "surekha-deshmukh",
+      "name": "Dr. Surekha Deshmukh",
+      "role": "Domain Consultant",
+      "organization": "Tata Consultancy Services (TCS) Pune",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://www.tcs.com",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "symposium-2024-02-02",
+        "ebct-2024-07"
+      ],
+      "bio": "Expert in blockchain for energy transition, decarbonisation, and industrial distributed ledger applications."
+    },
+    {
+      "id": "rajesh-ingle",
+      "name": "Dr. Rajesh Ingle",
+      "role": "Professor & IEEE Leader",
+      "organization": "IEEE Region 10 / Pune Section",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://ieeepunesection.org/",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Distinguished IEEE Region 10 leader and academician active in IEEE educational and humanitarian technology initiatives."
+    },
+    {
+      "id": "bk-murthy",
+      "name": "Dr. B. K. Murthy",
+      "role": "Former Director / Senior Consultant",
+      "organization": "MeitY / C-DAC",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://www.meity.gov.in/",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Pioneer of national research roadmaps in distributed systems, high-performance computing, and digital governance."
+    },
+    {
+      "id": "padmaja-joshi",
+      "name": "Dr. Padmaja Joshi",
+      "role": "Senior Director",
+      "organization": "C-DAC Pune",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://www.cdac.in/",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Leading software technologist and researcher heading blockchain and trust infrastructure initiatives at C-DAC."
+    },
+    {
+      "id": "kamlesh-nagware",
+      "name": "Mr. Kamlesh Nagware",
+      "role": "Co-Founder & Hyperledger Leader",
+      "organization": "FSV Capital / Hyperledger India",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://fsv.capital",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Top blockchain influencer, Hyperledger India leader, and co-founder of FSV Capital advising on enterprise Web3 architecture."
+    },
+    {
+      "id": "gaurav-somvanshi",
+      "name": "Mr. Gaurav Somvanshi",
+      "role": "Co-Founder",
+      "organization": "EmerTech Innovations Pvt Ltd",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://emertech.in",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Social entrepreneur and pioneer in implementing blockchain for provenance, agriculture, and rural livelihood empowerment."
+    },
+    {
+      "id": "amar-tumballi",
+      "name": "Mr. Amar Tumballi",
+      "role": "Co-Founder & VP Engineering",
+      "organization": "Dhiway",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://dhiway.com",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Open-source veteran and core engineer developing CORD network for verifiable digital identity and cryptographic credentials."
+    },
+    {
+      "id": "surendrasingh-s",
+      "name": "Mr. SurendraSingh S.",
+      "role": "VP Products & Tech",
+      "organization": "Dhiway",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://dhiway.com",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Technology leader driving enterprise deployment of decentralized trust infrastructures and verifiable data registries."
+    },
+    {
+      "id": "nirmala-salam",
+      "name": "Ms. Nirmala Salam",
+      "role": "Associate Director",
+      "organization": "C-DAC Mumbai",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://www.cdac.in",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Applied cryptography and software engineering specialist working on national-scale distributed systems and security protocols."
+    },
+    {
+      "id": "garima-singh",
+      "name": "Ms. Garima Singh",
+      "role": "CEO & CTO",
+      "organization": "Bitviraj Technology Private Limited",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Blockchain entrepreneur and technical architect leading decentralized applications and smart-contract auditing solutions."
+    },
+    {
+      "id": "sonali-patwe",
+      "name": "Ms. Sonali Patwe",
+      "role": "Senior Product Manager",
+      "organization": "Tata Digital",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://www.tatadigital.com",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Digital product leader with deep expertise in enterprise consumer platforms, fintech systems, and distributed ledgers."
+    },
+    {
+      "id": "ramchandra-mangrulkar",
+      "name": "Dr. Ramchandra Mangrulkar",
+      "role": "Professor",
+      "organization": "DJSCoE Mumbai",
+      "photo": null,
+      "linkedin": null,
+      "website": "https://djsce.ac.in",
+      "linkedinVerified": false,
+      "websiteVerified": true,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Researcher in blockchain security, intrusion detection systems, and privacy-preserving consensus networks."
+    },
+    {
+      "id": "anasuya-innocent",
+      "name": "Dr. Anasuya Threse Innocent",
+      "role": "Executive & Hyperledger Specialist",
+      "organization": "BiniWorld Innovations Pvt. Ltd.",
+      "photo": "assets/images/events/2025/hyperledger/hyperledger-session-2025.jpg",
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "hyperledger-expert-session-2025-08"
+      ],
+      "bio": "Enterprise blockchain trainer delivering hands-on instruction in Hyperledger Fabric, Firefly, and enterprise DLT architectures."
+    },
+    {
+      "id": "rohan-raverkar",
+      "name": "Mr. Rohan Raverkar",
+      "role": "Vice President & Hackathon Judge",
+      "organization": "Industry Technical Leader",
+      "photo": "assets/images/events/2026/decentrahack/decentrahack-2026.jpg",
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "decentrahack-2026-01"
+      ],
+      "bio": "Industry executive and technical judge evaluating decentralized architecture, Web3 security, and agentic AI integration."
+    },
+    {
+      "id": "shreekant-kulkarni",
+      "name": "Mr. Shreekant Kulkarni",
+      "role": "VP Tokenization",
+      "organization": "HUMB Global HealthTech",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Healthcare and tokenization specialist focused on digital health records and decentralized privacy frameworks."
+    },
+    {
+      "id": "rahul-sonkamble",
+      "name": "Mr. Rahul Sonkamble",
+      "role": "Research Scholar",
+      "organization": "Pimpri Chinchwad University (PCU)",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "ebct-2024-07"
+      ],
+      "bio": "Doctoral researcher investigating smart contract optimization, zero-knowledge proofs, and decentralized transaction structures."
+    },
+    {
+      "id": "mehul-gaidhani",
+      "name": "Mr. Mehul Gaidhani",
+      "role": "Industry Expert",
+      "organization": "Blockchain Architecture Practitioner",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Practicing engineer focused on decentralized infrastructure, node deployment, and enterprise blockchain scaling."
+    },
+    {
+      "id": "shruti-kulkarni",
+      "name": "Ms. Shruti Kulkarni",
+      "role": "Industry Expert",
+      "organization": "Distributed Systems Practitioner",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Technical lead working on consensus algorithms, smart contract validation, and public blockchain integrations."
+    },
+    {
+      "id": "pavan-adhav",
+      "name": "Mr. Pavan Adhav",
+      "role": "Industry Expert",
+      "organization": "Industry Practitioner",
+      "photo": null,
+      "linkedin": null,
+      "website": null,
+      "linkedinVerified": false,
+      "websiteVerified": false,
+      "events": [
+        "symposium-2024-02-02"
+      ],
+      "bio": "Industry engineer specializing in decentralized consensus frameworks and enterprise blockchain applications."
+    }
+  ]
+}

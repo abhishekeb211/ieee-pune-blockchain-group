@@ -489,4 +489,149 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transform: scale(1.02);
 }
 
+/* Event Sub-Tabs & Detail View */
+.event-selector-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #94A3B8;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.event-selector-pill:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(0, 180, 216, 0.4);
+}
+
+.event-selector-pill.active {
+  color: #FFFFFF;
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--bright-cyan) 100%);
+  border-color: transparent;
+  box-shadow: 0 2px 10px rgba(0, 180, 216, 0.35);
+}
+
+/* Guest Cards */
+.guest-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0, 40, 85, 0.04);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.guest-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 102, 153, 0.3);
+  box-shadow: 0 8px 20px -4px rgba(0, 102, 153, 0.12);
+}
+
+.guest-avatar-ring {
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--primary-blue), var(--bright-cyan));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.guest-avatar-ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.guest-avatar-initials {
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  background-color: var(--deep-navy);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* Lightbox Controls */
+.lightbox-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  background-color: rgba(5, 16, 29, 0.7);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lightbox-nav-btn:hover {
+  background-color: var(--primary-blue);
+  border-color: var(--bright-cyan);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.lightbox-nav-btn.prev {
+  left: 12px;
+}
+
+.lightbox-nav-btn.next {
+  right: 12px;
+}
+
+/* Hero Highlight Cards */
+.hero-highlight-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.hero-highlight-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--bright-cyan);
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.3);
+}
+
+.hero-highlight-card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.hero-highlight-card:hover img {
+  transform: scale(1.06);
+}
+
+
 

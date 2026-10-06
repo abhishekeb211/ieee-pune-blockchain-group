@@ -1,6 +1,8 @@
-import React from 'react'
+interface HeroProps {
+  onOpenLightbox?: (item: { src: string; title: string; meta?: string; source?: string }) => void
+}
 
-export default function Hero() {
+export default function Hero({ onOpenLightbox }: HeroProps) {
   return (
     <>
       <section id="top" className="relative overflow-hidden bg-gradient-to-br from-ieee-navy via-[#003b75] to-ieee-primary text-white py-12 sm:py-16">
@@ -35,15 +37,95 @@ export default function Hero() {
             <a href="#events" className="btn-secondary">
               Explore Events
             </a>
+            <a href="#gallery" className="btn-secondary">
+              Photo Gallery
+            </a>
             <a href="#lab" className="btn-secondary">
               Lab Infrastructure
-            </a>
-            <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              IEEE Collabratec ↗
             </a>
             <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="btn-secondary">
               IEEE Pune Section ↗
             </a>
+          </div>
+
+          {/* Event Photo Highlights Gallery (Hero Lower Half) */}
+          <div className="mt-8 w-full border-t border-white/15 pt-6">
+            <div className="flex items-center justify-between mb-3.5">
+              <div className="flex items-center gap-2">
+                <span className="inline-block h-2 w-2 rounded-full bg-ieee-gold animate-pulse"></span>
+                <h3 className="font-heading text-xs uppercase tracking-wider font-bold text-slate-200">
+                  Event Photo Highlights
+                </h3>
+              </div>
+              <a href="#gallery" className="text-xs font-semibold text-ieee-brightcyan hover:underline flex items-center gap-1">
+                Explore All Photos &rarr;
+              </a>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div 
+                className="hero-highlight-card group cursor-pointer"
+                onClick={() => onOpenLightbox?.({
+                  src: '/images/events/symposium-2024-stage.jpg',
+                  title: 'IEEE Pune Blockchain Symposium 2024 Stage',
+                  meta: 'Feb 2, 2024 · PCCOE Seminar Hall · Keynote by Dr. Ramesh Ramadoss (Chair, IEEE BCTC)',
+                  source: 'https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf'
+                })}
+              >
+                <img src="/images/events/symposium-2024-stage.jpg" alt="Symposium Stage" className="w-full h-[110px] object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                  <span className="text-[9px] uppercase tracking-wider font-bold text-ieee-gold">2024 Symposium</span>
+                  <p className="font-heading text-xs font-bold text-white line-clamp-1">Inaugural Keynote Address</p>
+                </div>
+              </div>
+
+              <div 
+                className="hero-highlight-card group cursor-pointer"
+                onClick={() => onOpenLightbox?.({
+                  src: '/images/events/decai-fdp-2026.jpg',
+                  title: 'National FDP on Decentralized AI 2026',
+                  meta: 'Feb 2-7, 2026 · PCCOE · 86 Verified Faculty Participants',
+                  source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf'
+                })}
+              >
+                <img src="/images/events/decai-fdp-2026.jpg" alt="Decentralized AI FDP 2026" className="w-full h-[110px] object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                  <span className="text-[9px] uppercase tracking-wider font-bold text-cyan-300">2026 National FDP</span>
+                  <p className="font-heading text-xs font-bold text-white line-clamp-1">Decentralized AI Cohort</p>
+                </div>
+              </div>
+
+              <div 
+                className="hero-highlight-card group cursor-pointer"
+                onClick={() => onOpenLightbox?.({
+                  src: '/images/events/hyperledger-session-2025.jpg',
+                  title: 'Hyperledger & Enterprise Applications 2025',
+                  meta: 'Aug 26, 2025 · Linux Foundation Decentralized Trust Chapter',
+                  source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf'
+                })}
+              >
+                <img src="/images/events/hyperledger-session-2025.jpg" alt="Hyperledger Enterprise Session" className="w-full h-[110px] object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                  <span className="text-[9px] uppercase tracking-wider font-bold text-emerald-300">2025 Hyperledger</span>
+                  <p className="font-heading text-xs font-bold text-white line-clamp-1">Enterprise DLT Architecture</p>
+                </div>
+              </div>
+
+              <div 
+                className="hero-highlight-card group cursor-pointer"
+                onClick={() => onOpenLightbox?.({
+                  src: '/images/events/decentrahack-2026.jpg',
+                  title: 'DecentraHACK 2026 National Web3 Hackathon',
+                  meta: 'Jan 17-23, 2026 · Web3, Agentic AI & Blockchain',
+                  source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf'
+                })}
+              >
+                <img src="/images/events/decentrahack-2026.jpg" alt="DecentraHACK Hackathon" className="w-full h-[110px] object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                  <span className="text-[9px] uppercase tracking-wider font-bold text-amber-300">2026 Hackathon</span>
+                  <p className="font-heading text-xs font-bold text-white line-clamp-1">National Web3 Builders</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -89,16 +89,13 @@
       </a>
 
       <!-- Desktop Nav -->
-      <nav class="hidden lg:flex items-center gap-5">
+      <nav class="hidden lg:flex items-center gap-6">
+        <a href="#top" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Home</a>
+        <a href="#events" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Events</a>
+        <a href="#gallery" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Gallery</a>
+        <a href="#guests" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Guests</a>
         <a href="#about" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">About</a>
-        <a href="#focus" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Focus Areas</a>
-        <a href="#lab" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Research Lab</a>
-        <a href="#gallery" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Photo Gallery</a>
-        <a href="#events" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Timeline</a>
-        <a href="#leadership" class="text-sm font-medium text-slate-600 hover:text-ieee-primary transition">Leadership</a>
-        <a href="#join" class="btn-primary text-xs py-2 px-4 shadow-sm">
-          Join Community
-        </a>
+        <a href="#join" class="btn-primary text-xs py-2 px-4 shadow-sm">Contact</a>
       </nav>
 
       <!-- Mobile Hamburger Button -->
@@ -115,13 +112,12 @@
     <!-- Mobile Dropdown Nav -->
     <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white lg:hidden">
       <div class="section-container flex flex-col gap-1 py-3">
+        <a href="#top" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Home</a>
+        <a href="#events" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Events</a>
+        <a href="#gallery" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Gallery</a>
+        <a href="#guests" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Guests</a>
         <a href="#about" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">About</a>
-        <a href="#focus" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Focus Areas</a>
-        <a href="#lab" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Research Lab</a>
-        <a href="#gallery" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Photo Gallery</a>
-        <a href="#events" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Timeline</a>
-        <a href="#leadership" class="mobile-nav-link rounded-md px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Leadership</a>
-        <a href="#join" class="mobile-nav-link mt-2 rounded-full bg-ieee-primary py-2.5 text-center text-xs font-semibold text-white">Join Community</a>
+        <a href="#join" class="mobile-nav-link mt-2 rounded-full bg-ieee-primary py-2.5 text-center text-xs font-semibold text-white">Contact &amp; Join</a>
       </div>
     </div>
   </header>
@@ -175,6 +171,55 @@
           <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" class="btn-secondary">
             IEEE Pune Section ↗
           </a>
+        </div>
+
+        <!-- Event Photo Highlights Gallery (Hero Lower Half) -->
+        <div class="mt-8 w-full border-t border-white/15 pt-6">
+          <div class="flex items-center justify-between mb-3.5">
+            <div class="flex items-center gap-2">
+              <span class="inline-block h-2 w-2 rounded-full bg-ieee-gold animate-pulse"></span>
+              <h3 class="font-heading text-xs uppercase tracking-wider font-bold text-slate-200">
+                Event Photo Highlights
+              </h3>
+            </div>
+            <a href="#gallery" class="text-xs font-semibold text-ieee-brightcyan hover:underline flex items-center gap-1">
+              Explore All Photos &rarr;
+            </a>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <!-- Highlight 1: Symposium 2024 Stage -->
+            <div class="hero-highlight-card group" data-lightbox-src="assets/images/events/symposium-2024-stage.jpg" data-lightbox-title="IEEE Pune Blockchain Symposium 2024" data-lightbox-meta="Feb 2, 2024 · PCCOE Seminar Hall · Keynote by Dr. Ramesh Ramadoss (Chair, IEEE BCTC)">
+              <img src="assets/images/events/symposium-2024-stage.jpg" alt="IEEE Pune Blockchain Symposium 2024 Stage" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                <span class="text-[9px] uppercase tracking-wider font-bold text-ieee-gold">2024 Symposium</span>
+                <p class="font-heading text-xs font-bold text-white line-clamp-1">Inaugural Keynote Address</p>
+              </div>
+            </div>
+            <!-- Highlight 2: DecAI FDP 2026 -->
+            <div class="hero-highlight-card group" data-lightbox-src="assets/images/events/decai-fdp-2026.jpg" data-lightbox-title="National FDP on Decentralized AI 2026" data-lightbox-meta="Feb 2-7, 2026 · PCCOE · 86 Verified Faculty Participants">
+              <img src="assets/images/events/decai-fdp-2026.jpg" alt="Decentralized AI FDP 2026" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                <span class="text-[9px] uppercase tracking-wider font-bold text-cyan-300">2026 National FDP</span>
+                <p class="font-heading text-xs font-bold text-white line-clamp-1">Decentralized AI Cohort</p>
+              </div>
+            </div>
+            <!-- Highlight 3: Hyperledger Session 2025 -->
+            <div class="hero-highlight-card group" data-lightbox-src="assets/images/events/hyperledger-session-2025.jpg" data-lightbox-title="Hyperledger & Enterprise Applications 2025" data-lightbox-meta="Aug 26, 2025 · Linux Foundation Decentralized Trust Chapter">
+              <img src="assets/images/events/hyperledger-session-2025.jpg" alt="Hyperledger Enterprise Session 2025" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                <span class="text-[9px] uppercase tracking-wider font-bold text-emerald-300">2025 Hyperledger</span>
+                <p class="font-heading text-xs font-bold text-white line-clamp-1">Enterprise DLT Architecture</p>
+              </div>
+            </div>
+            <!-- Highlight 4: DecentraHACK 2026 -->
+            <div class="hero-highlight-card group" data-lightbox-src="assets/images/events/decentrahack-2026.jpg" data-lightbox-title="DecentraHACK 2026 National Web3 Hackathon" data-lightbox-meta="Jan 17-23, 2026 · Web3, Agentic AI & Blockchain">
+              <img src="assets/images/events/decentrahack-2026.jpg" alt="DecentraHACK 2026 Hackathon" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent flex flex-col justify-end p-2.5">
+                <span class="text-[9px] uppercase tracking-wider font-bold text-amber-300">2026 Hackathon</span>
+                <p class="font-heading text-xs font-bold text-white line-clamp-1">National Web3 Builders</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -794,35 +839,61 @@
           </div>
 
           <!-- Year Filter Pills -->
-          <div class="flex flex-wrap items-center gap-2">
-            <button type="button" class="timeline-tab active" data-year="all">
+          <div class="flex flex-wrap items-center gap-2" role="tablist" aria-label="Event Years">
+            <button type="button" class="timeline-tab active" data-year="all" role="tab" aria-selected="true">
               All Events (10)
             </button>
-            <button type="button" class="timeline-tab" data-year="2024">
-              2024 (4)
+            <button type="button" class="timeline-tab" data-year="2026" role="tab" aria-selected="false">
+              2026 (2)
             </button>
-            <button type="button" class="timeline-tab" data-year="2025">
+            <button type="button" class="timeline-tab" data-year="2025" role="tab" aria-selected="false">
               2025 (4)
             </button>
-            <button type="button" class="timeline-tab" data-year="2026">
-              2026 (2)
+            <button type="button" class="timeline-tab" data-year="2024" role="tab" aria-selected="false">
+              2024 (4)
             </button>
           </div>
         </div>
 
-        <!-- Live Search Bar -->
-        <div class="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white/5 border border-white/10 rounded-xl p-3">
-          <div class="relative flex-1">
-            <input 
-              type="text" 
-              id="event-search-input" 
-              placeholder="Search events by speaker, topic, keyword (e.g. Ramesh Ramadoss, AI, Hyperledger, Smart Cities)..." 
-              class="w-full bg-slate-900/80 border border-white/15 rounded-lg px-3.5 py-2 text-xs text-white placeholder-slate-400 outline-none focus:border-ieee-brightcyan"
-            />
+        <!-- Special Event Selector Tabs (per Year / All) -->
+        <div class="mt-6 border-b border-white/10 pb-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-300">
+              Interactive Event Tabs:
+            </span>
+            <span class="text-[11px] text-ieee-brightcyan font-medium">Click any tab below to inspect full event details</span>
           </div>
-          <span id="event-count-badge" class="text-xs text-slate-300 font-medium px-2">
-            Showing 10 of 10 events
-          </span>
+          <div id="event-subtabs-container" class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none" role="tablist" aria-label="Event Selection Tabs">
+            <!-- Populated dynamically by app.js from window.IEEE_DATA.events -->
+          </div>
+        </div>
+
+        <!-- Dedicated Event Detail Panel (Cover Image, Gallery, Guests, Links) -->
+        <div id="event-detail-panel" class="mt-6 rounded-2xl border border-white/15 bg-white/5 p-5 sm:p-7 shadow-xl backdrop-blur transition-all">
+          <!-- Populated dynamically by app.js -->
+        </div>
+
+        <!-- Section Separator & Live Search Bar -->
+        <div class="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h3 class="font-heading text-sm font-bold text-white uppercase tracking-wider">
+              Complete Events &amp; Symposia Index
+            </h3>
+            <p class="text-xs text-slate-400">Search and filter across the complete 10-event archive</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="relative w-full sm:w-72">
+              <input 
+                type="text" 
+                id="event-search-input" 
+                placeholder="Search events, speakers, topics..." 
+                class="w-full bg-slate-900/80 border border-white/15 rounded-lg px-3.5 py-1.5 text-xs text-white placeholder-slate-400 outline-none focus:border-ieee-brightcyan"
+              />
+            </div>
+            <span id="event-count-badge" class="text-xs text-slate-300 font-medium whitespace-nowrap">
+              Showing 10 of 10 events
+            </span>
+          </div>
         </div>
 
         <!-- 10 Verified Events Grid with Authentic Media Previews -->
@@ -1188,7 +1259,50 @@
       </div>
     </section>
 
-    <!-- ==================== 11. JOIN COMMUNITY / REGISTRATION ==================== -->
+    <!-- ==================== 11. GUESTS & SPEAKERS DIRECTORY ==================== -->
+    <section id="guests" class="section-padding bg-slate-50 border-t border-slate-200">
+      <div class="section-container">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-ieee-primary">Distinguished Roster</span>
+            <h2 class="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+              Guests, Keynote Speakers &amp; Coordinators
+            </h2>
+            <p class="mt-1 text-xs text-slate-600 max-w-2xl sm:text-sm">
+              Verified directory of global IEEE chairs, government advisors, corporate technology leaders, and academic researchers who have presented at IEEE Pune Blockchain Group initiatives.
+            </p>
+          </div>
+
+          <!-- Guest Filter Chips -->
+          <div class="flex flex-wrap items-center gap-2" id="guest-filter-chips">
+            <button type="button" class="filter-chip active" data-guest-filter="all">All Guests (21)</button>
+            <button type="button" class="filter-chip" data-guest-filter="keynote">Keynotes &amp; Chairs</button>
+            <button type="button" class="filter-chip" data-guest-filter="industry">Industry Leaders</button>
+            <button type="button" class="filter-chip" data-guest-filter="academic">Academicians</button>
+          </div>
+        </div>
+
+        <!-- Guests Search & Counter -->
+        <div class="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white border border-slate-200 rounded-xl p-3 shadow-sm">
+          <input 
+            type="text" 
+            id="guest-search-input" 
+            placeholder="Search guests by name, designation, organization (e.g. Ramesh Ramadoss, TCS, C-DAC, Dhiway)..." 
+            class="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2 text-xs text-slate-800 placeholder-slate-400 outline-none focus:border-ieee-primary focus:bg-white"
+          />
+          <span id="guest-count-badge" class="text-xs text-slate-500 font-medium px-2 whitespace-nowrap">
+            Showing 21 of 21 guests
+          </span>
+        </div>
+
+        <!-- Guests Directory Grid -->
+        <div id="guests-directory-grid" class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <!-- Populated dynamically by app.js from window.IEEE_DATA.guests -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 12. JOIN COMMUNITY / REGISTRATION ==================== -->
     <section id="join" class="section-padding bg-[#F8FAFC] border-t border-slate-200">
       <div class="section-container grid gap-8 lg:grid-cols-5">
         <!-- Left Explanatory Column -->
@@ -1407,14 +1521,19 @@
   </main>
 
   <!-- ==================== 13. FULL-SCREEN MODAL MEDIA LIGHTBOX ==================== -->
-  <div id="media-lightbox" class="lightbox-modal">
-    <div class="lightbox-dialog flex flex-col">
+  <div id="media-lightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Media Preview">
+    <div class="lightbox-dialog flex flex-col relative">
       <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between text-white">
-        <span class="chip">Institutional Photo Inspector</span>
+        <div class="flex items-center gap-2">
+          <span class="chip">Institutional Photo Inspector</span>
+          <span id="lightbox-counter" class="text-[11px] font-semibold text-slate-300 bg-white/10 px-2.5 py-0.5 rounded-full"></span>
+        </div>
         <button type="button" id="lightbox-close" class="text-slate-400 hover:text-white text-lg p-1 transition" aria-label="Close dialog">✕</button>
       </div>
-      <div class="lightbox-image-wrap">
+      <div class="lightbox-image-wrap relative">
+        <button type="button" id="lightbox-prev" class="lightbox-nav-btn prev" aria-label="Previous image">‹</button>
         <img id="lightbox-img" src="" alt="Expanded View" />
+        <button type="button" id="lightbox-next" class="lightbox-nav-btn next" aria-label="Next image">›</button>
       </div>
       <div class="p-4 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-t border-slate-100">
         <div>
@@ -1428,7 +1547,8 @@
     </div>
   </div>
 
-  <!-- Client Script -->
+  <!-- Master Data & Client Script -->
+  <script src="data/site-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

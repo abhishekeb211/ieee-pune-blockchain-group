@@ -9,6 +9,7 @@ import Lab from '@/components/Lab'
 import Gallery from '@/components/Gallery'
 import Events from '@/components/Events'
 import Leadership from '@/components/Leadership'
+import Guests from '@/components/Guests'
 import JoinForm from '@/components/JoinForm'
 import Footer from '@/components/Footer'
 import Lightbox, { LightboxData } from '@/components/Lightbox'
@@ -19,12 +20,13 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
+      <Hero onOpenLightbox={setActivePhoto} />
       <About />
       <FocusAreas />
       <Lab onSelectPhoto={setActivePhoto} />
       <Gallery onSelectPhoto={setActivePhoto} />
       <Events onSelectPhoto={setActivePhoto} />
+      <Guests />
       <Leadership />
       <JoinForm />
       <Footer />
