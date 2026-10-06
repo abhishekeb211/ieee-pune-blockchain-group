@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dr-sonali-patil",
+    "name": "Dr. Sonali D. Patil",
+    "roles": [
+      "Chair, IEEE Pune Blockchain Group (Spoid: LGR00120BC)",
+      "Coordinator, IEEE Region 10 Blockchain Groups",
+      "Professor & Head, Department of Computer Engineering, PCCOE Pune"
+    ],
+    "affiliation": "Pimpri Chinchwad College of Engineering (PCCOE), Pune",
+    "public_contact_email": "sonalimpatil@gmail.com",
+    "source_verification": {
+      "vtools_verified": true,
+      "vtools_spoid": "LGR00120BC",
+      "pccoe_verified": true
+    },
+    "bio": "Dr. Sonali D. Patil has played a foundational leadership role in developing blockchain, distributed trust, and decentralized AI technical activities across Pune and Region 10 APAC.",
+    "confidence": "high"
+  }
+]

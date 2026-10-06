@@ -1,0 +1,4400 @@
+--- PAGE 1 ---
+INSIDER
+https://pccoe.acm.org/
+Pimpri Chinchwad College of Engineering , Pune
+Department of Computer Engineering
+PCET’s
+
+--- PAGE 2 ---
+Professional Chapters
+PCCOE ACM
+STUDENT CHAPTER
+ACM-W
+STUDENT CHAPTER
+GOOGLE DEVELOPER
+STUDENTCLUB
+OPEN WEB
+APPLICATION
+SECURITY PROJECT
+LF DECENTRALIZED
+TRUST
+PCCO
+E
+
+--- PAGE 3 ---
+ACHIEVEMENTS
+Neha Chaudhari, a student of
+Third Year Computer
+Engineering (T.Y. Computer)
+from Pimpri Chinchwad College
+of Engineering achieved a
+remarkable milestone by
+securing the 1st Prize worth ₹3
+Lakhs at the Google Cloud
+Agentic AI Hackathon.
+ Competing against more than 10,000 teams, she emerged as
+the top-ranked participant for presenting an innovative and
+impactful solution aimed at efficiently managing the growing
+challenge of city data overload. Her project demonstrated the
+effective use of advanced Agentic AI concepts and Google Cloud
+technologies to process, organize, and utilize large volumes of
+urban data
+
+--- PAGE 4 ---
+ACHIEVEMENTS
+In a year where drone technology has become
+the 
+frontline 
+of 
+disaster 
+response, 
+three
+standout students have proven that the future
+of search-and-rescue is in capable hands. At
+NIDAR 2026 – Disaster Management, an elite
+competition organized by Drone Federation
+India and the Ministry of Electronics and
+Information Technology (MeitY), the trio of
+Harshwardhan Karanje, Shreyash Padale, and
+Nishtha Desai demonstrated technical brilliance
+by clinching All India Rank 2.
+The Challenge: A Race Against Time
+The competition simulated a high-pressure
+flood rescue scenario. Teams were tasked with
+more than just flying; they had to execute a
+multi-stage autonomous mission:
+Surveillance: Rapidly scouting a disaster
+zone to locate survivors.
+Intelligence: Geotagging precise coordinates
+with high accuracy.
+Logistics: Delivering essential health kits
+autonomously to the identified locations.
+The Winning Strategy: A Two-Drone System
+While many teams struggled with the trade-off between speed and precision, our team
+engineered a sophisticated dual-platform approach:
+The VTOL Fixed-Wing Quadplane: Built for the surveillance phase, this hybrid craft
+combined the speed and efficiency of a fixed-wing plane with the vertical takeoff and
+landing (VTOL) capabilities of a quadcopter. This allowed for long-range coverage without
+needing a runway.
+The Hexacopter: For the delivery phase, the team deployed a heavy-lift hexacopter.
+Against the Odds. Competing in a field of 350 elite teams from premier institutions
+including the IITs and NITs, the team's performance was a masterclass in autonomous
+systems integration. Their drones didn't just fly; they thought, mapped, and delivered
+with a level of precision that impressed the national panel of judges.
+"To see our designs transition from CAD models to successfully navigating a complex disaster
+simulation was an incredible experience," the team shared. "Ranking second nationally among
+such fierce competition validates the months of testing and iteration we put in."
+Team Profile
+Harshwardhan Karanje (SY-B)
+Shreyash Padale (SY-B)
+Nishtha Desai (SY-D)
+
+--- PAGE 5 ---
+Siddhesh Arun Patil
+Siddhesh Arun Patil from Pimpri
+Chinchwad College of Engineering
+secured an internship at Google,
+bringing pride to the institute and
+inspiring students.
+Kamaksha Kharul
+ACHIEVEMENTS
+Bhagawati Kadam
+Bhagawati Kadam from Pimpri
+Chinchwad College of Engineering
+secured an internship at Amazon,
+showcasing strong technical skills and
+bringing pride to the institution.
+Kamaksha Kharul from Pimpri
+Chinchwad College of Engineering
+became a f
+ showcasing strong programming
+skills in this national-level
+competition.
+
+--- PAGE 6 ---
+ACHIEVEMENTS
+Aditya Rajput (Computer
+Engineering), Ved Jadhav
+(Information Technology),
+Harshil Biyani (AIML), and
+Ansh Dudhe (AIML) achieved
+a remarkable milestone by
+winning the NAVONMESH
+National Level Hackathon 
+2025, 
+organized 
+by 
+Shri 
+Shankaracharya 
+Institute 
+of
+Professional Management & Technology, Raipur, the team
+secured 1st place and a cash prize of ₹10,000 for their
+innovative solution and strong teamwork. 
+Aditya Rajput, Harshal
+Biyani, and Ved Jadhav
+secured 2nd Runner-Up
+position at INNOVIK 5.0
+Hackathon, held on 4th
+and 5th October at
+Vikrant Institute of
+Technology and
+Management, Indore. 
+Their achievement highlights their innovation, teamwork, and
+strong problem-solving skills in a competitive hackathon
+environment.
+
+--- PAGE 7 ---
+ACHIEVEMENTS
+Arpit Gaikwad and Sarang
+Kadam secured 1st Prize in
+Revive-X, Manipal’s flagship
+business case competition, held
+at TAMPI, Manipal, showcasing
+their exceptional analytical,
+strategic, and problem-solving
+skills. Their achievement
+highlights their ability to
+develop innovative solutions and
+compete successfully at a
+prestigious national-level
+platform.
+Prastuti Motghare and Kiran
+Mane secured 1st Prize at the
+SheInspires Women’s Hackathon,
+demonstrating exceptional
+innovation, teamwork, and
+problem-solving skills in a
+competitive environment. Their
+achievement highlights their
+dedication to technology and
+their ability to create impactful
+solutions. 
+
+--- PAGE 8 ---
+ACHIEVEMENTS
+Afia Shaikh and Shravani Sonigra
+(TY 
+Computer 
+Engineering)
+secured 1st Prize at the CyStar
+Hackathon on Decentralised Trust
+and 
+Blockchain, 
+held 
+at 
+IIT
+Madras, earning a ₹25,000 cash
+prize. Their innovative solution
+addressed 
+key 
+challenges 
+in
+decentralized trust and blockchain
+technology. 
+Competing 
+against
+talented participants from top
+institutes across the country, they
+demonstrated 
+strong 
+technical
+expertise, 
+teamwork, 
+and
+problem-solving 
+skills. 
+This
+remarkable achievement brings
+pride to the institute and inspires
+fellow 
+students 
+to 
+actively
+participate 
+in 
+national-level
+hackathons. 
+Team Zenith secured Third Prize at
+IGC 
+PCCOE 
+Pune, 
+winning
+₹40,000 for their innovative project
+“Jalyoddhe.” The project focuses on
+developing an AI-powered system to
+detect marine debris in rivers and
+coastal regions using Sentinel-2
+satellite 
+imagery 
+and 
+machine
+learning models built with Python
+and 
+PyTorch. 
+By 
+integrating
+FastAPI, PostgreSQL, and a React-
+based 
+dashboard, 
+the 
+system
+enables real-time visualization of
+pollution 
+hotspots, 
+helping
+authorities 
+and 
+environmental
+organizations take faster, data-
+driven cleanup actions. With its
+scalable and cost-effective approach
+to 
+environmental 
+monitoring,
+Jalyoddhe contributes to key UN
+Sustainable 
+Development 
+Goals,
+including Clean Water, Life Below
+Water, and Climate Action.
+
+--- PAGE 9 ---
+TRIBUTE
+The global technology landscape continues to
+evolve rapidly, driven by leaders who combine
+innovation with a deep understanding of
+computing. One such inspiring figure is
+Arvind Krishna, the Chairman and CEO of
+IBM. Born in India, Krishna has emerged as
+one of the most influential voices shaping the
+future of artificial intelligence and cloud
+computing.
+Since becoming CEO in 2020, he has played
+a key role in transforming IBM’s focus
+toward 
+hybrid 
+cloud 
+technologies 
+and
+enterprise AI solutions. Under his leadership,
+IBM 
+has 
+accelerated 
+research 
+and
+development efforts in emerging technologies,
+empowering 
+businesses 
+to 
+harness 
+the
+potential of data and intelligent systems.
+Krishna’s journey from an engineer and
+researcher to the head of one of the world’s
+most iconic technology companies reflects the
+power 
+of 
+curiosity, 
+perseverance, 
+and
+innovation. His work continues to inspire
+aspiring computer scientists and engineers to
+explore the limitless possibilities of computing
+and contribute to solving complex global
+challenges.
+ARVIND KRISHNA
+20 May, 2026
+Beyond his leadership role, Arvind Krishna has built a strong technical career rooted in
+research and engineering. During his decades at IBM, he contributed to key areas of
+enterprise computing such as database systems, distributed computing, and security,
+and is listed as an inventor or co-inventor on numerous patents.
+Earlier in his career, he helped shape IBM’s strategy around open and enterprise
+software ecosystems. His involvement in the acquisition and integration of Red Hat
+strengthened the company’s connection with the global open-source community and
+enabled organizations to build scalable systems using open technologies.
+Krishna has also supported advancements from IBM Research, encouraging work in
+responsible AI, large-scale data systems, and next-generation computing. His influence
+is also seen in quantum initiatives through IBM Quantum, which provides researchers
+and universities access to quantum processors.
+Together, these contributions highlight how his work bridges research, open technology
+ecosystems, and future computing architectures.
+
+--- PAGE 10 ---
+So much of what you interact with on GitHub depends on search—obviously
+the search bars and filtering experiences like the GitHub Issues page, but it
+is also the core of the releases page, projects page, the counts for issues and
+pull requests, and more. Given that search is such a core part of the GitHub
+platform, we’ve spent the last year making it even more durable. That
+means, less time spent managing GitHub Enterprise Server, and more time
+working on what your customers care most about. 
+How we rebuilt the search architecture for high
+availability in GitHub Enterprise Server
+In recent years, GitHub Enterprise
+Server 
+administrators 
+had 
+to 
+be
+especially careful with search indexes,
+the special database tables optimized
+for searching. If they didn’t follow
+maintenance or upgrade steps in
+exactly the right order, search indexes
+could become damaged and need
+repair, or they might get locked and
+cause 
+problems 
+during 
+upgrades.
+Quick context if you’re not running
+High Availability (HA) setups, they’re
+designed to keep GitHub Enterprise
+Server running smoothly even if part
+of the system fails. You have a
+primary node that handles all the
+writes and traffic, and replica nodes
+that stay in sync and can take over if
+needed.
+Much of this difficulty comes from how previous versions of Elasticsearch,
+our search database of choice, were integrated. HA GitHub Enterprise Server
+installations use a leader/follower pattern. The leader (primary server)
+receives all the writes, updates, and traffic. Followers (replicas) are designed
+to be read-only. This pattern is deeply ingrained into all of the operations of
+GitHub Enterprise Server.
+
+--- PAGE 11 ---
+This is where Elasticsearch started running into issues. Since it couldn’t
+support having a primary node and a replica node, GitHub engineering had
+to create an Elasticsearch cluster across the primary and replica nodes. This
+made replicating data straightforward and additionally gave some
+performance benefits, since each node could locally handle search requests. 
+How we rebuilt the search architecture for high
+availability in GitHub Enterprise Server
+Unfortunately, the problems of clustering across servers eventually began to
+outweigh the benefits. For example, at any point Elasticsearch could move a
+primary shard (responsible for receiving/validating writes) to a replica. If
+that replica was then taken down for maintenance, GitHub Enterprise Server
+could end up in a locked state. The replica would wait for Elasticsearch to
+be healthy before starting up, but Elasticsearch couldn’t become healthy until
+the replica rejoined.
+For a number of GitHub Enterprise Server releases, engineers at GitHub
+tried to make this mode more stable. We implemented checks to ensure
+Elasticsearch was in a healthy state, as well as other processes to try and
+correct drifting states. We went as far as attempting to build a “search
+mirroring” system that would allow us to move away from the clustered
+mode. But database replication is incredibly challenging and these efforts
+needed consistency.
+What changed?
+After 
+years 
+of 
+work,
+we’re now able to use
+Elasticsearch’s 
+Cross
+Cluster Replication (CCR)
+feature to support HA
+GitHub Enterprise.
+“But David,” you say, “That’s replication between clusters. How does that
+help here?” I’m so glad you asked. With this mode, we’re moving to use
+several, “single-node” Elasticsearch clusters. Now each Enterprise server
+instance will operate as independent single node Elasticsearch clusters.
+CCR lets us share the index data between nodes in a way that is carefully
+controlled and natively supported by Elasticsearch. It copies data once it’s
+been persisted to the Lucene segments (Elasticsearch’s underlying data
+store). 
+
+--- PAGE 12 ---
+How we rebuilt the search architecture for high
+availability in GitHub Enterprise Server
+In other words, now that Elasticsearch supports a leader/follower pattern,
+GitHub Enterprise Server administrators will no longer be left in a state
+where critical data winds up on read-only nodes.
+Under the hood
+Elasticsearch has an auto-follow API, but it only applies to indexes created
+after the policy exists. GitHub Enterprise Server HA installations already
+have a long-lived set of indexes, so we need a bootstrap step that attaches
+followers to existing indexes, then enables auto-follow for anything created in
+the future.
+This ensures we’re replicating data that has been durably persisted within
+the Elasticsearch cluster.
+How to get started with CCR mode
+To get started using the new CCR mode, reach out to support@github.com
+and let them know you’d like to use the new HA mode for GitHub Enterprise
+Server. They’ll set up your organization so that you can download the
+required license.
+Once you’ve downloaded your new license, you’ll need to set `ghe-config
+app.elasticsearch.ccr true`. With that finished, administrators can run a
+`config-apply` or an upgrade on your cluster to move to 3.19.1, which is the
+first release to support this new architecture.
+When your GitHub Enterprise Server restarts, Elasticsearch will migrate your
+installation to use the new replication method. This will consolidate all the
+data onto the primary nodes, break clustering across nodes, and restart
+replication using CCR. This update may take some time depending on the
+size of your GitHub Enterprise Server instance.
+While the new HA method is optional for now, we’ll be making it our default
+over the next two years. We want to ensure there’s ample time for GitHub
+Enterprise administrators to get their feedback in, so now is the time to try
+it out.
+We’re excited for you to start using the new HA mode for a more seamless
+experience managing GitHub Enterprise Server.
+
+--- PAGE 13 ---
+https://pccoe.acm.org/
+Pimpri Chinchwad College of Engineering , Pune
+Department of Computer Engineering
+PCET’s
+
+--- PAGE 14 ---
+Meet Our Team
+AYUSH PATIL
+PRESIDENT
+RUSHIKESH PATIL
+MANAGEMENT EXECUTIVE
+MAYURESH RANE
+VICE PRESIDENT
+NEELAY SHAH
+TREASURER
+SWAYAM MANDHANI
+CO-TREASURER
+AFIA SHAIKH
+CO- SECRETARY
+PRERNA RAJPUT
+SECRETARY
+LIKHIT CHAUDHARY
+MEMBERSHIP CHAIR
+SIDDHANT ITKAR
+MEMBERSHIP CHAIR
+
+--- PAGE 15 ---
+Meet Our Team
+NEHAL KONGWAD
+DESIGN HEAD
+DESIGN HEAD
+DESIGN HEAD
+DESIGN HEAD
+PRANIL SAKPAL
+MAYUR JOGADE
+SADHYOJ HANWATE
+PUBLIC RELATION HEAD
+SHRAVAN JOSHI
+PUBLIC RELATION HEAD
+HRISHIKESH PATIL
+VISUAL MEDIA HEAD
+AADI KANCHANKAR
+VISUAL MEDIA HEAD
+VISUAL MEDIA HEAD
+VISUAL MEDIA HEAD
+VISUAL MEDIA HEAD
+KARTIK THAKUR
+NIRMIT MANE
+ROHAN MAHANVAR
+SHRAVANI KALAPURE
+TECHNICAL HEAD
+VIRJEET KAKEKAR
+TECHNICAL HEAD
+PIYUSH PATIL
+TECHNICAL HEAD
+SHIVPRASAD MAHIND
+TECHNICAL HEAD
+PARIKSHIT RAJPUROHIT
+TECHNICAL HEAD
+RAMAN RANDIVE
+TECHNICAL HEAD
+HARSHAL PATIL
+WEBMASTER HEAD
+PARTH JOSHI
+WEBMASTER HEAD
+WEBMASTER HEAD
+WEBMASTER HEAD
+WEBMASTER HEAD
+RAHUL LANDAGE
+KEYURA MOTEGAONKAR
+VAISHNAVI GAIKWAD
+PRUTHVIRAJ KALE
+SHRAVANI SONIGRA
+MARKETING HEAD
+MARKETING HEAD
+MARKETING HEAD
+MARKETING HEAD
+MARKETING HEAD
+MARKETING HEAD
+AAYUSH KOLHE
+MALHAR KADAM
+KEYA JADHAV
+PREKSHA GANGWAL
+BHAVYA SHAH
+
+--- PAGE 16 ---
+   He discussed how to choose the right research domain,
+conduct impactful research, and strengthen applications to top
+global universities by understanding procedures, scholarships,
+and ways to build a strong academic profile. Additionally, he
+highlighted 
+the 
+importance 
+of 
+specialized 
+courses 
+and
+certifications for better career prospects in the tech industry. 
+Alumni Interaction Session -
+Jovian Anthony
+Alumni Interaction Session -
+Jovian Anthony
+The session concluded with
+an interactive Q&A, where
+students 
+asked 
+about
+admissions, 
+careers, 
+and
+industry 
+trends, 
+leaving
+them 
+with 
+a 
+clearer
+perspective 
+on 
+planning
+their 
+academic 
+and
+professional paths.
+   On 10 January 2025, CESA ACM
+organized an Alumni Interaction Session
+featuring Jovian Anthony, a Production
+Engineer at Meta, Menlo Park, California,
+for 
+second-year 
+students. 
+The 
+session
+focused 
+on 
+career 
+planning, 
+higher
+education 
+opportunities, 
+and 
+research
+domains, with Jovian sharing his journey,
+explaining the steps to study abroad, and
+outlining the process of applying to foreign
+universities.​
+
+--- PAGE 17 ---
+   Held on 3rd April 2025, the Hour of Code session was
+organized by the ACM Student Chapter at the R&DE (E)
+School Campus. Conducted offline, the event reached an
+enthusiastic audience of around 250–300 school students,
+serving as an engaging introduction to the fundamentals of
+game development and the broader world of computer science.
+Its primary objective was to spark curiosity, encourage
+creativity, and provide hands-on exposure to how modern
+digital games are designed and developed.
+   The session began with an overview of the gaming world,
+discussing how games are conceptualized, designed, and built.
+Students 
+were 
+introduced 
+to 
+beginner-friendly 
+game
+development tools such as Unity and were guided through the
+different stages of game creation. The team demonstrated the
+process of building a simple sample game, explaining the
+underlying logic, components, and workflow necessary to bring
+ideas to life in a playable form.
+ACM Hour Code - Game
+Development
+ACM Hour Code - Game
+Development
+
+--- PAGE 18 ---
+   Following the demonstration, participants had the
+opportunity to create their own basic games. Volunteers
+engaged closely with students, addressing their questions and
+helping them grasp coding concepts at their own pace. This
+interactive guidance ensured that every participant could
+comfortably follow along and gain a tangible understanding of
+how game logic translates into action.
+Toward the end of the event, a fun and interactive activity
+allowed students to experience real gameplay using gaming
+devices. They explored game controls, understood player
+mechanics, and witnessed how the code they had learned
+earlier came alive during gameplay. The event concluded with
+enthusiastic participation, as students’ curiosity and excitement
+made the session both impactful and rewarding. The Hour of
+Code successfully inspired many young minds to delve deeper
+into programming, creativity, and the exciting field of game
+development
+ACM Hour Code - Game
+Development
+ACM Hour Code - Game
+Development
+
+--- PAGE 19 ---
+   The session offered a comprehensive look at how AI and
+generative AI are transforming cybersecurity by enhancing
+threat detection, prevention techniques, and overall digital
+security. Dr. Gururaj shared insights on cutting-edge
+advancements, illustrating how AI-driven models are
+making cybersecurity more robust, proactive, and adaptive.
+   The event encouraged active participation, with attendees
+engaging in discussions on practical applications and
+emerging trends in cybersecurity shaped by AI. With around
+250 participants, the session provided an excellent
+opportunity 
+for 
+tech 
+enthusiasts 
+to 
+deepen 
+their
+understanding of AI's critical role in safeguarding digital
+infrastructure. 
+The 
+session 
+was 
+highly 
+appreciated,
+equipping 
+attendees 
+with 
+valuable 
+knowledge 
+and
+perspectives for future developments in cybersecurity.
+ESP Session by Dr. Gururaj
+H L
+ESP Session by Dr. Gururaj
+H L
+On 14 February 2025, the PCCOE CESA
+ACM Student Chapter hosted an Expert
+Speaker Session on the "Role of AI &
+Generative AI in Cybersecurity," featuring
+Dr. Gururaj H L. 
+
+--- PAGE 20 ---
+Writing Code Effectively with
+GenAI Tools by 
+Prof. Vijay Kumar
+Writing Code Effectively with
+GenAI Tools by 
+Prof. Vijay Kumar
+On 15 February 2025, ACM India, CSI, and Persistent Systems
+organized an offline session titled “Writing Code Effectively
+with GenAI Tools” at Persistent Systems, Vedas Complex,
+Pandit Bhimsen Joshi Auditorium, Rajiv Gandhi IT Park,
+Hinjewadi Phase 1, Pune. The session featured Prof. Viraj
+Kumar, Visiting Professor at the Divecha Centre for Climate
+Change, IISc, and ACM India National Council Member, and
+was attended by students from the PCCoE ACM and ACM-W
+Student Chapters. The aim of the session was to introduce
+students to the growing role of Generative AI in modern
+programming and software development.
+During the talk, Prof. Kumar explained how AI-driven coding
+assistants, automated debugging, and other GenAI tools can be
+integrated into development workflows to improve coding
+efficiency and software quality. The session was interactive,
+with students actively asking questions and discussing real-
+world applications of Generative AI. Around 100 students
+participated, and the practical demonstrations and expert
+insights helped them understand how to responsibly use GenAI
+tools in their coding practices.
+
+--- PAGE 21 ---
+On 3rd March 2025, an offline
+session on Google Summer of Code
+(GSoC) 
+and 
+Open-Source
+Contribution was held at the LRDC
+Hall, 
+Mechanical 
+Building. 
+The
+session featured Deep Poharkar, a
+GSoC’24 contributor at RNBN and
+an 
+ex-intern 
+at 
+a 
+YC-backed
+startup, 
+who 
+aimed 
+to 
+guide
+students about GSoC, open-source
+development, and earning through
+contributions.
+Google Summer of Code &
+Open-Source Contribution
+Session
+Google Summer of Code &
+Open-Source Contribution
+Session
+   Deep shared his journey of contributing to open-source
+projects and explained how students can leverage GSoC and
+LFX Mentorship to gain industry-level experience.  
+He provided step-by-step
+guidance 
+on 
+finding
+suitable projects, making
+quality contributions, and
+building a strong developer
+profile to get selected for
+prestigious 
+open-source
+programs.
+
+--- PAGE 22 ---
+An 
+interactive 
+Q&A
+segment followed, where
+students 
+asked 
+doubts
+about 
+choosing
+organizations, 
+crafting
+impactful proposals, and
+balancing 
+GSoC 
+with
+academics. With over 100
+participants, the session
+was highly engaging and
+provided 
+aspiring 
+GSoC
+2025 applicants with a
+clear roadmap to begin
+their open-source journey
+and 
+make 
+meaningful
+global contributions.
+Google Summer of Code &
+Open-Source Contribution
+Session
+Google Summer of Code &
+Open-Source Contribution
+Session
+The session covered key topics such as an introduction to
+open source and GSoC, how to find and contribute to open-
+source projects, the selection process for both GSoC and LFX
+mentorship, and the career benefits of contributing to open
+source. He also shared tips on writing strong GSoC proposals
+and making standout applications.
+
+--- PAGE 23 ---
+Action Replay, a captivating non-technical event organized by
+ACM PCCoE as part of “Anantya 2025” from 6th to 8th
+March 2025 at Pimpri Chinchwad College of Engineering,
+celebrated movies and pop culture through exciting challenges
+inspired by iconic films and series. Designed to foster
+teamwork and creativity, the event featured trivia, music-
+based rounds, and enactments that created a lively and
+engaging atmosphere. With over 200 participants from across
+Maharashtra, Action Replay provided movie enthusiasts a fun
+platform to showcase their knowledge and performance skills
+while promoting collaboration, community, and a shared love
+for cinema.
+Anantya
+2025
+Anantya
+2025
+ACTION REPLAY
+
+--- PAGE 24 ---
+CODIGO, a flagship coding competition under “Anantya 2025,”
+was an exciting and intellectually stimulating event organized
+by the Department of Computer Engineering, PCCoE, from 5th
+to 8th March 2025. With the tagline “Code the Multiverse,
+Conquer the Universe,” the competition brought together over
+250 teams from across PCCoE, fostering collaboration,
+innovation, and problem-solving. Spanning three rounds, it
+challenged participants to tackle complex coding problems
+while connecting with like-minded peers. The grand finale, held
+offline on campus, celebrated creativity and teamwork as the
+top 60 teams competed for top honors. Beyond competition,
+CODIGO served as a hub for knowledge exchange, promoting
+community learning and highlighting the value of collaboration
+in developing strong problem-solving skills.
+Anantya
+2025
+Anantya
+2025
+CODIGO
+
+--- PAGE 25 ---
+CAT 3.0 – Intelligence in Action was an intellectually
+engaging event organized under “Anantya 2025” by the
+Department of Computer Engineering, PCCoE, on 7th March
+2025. Aimed at fostering analytical thinking, decision-
+making, and business acumen, the competition attracted over
+150 participants from colleges across Maharashtra. The
+event offered a platform for students to enhance their
+aptitude, 
+teamwork, 
+and 
+problem-solving 
+skills 
+while
+collaborating with like-minded peers. Through its competitive
+yet collaborative spirit, CAT 3.0 promoted community
+engagement, knowledge sharing, and intellectual growth,
+encouraging participants to build connections and embrace
+learning beyond the classroom.
+Anantya
+2025
+Anantya
+2025
+CAT 3.0
+
+--- PAGE 26 ---
+IPL Auction, a thrilling non-technical event under “Anantya
+2025,” was organized by the Department of Computer
+Engineering, PCCoE, from 6th to 8th March 2025. Blending
+the excitement of cricket with strategic decision-making,
+participants engaged in a mock Indian Premier League (IPL)
+auction, taking on the roles of team owners tasked with
+building the best cricket team within a virtual budget. The
+event promoted teamwork, critical thinking, and financial
+planning, offering a creative mix of sports enthusiasm and
+analytical strategy.
+With over 300 participants from across Maharashtra, IPL
+Auction fostered collaboration and friendly competition as
+students interacted, exchanged ideas, and made calculated
+decisions under pressure. The engaging atmosphere allowed
+cricket enthusiasts to experience the thrill of an auction while
+strengthening their decision-making and teamwork skills,
+creating a fun, competitive, and memorable experience for all
+participants.
+Anantya
+2025
+Anantya
+2025
+IPL AUCTION
+
+--- PAGE 27 ---
+   On 17th March 2025, an insightful seminar on “Stock
+Market Opportunities” was conducted in offline mode at the
+LRDC Hall, Mechanical Building, PCCOE, in collaboration with
+TPL Tradeline, a NISM-certified stock market institute. The
+session aimed to introduce students to various career paths in
+the financial sector while equipping them with practical
+market insights and strategies.
+Stock Market Opportunities
+Stock Market Opportunities
+   The seminar covered a wide
+range of topics, from basic to
+advanced 
+stock 
+market
+concepts, including technical
+and 
+fundamental 
+analysis,
+derivatives, and commodities. It
+also explored domains such as
+currency trading, hedging, and
+future 
+options, 
+along 
+with
+various investment instruments
+like SIPs, bonds, IPOs, and
+ETFs. 
+Additionally, participants learned about special scholarship
+opportunities available exclusively to PCCOE students. With an
+enthusiastic participation of 45 students, the session proved
+highly beneficial for those eager to understand market
+dynamics and explore promising finance-related career paths.
+
+--- PAGE 28 ---
+   With the participation of over 100
+computer engineering students, the
+summit provided a vibrant platform
+for exchanging innovative thoughts,
+engaging in meaningful discussions,
+and 
+gaining 
+exposure 
+to
+interdisciplinary trends in computer
+engineering. By encouraging critical
+thinking, 
+creativity, 
+and 
+academic
+excellence, 
+Tech 
+Summit 
+2025
+successfully 
+inspired 
+students 
+to
+pursue research-driven innovation and
+collaborative learning.
+Tech Summit 
+2025
+Tech Summit 
+2025
+   On 21st March 2025, Tech
+Summit 2025, themed “Curiosity
+Sparks, Innovation Marks!”, was
+organized as a baby conference to
+foster 
+innovation, 
+collaboration,
+and research enthusiasm among
+students. 
+   The event featured four specialized tracks—Applied
+Artificial 
+Intelligence 
+in 
+Visual 
+Computing, 
+Biomedical
+Applications and Soft Computing, Machine Intelligence and
+Optimization 
+Algorithms, 
+and 
+Computer 
+Networks 
+and
+Information Security—allowing participants to delve into their
+areas of interest and present their research ideas.
+
+--- PAGE 29 ---
+   “Competitive Programming – CP_Init()” was organized on
+24 May 2025 by the Department of Computer Engineering
+under the Computer Engineering Student Association (CESA)
+and PCCOE ACM Student Chapter, exclusively for First-Year
+students of PCCOE. The online event, conducted on
+HackerRank, 
+was 
+designed 
+as 
+a 
+beginner-friendly
+introduction to coding and competitive programming, helping
+students get comfortable with basic logic, syntax, and simple
+problem-solving in a supportive environment.
+   By using a real competitive programming platform along
+with a live leaderboard, the event made learning interactive
+and exciting, encouraging healthy competition among
+participants. Around 70 students took part, and top
+performers were acknowledged, boosting their confidence
+and motivating them to continue exploring programming.
+CP_Init() effectively lowered the entry barrier to competitive
+programming and sparked curiosity and a growth mindset in
+many first-time coders.
+Competitive Programming –
+CP_Init()
+Competitive Programming –
+CP_Init()
+
+--- PAGE 30 ---
+   From 26th May to 30th May 2025, the Department of
+Computer Engineering, under the Computer Engineering
+Student Association (CESA) and PCCOE ACM Student
+Chapter, successfully organized “7×Git – Embark on Your
+Open-Source Journey!”. Conducted online via GitHub, this
+five-day 
+beginner-friendly 
+initiative 
+was 
+designed 
+to
+demystify the world of open-source contributions and
+empower students to take their first confident steps into the
+global developer community.
+    The core concept of 7×Git revolved around contributing to
+seven carefully curated GitHub repositories, each offering
+simple, beginner-accessible tasks across various topics and
+programming languages. Participants learned to fork, clone,
+commit, and raise pull requests, experiencing the complete
+GitHub workflow in a practical and engaging manner.
+Through this hands-on approach, students gained both
+confidence and technical proficiency while understanding how
+real-world contributions shape open-source projects.
+7x Git Open Source
+Contribution
+7x Git Open Source
+Contribution
+
+--- PAGE 31 ---
+   Whether participants were newcomers to Git or already
+familiar with version control, the event catered to all levels of
+expertise. It promoted peer learning, collaboration, and a
+spirit of community building, paving the way for a stronger
+open-source culture within PCCOE. The initiative encouraged
+students to learn Git and GitHub fundamentals, make their
+first-ever open-source contributions, explore multiple domains
+such as C++, Python, and documentation, collaborate with
+fellow learners, and earn certificates of participation.
+   The event witnessed enthusiastic participation from over
+80 active contributors and generated remarkable excitement
+around open source at PCCOE. Participants proudly shared
+their merged pull requests, many expressing a newfound
+passion 
+for 
+continuing 
+their 
+journey 
+in 
+open-source
+contribution beyond the activity window. The success of 7×Git
+marked a meaningful step toward cultivating innovation,
+collaboration, and global engagement among the next
+generation of software developers.
+7x Git Open Source
+Contribution
+7x Git Open Source
+Contribution
+
+--- PAGE 32 ---
+   On 4th June 2025, the Department of Computer
+Engineering, 
+under 
+the 
+Computer 
+Engineering 
+Student
+Association (CESA) and the PCCOE ACM Student Chapter,
+organized an engaging online coding event titled “Pattern
+Print-Off – Show Your Coding Creativity!” Conducted on
+HackerRank, this one-hour contest introduced participants—
+especially beginners—to programming through creative pattern
+printing problems. Focusing on loop-based logic, the event
+aimed to help students build a strong foundation in control
+flow and repetition constructs while encouraging creative
+thinking in coding.
+Pattern Print-Off – Show
+Your Coding Creativity!
+Pattern Print-Off – Show
+Your Coding Creativity!
+ The competition provided a real-
+time coding experience similar to
+professional competitive platforms,
+enhancing logical reasoning and
+fluency 
+in 
+programming. 
+With
+over 65 participants from various
+years, 
+the 
+event 
+promoted
+inclusivity 
+and 
+enthusiasm 
+for
+learning. A live leaderboard kept
+the excitement high, recognizing
+top performers and motivating all
+students to participate actively.
+Overall, Pattern Print-Off successfully fostered a supportive
+environment for beginners to strengthen their programming
+fundamentals and showcase their creativity through code.
+
+--- PAGE 33 ---
+CESA Induction
+CESA Induction
+The CESA Induction Ceremony for
+the 2025–26 academic year at
+PCCOE was a lively and inspiring
+event held in the Seminar Hall of the
+Architecture Building, attended by
+over 400 students, faculty, and
+guests. The ceremony celebrated the
+official 
+transition 
+of 
+student
+leadership 
+within 
+the 
+Computer
+Engineering 
+Students’ 
+Association
+(CESA) and set a positive tone for the upcoming academic year.
+The event began with the traditional lamp lighting, symbolizing
+knowledge and new beginnings, followed by the introduction of
+honored dignitaries, including Chief Guest Mr. Ankush Pathak
+from Canonical Pune. The outgoing president shared reflections
+on the past year, while the incoming president outlined their
+vision, emphasizing teamwork, innovation, and dedication.
+A structured file handover and oath-taking ceremony marked
+the formal transfer of responsibilities, reinforcing continuity
+and commitment to CESA’s values. Motivational speeches by
+Dr. Shitalkumar Rawandale, Dr. Sonali Patil, and Mr. Pathak
+inspired students to strive for excellence and embrace new
+challenges.
+
+--- PAGE 34 ---
+CESA Induction
+CESA Induction
+The ceremony successfully combined tradition, leadership, and
+inspiration, leaving the students energized and ready for a year
+of growth, learning, and achievement under the new CESA
+team, with additional highlights including a video showcasing
+CESA’s achievements, a visionary address from the new
+president, a collective vote of thanks, and closing words of
+encouragement accompanied by the traditional Pasaydan,
+leaving the audience motivated and inspired for the year
+ahead.
+
+--- PAGE 35 ---
+Community Tech Awareness
+Community Tech Awareness
+The 
+Computer 
+Engineering
+Department’s 
+ACM 
+Student
+Chapter hosted the Community
+Tech 
+Awareness 
+initiative,
+drawing 
+a 
+crowd 
+of 
+30
+participants on July 30, 2025.
+Led by Ayush Patil, President of
+CESA ACM, the offline program
+represented 
+a 
+powerful
+commitment 
+to 
+bridging
+technology and society. 
+Through dynamic workshops and
+interactive discussions, community
+members learned about cutting-
+edge 
+digital 
+tools, 
+essential
+cybersecurity practices, and the
+adoption 
+of 
+safe, 
+efficient
+technologies for everyday life. 
+the chapter’s ethos of social responsibility and knowledge
+sharing.The 
+event 
+left 
+a 
+lasting 
+impact, 
+inspiring
+individuals to embrace technology for personal growth and
+to fuel community development.
+This initiative not only elevated the
+community’s technical literacy but
+also forged stronger bonds between
+academia and society, reflecting
+
+--- PAGE 36 ---
+Turing award Session 1.0
+Turing award Session 1.0
+The ACM Student Chapter of
+the 
+Computer 
+Engineering
+Department held an engaging
+offline session on August 11,
+2025, dedicated to exploring
+the significance of the Turing
+Award. With 30 participants,
+the 
+session 
+began 
+by
+spotlighting 
+Alan 
+Turing’s
+foundational role in computer
+science 
+and 
+artificial
+intelligence, setting the stage
+for 
+understanding 
+why 
+the
+Turing 
+Award 
+is 
+widely
+regarded as the “Nobel Prize of
+Computing”.​
+The event traced the history and selection process of the
+award, highlighting its role in recognizing groundbreaking
+contributions—ranging from the invention of programming
+languages to major advances in Internet architecture and
+artificial intelligence. Attendees learned about past and
+recent laureates, including their transformative research and
+its impact on industries and society. Questions and lively
+discussion followed, with students inspired by the stories of
+laureates and gaining renewed motivation for their own
+studies and careers.​
+
+--- PAGE 37 ---
+Turing award Session 1.0
+Turing award Session 1.0
+The session closed with an open dialogue on how impactful
+research, creativity, and perseverance can lead to meaningful
+innovations in technology, leaving everyone with a heightened
+awareness of diverse opportunities in computer science.
+
+--- PAGE 38 ---
+Alumni Interaction Session
+Alumni Interaction Session
+On August 6, 2025, CESA and ACM hosted an inspiring
+Alumni Interaction Session for second-year students at
+PCCoE, with 160 participants. Distinguished alumni Mr.
+Ankur Jangra and Mr. Varun Gadde shared practical insights
+from their academic and professional journeys, emphasizing
+the value of developing both technical and soft skills, staying
+updated with new technologies, and maintaining consistency
+in efforts.
+Students engaged in an open discussion, gaining actionable
+advice on career planning, overcoming challenges, and
+maximizing college opportunities. The session concluded on a
+motivating note, leaving students energized, goal-oriented,
+and better equipped to carve their own path in the field of
+computer engineering.
+Students engaged in an open discussion, gaining actionable
+advice on career planning, overcoming challenges, and
+maximizing college opportunities. The session concluded on a
+motivating note, leaving students energized, goal-oriented,
+and better equipped to carve their own path in the field of
+computer engineering.
+
+--- PAGE 39 ---
+Session on SQL Queries
+Session on SQL Queries
+On September 9, 2025,
+the 
+CESA-ACM 
+cell
+organized 
+an
+interdepartmental Hands-
+on 
+Session 
+on 
+SQL
+Queries, 
+attracting 
+52
+third-year students. The
+event 
+provided 
+valuable
+practical exposure to the
+fundamentals 
+and
+applications of Structured
+Query 
+Language 
+(SQL),
+bridging 
+theoretical
+concepts with real-world
+database 
+management
+skills
+Students 
+from 
+various
+departments 
+collaborated 
+in
+learning 
+SQL 
+essentials—
+including 
+data 
+definition,
+manipulation, filtering, sorting,
+joins, and aggregate functions
+—through live demonstrations
+and hands-on practice. The
+interactive 
+format 
+fostered
+teamwork 
+and 
+knowledge-
+sharing, while a concluding
+Q&A 
+addressed 
+advanced
+topics and clarified student
+doubts. 
+The 
+session 
+left
+participants 
+with 
+vital,
+industry-relevant 
+database
+handling 
+skills 
+needed 
+in
+today’s 
+data-driven
+environments.
+
+--- PAGE 40 ---
+ESP Session by Dr. R
+Venkateswaran
+ESP Session by Dr. R
+Venkateswaran
+The ACM Student Chapter
+hosted an engaging Expert
+Session on “Trends in IT
+Sector” 
+on 
+September 
+17,
+2025, 
+with 
+Dr. 
+R.
+Venkateswaran as the guest
+speaker and 71 participants
+in 
+attendance. 
+The 
+event
+delved 
+into 
+key 
+ACM
+initiatives, opportunities for
+volunteering, 
+and 
+the
+importance of continual skill
+development 
+through
+programs such as the Winter
+Learning School and industry
+workshops.
+Dr. Venkateswaran illustrated
+how technology is driving real-
+world change—particularly in
+agriculture, 
+using 
+the
+Telangana Chilli Farmers case
+to showcase the impact of AI,
+IoT, and digital solutions on
+yield improvement and cost
+reduction. 
+The 
+session 
+also
+spotlighted the latest trends in
+AI, 
+Data 
+Science, 
+and
+Cybersecurity, 
+along 
+with
+career opportunities and the
+value 
+of 
+problem-first
+approaches.
+Students left inspired to focus on impactful work, stay
+connected with current developments, and pursue fulfilling
+career paths in the IT sector.
+
+--- PAGE 41 ---
+The Computer Engineering Students’ Association (CESA-ACM)
+hosted a thought-provoking Faculty Development Program (FDP)
+on September 22, 2025, featuring industry experts Ms. Shreya
+Joshi (Google) and Ms. Aishwarya Chandrasekaran (Netcracker
+Technology) on Google Meet. The sessions drew 86 participants
+and addressed the rapid changes shaping the computer science
+field.
+FDP Session: Recent Trends
+in IT - Day 1
+FDP Session: Recent Trends
+in IT - Day 1
+Ms. Joshi’s talk, “The CS
+Survival 
+Guide 
+to 
+Industry
+Disruption,” 
+highlighted 
+how
+AI, Cloud, Big Data, and
+Cybersecurity 
+are 
+driving
+transformation and increasing
+demand for roles like AI/ML
+Engineers 
+and 
+Cloud
+Architects. 
+She 
+offered 
+a
+strategic roadmap for bridging
+skill 
+gaps 
+and 
+encouraged
+internships, 
+projects, 
+and
+certifications.
+Ms. Chandrasekaran’s session,
+“Humanizing Tech: The Role of
+Learning and Development in
+Recent IT Trends,” emphasized
+soft skills, adaptability, and the
+necessity of lifelong learning.
+Sharing 
+research 
+and 
+real-
+world 
+examples, 
+she 
+linked
+professional 
+success 
+to
+continuous 
+learning 
+and
+effective collaboration. 
+
+--- PAGE 42 ---
+The CESA-ACM Faculty Development Program on September
+23, 2025, featured an insightful session led by Mr. Abdul
+Wasay, Senior Data Scientist at Autodesk and PCCOE
+alumnus, with 124 participants joining via Google Meet. His
+talk, “Understanding Computer Science, Technical Interviews
+and Other Things…”, spotlighted the essential ingredients for
+success in computer science:  passion for the field, technical
+excellence, impactful projects, and key soft skills like
+adaptability and communication.
+FDP Session: Recent
+Trends in IT - Day 2
+FDP Session: Recent
+Trends in IT - Day 2
+Mr. Wasay shared a practical three-step strategy for
+excelling in technical interviews—emphasizing regular practice
+with data structures and algorithms, problem-solving on
+online 
+platforms, 
+and 
+sharpening 
+explanation 
+skills.
+Participants left with actionable tips and renewed confidence
+for interviews and industry challenges. The session ended with
+a lively Q&A, ensuring students’ questions on both career
+preparation and core concepts were thoroughly addressed.
+
+--- PAGE 43 ---
+The third session of the CESA-ACM Faculty Development
+Program, conducted on September 24, 2025, featured
+Ankush Pathak—Software Engineer at Chainguard and ex-
+Canonical & Facebook—as the keynote speaker. Addressing
+100 participants, Mr. Pathak delivered an engaging talk on
+the intersection of Large Language Models (LLMs) and
+Cybersecurity, 
+starting 
+with 
+the 
+basics 
+of 
+software
+vulnerabilities caused by coding errors, misconfigurations,
+and design oversights.
+FDP Session: Recent
+Trends in IT - Day 3
+FDP Session: Recent
+Trends in IT - Day 3
+Mr. Pathak also spotlighted the overwhelming volume of
+CVEs reported in 2024 and demonstrated collaborative
+GitHub remediation efforts. Concluding, he emphasized that
+while AI cannot replace human expertise in cybersecurity, it
+serves as a powerful assistant, boosting efficiency and
+productivity in the fight against growing cyber threats. The
+session concluded with a lively doubt discussion, providing
+valuable insights and answering participants’ questions.
+He 
+underscored 
+the 
+severe
+consequences 
+such
+vulnerabilities can bring, from
+data 
+leaks 
+to 
+full 
+system
+compromise, and reviewed real-
+world 
+attacks 
+including
+Heartbleed, 
+Spectre 
+&
+Meltdown, Log4Shell, the xz
+Backdoor, and the npm supply
+chain attack. 
+
+--- PAGE 44 ---
+Hacktopia 2025, organized by PCCoE’s ACM Student
+Chapter in collaboration with CESA-SDW, drew over 400
+participants from colleges across India, making it a
+nationwide tech extravaganza. It began with an online round
+where teams tackled five diverse problem statements and
+submitted detailed solution presentations. The top 15 entries
+advanced to a high-stakes 24-hour onsite hackathon at
+PCCoE’s Reading Hall, working through the night to turn
+their 
+ideas 
+into 
+prototypes. 
+The 
+event 
+celebrated
+collaboration and innovation, uniting some of India’s
+brightest young talents to learn, compete, and build
+impactful technical solutions in a fast-paced environment.
+HACKTOBERFEST
+HACKTOBERFEST
+HACKTOPIA
+On October 11th, 2025, ACM and ACM-W student chapters
+at PCCoE collaborated with CESA to host “Hacktoberfest:
+Escape Room – Haunted Mansion.” The event challenged
+students in two rounds—a logical reasoning and aptitude
+quiz followed by an offline maze and escape room where
+teams solved clues and puzzles in a haunted setup. With
+creative decorations, spooky music, and a total prize pool of
+₹7000, the atmosphere matched the Haunted Mansion
+theme. Sponsored by Sanvi Infotech, the event sparked
+excitement, tested teamwork and problem-solving, and
+encouraged collaboration and leadership, strengthening
+student community and aligning with PCCoE’s vision for
+holistic development.
+ESCAPE ROOM
+
+--- PAGE 45 ---
+On October 4th, 2025, the PCCoE ACM Student Chapter
+hosted a Hacktoberfest GitHub Workshop in labs 6221 and
+6222, led by Mr. Rushikesh Patil, Mr. Danish Sayyad, and
+Mr. Krushnakant Patil, with 70 students participating. The
+workshop equipped attendees with essential Git and GitHub
+skills for collaborative software development, covering topics
+like branching, pull requests, issue tracking, and merge
+conflict resolution. Hands-on demonstrations and interactive
+discussions introduced best practices and key commands,
+empowering students to confidently contribute to open-
+source 
+projects 
+and 
+enhance 
+their 
+teamwork 
+and
+development skills.
+HACKTOBERFEST
+HACKTOBERFEST
+GIT & GITHUB
+On October 8th, 2025, the PCCoE ACM Student Chapter
+organized a Profile Building session at LRDC Hall, led by Dr.
+Ketan Desale, for over 90 participants. The event focused
+on creating and optimizing LinkedIn profiles, building strong
+portfolios, and showcasing skills for success in the tech
+industry. Dr. Desale emphasized networking, personal
+branding, and strategic content creation, sharing best
+practices for presenting projects and technical abilities. The
+interactive session helped students understand how to stand
+out 
+to 
+recruiters 
+and 
+build 
+meaningful 
+professional
+connections, empowering them as future-ready professionals
+PROFILE BUILDING
+
+--- PAGE 46 ---
+On September 30, 2025, the PCCOE ACM Student Chapter
+organized a mentorship and guidance session for 11th-grade
+students at AES Abasaheb Garware College, Pune, drawing
+over 50 participants. The session aimed to introduce students
+to the wide array of opportunities in computer science,
+blending academic insights with career-oriented advice.
+Hour Of Code
+Hour Of Code
+Speakers offered structured
+presentations covering ACM’s
+impact, the significance of
+technical 
+growth, 
+and
+emerging fields such as AI,
+Machine 
+Learning, 
+Data
+Science, and Cybersecurity.
+The interactive atmosphere
+encouraged students to ask
+questions 
+and 
+engage 
+in
+meaningful 
+discussions,
+making the event both lively
+and impactful. As a result,
+the session raised awareness
+around diverse tech domains
+and inspired students to think
+proactively 
+about 
+their
+academic 
+and 
+professional
+futures, reaffirming the ACM
+chapter’s 
+commitment 
+to
+mentorship 
+and 
+knowledge
+sharing 
+among 
+young
+learners.
+
+--- PAGE 47 ---
+PCCO
+E
+PCCOE ACMW
+Student Chapter
+pccoeacmw
+
+--- PAGE 48 ---
+ACM-W CORE
+Sanskruti Dahiphale
+(President)
+Vaishnavi Kadam
+(Vice President)
+Kamaaksha Kharul
+(Secretary)
+Saba Sayyad
+(Management Executive)
+Utkarsha Zade
+(Co-Secretary)
+Sneha Ingale
+(Treasurer)
+(Marketing Head)
+
+--- PAGE 49 ---
+ACM-W CORE
+Akanksha Kale
+(Membership Chair)
+(Marketing Head)
+Dhanashree Sul
+(Webmaster)
+Trushita Sathe
+(Technical Head)
+Akshata Majgaonkar
+(Technical Head)
+Shweta Jadhav
+(Technical Head)
+Diksha Rokade
+(Social Media)
+Kartika Shah
+(Design Head)
+Sakshi Khairnar
+(Social Media)
+
+--- PAGE 50 ---
+PCCoE ACM-W chapter participated in ACM India Student
+Chapter Summit 2024, held on December 27-28, 2024, where
+they presented a paper on envisioning India in 2030: B.M.S.
+College 
+of 
+Engineering's 
+Journey 
+towards 
+Sustainable
+Development Goals." The presentation highlighted PCCoE's
+collaborative efforts in achieving SDGs through innovative
+projects 
+and 
+initiatives, 
+shaping 
+a 
+greener 
+future. 
+In
+collaboration with the Department of Computer Engineering and
+CESA, this achievement underscores their commitment to
+sustainability and engagement in national tech forums.
+ACM INDIA SUMMIT-2024
+
+--- PAGE 51 ---
+Tech Frontiers 2024, organized by
+the 
+PCCOE 
+ACM-W 
+Student
+Chapter on 28th December 2024,
+in the Department of Computer
+Engineering, 
+was 
+a 
+poster 
+and
+project 
+presentation 
+event
+showcasing research, creativity, and
+innovation by postgraduate students.
+Registration was compulsory for SY
+MTech and FY MTech students. 
+Tech Frontiers
+Coordinated by faculty
+members 
+Dr. 
+Aparna
+Joshi and Dr. Deepali
+Naik along with student
+coordinators Anil Pawar
+and Avinash Niture, the
+event 
+successfully
+highlighted
+groundbreaking 
+ideas
+and impressive designs,
+setting 
+a 
+strong
+benchmark for future
+academic events.
+
+--- PAGE 52 ---
+The PCCOE CESA ACM-W Student Chapter organized an
+Eminent Speaker Program featuring Dr. Sriparna Saha, Associate
+Professor 
+in 
+the 
+Department 
+of 
+Computer 
+Science 
+and
+Engineering at IIT Patna, on 27th January 2025. She delivered
+an insightful session on “Multimodal Summarization: Recent
+Trends and Applications,” highlighting cutting-edge research and
+future directions in the field. Dr. Saha, an accomplished
+researcher with over 120 publications, author of a Springer-
+Verlag book.
+ESP Session- 1
+
+--- PAGE 53 ---
+Recipient of prestigious awards including the Google India Women
+in Engineering Award (2008) and NASI Young Scientist Platinum
+Jubilee Award (2016), inspired attendees with her knowledge and
+expertise. The session was informative and engaging, offering
+valuable learning and inspiration to participants.
+ESP Session- 1
+
+--- PAGE 54 ---
+ACMW Student Chapter and CESA SDW hosted Dr. Karthika
+Vijayan, PhD in Speech Signal Processing from a Hyderabad
+university and ex-NUS research fellow, for a seminar on “Speech
+Recognition in Software Industry & Language Technology in
+Singapore” on Feb 24, 2025, urging attendees not to miss this
+insightful experience
+Held an engaging "Agentic AI: The Whats, Whys, and Whats"
+session on Feb 27, 2025, with a panel of women experts sharing
+new views on self-improving AI, autonomy's next wave, and future
+knowledge exchange.
+ESP Session- 2
+
+--- PAGE 55 ---
+The ACM-W Club's "Wednesday Whispers" is an engaging
+initiative by the SY Team, featuring weekly Instagram posts on
+intriguing topics like the Dark Web, Ancient Indian technology,
+AI, blockchain, and biometrics. Aimed at fostering collaboration
+and knowledge sharing, it connects individuals with shared
+interests, sparking discussions, idea exchanges, and potential
+collaborations within the academic community. This initiative
+enriches participants' knowledge while building a united, dynamic
+tech community.
+Wednesday Whispers
+we
+nesd
+i
+w
+s
+sp
+ay
+h
+er
+
+--- PAGE 56 ---
+InnovateX Project Report
+The InnovateX project competition, held on March 8, 2025, as part
+of Anantya, was organized by CESA ACM-W. It provided final-
+year B.Tech students a platform to present innovative projects in
+teams of 3-4 members.
+Participants demonstrated technical expertise, problem-solving
+skills, and creativity through impactful solutions. With a total prize
+pool of ₹13,000, the best projects were recognized and rewarded. 
+The competition promoted innovation, teamwork, and industry-level
+exposure, making it a valuable learning experience.Overall,
+InnovateX was a grand success, inspiring future engineers to excel
+in technology-driven problem-solving and pushing the boundaries of
+innovation.
+ANANTYA 2025
+
+--- PAGE 57 ---
+Code Relay 
+The Code Relay competition, held on March 7, 2025, as part of
+Anantya, was organized by CESA ACM-W. This unique event
+encouraged teamwork and logical thinking, with teams of three
+students solving programming challenges in a relay format
+across three rounds.
+Open to all students, the competition attracted around 150
+participants who showcased their problem-solving abilities under
+time constraints. With a total prize pool of ₹10,000, the best-
+performing teams were recognized and rewarded.
+ANANTYA 2025
+
+--- PAGE 58 ---
+The 
+event 
+successfully 
+promoted 
+coding 
+efficiency,
+teamwork, and strategic thinking in a highly competitive
+setting. Code Relay was a resounding success, fostering a
+passion for coding and collaborative problem-solving among
+participants.
+ANANTYA 2025
+
+--- PAGE 59 ---
+SHE SOLVES
+She Solves Hackathon, organized
+by ACM-W, was an empowering
+multi-stage 
+competition 
+for
+female coders, focusing on Web
+and 
+Android 
+Development 
+in
+Health, Education, and Women
+Empowerment.
+The event featured three rounds:
+Ideation & Proposal Submission,
+where 
+participants 
+submitted
+innovative 
+ideas; 
+Online
+Hackathon , a 24-hour coding
+challenge 
+with 
+mandatory
+GitHub commits; and the Offline
+Hackathon, a 5-hour final coding
+session with live judging.
+ANANTYA 2025
+The 
+hackathon 
+promoted
+creativity, technical excellence,
+and 
+teamwork, 
+pushing
+participants to develop real-
+world solutions. With rigorous
+evaluation 
+and 
+competitive
+spirit, the best teams were
+celebrated 
+for 
+their
+outstanding projects.
+Beyond coding, She Solves
+was a movement to empower
+women 
+in 
+tech, 
+fostering
+innovation and confidence. 
+
+--- PAGE 60 ---
+Pimpri Chinchwad College of Engineering's ACM and ACM-W
+Student Chapters, along with CESA, launched the "AI Meme
+Contest: Turn Code Hard, Meme Harder" to blend AI fun with
+creativity. It challenges participants with "Can AI make you
+laugh?" by turning AI moments into standout memes, offering
+prizes. Themes include "Artificial Intelligence: College Life" and
+"Future Tech," open to all.
+AI Meme Contest
+
+--- PAGE 61 ---
+Pixel Polish is a 36-hour logo redesign contest
+hosted by the Department of CESA at Pimpri
+Chinchwad College of Engineering, in partnership
+with ACM and ACM-W chapters. The event,
+running 
+from 
+June 
+15-16, 
+challenged
+participants to select any popular existing logo
+and reimagine it through creative elements like
+aesthetics, editing, innovation, and typography.
+Such contests sharpen graphic design skills,
+foster creativity, and are common in engineering
+colleges to build portfolios for tech and UI/UX
+careers.
+PIXEL POLISH
+
+--- PAGE 62 ---
+Team CESA-SDW PCCoE ACM Student Chapter introduced
+5.2xGit, a beginner-friendly open-source initiative designed to
+help students start their journey in real-world contributions
+and collaborative coding. The program features a five-
+repository contribution activity aimed at building hands-on
+experience in Git and GitHub, making first open-source
+contributions, exploring diverse topics, and collaborating with
+peers.
+Open to both beginners and enthusiasts, the contribution period
+was scheduled from 20th to 25th June, encouraging students
+to upskill, grow, and actively participate in the open-source
+community.
+5.2 x Git
+
+--- PAGE 63 ---
+Team CESA-SDW PCCoE ACM Student Chapter introduced
+Mystery Code, a fun debugging quiz event designed to test
+students' logical thinking in real-world coding scenarios without
+actual execution. The program features tricky code snippets in
+C++ and Python where participants predict correct outputs
+and explain underlying logic, aimed at sharpening analytical
+skills 
+and 
+problem-solving 
+abilities. 
+It 
+encourages 
+both
+beginners and coding enthusiasts to join from anywhere and
+engage in this thinking challenge.
+Mystery Code
+
+--- PAGE 64 ---
+Team CESA and ACM-W at PCCoE, in collaboration with
+CEGAI, introduced UI/UX Vision 2029, a dynamic design
+showcase event designed to empower students in showcasing
+their creativity in app and UI design. The program features
+demonstrations of innovative UI/UX concepts, aesthetics, and
+features, aimed at gaining recognition, prizes, and mentorship
+through official shoutouts. Open to all enthusiasts from the
+Department of Computer Engineering, encouraging participants
+to shine and express their design instincts.
+RE- VISION
+
+--- PAGE 65 ---
+TY Recruitment Drive 2025: Cultivating the Next Wave of
+Leaders
+The TY Recruitment Drive 2025, conducted by ACM-W PCCOE
+in collaboration with CESA, was held offline from July 16 to
+28, 2025, at Pimpri Chinchwad College of Engineering. The
+event aimed to appoint the new core committee for the
+academic year 2025–26, providing third-year students a
+structured platform to display leadership, communication, and
+teamwork abilities.
+The multi-stage selection process, supervised by outgoing core
+members, focused on evaluating teamwork, responsibility, and
+previous contributions to club activities. Faculty mentor Aparna
+Ma’am offered valuable mentorship, emphasizing discipline,
+initiative, and the importance of effective leadership. The
+concluding stage featured interviews led by the Head of
+Department, selecting the President and Vice President based
+on vision and strategic planning capabilities.
+The recruitment drive stood out for its transparency and
+holistic 
+evaluation. 
+It 
+inspired 
+participants 
+to 
+embrace
+responsibility and collaboration, ultimately forming a motivated
+new ACM-W PCCOE × CESA Core Committee poised to lead
+student innovation and club initiatives in the coming year.
+TY Recruitment 
+
+--- PAGE 66 ---
+CESA INDUCTION
+CESA Induction 2025–26: Inspiring New Leaders
+The CESA Induction Event for the academic year 2025–26 was
+held offline on September 29, 2025, at the Seminar Hall of the
+Architecture Building, marking a grand inauguration for the
+Computer Engineering department’s student community at PCCOE.
+The ceremony began with the auspicious lighting of the lamp by
+the chief guest, Dr. Shitalkumar Adhar Rawandale, Head of
+Department, along with the Dean of the SDW cell and faculty
+members, signifying the start of a new academic and leadership
+journey.
+The event introduced attendees to CESA’s mission, vision, and its
+various active clubs that encourage technical and cultural growth
+among students. The former president delivered an inspiring
+address reflecting on his leadership experience and the notable
+achievements of the ACM club under his tenure. His speech
+motivated the audience to uphold a sense of responsibility and
+innovation in all upcoming initiatives.
+
+--- PAGE 67 ---
+CESA INDUCTION
+A 
+special 
+felicitation 
+ceremony
+followed, 
+where 
+new 
+CESA
+members were welcomed by the
+outgoing committee, symbolizing a
+seamless transition of leadership.
+Newly appointed club presidents
+presented their strategic goals and
+action 
+plans 
+for 
+the 
+year,
+emphasizing collaboration, event-
+driven 
+learning, 
+and 
+student
+engagement 
+to 
+enhance 
+the
+department’s culture of excellence.
+An engaging interaction with
+the chief guests added great
+value to the induction, as Dr.
+Rawandale 
+and 
+the 
+Dean
+shared 
+their 
+insights 
+on
+leadership, 
+academic
+excellence, and career growth.
+Their 
+words 
+encouraged
+students, 
+especially 
+second-
+year 
+aspirants, 
+to 
+balance
+academics and extracurricular
+pursuits 
+while 
+developing
+professional and interpersonal
+skills.
+The ceremony concluded with a
+solemn oath-taking ritual, where
+the new office bearers pledged
+their dedication to teamwork and
+service. A heartfelt vote of thanks
+acknowledged 
+everyone’s
+contributions, followed by a soulful
+Vandana that brought a graceful
+end to the event. With around 250
+attendees, the induction not only
+celebrated new beginnings but also
+reinforced 
+the 
+principles 
+of
+leadership, responsibility, and unity
+within the Computer Engineering
+community at PCCOE.
+
+--- PAGE 68 ---
+On August 4, 2025, ACM-W PCCOE and CESA organized an
+offline Website Improvement Discussion to modernize the club’s
+online platform. Webmasters and design team members reviewed
+the current site’s structure, usability, and UI/UX, focusing on
+smoother navigation, updated event archives, and improved
+performance.
+Participants planned a redesigned layout with interactive
+features to boost engagement. The event, attended by 10
+members, fostered collaboration between design and development
+teams, advancing technical and creative problem-solving skills.
+This discussion laid the groundwork for a dynamic, responsive,
+and user-friendly website to support club activities in the
+upcoming year.
+Website Improvement Discussion: Enhancing Club Presence
+Website improvement
+discussion 
+
+--- PAGE 69 ---
+SY Recruitment
+The SY Recruitment Drive by ACM-W PCCOE, held in
+collaboration with CESA from August 11 to 19, 2025, aimed to
+bring second-year students into technical and creative roles within
+the club through both online and offline processes. Candidates
+participated in multiple selection rounds, including application
+screening, domain-specific creative tasks, and a final interaction
+to assess communication and leadership skills. Attracting around
+90 students, the event encouraged teamwork and innovation,
+enriching ACM-W PCCOE and CESA with fresh talent for the
+2025–26 academic year.
+SY Recruitment Drive 2025: Empowering Emerging Talent
+
+--- PAGE 70 ---
+SY Recruitment
+The multi-stage selection process
+began with an initial screening
+of applications to understand
+participants’ interests and prior
+experience. In the subsequent
+technical 
+rounds, 
+candidates
+were given domain-based tasks
+that tested practical skills: the
+Design 
+Team 
+created 
+event
+posters and visually engaging
+content; Webmasters developed
+mini web pages to showcase
+their web development expertise;
+and the Visual Media Team
+edited short videos and produced
+creative digital media pieces. The
+final interaction round evaluated
+communication 
+abilities,
+problem-solving, and leadership
+potential to identify well-rounded
+individuals.
+With nearly 90 applicants, the
+recruitment drive successfully
+promoted 
+teamwork,
+innovation, 
+and 
+creative
+expression 
+among 
+the 
+new
+recruits. It strengthened the
+foundation of ACM-W PCCOE
+and CESA by infusing fresh
+perspectives 
+and 
+technical
+excellence, 
+ultimately 
+paving
+the way for a dynamic and
+collaborative year ahead in the
+2025–26 academic session.
+
+--- PAGE 71 ---
+international ai horizon 
+International AI Horizon: Shaping Tomorrow’s Work
+On August 17, 2025, PCCOE ACM-W, in collaboration with Team
+CESA SDW, hosted an insightful international online session titled
+“International AI Horizon: Shaping Tomorrow’s Work.” The event
+explored how Artificial Intelligence is transforming industries,
+creating new career opportunities, and redefining the future
+workforce.
+Distinguished speakers included Shreshth Rajan, a Harvard student
+specializing in Math and Philosophy and AI researcher at Pillar, and
+Rashmi Das, a veteran US banking industry leader with 27 years of
+expertise in AI, hybrid cloud, and quantum computing. They shared
+valuable perspectives on the global AI ecosystem, strategies to stay
+relevant, and the evolving AI-driven career landscape.
+Attended by 50 students from PCET, the session provided a global
+perspective on AI’s impact, inspiring participants to prepare for
+technological advancements shaping tomorrow’s professional world.
+
+--- PAGE 72 ---
+The 
+SY–TY 
+Orientation 
+Program 
+2025–26,
+organized by ACM-W PCCOE in collaboration
+with CESA on August 21, 2025, served as an
+enthusiastic welcome for second-year students
+joining the ACM-W and CESA community. The
+event introduced attendees to the clubs’ vision and
+activities, 
+highlighting 
+signature 
+events 
+like
+TechShakti, 
+SmartMind, 
+the 
+SIH 
+Awareness
+Campaign, and Eminent Speaker sessions. These
+initiatives, 
+along 
+with 
+insights 
+into 
+the
+organizational structure, showcased the clubs’
+commitment 
+to 
+fostering 
+skill 
+development,
+innovation, and a vibrant student culture.
+ Senior TY coordinators shared
+personal experiences, encouraging
+new members to contribute ideas
+and develop vital teamwork and
+leadership abilities. With about 45
+attendees, 
+the 
+orientation
+successfully inspired students and
+built 
+a 
+sense 
+of 
+community,
+motivating 
+them 
+to 
+actively
+engage in upcoming events and
+initiatives throughout the 2025–
+26 academic year.
+SY-TY ORIENTATION
+
+--- PAGE 73 ---
+SIH AWARENESS SESSION
+The SIH Awareness Campaign, held online on
+September 1, 2025, was organized by ACM-W
+PCCOE along with CESA and the Computer
+Engineering department to introduce students to
+Smart India Hackathon (SIH) 2024. Guest speakers
+Mr. Tejas Bhangale and Mr. Alok Chaturvedi, SIH
+2024 winners, shared practical strategies on team
+formation, problem-solving, and project presentation,
+inspiring attendees to innovate and participate in the
+national competition. The event provided insight into
+SIH stages and idea submission, encouraging students
+to harness collaboration and creativity for academic
+and professional growth
+
+--- PAGE 74 ---
+SESSION BY SWATI SHINDE MA’AM
+The Expert Session on “Smart Writing: Navigating AI Tools for
+Research Papers” was held online on September 3, 2025,
+organized by the PCCOE ACM-W Student Chapter for PG
+and PhD scholars. Dr. Swati Shinde, Professor & Dean (MIS)
+at PCCoE, introduced various AI tools used for literature
+search, summarization, drafting, and refining research papers,
+while emphasizing ethical and original academic writing. The
+session provided practical guidance to improve clarity,
+structure, and effectiveness in research writing, empowering
+scholars to use AI responsibly and enhance the quality and
+productivity of their research work.
+
+--- PAGE 75 ---
+APTITUDE TEST- ONLINE 
+The online aptitude test “The
+Ultimate Brain Race” was
+conducted on September 5,
+2025, by the Department of
+Computer Engineering in
+collaboration with ACM-W
+PCCOE, ACM PCCOE, and
+CESA. Held on the
+Wayground platform, it
+featured 20 aptitude
+questions to be solved in one
+hour, testing students’ logical
+reasoning, problem-solving,
+and quantitative skills. A
+total of 97 students
+participated enthusiastically,
+motivated by exciting prizes
+and ACM memberships. The
+event successfully enhanced
+students’ critical thinking,
+time management, and
+engagement with academic
+societies, promoting a spirit
+of learning and healthy
+competition.
+
+--- PAGE 76 ---
+The Eminent Speaker Program titled “Demystifying System
+Research” was held online on September 13, 2025, organized by
+ACM-W PCCOE in association with CESA and the Department of
+Computer Engineering, PCCOE. The session was conducted by Ms.
+Priyanka Naik, a Research Scientist at IBM India Research Lab,
+who shared insights from her experience and Ph.D. work at IIT
+Bombay. She emphasized the importance of system research in
+technological innovation and guided students on beginning their own
+research journeys, especially in AI and Machine Learning. The event
+inspired participants to pursue research and innovation, offering
+valuable exposure to industry-level practices and career
+opportunities in emerging tech fields.
+ESP SESSION
+
+--- PAGE 77 ---
+The Reverse Coding
+Challenge was conducted
+online on September 13,
+2025, by ACM-W PCCOE,
+ACM PCCOE, and CESA via
+HackerRank. The event
+encouraged students to think
+creatively by solving problems
+using a reverse-thinking
+approach, aligning with the
+theme “Think Backwards,
+Code Forward!” A total of 83
+students participated
+enthusiastically, sharpening
+their algorithmic and
+problem-solving skills.
+Winners received ACM
+memberships and tech
+goodies, fostering motivation
+and active engagement in the
+college’s technical
+communities while promoting
+innovative approaches to
+coding.
+Reverse Coding Challenge
+
+--- PAGE 78 ---
+TechShakti – National Level Technical Seminar and Paper
+Presentation, held in two rounds during September 2025, was a
+prestigious event organized by ACM-W PCCOE in collaboration
+with CESA and the Department of Computer Engineering at
+Pimpri Chinchwad College of Engineering. The first round took
+place online until September 8, while the second round was
+conducted offline on September 15 at PCCOE, attracting
+participants from across India. This structure allowed wide
+participation and ensured a comprehensive evaluation of
+innovative ideas.
+ENGINEER’S DAY -TECHSHAKTI
+
+--- PAGE 79 ---
+ENGINEER’S DAY -TECHSHAKTI
+The competition provided a
+valuable platform for teams of
+3 to 4 members to present
+their research and technical
+innovations. 
+It 
+encouraged
+creativity, technical expertise,
+and 
+research 
+skills 
+while
+helping 
+participants 
+improve
+their 
+technical 
+writing 
+and
+presentation capabilities. The
+collaborative environment and
+competitive 
+spirit 
+of 
+this
+national event gave students
+firsthand 
+experience 
+in
+handling rigorous academic and
+technical contests.
+Winners of the event were
+awarded 
+ACM 
+memberships
+and exciting goodies, while all
+participants 
+received
+certificates 
+recognizing 
+their
+efforts. TechShakti successfully
+fostered 
+a 
+culture 
+of
+innovation, 
+teamwork, 
+and
+technical excellence, inspiring
+students 
+to 
+explore 
+new
+engineering solutions and strive
+for 
+research 
+excellence
+throughout the academic year
+2025–26. This event stands as
+a 
+notable 
+achievement 
+in
+promoting technical proficiency
+and 
+scholarly 
+growth 
+at
+PCCOE.
+
+--- PAGE 80 ---
+LADY ADA CONTEST AWARENESS
+ SESSION
+The Lady Ada Contest Session – “A Step into Innovation” was held
+online on September 17, 2025, organized by ACM-W PCCOE in
+association with CESA and the Department of Computer
+Engineering, PCCOE, as part of ACM-W India’s national-level
+flagship event promoting women in technology. Ms. Shreya Joshi
+from Google, a Lady Ada finalist, shared her journey and valuable
+insights on project preparation and competition strategies. The
+session inspired female students to participate confidently in the
+Lady Ada coding contest, encouraging innovation, teamwork, and
+leadership in tech. It also emphasized the importance of women’s
+representation and growth in the national technological landscape.
+
+--- PAGE 81 ---
+ APTITUDE TEST ONLINE (Smart
+Mind)
+The "SmartMind Aptitude Test,"
+organized by ACM-W PCCOE in
+association with CESA and the
+Department of Computer Engineering at
+Pimpri Chinchwad College of
+Engineering, was held online on
+September 19, 2025, on the Testmoz
+platform. The event aimed to sharpen
+students' logical reasoning, problem-
+solving, and quantitative skills through
+challenging aptitude questions designed
+for academic excellence and competitive
+spirit.
+A total of 106 students from PCCOE
+participated in this event, which was
+conducted as a one-hour timed test. The
+objective was to enhance their analytical
+abilities and boost confidence in tackling
+fast-paced aptitude challenges.
+Attractive prizes such as ACM Student
+Memberships and goodies were awarded
+to top performers, and certificates of
+participation were given to all
+contestants.
+This event provided participants with invaluable practice in logical
+reasoning and quantitative aptitude, preparing them for future
+technical competitions and interviews. The success of the SmartMind
+Aptitude Test encouraged a culture of continuous learning,
+teamwork, and competitive excellence among the students of PCCOE
+
+--- PAGE 82 ---
+The Faculty Development Program (FDP) on “Recent Trends in
+Industry” was conducted online on September 20, 2025, organized
+by ACM-W PCCOE in collaboration with CESA and the Department
+of Computer Engineering, PCCOE. The session was led by Ms.
+Mahima Nair, Associate Software Engineer at Dassault Systems,
+who shared her professional experiences and insights on emerging
+technologies and industry practices. She highlighted the evolving role
+of women in tech and the importance of staying updated with
+trends for career growth. The interactive session enhanced
+participants’ understanding of industry challenges and opportunities,
+promoting continuous learning and skill development in the fast-
+changing IT landscape.
+FDP SESSION 1- MAHIMA NAIR
+
+--- PAGE 83 ---
+FDP SESSION 1 - PRANJALI
+DESHPANDE
+The FDP Session on Recent Trends in Industry, held online on
+September 27, 2025, was organized by ACM-W PCCOE in
+association with CESA and the Department of Computer
+Engineering at Pimpri Chinchwad College of Engineering. The
+session was led by Ms. Pranjali Deshpande, an incoming Software
+Engineer at Capgemini, who shared her career journey, industry
+insights, and motivational perspectives on the role of women in
+technology.
+Ms. Deshpande provided attendees, including students and faculty,
+with a thorough understanding of current IT industry practices,
+emerging technologies, and the skills required to excel professionally.
+Her session emphasized the importance of continuous learning to
+stay updated in the rapidly evolving tech landscape. Participants
+were inspired by her experiences and encouraged to explore diverse
+career opportunities in the IT sector.
+This session successfully enhanced awareness of industry trends and
+motivated the community to embrace innovation and professional
+growth in their careers.
+
+--- PAGE 84 ---
+APTITUDE TEST ONLINE
+(CodeSprint)
+CodeSprint, organized by ACM-W PCCOE in collaboration with
+CESA and the Department of Computer Engineering at Pimpri
+Chinchwad College of Engineering, was held online on September 30,
+2025, via the HackerRank platform. This competitive coding event
+challenged participants to demonstrate their problem-solving and
+programming skills under a strict one-hour time limit.
+The competition focused on strengthening logical thinking,
+algorithmic proficiency, and coding efficiency. It provided students
+with valuable exposure to real-world coding challenges, boosting their
+confidence and employability skills. Winners were awarded ACM
+Student Memberships and exciting goodies, encouraging active
+participation and continuous practice in competitive programming.
+With enthusiastic involvement, CodeSprint successfully enhanced
+technical knowledge while motivating students to engage regularly in
+coding contests, fostering a culture of excellence and readiness for
+technical careers.
+
+--- PAGE 85 ---
+HER HACK HOUR
+Her Hack Hour 2.0, organized by ACM-W PCCOE in
+collaboration with CESA, was held on October 10, 2025, in
+Labs 6221 and 6222. The event aimed to empower female
+students by providing a platform to showcase their
+programming skills in a competitive, time-bound environment.
+The competition challenged participants to solve coding
+problems within one hour, fostering logical reasoning,
+accuracy, and efficiency.
+
+--- PAGE 86 ---
+HER HACK HOUR
+With 
+enthusiastic
+participation from 52 girl
+students across SY and TY,
+the 
+event 
+promoted
+confidence, teamwork, and
+coding enthusiasm among
+women 
+in 
+technology.
+Winners 
+received 
+ACM
+Memberships and exciting
+goodies, 
+while 
+all
+participants were recognized
+with certificates.
+
+--- PAGE 87 ---
+The Department of Computer Engineering at Pimpri Chinchwad
+College of Engineering, in association with ACM-W PCCOE and
+CESA, organized an expert session titled "The Art of Literature
+Review" on October 11, 2025, at 10:00 AM in room 6105LA. The
+session was conducted by Dr. Aparna Joshi, Assistant Professor in
+Computer Engineering and ACM-W Faculty Sponsor. It aimed to
+equip students and research scholars with a systematic
+understanding of how to conduct a literature review, covering
+essential aspects such as developing review protocols, locating
+and evaluating reliable sources, synthesizing findings, and
+managing citations.
+EXPERT SESSION
+
+--- PAGE 88 ---
+Through practical demonstrations and structured explanations, Dr.
+Joshi guided participants in refining their research methodologies,
+improving citation management, and enhancing the overall quality
+and credibility of their academic and project work. The session
+significantly contributed to strengthening research awareness and
+writing competence among attendees, encouraging a more
+analytical and professional approach to literature review and
+academic documentation.
+EXPERT SESSION
+
+--- PAGE 89 ---
+Pimpri Chinchwad College of Engineering , Pune
+Department of Computer Engineering
+PCET’s
+
+--- PAGE 90 ---
+MEET OUR TEAM
+Aaryan Bhujan
+Zeeshan Siddique
+Lead
+Co-Lead
+Khush Paliwal
+Kanchan Shendge
+Rudraksh Charhate
+Pushkar Kirange
+Treasurer
+Secretary
+Security Head
+Web-Dev Head
+Pruthviraj Mule
+Aditya Hazare
+Yuvraj Singh
+Sai Veer
+Management Head
+Marketing Head
+Management Head
+Marketing Head
+Keshav Thakur
+Sneha Nalawade
+Content & Design
+Head
+Content & Design
+Head
+
+--- PAGE 91 ---
+ The competition created an
+immersive atmosphere filled
+with curiosity and suspense,
+keeping participants actively
+involved 
+throughout. 
+By
+integrating both digital and
+real-world elements, the event
+offered a refreshing mix of
+problem-solving 
+and
+interactive 
+gameplay,
+allowing teams to showcase
+their 
+coordination, 
+quick
+decision-making, 
+and
+innovative 
+thinking. 
+With
+enthusiastic participation and
+high energy, Sher-Lock 3.0
+successfully 
+fostered
+collaboration 
+and 
+critical
+thinking 
+among 
+students.
+More than just a competition,
+it 
+became 
+a 
+memorable
+learning 
+experience 
+that
+celebrated 
+curiosity,
+teamwork, and the spirit of
+exploration.
+BYTE ME CTF
+BYTE ME CTF
+Sher-Lock 3.0 proved to be
+an exciting and intellectually
+engaging event that combined
+creativity, 
+teamwork, 
+and
+strategic thinking in a unique
+competitive 
+experience.
+Designed 
+to 
+go 
+beyond
+conventional competitions, the
+event encouraged participants
+to collaborate, analyse clues,
+and apply logical reasoning
+while adapting to dynamic
+challenges.
+
+--- PAGE 92 ---
+Open to teams of two, the
+competition 
+promoted
+teamwork, 
+analytical
+thinking, 
+and 
+practical
+learning through a series of
+cybersecurity 
+challenges
+across multiple domains. The
+event witnessed enthusiastic
+participation, 
+with 
+teams
+showcasing strong technical
+abilities 
+and 
+strategic
+thinking 
+throughout 
+the
+competition. 
+ByteMe
+successfully 
+created 
+a
+dynamic learning platform,
+offering participants valuable
+exposure 
+to 
+real-world
+cybersecurity concepts while
+fostering 
+curiosity 
+and
+innovation within the student
+community.
+BYTE ME CTF
+BYTE ME CTF
+ByteMe, a Capture the Flag
+(CTF) competition held in
+2025, 
+brought 
+together
+cybersecurity enthusiasts for
+an engaging and hands-on
+technical experience. Designed
+to 
+test 
+skills 
+in 
+ethical
+hacking, problem-solving, and
+digital forensics, the event
+encouraged 
+participants 
+to
+apply 
+their 
+cybersecurity
+knowledge in a competitive
+environment. 
+
+--- PAGE 93 ---
+On August 26, 2025, the
+OWASP 
+Student 
+Chapter
+organized 
+CyberXplore,
+engaging 
+second-year
+Computer 
+Engineering
+students 
+in 
+an 
+immersive
+introduction to cybersecurity.
+Designed as a foundation-
+building initiative, the event
+seamlessly blended conceptual
+understanding 
+with
+experiential learning, ensuring
+that participants gained both
+clarity and confidence in the
+domain.
+CyberXplore 
+CyberXplore 
+Speakers 
+highlighted 
+diverse
+career pathways within the field
+,including 
+ethical 
+hacking,
+penetration 
+testing, 
+digital
+forensics, security analysis, and
+governance 
+- 
+along 
+with
+globally recognized certifications
+such as CompTIA Security+.
+ 
+Participants 
+were 
+also
+introduced 
+to 
+CTF
+fundamentals, followed by mini-
+CTF challenges that tested their
+logical 
+reasoning, 
+analytical
+thinking, and problem-solving
+skills.By 
+bridging 
+academic
+concepts with industry-aligned
+practices, 
+the 
+initiative
+successfully 
+laid 
+a 
+strong
+foundation 
+for 
+aspiring
+cybersecurity professionals 
+
+--- PAGE 94 ---
+On August 26, 2025, the
+OWASP 
+Student 
+Chapter
+organized 
+CyberXplore,
+engaging 
+second-year
+Computer 
+Engineering
+students 
+in 
+an 
+immersive
+introduction to cybersecurity.
+Designed as a foundation-
+building initiative, the event
+seamlessly blended conceptual
+understanding 
+with
+experiential learning, ensuring
+that participants gained both
+clarity and confidence in the
+domain.
+CyberXplore 
+CyberXplore 
+Speakers 
+highlighted 
+diverse
+career pathways within the field
+,including 
+ethical 
+hacking,
+penetration 
+testing, 
+digital
+forensics, security analysis, and
+governance 
+- 
+along 
+with
+globally recognized certifications
+such as CompTIA Security+.
+ 
+Participants 
+were 
+also
+introduced 
+to 
+CTF
+fundamentals, followed by mini-
+CTF challenges that tested their
+logical 
+reasoning, 
+analytical
+thinking, and problem-solving
+skills.By 
+bridging 
+academic
+concepts with industry-aligned
+practices, 
+the 
+initiative
+successfully 
+laid 
+a 
+strong
+foundation 
+for 
+aspiring
+cybersecurity professionals 
+
+--- PAGE 95 ---
+On the occasion of Engineer’s
+Day, 15th September 2025,
+the OWASP Student Chapter
+PCCoE successfully organized
+the Engineer’s Day Bootcamp
+on Cybersecurity & Ethical
+Hacking.The 
+session 
+was
+conducted 
+by 
+Mr. 
+Omkar
+Pote, 
+a 
+distinguished
+Cybersecurity 
+Professional
+and Industry Expert, who
+introduced participants to the
+practical landscape of Red
+Teaming, 
+emerging
+cybersecurity 
+trends, 
+and
+Web Application Penetration
+Testing.
+Engineers Day
+Bootcamp
+Engineers Day
+Bootcamp
+Hands-on exposure to tools
+like 
+Burp 
+Suite 
+helped
+participants 
+understand
+reconnaissance, 
+vulnerability
+assessment, and ethical testing
+methodologies. The bootcamp
+strongly 
+emphasized
+responsibility 
+and 
+ethics,
+reinforcing that cybersecurity
+is about structured defense
+and 
+protection, 
+not 
+just
+hacking. Overall, the event
+served 
+as 
+both 
+a 
+skill-
+enhancement initiative and a
+professional orientation toward
+future careers in cybersecurity.
+
+--- PAGE 96 ---
+CyberKavach 2025
+CyberKavach 2025
+On September 19, 2025, the OWASP Student Chapter at
+PCCOE unveiled CyberKavach 2025 with a captivating
+inauguration ceremony inspired by the “Stranger Things”
+theme. Held at the 6th Building Entrance Area, the event
+drew nearly 100 faculty members, students, and distinguished
+guests, transforming the campus space into a suspense-filled
+digital arena. With hacker-themed attire, dim lighting effects,
+eerie background music, and creatively designed props
+symbolizing the “Upside Down” of cyberspace, the launch
+created a powerful metaphor for hidden digital threats
+lurking beneath the surface of the internet.
+The immersive atmosphere was carefully crafted to represent
+the unseen vulnerabilities of the digital world, aligning
+perfectly with the mission of CyberKavach 2025 to
+strengthen awareness, resilience, and technical expertise in
+cybersecurity. The event concluded with a formal ribbon-
+cutting and the official declaration of CyberKavach 2025
+open , marking the beginning of a dynamic journey dedicated
+to uncovering hidden digital dangers.
+
+--- PAGE 97 ---
+Cybersecurity
+Conference 2025
+Cybersecurity
+Conference 2025
+The Cybersecurity Conference
+2025 transformed traditional
+academic engagement into a
+multi-dimensional professional
+ecosystem, creating a dynamic
+space 
+where 
+learning,
+innovation, and collaboration
+seamlessly 
+converged. 
+The
+event 
+brought 
+together
+insightful keynote addresses,
+an interactive project expo,
+and a high-intensity live CTF
+competition under one roof,
+offering participants a holistic
+cybersecurity experience.
+Distinguished 
+speakers 
+from
+academia 
+and 
+industry
+delivered 
+thought-provoking
+sessions on emerging trends
+such as ethical hacking, AI-
+driven 
+security, 
+cloud
+vulnerabilities, digital forensics,
+and 
+the 
+evolving 
+threat
+landscape. 
+This 
+significantly
+expanded 
+student 
+outreach,
+cultivated 
+professional
+networking opportunities, and
+reinforced 
+a 
+culture 
+of
+cybersecurity excellence within
+the academic community.
+
+--- PAGE 98 ---
+The OWASP Student Chapter
+PCCoE, in collaboration with
+COEP Cybercell, successfully
+organized a session titled “Wi-
+Fi Hacking: Into the Wireless
+Unknown” on 25th September
+2025 
+at 
+the 
+COEP
+Technological University Mini
+Auditorium. 
+The 
+session,
+delivered by Aaryan Bhujang
+and 
+Rudraksh 
+Charhate,
+offered 
+an 
+insightful
+exploration into the world of
+wireless security.
+Covering the fundamentals of
+cybersecurity, the psychology
+behind social engineering, the
+speakers 
+provided 
+practical
+knowledge backed by real-
+world examples.
+        
+PCCOE X COEP 
+PCCOE X COEP 
+Additionally, 
+the 
+speakers
+guided students on emerging
+career opportunities in domains
+such 
+as 
+ethical 
+hacking,
+security 
+analysis, 
+digital
+forensics, 
+and 
+penetration
+testing, 
+inspiring 
+many 
+to
+explore this rapidly evolving
+field. 
+The 
+event 
+witnessed
+enthusiastic 
+participation,
+interactive discussions making
+it an engaging and impactful
+learning 
+experience 
+that
+successfully blended theoretical
+understanding 
+with 
+practical
+cybersecurity awareness.
+
+--- PAGE 99 ---
+GDGC PCCOE
+
+--- PAGE 100 ---
+GDGC
+ARVR Workshop
+The Department of Information
+Technology and Computer
+Engineering, under the banner of
+the Google Developer Group
+Campus (GDGC), organized an
+AR/VR Workshop on 23 September
+2025 at the IoT Lab (5406)
+This institute-level activity was attended
+by 40 students, mainly from the second
+and third year of the IT department. The
+workshop aimed to introduce students to
+the concepts of Augmented Reality (AR)
+and Virtual Reality (VR) and to help them
+understand their real-world applications in
+fields 
+such 
+as 
+gaming, 
+simulation,
+healthcare, and education. 
+The session was conducted by Dr. Rahul
+Ray, a distinguished faculty member from
+FLAME 
+University, 
+who 
+has 
+extensive
+experience in immersive technologies and
+creative computing and also holds several
+patents in this domain. During the session,
+Dr. 
+Ray 
+explained 
+the 
+fundamental
+concepts of AR and VR and highlighted
+their 
+growing 
+importance 
+in 
+various
+industries. A key highlight of the workshop
+was the hands-on training using Unity, a
+popular platform for game and AR/VR
+development, 
+where 
+participants 
+were
+introduced to the basics of scene creation,
+asset management, and interaction design.
+Dr. Ray demonstrated the step-by-step
+process 
+of 
+creating 
+a 
+simple 
+virtual
+environment, 
+which 
+helped 
+students
+understand 
+how 
+immersive 
+digital
+experiences are developed
+Students also got the opportunity to experience Virtual Reality through VR headsets,
+allowing them to observe how virtual environments respond to user movements and
+interactions, giving them a real sense of presence in a digital world. The workshop was
+highly interactive, with Dr. Ray encouraging students to ask questions and actively
+participate throughout the session. The event concluded with an interactive Q&A session,
+where students shared their experiences and discussed potential career opportunities in
+AR/VR and game development. Overall, the workshop was informative and engaging,
+inspiring students to explore immersive technologies further.
+
+--- PAGE 101 ---
+GDGC
+MINEVISION 
+The judging panel consisted of Dr. Gulbakshee Dharmale, Professor in the Department of
+Information Technology, and Mrs. Rakhi Pagar, Assistant Professor, who evaluated the
+projects and provided valuable feedback to the participants. MineVision 2025 successfully
+created an environment that encouraged innovation, collaboration, and peer learning. The
+event motivated students to take initiative, develop real-world applications, and think
+critically about the role of technology in addressing modern challenges, thereby
+strengthening the culture of project-based learning and innovation on campus.
+MineVision 2025 was conducted in two
+rounds. The first round involved online idea
+submission where 17 teams registered by
+submitting abstracts, images, and demo
+links. Based on innovation, feasibility, and
+relevance, 7 teams were shortlisted for the
+final round.
+The second round was the on-campus
+project showcase held in Room 5401,
+beginning 
+at 
+10:00 
+AM, 
+with 
+teams
+reporting by 9:30 AM. Shortlisted teams
+presented their projects to a panel of
+judges, explaining the problem statement,
+solution, technology stack, key features,
+and potential impact, followed by a Q&A
+session. 
+The 
+event 
+concluded 
+with 
+a
+Valedictory Session at 2:00 PM where the
+winners were announced. Overall, 12 teams
+participated, 7 reached the final round,
+and 3 teams were declared winners.
+The Google Developer Group on
+Campus (GDGC) organized
+MineVision – Project Showcase
+Competition 2025 on 17 September
+2025 as an Institute Level activity
+in collaboration with ITSA, MLSC,
+and IEEE under Abhidnya 2.0. The
+event aimed to promote innovation,
+practical problem-solving, and
+interdisciplinary engagement
+among students.
+It provided a platform for participants to
+present their technical solutions to real-
+world challenges, encouraging them to
+move beyond theoretical learning toward
+practical implementation and impact. The
+competition also focused on developing
+creativity, 
+communication 
+skills, 
+and
+product-thinking among students.
+
+--- PAGE 102 ---
+GDGC
+INDUCTION 2025
+The Department of Information
+Technology organized the Google
+Developer Group on Campus (GDGC)
+Induction Program 2025 on 23
+September 2025 as an Institute
+Level activity to welcome new
+students and introduce them to the
+GDGC community. The event aimed
+to familiarize students with GDGC’s
+vision, mission, and working culture
+while highlighting its role in
+developing technical skills,
+encouraging collaboration, and
+connecting students with industry
+practices. The induction program
+motivated students to actively
+participate in various GDGC
+initiatives such as workshops, expert
+sessions, and hackathons, helping
+them enhance their technical
+knowledge and professional
+development.
+The event was held at the LRDC Hall, Mechanical
+Department, and commenced at 2:30 PM with a
+warm welcome to faculty members, guests, and
+students. The Chief Guest, Dr. Manoj K. Khare,
+Scientist “G” and Head of HPC at C-DAC Pune,
+shared insights on emerging technologies and
+encouraged students to explore innovation and
+research opportunities. Dr. Jayashree Katti (HOD,
+IT) 
+and 
+Dr. 
+Sonali 
+Patil 
+(HOD, 
+Computer
+Engineering) also addressed the students and
+motivated them to utilize GDGC as a platform for
+learning, networking, and professional growth.
+The 
+program 
+included 
+keynote 
+addresses,
+presentations on GDGC achievements, a Badges
+Assigning Ceremony, the Current Lead’s Speech,
+and interactive sessions with GDGC members. Key
+milestones 
+from 
+the 
+2024–25 
+tenure 
+were
+showcased, 
+including 
+events 
+such 
+as 
+AR/VR
+Workshop, Gen AI Cloud Jam, AIML Workshop,
+Flutter Workshop, Web Development Workshop,
+Alphabyte 2.0, and the Cloud FinOps Expert
+Session.
+These initiatives reflected GDGC’s continuous commitment to promoting innovation,
+learning, and professional development among students. The induction program
+concluded with enthusiasm and motivation, with around 70 students benefiting from
+the session. Participants expressed their eagerness to engage in upcoming GDGC
+activities, while the presence of distinguished dignitaries reinforced the significance
+of technical communities in fostering collaboration, innovation, and knowledge
+sharing throughout the academic year.
+
+--- PAGE 103 ---
+GDGC
+The workshop emphasized practical and hands-on learning, allowing students to work with
+real-world industry tools under the guidance of experienced mentors. Participants also
+received certificates of participation, and the event created opportunities for students to
+connect with a community of technology enthusiasts and professionals. A total of 85
+students participated in the workshop, making it a highly engaging and successful event
+that helped students explore the cloud and DevOps ecosystem while strengthening their
+technical knowledge and practical skills.
+Day 1 focused on Cloud Essentials, where
+participants 
+were 
+introduced 
+to 
+the
+fundamentals of cloud computing, various
+cloud services, and the growing career
+opportunities 
+in 
+this 
+domain. 
+Day 
+2
+concentrated on DevOps Tools in Action,
+providing practical sessions on tools such
+as Docker, Nginx, scaling, and caching,
+which are commonly used to streamline
+software development, deployment, and
+system management. Day 3 featured a
+guest 
+lecture 
+and 
+integration 
+session,
+where 
+participants 
+learned 
+about
+integrating cloud and DevOps systems
+using monitoring and visualization tools
+such as Prometheus and Grafana, along
+with other monitoring technologies.
+The Department of Information
+Technology and Computer
+Engineering at Pimpri Chinchwad
+College of Engineering (PCCoE),
+Akurdi, under the banner of the
+Google Developer Group on Campus
+(GDGC) 2025–26, organized a
+Cloud & DevOps Workshop titled
+“Power the Cloud!” from 8th to
+10th October 2025, between 4:00
+PM and 7:00 PM.
+This Institute Level workshop aimed to
+provide students with practical exposure to
+cloud computing and DevOps technologies,
+enabling them to gain hands-on experience
+with tools and practices widely used in the
+modern technology industry. The workshop
+was designed to help students understand
+real-world 
+applications 
+of 
+cloud
+infrastructure and DevOps workflows while
+preparing them for industry-oriented roles
+The three-day workshop was structured to
+cover different aspects of cloud and
+DevOps technologies. .
+Cloud & DevOps
+Workshop
+
+--- PAGE 104 ---
+GDGC
+ESCAPE HAWKINS
+The Department of Information
+Technology (IT) and the
+Department of Computer
+Engineering at Pimpri Chinchwad
+College of Engineering (PCCOE)
+successfully organized “Escape
+Hawkins – PRAXIS 2026”, an
+Institute Level competition (Escape
+Challenge Event) on 23rd January
+2026 in the IT Building, PCCOE.
+Inspired by the theme of Stranger Things,
+the event was designed as a high-intensity
+escape 
+challenge 
+to 
+test 
+participants’
+logical 
+reasoning, 
+technical 
+aptitude,
+teamwork, and problem-solving abilities in
+a competitive and immersive environment.
+The competition aimed to provide students
+with an engaging platform to apply their
+technical knowledge while experiencing a
+thrilling 
+and 
+interactive 
+learning
+atmosphere. 
+The 
+event 
+received 
+an
+enthusiastic 
+response 
+with 
+over 
+85
+participants registering, reflecting strong
+interest in technical and logical challenges.
+The competition was conducted in two
+major rounds. Round 1: Hawkins Rapid
+Escape was a time-bound online quiz
+consisting 
+of 
+technical 
+multiple-choice
+questions, 
+debugging 
+problems, 
+logical
+riddles, operating system concepts, and
+cryptic puzzles. This round was conducted
+on a platform developed by Gaurang Joshi
+and Sanika Patil, where teams had to
+quickly analyze clues and solve problems
+to qualify for the next stage. Round 2:
+Hawkins Lab Protocol (Finale) was an
+immersive mission-based escape challenge
+conducted in a sealed lab environment.
+Participants had to solve a series of hidden
+clues and locked tasks within the lab
+setup. Out of 26 participating teams, 7
+teams advanced to the final round, where
+team coordination, analytical thinking, and
+speed played a crucial role in determining
+the winners.
+The event concluded with the successful escape of the top-performing teams. The first three
+teams to escape the lab were declared winners: 1st Place – Team Stephen Hawkings, 2nd
+Place – Team Nope, and 3rd Place – Team Elite 3. The winners were awarded prizes from a
+total prize pool of ₹10,000, along with exciting goodies and gift hampers. The event was a
+great success, fostering innovation, collaboration, and critical thinking among students while
+creating an exciting and memorable technical competition experience.
+
+--- PAGE 105 ---
+LFDT Student Chapter PCCoE
+
+--- PAGE 106 ---
+Mayuresh 
+Mandalik
+Technical Team 
+Technical Team 
+Mahesh 
+Avhad
+Technical Team 
+Technical Team
+Kunal Biradar
+Treasurer
+Rutuja Jagtap
+President
+Rupal Patil
+Vice-President
+Secretary
+Niraj M. Patil
+Prithviraj 
+Sherikar
+Technical lead
+Rohit 
+Sonawane
+Management lead
+Dishant Gotis
+Samruddhi 
+Sutar
+Design lead 
+Aditi Kale
+Marketing lead
+Mayur Kharat
+Meet Our Team
+Meet Our Team
+
+--- PAGE 107 ---
+Induction
+Induction
+The 
+Department 
+of 
+Computer
+Engineering, 
+PCCoE, 
+proudly
+celebrated 
+the 
+successful
+inauguration of the LFDT India
+Student Chapter – PCCoE on 28th
+March 
+2025. 
+This 
+marked 
+a
+significant milestone as students
+joined the global community of the
+Linux 
+Foundation 
+Decentralized
+Trust (LFDT)—the world’s leading
+open-source 
+body 
+dedicated 
+to
+decentralized technologies, digital
+trust, and collaborative innovation.
+The inauguration set the tone for a
+vibrant journey ahead—filled with
+workshops, research opportunities,
+collaborative 
+projects, 
+and
+industry-driven 
+learning
+experiences.
+The event was graced
+by distinguished experts
+and 
+thought 
+leaders
+from the blockchain and
+decentralized
+ecosystems:
+Kamlesh Nagware – Co-
+Founder, FSV Labs &
+Renowned 
+Blockchain
+Leader
+Dr. 
+Anasuya 
+Threse
+Innocent 
+– 
+Founder,
+Biniworld 
+Innovations
+Pvt. Ltd. & Chair, LFDT
+India Student Chapters
+Ankita Patidar – Tech
+Lead, AyanWorks & Co-
+chair, Hyperledger India
+Chapter
+Garima 
+Singh 
+–
+Government 
+Alliance
+Lead, 
+LFDT 
+India
+Chapter
+
+--- PAGE 108 ---
+Session Highlights
+Introduction to blockchain fundamentals and decentralized
+trust
+Overview of Hyperledger frameworks and enterprise
+blockchain
+Live exploration of the LF Decentralized Trust ecosystem
+Industry use cases and career guidance
+Learning Outcomes
+Clear understanding of blockchain and Hyperledger
+frameworks
+Exposure to enterprise blockchain use cases
+Motivation 
+to 
+build 
+blockchain-based 
+projects 
+and
+participate in hackathons
+ESP: Hyperledger
+Session
+ESP: Hyperledger
+Session
+Date: 26th August 2025
+Speaker: Dr. Anasuya Threse Innocent Ma’am, BiniWorld
+Innovations Pvt. Ltd.
+Mode: Hybrid | Level: College Level
+The LFDT PCCoE Chapter organized an Expert Session on
+“Hyperledger and Its Applications” to introduce students to
+enterprise blockchain technologies beyond cryptocurrencies.
+The session focused on the fundamentals of blockchain,
+decentralization, security, and real-world industry use cases.
+The speaker provided insights into the Linux Foundation’s
+Decentralized Trust Project Matrix and explained popular
+Hyperledger frameworks such as Hyperledger Fabric, Firefly,
+Indy, and Iroha. Students explored how blockchain is being
+used in industries like supply chain, healthcare, finance, and
+identity management.
+
+--- PAGE 109 ---
+ESP: Hyperledger Session
+ESP: Hyperledger Session
+
+--- PAGE 110 ---
+BUILD A THON
+2025
+BUILD A THON
+2025
+Build-a-Thon 2025 | Engineers’ Day
+Exclusive 
+Build-a-Thon 
+2025 
+was 
+a
+remarkable celebration of innovation,
+talent, and engineering spirit. The
+event unfolded over several dynamic
+phases—beginning with an insightful
+8-hour workshop on Decentralized
+AI, followed by an intensive 36-hour
+implementation 
+marathon, 
+and
+culminating 
+in 
+impressive 
+final
+presentations and awards.
+This year’s theme, “Where Agents
+Shape Tomorrow,” was reflected in
+every idea, prototype, and interaction
+throughout the event. Participants
+embraced cutting-edge technologies,
+showcasing creativity, teamwork, and
+forward-thinking problem-solving.
+With 
+560+
+participants across
+275+ 
+teams
+representing
+prestigious
+institutions such as
+IITs, VIT, VIIT, WIT,
+and 
+many 
+more,
+Build-a-Thon 2025
+emerged as a true
+hub of innovation,
+collaboration, 
+and
+futuristic vision. The
+enthusiasm 
+and
+dedication of every
+participant 
+made
+this edition one of
+the most impactful
+yet.
+
+--- PAGE 111 ---
+The 
+SDP 
+not 
+only
+strengthened 
+students’
+foundational knowledge
+but also inspired them
+to explore blockchain as
+a 
+rapidly 
+evolving
+domain 
+shaping 
+the
+future of decentralized
+systems.
+The 
+session 
+also
+highlighted 
+how
+blockchain 
+is 
+driving
+innovation 
+in 
+sectors
+such 
+as 
+finance,
+cybersecurity, 
+supply
+chain, healthcare, and
+digital identity. Through
+real-world 
+examples
+and 
+interactive
+discussions, 
+students
+gained valuable insights
+into why blockchain is
+considered 
+a
+cornerstone technology
+for the future.
+Demystifying Blockchain
+: Foundations for Future
+Engineers
+Demystifying Blockchain
+: Foundations for Future
+Engineers
+The 
+LFDT 
+Student 
+Chapter,
+Department 
+of 
+Computer
+Engineering, 
+PCCOE, 
+recently
+organized an enlightening Student
+Development 
+Program 
+(SDP)
+titled “Demystifying Blockchain:
+Foundations for Future Engineers.”
+The 
+session 
+was 
+skillfully
+delivered by Prof. Rucha Shinde,
+Assistant Professor at PCCOE,
+Research Scholar, and Certified
+Blockchain 
+Developer. 
+Her
+expertise brought clarity to the
+complex 
+world 
+of 
+blockchain,
+helping students understand its
+core 
+principles, 
+real-world
+applications, 
+and 
+its
+transformative role in modern
+technology.
+
+--- PAGE 112 ---
+DecentraHACK
+DecentraHACK
+Date: 17th – 23rd January
+2026
+Judge: Mr. Rohan Raverkar,
+Vice 
+President, 
+Barclays
+Technology Services
+Mode: Online | Level: National
+DecentraHACK was a 5-day
+national-level 
+online
+hackathon 
+focused 
+on
+Blockchain, Web3, Agentic AI,
+Cybersecurity, 
+and 
+Digital
+Identity. Participants ideated,
+built, and presented working
+prototypes addressing real-
+world challenges.
+The 
+hackathon 
+featured
+expert 
+mentorship,structured
+evaluations, and industry-level
+feedback, 
+helping 
+students
+refine 
+both 
+technical 
+and
+professional skills.
+Hackathon Highlights
+5-day 
+intensive 
+online
+development sprint
+Focus on DApps, smart
+contracts, 
+and
+decentralized systems
+Expert 
+judging 
+and
+mentorship
+Live demo and PPT-based
+project evaluation
+Learning Outcomes
+Hands-on experience in
+decentralized application
+development
+Improved teamwork and
+technical communication
+ Exposure to industry
+standards and scalability
+considerations
+
+--- PAGE 113 ---
+FDP sessions -
+Decentralized AI
+FDP sessions -
+Decentralized AI
+Date: 2nd – 7th February
+2026
+Level: National | Audience:
+Faculty & Researchers
+The National Level FDP on
+“Decentralized AI” explored
+the convergence of Artificial
+Intelligence and Distributed
+Ledger Technologies (DLT).
+Sessions were conducted by
+eminent academicians and
+industry experts focusing on
+decentralized trust, AI agents,
+identity frameworks, and
+federated learning.
+Topics Covered
+AI + Blockchain convergence
+Decentralized identity and
+verifiable credentials
+AI agent governance and
+registries
+Federated learning for
+privacy-preserving AI
+Program Highlights
+Expert-led technical sessions
+Research-oriented discussions
+Real-world case studies
+Curriculum and research
+guidance
+Learning Outcomes
+Deep understanding of
+decentralized AI ecosystems
+Research insights for faculty
+and scholars
+Practical knowledge of AI
+governance on blockchain
+
+--- PAGE 114 ---
+MTECH
+EVENTS
+
+--- PAGE 115 ---
+     On September 3, 2025, the PCCOE ACM-W Student Chapter
+hosted an illuminating online expert session titled "Smart Writing:
+Navigating AI Tools for Research Papers," drawing 18  PG and
+Ph.D. scholars from Computer Engineering to master AI's role in
+elevating academic writing.
+        Dr. Swati Shinde, Professor & Dean (MIS) at PCCoE Pune,
+guided participants through four pivotal AI categories: literature
+discovery using ResearchRabbit, Litmap, Connected Papers, and
+Consensys; summarization with Elicit, SciSpace, SciSummary, and
+ChatPDF; drafting via Scispace, Paperguide, and Paperpal;  plus  
+final polishing checks, all demonstrated live for seamless workflow
+integration.
+Expert Session on Smart
+Writing: Navigating AI Tools
+for Research Papers
+
+--- PAGE 116 ---
+Expert Session on Smart
+Writing: Navigating AI Tools
+for Research Papers
+     She emphasized
+ethical AI practices to
+safeguard originality and
+credibility, 
+sparking
+interactive 
+Q&A 
+where
+scholars 
+shared
+experiences and gleaned
+tailored 
+strategies 
+from 
+deation 
+to 
+publication-ready 
+manuscripts.
+Attendees gained hands-on command of these tools, refined
+research presentation skills, and a steadfast awareness of
+responsible AI use, propelling their academic pursuits with
+newfound efficiency and excellence.
+
+--- PAGE 117 ---
+     On October 11, 2025, the Department of Computer
+Engineering at Pimpri Chinchwad College of Engineering, in
+collaboration with ACM-W PCCOE and CESA, hosted "The Art of
+Literature Review" at 10:00 AM in room 6105LA. Led by Dr.
+Aparna Joshi, Assistant Professor in Computer Engineering and
+ACM-W Faculty Sponsor, the session equipped students and
+research scholars with a systematic blueprint for mastering
+literature reviews essential to academic projects and rigorous
+research.
+Expert Session : 
+The Art of Literature
+Review
+     Dr. Aparna Joshi illuminated key steps—from crafting review
+protocols and sourcing quality materials to evaluating credibility,
+synthesizing insights, and streamlining citations—through vivid
+examples and structured techniques that sharpened search
+strategies and reference management. Participants delved into
+practical workflows for appraising sources and weaving analytical
+narratives, emerging with heightened prowess in producing
+polished, authoritative review papers. The event not only clarified
+complex research practices but also ignited a passion for
+excellence, arming attendees with enduring skills to elevate their
+scholarly output.
+
+--- PAGE 118 ---
+Expert Session : 
+The Art of Literature
+Review
+
+--- PAGE 119 ---
+Khushie
+ Mohod
+Shriya 
+Bagade
+Madhura 
+Barve 
+Saloni 
+Katkar
+Shivani
+ Vibhute
+ACM WINTER SCHOOL
+Responsible AI 
+XIM University, Bhubaneshwar
+ Compiler Design for Today’s World 
+SRM University, Chennai
+Shravan 
+Joshi
+Sanchita 
+Sakhare
+Rushikesh
+ Patil
+Krushnakant
+ Patil
+
+--- PAGE 120 ---
+ACM WINTER SCHOOL
+Engineering the Future with Digital
+Twins 
+Ramdeobaba University, Nagpur
+Hridaya
+ Morey
+Aditi
+ Joshi
+Sanika 
+Gadhve
+ Advance Blockchain 
+ IIT Madras
+Shravani
+Sonigra
+Afia
+Shaikh
+AI & Finance 
+ IIIT Hyderabad
+Rahul
+Landge
+
+--- PAGE 121 ---
+Ayush Patil
+Mayuresh Rane
+Rushikesh Patil
+Prerna Rajput
+Aaryan Bhujan
+LFDT
+EDITORIAL TEAM
+Sanskruti Dahiphale
+ACM
+ACM
+ACM
+ACM
+ACM-W
+OWASP
+
+--- PAGE 122 ---
+Samierra
+Bhagat
+Vedanti
+Papat
+Pracheta
+Mukhedkar
+Avani
+Joshi
+EDITORIAL TEAM
+Christy
+Francis
+Parul
+Avhad
+Taniksha
+Suravase
+Khushi
+Jadhao
+
+--- PAGE 123 ---
+The Community
+Benefits of acm
+CESA(Computer 
+Engineering 
+Students 
+Association) 
+is 
+a
+community of vaders that aims to help thea fellow mates by
+arranging competitions, workshops, and similar events which help
+in the overall development of the students. The benefits of CESA
+are listed below:
+Members get in touch with seniors and resource people, so
+they get to know about various things like evenis, software,
+and resources from the people who have experienced it
+Members gain comprehensive expomre which helps them in
+their overall grosth.
+Members learn about working in a team and coordinating
+with other members which is a valuable skill in the corporate
+world
+Members learn the etiquette of interacting with seniors,
+faculty members, and peers which helps them.
+Members ger a chance to interact with international bodies in
+order to help them connect globally
+Members have exclusive access to our Higher Studies Cell and
+Coding club.
+Members get a concession in fees, travel support if they
+participate in events conducted by ACM. A higher preference
+is provided to our members on a globul scale.
+Members are funded by CESA for their innovative ideas to
+help them achieve recognition globally.
+Members can nominate themselves for various awards by
+CESA and also provide them with a platform to help them
+publish their work viz CESA Insider, Website, Facebook, etc.
+
+--- PAGE 124 ---
+The Community
+ACM(Association for computing machinery)
+is the world's largest educational and
+scientific computing society which delivers
+resources that advance computing as a
+science and a profession. The members are
+provided with a learning center where
+online books, videos, and webinars are
+available. A digital library that has over 2
+million pages of text, a platform to
+communicate with other members weekly
+tech news to keep the members in touch
+with the current trends in the tech
+industry, they get a discount on ACM
+journals and magazines.
+ACM-W Student Chapter ains to motivate
+and support women in the field of
+computing. The main focus of this chapter
+is to help women grow in the technical as
+well as non-technical areas. Workshops
+are conducted w.rt current technology
+trends to increase technical knowledge as
+per the industry requirement. Girls are
+highly motivated to participate in the
+Grace Hopper Celebration which is the
+world's 
+largest 
+women 
+technologists
+gathering. As for the non-technical part,
+a wide range of workshops and webinars
+are organized to create awareness about
+entrepreneurship, 
+health 
+issues,
+opportunities after graduation, etc.
+PCCOE
+
+--- PAGE 125 ---
+Several parameters are considered for this
+award like academic excellence, excellence in
+Co-curricular and extra-curricular activities,
+leadership quality, participation in Social
+activities, 
+participation/excellence 
+in
+competitive examinations, placement/higher
+studies/entrepreneurship status, involvement
+in different activities for self /department
+Vinstitute 
+development, 
+internships,
+certifications, etc. undergone during the
+tenure and needless to say, the faculty
+opinion.
+Nature 
+of 
+the 
+award: 
+Special 
+trophy,
+Certificate, and Rs. 21,000/- cash.
+Every good thing calls for appreciation. So, every year, some of the
+students from the final year of our department are awarded for
+their overall performance. The most prestigious among these awards
+is the Best Outgoing Student of the Year award.
+CESA Awards
+This award is given to the student
+who 
+has 
+shown 
+outstanding
+performance during his tenure in
+the 
+research 
+and 
+innovation
+domain.
+Nature of the award: Trophy.
+Certificate
+Best Outgoing Student of the Year
+award
+Most Innovative Student of the
+Year award 
+
+--- PAGE 126 ---
+CESA Awards
+This award will be given to the
+student who is an overall top rank
+holder 
+in 
+the 
+University
+examination. 
+Nature of the award: Trophy,
+Certificate
+This award will be given to the
+student who gets the best salary
+package 
+through 
+campus
+placement/off-campus drives for
+the respective year. 
+Nature of the award: Trophy,
+Certificate
+A student who performs exceptionally
+well in the higher studies entrance
+examination, or has any achievements in
+entrepreneurship, etc. is considered for
+this award. 
+Nature 
+of 
+the 
+award: 
+Trophy.
+Certificate
+Academic topper 
+Best Salary Package Achiever 
+Achievers in the Higher studies entrance
+examination, entrepreneurship 
+
+--- PAGE 127 ---
+Mission
+Serving the needs of the society at large
+through establishment of a state-of-art
+Engineering Institute
+Imparting right Attitude, Skills, Knowledge
+for self-sustenance through Quality
+Education
+Creating globally competent and Sensible
+engineers, researchers and entrepreneurs
+with an ability to think and act
+independently in demanding situations
+Vision & Mission of PCCoE
+To be one of the top 100 Engineering
+Institutes of India in coming five years by
+offering exemplarily Ethical, Sustainable and
+Value Added Quality Education through a
+matching ecosystem for building successful
+careers.
+Vision
+
+--- PAGE 128 ---
+Mission
+To develop technologically competent
+and self-sustained professionals through
+contemporary curriculum.
+To nurture innovative thinking and
+collaborative research, making a
+positive impact on society.
+To provide state-of-the art computing
+environment and learningopportunities
+through Center of Excellence.
+To foster leadership skills and ethics
+with holistic development.
+Vision & Mission of
+Computer Department
+To be a premier Computer Engineering
+Department 
+by 
+achieving 
+excellence 
+in
+Academics 
+and 
+Research 
+for 
+creating
+globally competent and ethical professionals.
+Vision
+
+--- PAGE 129 ---
+https://pccoe.acm.org/
+INSIDER
+VISION
+MISSION
+To be a Premier Hub in Computer Engineering in Education and
+Research.
+To build technologically competent and ethically strong
+individuals for serving the needs of industry and society by
+providing state-of-the-art resources, opportunities for Learning
+and Research in Computer Engineering
+CESA INSIDER
+Fill out this form to contribute to the next insider

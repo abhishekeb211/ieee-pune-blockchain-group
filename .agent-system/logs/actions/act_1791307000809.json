@@ -1,0 +1,13 @@
+{
+  "action_id": "act_1791307000809",
+  "timestamp": "2026-10-06T17:16:40.809757+00:00",
+  "action_type": "fetch_seed",
+  "details": {
+    "seed_id": "PCCOE_CESA_MAGAZINE_2026",
+    "url": "https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf",
+    "status_code": 200,
+    "content_len": 12943326,
+    "error": null
+  },
+  "status": "success"
+}

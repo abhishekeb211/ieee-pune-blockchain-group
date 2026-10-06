@@ -1,0 +1,13 @@
+{
+  "action_id": "act_1791307003621",
+  "timestamp": "2026-10-06T17:16:43.621906+00:00",
+  "action_type": "fetch_seed",
+  "details": {
+    "seed_id": "MMCOE_BLOCKCHAIN_LAB",
+    "url": "https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/",
+    "status_code": 200,
+    "content_len": 400827,
+    "error": null
+  },
+  "status": "success"
+}

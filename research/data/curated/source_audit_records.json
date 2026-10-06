@@ -1,0 +1,208 @@
+[
+  {
+    "seed_id": "BCTC_NEWSLETTER_Q1_2024",
+    "url": "https://blockchain.ieee.org/images/files/newsletter/Q1_2024_NewsLetter_IEEE_BCTC_v3.pdf",
+    "tier": "A",
+    "category": "PDF",
+    "status_code": 404,
+    "content_length": 0,
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-10-06T17:16:14.522330+00:00",
+    "findings": []
+  },
+  {
+    "seed_id": "BCTC_SLIDE_RAMADOSS",
+    "url": "https://blockchain.ieee.org/images/files/pdf/2024/india/pune/2_Ramesh_Ramadoss.pdf",
+    "tier": "A",
+    "category": "PDF",
+    "status_code": 404,
+    "content_length": 0,
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-10-06T17:16:16.179815+00:00",
+    "findings": []
+  },
+  {
+    "seed_id": "BCTC_SLIDE_DESHMUKH",
+    "url": "https://blockchain.ieee.org/images/files/pdf/2024/india/pune/3_Dr_Surekha_Deshmukh.pdf",
+    "tier": "A",
+    "category": "PDF",
+    "status_code": 404,
+    "content_length": 0,
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-10-06T17:16:17.816437+00:00",
+    "findings": []
+  },
+  {
+    "seed_id": "BCTC_SLIDE_MURTHY",
+    "url": "https://blockchain.ieee.org/images/files/pdf/2024/india/pune/5_Dr_BK_Murthy.pdf",
+    "tier": "A",
+    "category": "PDF",
+    "status_code": 404,
+    "content_length": 0,
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_at": "2026-10-06T17:16:19.470766+00:00",
+    "findings": []
+  },
+  {
+    "seed_id": "IEEE_VTOOLS_GROUP_62",
+    "url": "https://vtools.vtools.ieee.org/home/local_groups/view/62",
+    "tier": "A",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 17923,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:21.575463+00:00",
+    "findings": [],
+    "title": "IEEE Pune Blockchain Group : Local Group : vTools vTools | vTools IEEE"
+  },
+  {
+    "seed_id": "IEEE_BCTC_HOME",
+    "url": "https://blockchain.ieee.org/",
+    "tier": "A",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 68699,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:23.397217+00:00",
+    "findings": [],
+    "title": "IEEE Blockchain Technical Community"
+  },
+  {
+    "seed_id": "IEEE_PUNE_SECTION_DOMAIN1",
+    "url": "https://ieeepunesection.org/",
+    "tier": "A",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 100439,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:26.675778+00:00",
+    "findings": [],
+    "title": "Home - IEEE Pune Section"
+  },
+  {
+    "seed_id": "IEEE_PUNE_SECTION_DOMAIN2",
+    "url": "https://ieeepune.org/",
+    "tier": "A",
+    "category": "HTML",
+    "status_code": 0,
+    "content_length": 0,
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+    "retrieved_at": "2026-10-06T17:16:28.039342+00:00",
+    "findings": []
+  },
+  {
+    "seed_id": "PCCOE_SAMVAAD_2024",
+    "url": "https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf",
+    "tier": "B",
+    "category": "PDF",
+    "status_code": 200,
+    "content_length": 10298651,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:31.074225+00:00",
+    "findings": [
+      "Contains 'Pune'",
+      "Contains 'Blockchain'",
+      "Found participant count 112",
+      "Found participant count 115",
+      "Contains Dr. Sonali Patil reference"
+    ],
+    "page_count": 11,
+    "extracted_images_count": 99
+  },
+  {
+    "seed_id": "PCCOE_EBCT_2024_FLYER",
+    "url": "https://www.pccoepune.com/pdf/Flyer_STTP_EBCT-2024_PCCOE.pdf",
+    "tier": "B",
+    "category": "PDF",
+    "status_code": 200,
+    "content_length": 664323,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:33.614455+00:00",
+    "findings": [
+      "Contains 'Pune'",
+      "Contains 'Blockchain'",
+      "Contains Dr. Sonali Patil reference"
+    ],
+    "page_count": 1,
+    "extracted_images_count": 3
+  },
+  {
+    "seed_id": "PCCOE_FDP_PAGE",
+    "url": "https://www.pccoepune.com/fdw/faculty-development-programs.php",
+    "tier": "B",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 95892,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:35.603148+00:00",
+    "findings": [],
+    "title": "Faculty Development Programs 2025 | PCCOE Pune"
+  },
+  {
+    "seed_id": "PCCOE_FDP_ORGANIZED",
+    "url": "https://computer.pccoepune.com/fdp-organized",
+    "tier": "B",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 66434,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:37.575491+00:00",
+    "findings": [],
+    "title": "Faculty Development Programs Organized | PCCOE Computer Engineering"
+  },
+  {
+    "seed_id": "PCCOE_CESA_MAGAZINE_2026",
+    "url": "https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf",
+    "tier": "B",
+    "category": "PDF",
+    "status_code": 200,
+    "content_length": 12943326,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:40.809757+00:00",
+    "findings": [
+      "Contains 'Pune'",
+      "Contains 'Blockchain'",
+      "Found participant count 112",
+      "Found participant count 115",
+      "Contains Dr. Sonali Patil reference"
+    ],
+    "page_count": 129,
+    "extracted_images_count": 171
+  },
+  {
+    "seed_id": "MMCOE_BLOCKCHAIN_LAB",
+    "url": "https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/",
+    "tier": "B",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 400827,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:43.622906+00:00",
+    "findings": [],
+    "title": "Blockchain \u2013 MMCOE"
+  },
+  {
+    "seed_id": "MMCOE_WORKSHOPS",
+    "url": "https://mmcoe.edu.in/departments/information-technology/co-curricular-activities/workshops/",
+    "tier": "B",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 389391,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:45.277397+00:00",
+    "findings": [],
+    "title": "Workshops \u2013 MMCOE"
+  },
+  {
+    "seed_id": "MMCOE_DEPT_ABOUT",
+    "url": "https://mmcoe.edu.in/departments/information-technology/about-department/",
+    "tier": "B",
+    "category": "HTML",
+    "status_code": 200,
+    "content_length": 486367,
+    "error": null,
+    "retrieved_at": "2026-10-06T17:16:46.943605+00:00",
+    "findings": [],
+    "title": "About Department \u2013 MMCOE"
+  }
+]

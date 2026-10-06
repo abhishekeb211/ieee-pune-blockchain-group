@@ -1,0 +1,719 @@
+--- PAGE 1 ---
+  
+1  
+Inside This Issue 
+Editorial Column 
+ Page 1 
+PCCoE Central  Events 
+ 
+S. B. Patil Memorial  
+Colloquium Series  
+  
+Page 2 
+ 
+ 
+Mechanical Department 
+Electronics & Tele. Com. 
+Computer Department 
+CSE (AIML) & MCA 
+Information Technology 
+Civil   Engineering 
+ 
+ Page 3 
+ Page 4 
+ Page 5,6 
+ Page 7 
+ Page 8 
+ Page 9 
+ 
+Fitness First Festival 
+Activities and  Announce-
+ments  
+ Page 10 
+Achievements and Notices  Page 11 
+Our Patrons : Pimpri Chinchwad Education Trust 
+Samvaad For private circulation only  
+PCCoE’s 
+                   ……Connecting Minds & Souls 
+Disclaimer : The authenticity & responsibility of Information, opinion expressed in the features, notifications & articles of Samvaad rests with the authors.    
+Monthly News Letter 
+January 2024 
+Volume 3, Issue 4 
+       Late. Shri. Shankarrao B. Patil    
+       Founder President 
+Late. Smt. Lilatai Shankarrao Patil  
+Ex-President 
+Shri. H. S. Patil 
+Trustee 
+Shri. S. D. Garade 
+Treasurer 
+Shri. D. P. Landge 
+Chairman  
+Smt. P. M. Bhosale 
+Vice Chairperson  
+Shri. V. S. Kalbhor 
+Secretary 
+Shri. Dr. G. M. Desai       
+Ext. Director, PCET 
+ 
+ 
+The journey painted a picture of a nation committed to safe-
+guarding its dams, not just as structures of concrete and steel but as symbols of 
+water security and bastions of safety in the face of seismic challenges. The jour-
+ney continued, with each revelation in the seismic analysis paving the way for a 
+future where India&#39;s dams stood resilient, ready to face the unpredictable 
+forces of nature and ensure the well-being of its people. 
+ 
+In the vast expanse of India&#39;s landscape, where rivers crisscrossed 
+the plains and mountains, a silent network of dams stood as guardians of the 
+nation&#39;s water security. The story began in April 2012, when the Ministry 
+of Water Resources, River Development &amp; Ganga Rejuvenation initiated 
+the Dam Rehabilitation and Improvement Project (DRIP). With 5334 large 
+dams already in operation and 411 under construction, the responsibility of en-
+suring their safety and proper management loomed large. 
+ 
+The first phase of DRIP, a colossal endeavour with a budget of INR 
+2100 Crore (US$M 437.5), concluded successfully in March 2021. It had reha-
+bilitated 223 dams across seven states, fortifying their structural integrity and 
+operational efficiency. The success marked a turning point, propelling India 
+into the next phase – DRIP Phase II and Phase III. As the nation geared up for 
+this ambitious project, the focus shifted to an integral aspect of dam safety – 
+seismic analysis. The Seismic Analysis for Dams unfolded, a comprehensive 
+guide born out of the collective effort to equip dam engineers, regulators, and 
+stakeholders with the knowledge and tools necessary to enhance dam safety 
+against seismic events. It needs to delved into the heart of why seismic analysis 
+was paramount. It recounted historical incidents, like the devastating Bihar 
+earthquake of 1934, which exposed the vulnerabilities in dam infrastructure. 
+The lessons learned from such events had become the foundation for a height-
+ened awareness of seismic considerations in dam design and maintenance. 
+More recent seismic events, like the 2001 Bhuj earthquake and the 2015 Nepal 
+earthquake, served as stark reminders of the imperative for detailed seismic 
+analysis, pushing for continuous improvement in dam safety protocols. 
+ 
+The shortcomings of traditional dam design methods came to light. It 
+needs to advocated for modern seismic analysis procedures detailed, incorporat-
+ing realistic ground motions and dynamic considerations. It needs to addressed 
+the limitations of conventional finite-element methods and called for on-going 
+research to refine analysis procedures. It emphasized the need for a more dy-
+namic and comprehensive seismic analysis to ensure the resilience of dams in 
+the face of seismic challenges. The narrative unfolded to explore the regulatory 
+framework governing dam safety. In India, a robust national regulatory frame-
+-work, led by entities like the Ministry of Jal Shakti, Central Water Commission 
+(CWC), Dam Safety Organizations (DSOs), and the National Committee on Dam 
+Safety (NCDS), reflected a commitment to aligning with global best practices. The 
+evolution of regulations, legal frameworks, and integration with environmental and 
+social regulations is integral parts, showcasing a holistic approach to dam safety. 
+Internationally, the alignment of Indian dam safety codes with standards from organi-
+zations like the International Commission on Large Dams (ICOLD) showcased a 
+global perspective. The adaptability of codes to India&#39;s unique geological, hy-
+drological, and socio-economic context ensured relevance and effectiveness.  
+ 
+The narrative continued to explore site characterization, emphasizing geo-
+logical, geotechnical, and hydrogeological considerations. Historical seismic activity 
+studies, hydrogeological interactions, and the impact of reservoir-induced seismicity 
+were scrutinized. The seismic analysis emerged as a beacon guiding dam profession-
+als through the complex landscape of seismic considerations. 
+Fig. LARGE DAMS WORLDWIDE (TOP 6) and Economy size 
+Samvaad Editorial  Article: India's Journey Through Dam Safety and Seismic Vigilance 
+Dr. Sharad Ghodke, 
+Horizon Post-doctoral Fellow, BCCE 
+Concordia University, Montreal, QC, Canada  
+*** Team Samvaad  *** 
+Editor-in-Chief : Dr. Govind N. Kulkarni   
+Executive Editors: Dr. Ajay K. Gaikwad, Dr. Pravin R. Kale 
+Associate Editor:  Mrs. Sonal Shirke (EnTc), Dr. Suvarna Bhatsangave (AIML), Dr. M. Kadam (AS&H), Mr. H. H. Kadam (Mech), Mr. Bali Khurana MCA),   
+Ms. Anushree Chandragade (Civil), Mrs. Madhuri Suryawanshi (Comp), Mrs. Shradha Tawade (IT), Mr. Santosh Pacharne (Physical Director)  
+ Assistant Editors: Mr. Samarth Gosain, Mr. Devang Edile, Mr. Parth Gorkhe (EnTc), Ms. Divya Pawar (AIML),  Ms. Arya Zambre, Mr. Pushkaraj Gaikwad,  
+Mr. Aditya Bhosale (CSE-RL), Mr. Varun Desai, Mr. Ganesh Kodnani, Ms. Vaishnavi Birhare (Civil), Ms. Diksha Bhosale, Piyush Patil (AS&H), Ms. Shruti Kulkarni ,  
+Ms. Jui Harisangam (Mech),  Mr. Prathamesh Gaikwad (Comp), Mr. Sidhesh Chaudhari  (IT), Mr. Aniket Dhangare, Ms. Prabhujyoti Singh, Mr. Darshan Pathak (MCA)  
+
+--- PAGE 2 ---
+  
+2  
+PCCoE Annual Social Gathering “Swaratarang 2024”    Day 1 
+―Kavi Sammelan‖ was conducted on 23rd January 2024 under the Annual Techfest Swartarant 202, as a inaugural event of  Swartarang 2024. Hon. Shri. Ramdas Phu-
+tane, a renowned political poet, was available as the Guest of Honour for the event. Hon. Shri. Anil Athlekar was the Chief Guest for the Event.  The event started with the 
+Lamp lightning ceremony from all the dignitaries. the event proceeded with the felicitation of the Guest of Honour by the hands of respected Director Sir, Dr. Govind N. Kul-
+karni and Dr. P.R. Kale with a boquet, memento  and shawl to show our respect and love. The event started with the online opening of the Swartarang 2024 with the display of 
+poster for the event. The event had the participation of over 20 participants who presented their self written poems in the event. The exhibition featured a diverse range of art-
+work, including striking sketches, vibrant paintings, and captivating photographs, each reflecting the unique emotions and inspirations behind their creation. Many artists were 
+keen to share the stories and emotions that fueled their work, providing insightful narratives into their creative process.  This year's Swartarang event proved to be a remarkable 
+success, featuring a total of 60 registrations, from which 25 students were selected to showcase their musical talents.  
+PCCoE Annual Social Gathering “Swaratarang 2024”    Day 2 
+On the occasion of swartarang 2024, our college arranged a Funfair, which included Food stalls, fun games, and Music on demand. This year, MESA successfully conducted the 
+Funfair under the guidance of Prof. Anand Birajdar on 23rd January.  PCCOE champions was first conducted by PCCOE Art circle under Swartarang 2k23. It is an inter-
+departmental battle. 9 departments including CS, IT, EnTC, Mech, Civil, AIML, AS&H, MCA, B.voc fought against each other in 7 competitions like Rangoli, painting, Pho-
+tography, Solo Dance, Group Dance, Elocution and Quiz. The department with the most number of points is declared as the winner. Rampwalk was  basically a runway where 
+our students walked down to display rich culture of India as well as journey from where Indian cinema started. The Fishpond event at Swartarang was a multi-step process that 
+engaged participants across all seven departments of our college.  
+ 
+A lecture series titled, “S. B. Patil Memorial Colloquium” Series by eminent International experts is organized for the students and 
+faculty members of the institute comprising 12 sessions during the academic year 2023-24 and 2024-25.  Dr. Dinesh Amalnerkar, Advisor, Re-
+search and International Academics is guiding in identifying the experts 
+from various countries. Inaugural talk of Dr. Ashok Joshi on ―Innovation 
+and Entrepreneurship” was conducted on 30th Jan‟2024 at 3 pm. He has 
+shared his journey of Entrepreneur from Junior Engineer to President of 
+Ceramtek to Co-Founder of 10 industries in the USA. The session was very 
+informative and interactive.   Dr. Govind N. Kulkarni, Director, Pimpri 
+Chinchwad college of Engineering has explained the life journey of Late 
+Shri S B Patil sir. This program is organized by Dr. Rajesh Phursule, Asso. 
+Prof.(IT), Department , Dr. Laxman Avadhani, Asso. Prof.(Mechanical), 
+Dr. Sujata Kolhe, Asso.Prof. (Computer Department). 
+PCCoE‟s  S. B. Patil Memorial Colloquium Series : Session 1 
+
+--- PAGE 3 ---
+  
+3  
+Mechanical Department 
+ 
+Mechanical engineering is a diverse and challenging field that encompasses the design, development, and maintenance of mechanical systems and machinery. It is a 
+discipline that requires a strong understanding of physics, mathematics, and materials science, as well as creative problem-solving skills and a passion for innovation. One of the 
+key aspects of mechanical engineering is the design and analysis of mechanical systems. This can involve anything from small components such as gears and bearings, to large-
+scale systems like industrial machinery and vehicles. Mechanical engineers must consider factors such as material selection, manufacturing processes, and environmental impact 
+when designing these systems, and strive to create efficient, reliable, and cost-effective solutions. In addition to design, mechanical engineers are also responsible for the devel-
+opment of new technologies and products. This often involves conducting research and testing to improve existing systems or creating entirely new innovations. Whether it‘s 
+developing more efficient engines, designing advanced robotics, or creating sustainable energy solutions, mechanical engineers play a critical role in driving technological pro-
+gress and improving the quality of life for people around the world. Mechanical engineering also plays a crucial role in addressing global challenges such as climate change and 
+sustainability. Engineers in this field work on projects related to renewable energy, energy efficiency, and environmental impact reduction. They are at the forefront of develop-
+ing new technologies and solutions to address these pressing issues, making a significant contribution to building a more sustainable future. The field of mechanical engineering 
+is constantly evolving and expanding, with new technologies and innovations driving continued growth and opportunities. The demand for mechanical engineers is strong across 
+various industries, including automotive, aerospace, energy, and manufacturing.  
+In conclusion, mechanical engineering is a dynamic and rewarding profession that offers a wide range of opportunities to make a positive impact on the world.  
+ 
+ 
+ 
+ 
+ 
+ 
+— by a Student of mechanical department. 
+Technical Feast 
+Quotes of the month 
+ 
+  "There is no security on this earth; there is only 
+opportunity." — Douglas MacArthur 
+ 
+ 
+"Whenever you see darkness, there is extraordi-
+nary opportunity for the light to burn brighter." — 
+Bono 
+ 
+ 
+"Problems can become opportunities when the 
+right people come together." — Robert Redford 
+ 
+ 
+"Opportunities do not come with their values 
+stamped upon them. Everyone must be chal-
+lenged. A day dawns, quite like other days; in it, 
+a single hour comes, quite like other hours; but 
+in that day and in that hour the chance of a life-
+time faces us." — Maltbie Davenport Babcock 
+ 
+Who am I? 
+On a dull night drenched in the rainfall, 
+Cool breeze lingered around, 
+An innocuous dog curled up in a ball, 
+Complaining in a whimpering sound 
+Surrounded by an air of pensive sadness, 
+His thoughts melted in despair, 
+Fading into the alluring madness, 
+Going back and forth on an old rocking chair, 
+I should have been a traveler, 
+Going wherever I please 
+I should have been a musician, 
+Performing in a rock concert, 
+Why an Engineer, he asked with lacking ambition, 
+To the passing night that seemed shaken but unhurt 
+At the horizon a bright fireball appeared, 
+Painting the sky orange in uniform strokes, 
+The dog felt the warmth and cheered, 
+It yawned and stretched and revived its hopes 
+Birds spread across the infinity, 
+Like they‘d just been released from a cage, 
+My thoughts assumed serenity, 
+That perhaps better suited a sage 
+I design the medical equipment, 
+That the doctors choose, 
+I contribute to the transport segment, 
+And to infrastructure that travelers use 
+I ferry the musician‘s melody 
+To the yearning ear, 
+I make things possible, 
+Because I am an Engineer                       
+ 
+ 
+ 
+ 
+ —Mrudula Lele  [F.Y Btech  
+Sketches by Miss Harshal Wagh  (FY Mech) 
+Congratulations Dr. A.N. Kore Successfully defended 
+his PhD thesis on 18/01/2024 for his doctoral degree 
+The Invention on ― Solar Air Dryer with Phase 
+change materials in Drying Trays‖ by Dr. S.P.Salve 
+and  Dr. A.M. Fulambarkar patented by Govt. of 
+India, Patent No. 496066, Dated 08/01/2024. 
+*Formula Bharat Student Racing Championship 2024* 
+Formula Bharat 2024 held @Coimbatore between 19th - 24th January.  PCCoE Team Kratos secured 
+the overall 3rd rank in the *Electric Vehicle* category. .2nd rank in *Engineering Design* in the 
+EV category.  Kratos received the *Most Hospitable Team* Award. Also bagged the special award 
+for *Best Powertrain Design* in the Electric Category, sponsored by Zuken India Private Limited. 
+Congratulations to Team KRATOS and Mentor Mr. S.R. Wankhede. 
+
+--- PAGE 4 ---
+  
+4  
+Electronics & Telecommunication Department 
+1. ETSA Fest-X  
+ETSA-IETE-IEEE from ENTC Department recently hosted an exciting event Fest-X, 
+from January 18th to 19th, bringing together engineering enthusiasts for a thrilling ad-
+venture, had a lot of fun activities for everyone. There were challenges like Engineering 
+Odyssey, where teams solved puzzles and worked together to find hidden clues. Binge 
+Trivia was great for fans of popular shows, testing what they knew about characters and 
+storylines. How I Met Your Murderer let people pretend to be detectives, figuring out a 
+crime scene mystery. Embedded AI was about making everyday things smarter, and 
+Mind Sync was all about teamwork. Overall, the Tech Fest was a really fun event that 
+brought people together to have a good time and learn new things. 
+2.  AutoExpo  
+AutoExpo kicked off on January 12th, bringing together car lovers for an exciting show. 
+Organized by ETSA, IETE, and IEEE from ENTC Department, the event welcomed the 
+"PistonWolves" club, showing off their cool cars and impressive stunts. With engines 
+roaring and tires screeching, spectators watched in awe as drivers pulled off daring 
+moves. Beyond the excitement, AutoExpo was a chance for people to connect and share 
+their love for cars. As the event wrapped up, attendees left with memories of thrilling 
+performances and a newfound appreciation for the world of automobiles. 
+4. Semiconductor Workshop 
+A workshop on 'Emerging Trends in Semiconductors' at Pimpri Chinchwad College of En-
+gineering immersed attendees into the world of tech. Led by Jeevan P Urs from CoreEL 
+Technologies, participants explored FPGA architecture and Vivado software. Hands-on 
+activities included project creation and Verilog coding on Zybo FPGA board. Expert 
+speakers navigated topics like chip verification goals and formal property verification, con-
+tributing to a holistic understanding of semiconductor design. Practical sessions covered 
+layout design, simulation techniques, and IP creation. Gratitude extended to Dr. Dipti 
+Khurge and PCCOE for the opportunity. 
+3. B.Tech Project Mela 
+From January 2nd to 4th, 2024, The E&TC Department of Pimpri Chinchwad College 
+of Engineering and the MHRD Institutions Innovation Council joined hands to host the 
+B.Tech Project Mela, a vibrant event for final-year students. Showcasing a wide range 
+of innovative projects, from cool gadgets to new communication ideas, the event high-
+lighted the creativity of young engineers. Through workshops and talks, attendees 
+learned about making projects and starting their own businesses in a straightforward 
+manner. The Mela also stressed how what students learn in school connects to real-life 
+situations, preparing them well for future careers. With newfound confidence, partici-
+pants left the event ready to take on the world of engineering.  
+The Indian Knowledge System (IKS) 
+  
+
+--- PAGE 5 ---
+  
+5  
+Computer Engineering Department  
+संस्कार शाळा 
+संसाररूपी गाडा इकडे ततकडे न वळता एकदा सरळ रेषेत आपल्या ध्येयाकडे वाटचाल करू लागला ना.. की मग या संसार वेलीवर कळ्या आतण 
+फुलं, मुलं आतण मुलींच्या रूपात तुमच्या आमच्या घरट्यात जन्म घेतात. 'मुलं म्हणजे देवाघरची फुलं'. कोणाच्या घरट्यात, अंगणात तकती येतील आतण 
+रंगरूप, सुंदर, कुरूप तकंवा कोणी व्यंग घेऊन जन्माला येतात. पण आपण म्हणतो ना, 'देवाची करणी आतण नारळात पाणी'... त्याप्रमाणे ही तनसगााची 
+देणगी आहे, असेच म्हणावे लागेल. 
+   तनरागस, तनरूपद्रवी आतण तनमाळ मनाची असलेली ही मुले, तनष्कलंक असतात. मऊ लोण्याच्या गोळ्या प्रमाणे अथवा कुंभार जसा मातीच्या 
+गोळ्याला आकार देऊन, त्यापासून हव्या त्या आकाराच्या मातीच्या भांड्ांची तनतमाती करतो. त्याप्रमाणे आई-वतडलांच्या, आजी आजोबांच्या, आतण 
+इतर नात्यांमध्ये चांगले संस्कार घडून मुले मोठी होतात. बालपणी त्यांना खुशाल अंगणात, पटांगणात खेळू द्यावे. तनसगा, नातीगोती यांची ओळख करून 
+द्यावी. 'शरीर सुदृढ तर मन सुदृढ'... या उक्तीप्रमाणे त्यांच्या मध्ये व्यायामाची आवड तनमााण करणे गरजेचे आहे. पाठांतर, अक्षर लेखन यांची आवड 
+त्यांना आयुष्यभर साथ देईल. पण ही मडकी व्यवस्थथत भाजली गेली आहेत का? त्यांनी चांगला आकार घेतला आहे का? यावर नजर ठेवावी लागेल. पुढे आपल्या आयुष्याच्या 
+संध्याकाळी आपल्याला थंडगार पाणी त्यांनीच द्यायला हवे ना? आतण मग आपले संस्कारच घडवतील, ही चांगली नाती. 
+ तशक्षण मुलांना घडवते. तशक्षक मुलांवर संस्कार करत असतात. तेवढेच संस्कार तनसगा सुद्धा मुलांवर करत असतो. 'तनसगा हा गुरू आहे'. तनसगाात ही मुले वाढत असतात. 
+मोठ्या माणसांनी जसे खुप मोठे उन्हाळे, पावसाळे पातहले असतात. अगदी त्याचप्रमाणे लहान मुलांवरही, मोठ्या माणसांसारखे हे ऋतू संस्कार करत असतात. पण मग 
+शाळेला जायचा कंटाळा आल्यावर, मंगेश पाडगावकर यांनी तलतहलेल्या गीताप्रमाणे तीही म्हणणारच की... 
+सांग सांग भोलानाथ । पाऊस पडेल काय ? 
+शाळेभोवती तळे साचून सुट्टी तमळेल काय? 
+  घर ही संस्कार रुपी शाळाच आहे. मुलांना घडवणारे पालक, तशक्षक संस्कार तर चांगलेच देणार ना? कुणाच्या घरात कसा नारळ तनघेल हे लगेच तर काही सांगता येत नाही. 
+कालांतराने हळूहळू कळत जाते. ज्याच्या घरी चांगली मुले जन्माला आली त्याला नारळ पावला आतण ज्याच्या घरी दुजान, व्यसनी मुले जन्माला आली त्यांचा नारळ नासका 
+तनघाला, असे म्हणावे लागे 
+ या संस्कार शाळेच्या घडणीतून तयार झालेली  मुले-मुली मोठी होऊन संस्काररत घरे थथातपत करतात. तवतवध व्यवसाय, सरकार मधील तवतवध पदे आतण सरकारे, डॉक्टर, 
+इंतजतनअर, वकील, शास्त्रज्ञ या पदांवर जेव्हा काम करतात. 
+तहमालयाच्या सवोच्च तशखरावर तसेच चंद्रावर देखील आपल्या देशाचा ध्वज फडकवतात. आपल्या देशाच्या व अन्य देशांच्या पंतप्रधान पदी पोहचतात. 
+ आता तर संगीत, तसनेमा, नाटक अशी तकती तरी क्षेत्रे त्यांच्या साठी खुली आहेत. अहो...'काही नाही तशकला तर घराची शेती तर आहेच की...त्याच्यासाठी'. असे शेतकरी 
+म्हणतात. शेतीला सुद्धा कोणी कमी लेखू नये. शेतीमध्ये राहून सुद्धा कोटीच्या कोटी उड्डाणे घेणारे शेतकरी आपण आजूबाजूला पाहतो.  अंग मेहनतीचे काम करताना खरा घाम 
+येतो आतण शेतकऱयांचे शरीर शेवटपयंत आजारांपासून लांब असते. तशक्षण, काम कोणत्याही क्षेत्रात चालेल फक्त आपण मुलांना व्यसनापासून लांब राहायला तशकवायला हवे. 
+अभंग, श्लोक, भजन आतण वारकरी प्रबोधन यांनी सुद्धा मुलांवर चांगले संस्कार केले जातात. इतर देशांच्या तुलनेत आपल्या देशाचे तपढ्यान् तपढ्या चालत आलेले हे संस्कार 
+नक्कीच चांगले आहेत. 
+ जीवनाच्या एखाद्या सायंकाळी हे संस्कार आपल्याला आनंद देवून जातात. जुने तदवस आतण बालपण आपल्याला आठवते. संस्कार फलद्रूप होतात. त्या वेळचेच तदवस चांगले 
+वाटतात, आतण मग माणूस म्हणतो..'लहानपण देगा देवा'!! 
+डॉ. प्रविण ड ंबरे 
+ओतूर, तशवजन्मभूमी (जुन्नर) पुणे 
+1. SDW cell recently organized a cloth donation drive, reflecting its commitment to community service 
+and social responsibility. Through this initiative, students and faculty came together to collect gently 
+used clothing items, aiming to support underprivileged individuals and families in need. The drive 
+not only fostered a spirit of empathy and generosity among the college community but also highlight-
+ed the importance of addressing basic needs within our society. By donating clothing, the college 
+contributed to promoting dignity, warmth, and well-being for those less fortunate, embodying the 
+ethos of compassion. 
+2.CESA (Computer Engineering Student Association) recently organized an exhilarating WWE Arena 
+Coding event, electrifying the campus with a fusion of technology and entertainment. Participants em-
+braced the challenge of coding innovative solutions within a wrestling-themed setting, injecting a spirit 
+of excitement and creativity into their projects. With adrenaline-pumping challenges and collaborative 
+camaraderie, the WWE Arena Coding event not only showcased the technical skills of participants but 
+also fostered a sense of community and passion for coding within the college. It served as a thrilling plat-
+form for students to unleash their coding prowess, and inspire one another towards greater heights in the 
+world of technology. 
+3.Viraj Wadate, the esteemed founder and CEO of Vev Code Lab, graced our campus with an enlighten-
+ing expert talk on enhancing Python proficiency in software development.Viraj shared invaluable in-
+sights and practical strategies to master Python programming for software engineering. His engaging 
+presentation captivated the audience, providing a roadmap for leveraging Python's versatility and effi-
+ciency in developing robust software solutions. Attendees gained a deeper understanding of Python's in-
+tricacies, learning how to optimize their coding practices and harness Python's rich ecosystem of libraries 
+and frameworks. 
+ 4.                           was held on 15 December 2023 at Dr. D.Y. Patil Vidyapeeth, Pune. 
+From Pimpri Chinchwad College of Engineering, two faculties Dr. Rajni P. K. and Dr. Mubin Tamboli, 
+and Mr. Pranav Shinde and Mr. Aditya Bora, two students participated in this regional meet. 
+Various dignitaries like Dr. P. D. Patil, Chancellor of Dr. D. Y. Patil Vidyapeeth, Pune, Dr. Abhay Jere, 
+Vice Chairman (AICTE) &  Chief Innovation Officer Ministry of Education, Govt. of India, Dr. Shekhar 
+Mande, Former Director General Coucnil of Scientific  & Industrial Research, Govt. of India, Dr. Bha-
+gyshree P. Patil, Pro Chancellor, Dr. N. J. Pawar, Dr. D. Y. Patil Vidyapeeth, and Dr. Dipan Sahu, Assis-
+tant Innovation Director(AICTE) Ministry of Education, Govt. of India addressed the participants on top-
+ics of Innovation and Entrepreneurship. Various sessions and knowledge sharing on distinguished topics 
+of I & E were held in the program. 
+Seminars / Workshops  
+
+--- PAGE 6 ---
+  
+6  
+Computer Engineering Department  
+1.Embracing 
+the 
+philosophy 
+that 
+"Energy 
+and 
+persistence 
+conquer 
+all 
+things" 
+The PCCOE ACM Student Chapter has once again scaled new heights in its pursuit of excellence. 
+ACM India has bestowed upon us the prestigious Best Student Chapter Award 2023 in the catego-
+ry of Outstanding Chapter Activities. The chapter distinguished itself among a network of 195 
+ACM Student Chapters spanning across India. This recognition is a testament to the unwavering 
+dedication and persistent efforts of the entire team. 
+ 
+ 
+ 
+2. Team Uphar secured a spot in the Grand Finale of the National level Smart India Hacka-
+thon 2023 under the Ministry of Defence's problem statement. The remarkable inclusion of 
+three members  from PCCoE ACM Student Chapter – Tarun Rathod (Webmaster), Aditya Lad 
+(Webmaster), and Wafiya Mulla (ACM-W Webmaster)– underscores the chapter's commit-
+ment to excellence.  
+3.Art circle has grabbed prizes in Prestigious State Level Karandak's. Art Circle continued journey to win prizes this year & following are the de-
+tails, Vinodottam Karandak 2023-Krishna Kalaspurkar (SY Comp. Regional)-Prize for Best Set Design Dajikaka Gadgil karandak 2023-
+Prathamesh Mahajan ( BTech Computer) - Consolation Prize in Acting Bharat Karandak 2023-Krishna Kalaspurkar (SY Comp. Regional)-Second 
+prize for Best Set,Prathamesh Mahajan ( BTech Computer): Consolation prize for Acting. 
+ 
+4. Students from the PCCOE Student Chapter got selected in the 
+ACM Winter School There were selections in the given areas and 
+they are as follows  
+Network Science: theory and application by Ahmedabad Universi-
+ty – Sakshi Kulkarni, Prajwal Lonari, Disha Parale,,  Shivraj 
+Lawhare, Mithilesh Rajput, Pranjali Deshpande, Aditi Dabhade, 
+Lubhavan Burghate, Vinayak  Shete from  Third year got selected for the same.  
+ Data Science for social good by SRM University Chennai – Vaidehi Bhonge, Siddhi Bajpai 
+from the third year got selected. 
+ 
+5. Under the PCCOE Fitness First Festival The PCCOE Olympics were arranged under this there were 
+several awards given and SY Computer Engineering (Regional Language) won the award for BEST 
+THEME JURY. 
+ 
+ 
+ 
+6.PCCOE 
+Championship 
+conducted during SWARTARANG was an interdepartmental competition where all the depart-
+ments competed in various competitions and the Computer Engineering department won the First 
+prize for group dance competition Performed by Shreya Mohod, Asmita Mahamuni, Anushka La-
+hare,Shivraj Lawhare, Manoj Masule on the songs Lallati bhandar and udo udo. 
+Faculty  Achievements  
+1. Remarkable paper publication of the month by Mrs.Geetanjali Sharma published a paper titled as ―Identify the Economic Crisis by Analyzing Banking Data Using 
+Machine 
+2. Learning Technique‖ in Scopus ―International Journal of Intelligent Systems and Applications in Engineering.‖ 
+3. Remarkable paper publication of the month by Dr. Sarika T. Deokate published a paper titled as ―Enhancing Medical Image Analysis Through Deep Learning-Based 
+Lesion Detection‖ in Scopus ―International Journal of Intelligent Systems and Applications in Engineering.‖ 
+4. Dr. Prasshant G Ahire Successfully defended his viva voce for his doctoral degree work in SPPU on his thesis 'An Optimized Context Aware Bio-Inspired Algorithm 
+for Knowledge Discovery in Multi-Dimensional Space'. 
+5. Dr. Rahul Patil Successfully defended his viva voce for his doctoral degree work in SPPU on his thesis  ―An adaptive methodology for extraction of potential actiona-
+ble knowledge with preserving confidentiality in evolving data streams mining‖. 
+SKETCH BY ROHIT 
+SKETCH BY RISHITA AWAS-
+SKETCH BY RISHITA 
+SKETCH BY RISHITA AWAS-
+
+--- PAGE 7 ---
+  
+7  
+Computer Department CSE (AIML) 
+Faculty Achievements 
+ 
+ 
+ 
+ 
+1. Dr.Vishal Patil from CSE(AIML) department  published a paper  titled ―Student Engagement Monitoring in Online Learning Environment‖  in 
+journal  ―International Journal of Intelligent Systems and Applications in Engineering‖  12(1), 292–298 .  
+2. Mrs. Madhuri Pagale has been granted a patent with the application number 202311083112 A for her innovation in "Machine Learning-Based 
+Efficient Power Optimization Techniques for Centric Resource Management in Cloud Computing." The application was filed on 06/12/2023, 
+and the patent was officially published on 12/01/2024.  
+3. Mrs. Pranita Chaudhary has received a patent (Application No: 202341089138 A) for her work on "Detecting Cyber Attacks in the Internet of 
+Medical Things" using Fuzzy Logic and LSTM Networks. Additionally, she holds a copyright for "Literar - Resmic Decentralized Payment In-
+frastructure," demonstrating her expertise in both cybersecurity technology and literary innovation.  
+4. Dr. Vishal Patil and Dr. Satpalsing Rajput were granted patents for an AI-based crop health monitoring device, with Design grant no. 399630-
+001, on September 11, 2023. The official date of issue for these patents is April 1, 2024. 
+1. Gautam Bhagat, Pranav Kale and team from CSE (AI & ML) department qualified as Finalist of Smart India 
+Hackathon 2023 to represent their solution for problem statement ―AI-ML based intelligent de-smoking/de-hazing 
+algorithm‖ and participated in a 36-hour offline Hackathon Finale at Kolhapur Institute of Technology, Kolhapur 
+securing the spot of runner up in the Finale. The team interacted with industry professionals from around the globe 
+and got insights about their solution. 
+2. Pranav Ukhade and Khelesh Patil, from the S.Y. B. Tech CSE (AI & ML) department, clinched the Winner's 
+title in the Quiz Competition at the PCCOE Champions event organized by the Art Circle on January 23, 2024. 
+Their exceptional performance during this prestigious college bash, Swartarang, deserves commendation for navi-
+gating both a fun and professional setting. 
+Student Achievements 
+ MCA Department 
+1.  Mr. Rajkamal Sangole has published a Chapter in OLS by Tylor and Francis titled ―Prediction of Selection of Communication Tools and Plat-
+forms to Support Education 4.0 in India.‖. 
+2. Mr. Rajkamal Sangole published a book titled ―Mobile Application Development Technologies‖ in January 2024. The ISBN number of the book 
+is 978-93-94022-45-4. 
+3. Mr. Anand Jain from the MCA department published a book titled ―ASP.NET Programming‖ in January 2024. The ISBN number of the book is 
+978-93-94022-23-2.  
+4. One Week Workshop was Organized  by Mr. Anand Jain, Mr. Rajkamal Sangole and Mrs. Anjana Arakerimath on ―Linux Administration” 
+from 8 January 2024 to 13 January 2024. Mr. Tushar Kute from MiTu Skilologies was invited as resource person for the workshop. Total 97 
+participants enrolled for the workshop. 
+1. Munmun Ghosal, Tech Lead Data Science, InnoWise Global Pvt. Ltd., Pune (Friday, 23rd February ) 
+2. Expert Session on "Importance of hands-on experience towards skill development and career development" - Dr. Ashutosh Kulkarni, Reader. Vishwakarma Institute of Technol-
+ogy, Pune (Saturday, 2-4 February) 
+TECHNOCASE COMPETITION 2024 at IICMR, Pune 
+          WINNERS: 
+Jesse Moses &  Prabhujyoti Singh   
+           PARTICIPANTS: Pratik Rathod & Purvansh Shukla 
+ 
+ 
+Students Achievements 
+
+--- PAGE 8 ---
+  
+8  
+Information Technology Department 
+Faculty and Students Achievement  
+Sr. No. 
+Topic  
+Faculty Coordinator  
+Funding Agency  
+1 
+A Digital twin for occupancy and equipment 
+usage detection to reduce building energy de-
+mands  
+   Dr.Harsha A Bhute  
+Jidnyasa ( 19th January 2024)  
+2 
+Intelligent Drone for Counter Terrorism Sur-
+veillance  
+Dr. Anuja Jadhav 
+Dr. Jayashree Katti 
+Dr. Sonali Patil 
+Jidnyasa ( 19th January 2024)  
+ Dr. Anuja Jadhav - Branch counselor of the year award-2023  - Received the prestigious Branch 
+counselor of the year award-2023 from IEEE Pune Section awards 2023  
+ Dr. Ashvini Ladekar -  Professional member of the year  award-2023 -  Received the prestigious 
+Professional member of the year  award-2023 from IEEE Pune Section awards 2023  
+ Laxman Babu -  Student member volunteer of the year (IEEE PUNE SECTION AWARDS 2023)  
+ Rakshit Jain  - Student member volunteer of the year (IEEE PUNE SECTION AWARDS 2023)  
+Blockchain Symposium 
+ 
+The IEEE Pune Blockchain Group, in collaboration with PCCoE's IT Department, organized a 
+successful Blockchain Symposium on February 2nd, 2024. The event aimed to facilitate 
+knowledge exchange and collaboration in the Blockchain domain.  
+ 
+Key Points :  
+ 
+Objective: Explore latest Blockchain trends and developments, foster collaboration, and pro-
+mote adoption in India.  
+Experts: Featured speakers included Dr. Ramesh Ramadoss, Dr. Surekha Deshmukh, Dr. 
+Rajesh Ingle, Dr. B. K. Murthy, Dr. Padmaja Joshi, and industry leaders such as Mr. 
+Shreekant Kulkarni, Mr. Kamlesh Nagware, Mr. Atharva Sabnis, Mr. Vishnu Korde, Mr. 
+Priyanshu Pareek, Mr. Mehul Gaidhani, Ms. Shruti Kulkarni, and Mr. Pavan Adhav.  
+Outcomes: Attendees gained insights into blockchain applications, engaged in discussions 
+on industry trends, learned about blockchain's business potential, and saw real-life projects.  
+ 
+Event Details:  
+Name: Blockchain Symposium by IEEE Pune Blockchain Group 
+Date: February 2nd, 2024 
+Duration: 10:00 am – 5:00 pm 
+Venue: Seminar Hall, Mechanical Department, PCCOE 
+Attendees: 115 (68 external, 15 industry professionals, 32 PCCOE) 
+Upcoming Event  
+ 
+PRAXIS 
+ 
+We are excited to announce that the 
+PCCOE IEEE Student Branch and Infor-
+mation Technology Students Association 
+are organizing "Praxis" 2024 from Febru-
+ary 21st, 2024, to February 23rd, 2024. 
+Our goal is to bring together students from 
+across Pune to participate in a series of 
+technical and non-technical events. We 
+are targeting 1000+ students to participate 
+in the various events planned under Prax-
+is. This symposium includes major tech-
+nical events like Hackathon, Coding com-
+petitions, Treasure hunts, etc.  
+
+--- PAGE 9 ---
+  
+9  
+Civil Engineering Department 
+1.Dr. Sandip T. Mali delivered an expert talk on ‗Climate Change and Environmental Conservation‘ under Maji Vasundhara Abhiyan 4.0 at Kaseg-
+aon Gram Panchayat, District- Sangli, on 27th January 2024.   
+2.Dr. Sandip T. Mali worked as an External Auditor for Conducting an Academic Audit for the Academic Year 2023-24 odd semester for the De-
+partment of Civil Engineering and Civil & Environmental Engineering of Kolhapur Institute of Technology‘s College of Engineering 
+(Autonomous), Kolhapur on 27th January 2024 
+3.Dr Kanchan Khare conducted the Faculty Development Program on Project Based Learning: A Pedagogy for Engineering Institutes. in MIT ADT 
+on Jan 20th, 2024. 
+4.Dr. A K Gaikwad, Professor, Dept of Civil Engineering, organized a 1-day Seminar on topics, ―Green & Sustainable Architecture Cladding solu-
+tions for Infrastructure sector‖ by Mr. Mahesh Pingle, GM-Marketing Development Tata BlueScope Steel Pvt. Ltd. and on, ―Latest Construction 
+Methods and Technology in Infrastructure Development‖, by Er. Akshay Yadav, Sr. Engineer / T & T Infra Ltd., during Constro 2024 Expo Visit 
+on 6th January 2024. (Along with 181 students and 17 faculty of Civil Engineering Dept.) 
+5.Dr. A K Gaikwad, attended a one-week workshop / STTP on, ―Introduction to optimization techniques using MATLAB and other tools‖, held 
+from 15th -19th January 2024, in Dept. of Civil Engineering, PCCoE, Nigdi, Pune in association with ISTE & IIC. 
+6.Dr. Suresh Nama and Dr Prachi Ingle from the Civil Department organized a 5-Days Virtual Workshop on "Introduction to optimization tech-
+niques using MATLAB and other tools" from January 15th -19th, 2024. 
+7.Mrs. N.S. Sane attended a one-day faculty training workshop on the implementation of ‗The Aapale Prashna Aapale Vidnyan program at Gokhale 
+Institute of Politics and Economics, Pune on 16th January 2024. 
+8.Ms. Anushree A. Chandragade completed Two days global symposium on ―Sustainable Development in Civil Engineering‖ organized by Dept. 
+of Civil Engineering, Dr. D.Y. Patil Institute of Technology, Pimpri Pune in association with the International Students Chapter of American Socie-
+ty of Civil Engineers (ASCE) on January 19-29, 2024.  
+9. Ms. Anushree A. Chandragade attended a one-day webinar on ArcGIS Spatial Analyst by Esri India on 31st January 2024  
+ 
+ 
+Awards received by Faculty and Student 
+Swaratarang PCCoE Champion awarded to Civil Engineering  
+Department for 2023-24 
+Dr. Sandip T. Mali received „Pimpri Chinchwad Jal Mitra Puraskar 
+2023‟ by Jaldindi Prathishtan, Pune on 21st December 2023. 
+ 
+ 
+1.Rushikesh Nikude was awarded for Pune Construction Engineering Research Foundation (PCERF), PCERF – B.G. Shirke Vidyarthi Awards 
+2023 7th in Series to under category: Civil Engineering undergraduate 3rd Rank, Guide: Dr. S.T. Mali on 5th January 2024 and it is sponsored by 
+B.G SHIRKE CONSTRUCTION TECHNOLOGY PVT.LTD for the project Design and development of ‗Re: Brick‘ by using hybrid binders and 
+construction and demolition waste. The award consists of an amount of Rs. 10000/-, a certificate, and a trophy. 
+ 
+2. T.Y. B-tech civil students, Varun Desai, Aditya Tatiya and Mrunal Shedge secured 1st prize in the Knight Manager competition in the Graffitti 
+Event organized by Symbiosis Centre for Information Technology (SCIT). The award consists of a cash prize of 5000/- and vouchers. 
+1.PCCoE, Civil Engineering Dept. and Greenspace Eco-Management signed a Memorandum of Understanding (MoU) effective from 31st August 
+2023 – 30th August 2026 under common areas of interest in Energy, Utility, and Waste management. Considerable advantages may be gained 
+from their pursuit on a collaborative basis in the fields of academics, education, and research. Faculty coordinator: Ms. Anushree A. Chandragade 
+ 
+2.PCCoE, Civil Engineering Dept. and Environment Conservation Association NGO-ECA TRUST signed a Memorandum of Understanding 
+(MoU) effective from 4th October 2023 – 4th October 2026 under common areas of interest in water conservation, green energy, and waste man-
+agement and recycling. Considerable advantages may be gained from their pursuit on a collaborative basis in the fields of academics, education, 
+and research. Faculty coordinator: Ms. Anushree A. Chandragade 
+ 
+ 
+Rangoli- Manasi Pawar (TY) 
+Painting-Sonali Bhoite (B-tech) 
+Elocution-Vaishnavi Birhare (TY) 
+Quiz- Janvi Thakre (SY), Harsh Gangwal (B-tech) 
+Solo Dance-Vijaya Ghatol (TY) 
+Group Dance-TEAM S.Y. 
+Shraddha Patil, Pournima Suryavanshi, Prerna Kute, 
+Pranav Phulari, Aditya Aghav Photography-Sai Bho-
+sale (SY) 
+  
+Maharashtra and it‘s cultures 
+by Manasi Pawar 
+Events full of great art, culture and dedication Civil 
+Department got their 12 Champions 
+
+--- PAGE 10 ---
+  
+10  
+उज्जज्जलर बवलष्मासाठी जीलनात ळैऺणणक प्रगतीरा भहत्लाचे स्थान आहे. तसेच ळायीरयक आणण भानससक स्लास््म उत्तभ याहण्मासाठी वलद्मा्माांनी ादाद्मा रिडाडा प्रकायात 
+प्रालीण्म सभऱलरे तयच आजच्मा स्ऩधाात्भक मुगात दंफीयऩणे लाटचार करून मळस्ली होता मेईर असे प्रततऩादन अजुान ऩुयस्काय वलजेते ऩोरीस उऩतनयीऺक याहुर आलाये मांनी 
+केरे. 
+पऩिंऩयी चचिंचलड एज्मुकेळन ट्रस्टच्मा (ऩीवीईटी) पऩिंऩयी चचिंचलड कॉरेज ऑप इिंजजननअरयिंगच्मा (ऩीवीवीओई) लतीने आमोजजत केरेल्मा ‘ऩीसीसीओई ऑसरम्पऩक’ 
+स्ऩधेचे उद्घाटन याहुर आलाये मांच्मा हस्ते कयण्मात आरे. मालेऱी सळलछत्रऩती ऩुयस्काय वलजेते बायतीम आचायी संघाचे प्रसळऺ
+क डॉ. यणजीत चाभरे, ऻान प्रफोधधनी 
+वलद्मारम तनगडीचे भुख्माध्माऩक डॉ. भनोज देलऱेकय, याष्रीम नेटफॉर देऱाडू सभीय सळकेरकय, ऩीसीसीओईचे संचारक डॉ. गोवलंद कुरकणी, डॉ. प्रलीण काऱे, डॉ. अजम 
+गामकलाड उऩम्स्थत होते. भहावलद्मारमातीर वलद्मा्माांना देऱाची तसेच स्लत्ची ळायीरयक तंदुरुस्ती लाढवलण्माची आलड तनभााण व्हाली मासाठी ऩीसीसीओई ऑसरंवऩकचे 
+आमोजन केरे आहे. 
+उद्घाटन प्रविंगी भशापलद्मारमाच्मा वशाळे पलद्मार्थमाांनी ढोर ताळाच्मा गजयात विंचरन केरे. तवेच भशापलद्मारमातीर पलपलध खेऱातीर याष्ट्ट्रीम 
+खेऱाडूिंनी ऑरजपऩक भळार प्रभुख ऩाशुणमािंना वुऩूतत करून कामतक्रभाची वुरुलात केरी. ‘ऩीवीवीओई ऑरजपऩक’ ध्लजाचे प्रभुख ऩाशुणमािंच्मा शस्ते ध्लजायोशण कयणमात आरे. 
+ऩीवीवीओईच्मा आटत वकतर पलबागाने नृत्मातून खेऱाचे वादयीकयण केरे. तवेच ऩीवीवीओईची याष्ट्ट्रीम भल्रखािंफ खेऱाडू तनमा वप्ताश्ला हशने भल्रखािंफची प्रात्मक्षषके दाखलून 
+वलाांना भिंत्रभुग्ध केरे. 
+विंऩूणत देळाभध्मे प्रथभच एका अभबमािंत्रत्रकी भशापलद्मारमाने अळा स्ऩधाांचे आमोजन केरे आशे. शी कौतुकास्ऩद फाफ आशे. माभुऱे पलद्मार्थमाांना क्रीडा 
+कौळल्म आत्भवात कयणमाफयोफयच जीलनारा नली हदळा भभऱेर अळा ळुबेच्छा याशुर आलाये मािंनी हदल्मा. ऩीवीवीओई ऑरजपऩक भध्मे एकूण १२ क्रक्रडा प्रकायािंभध्मे स्ऩधात 
+शोणाय आशेत. मा स्ऩधाांभध्मे ऩीवीवीओई भधीर वुभाये ऩाच शजाय पलद्माथी, ३५० भळषक ल भळषकेतय कभतचायी वशबागी झारे आशेत. मावाठी ऩीवीईटीचे अध्मष सानेश्लय 
+रािंडगे, उऩाध्मषा ऩद्माताई बोवरे, वचचल पलठ्ठर काऱबोय, खजजनदाय ळािंतायाभ गयाडे, पलश्लस्त शऴतलधतन ऩाटीर, उद्मोजक नयेंद्र रािंडगे, अजजिंक्म काऱबोय, कामतकायी विंचारक 
+डॉ. चगयीळ देवाई, ऩीवीवीओईचे विंचारक डॉ. गोपलिंद कुरकणी मािंनीशी ळुबेच्छा हदल्मा. आमोजन भशापलद्मारमाचे ळायीरयक भळषण विंचारक प्रा. विंतोऴ ऩाचायणे, डॉ. रीना 
+ळभात ल प्रा. अिंजना आयकेयीभठ मािंनी केरे आशे.  
+Fitness First Festival (FFF) 2023-24 …. January 2024 ऩीसीसीओई ऑसरम्पऩक’ Events 
+Flag hosting ceremony on 75th Re-
+public Day (26 Jan‟2024) by the 
+hands of Dr. G. N. Kulkarni, Hon. 
+Director, PCCoE, Nigdi, Pune,. 
+
+--- PAGE 11 ---
+  
+11  
+पऩ वी वी ओ इ च्मा वाभान विंधी केंद्राच्मा रोगो प्रनतभेचे उदघाटन हद. ०३/०१/२०२४ योजी भाननीम डामयेक्टय डॉ . गोपलिंद  ऐन. कुरकणी  आणण  डॉ. भशेळ कोरते, ENTC  पलबाग प्रभुख मािंच्मा शस्ते झारे. तवेच 
+०३/०१/२०२४ वापलत्रीभाई पुरे मािंची जमिंती,त्मािंच्मा प्रनतभेव ऩुष्ट्ऩ अऩतण करून कयणमात आरे. मा लेऱी वाभान विंधी केंद्राचे वलत वबावद आणण पऩ वी वी ओ इ चे वलत पलबाग प्रभुख तवेच डीन उऩजस्तथ शोते.  
+                   PCCoEs Achievements: “उत्कृष्ट भहावलद्मारम ऩुयस्काय २०२४”  
+PCCoE Equal Opportunity Cell (PEOC-सभान संधी केंद्र) 
+                   PCCoEs  Sports Achievements  
+The Indian Knowledge System (IKS)   “The Timeless Appeal of Indian Cuisine in the Modern World”  ..Dr. Kanchan Khare 
+Indian cuisine, a vibrant blend of ancient traditions, cultural exchanges, and regional diversities, continues to make a lasting impres-
+sion on the global culinary scene. It narrates a tale that spans thousands of years, celebrates the use of local produce and spices, and 
+has significantly influenced global gastronomy. The modern revival and fusion of Indian cuisine have catapulted it to the forefront 
+of the culinary world, while its aesthetic appeal continues to mesmerize food enthusiasts worldwide. 
+ 
+Indian cuisine is more than just food; it‘s a sensory journey that transcends taste, embodying the spirit of India‘s rich cultural heritage and the vibrancy of its peo-
+ple. It‘s a testament to India‘s past, a reflection of its present, and a window into its future culinary innovations. 
+ 
+This cuisine is a testament to an 8,000-year-old saga marked by interactions, migrations, and commerce across the Indian subcontinent. It encapsulates the spirit of 
+diverse communities, languages, and traditions, offering a glimpse into India‘s rich cultural legacy. From the culinary practices of the Indus Valley civilization to the pre-
+sent day, Indian food has transformed while maintaining its authenticity. 
+The soul of Indian cuisine lies in its use of locally grown ingredients. Each region's unique soil, climate, and geography shape its culinary delights. Spices like turmeric, 
+cardamom, and black pepper infuse Indian dishes with unique flavours, creating a medley of tastes that dance on the palate. 
+The spice trade between India and Europe during the Age of Discovery reshaped global cuisines. Indian spices journeyed across continents, adding a touch of exotic flavour 
+to European, Middle Eastern, and African dishes. Today, Indian dishes like curries, tandoori, and biryani have become global favourites, transcending geographical bounda-
+ries. 
+ 
+Indian cuisine is experiencing a modern renaissance. Chefs worldwide are reimagining traditional recipes, blending them with global influences. The emphasis on 
+small-plate menus, refined sauces, and cleaner flavours is elevating Indian food to contemporary gourmet standards. 
+ 
+India‘s thriving economy has led to increased consumption and aesthetic appreciation of food. From scarcity to abundance, food is celebrated for its aesthetic ap-
+peal as much as its taste. The vibrant colours, intricate presentation, and sensory delight of Indian cuisine captivate food enthusiasts worldwide. 
+ 
+Indian cuisine is a dynamic force that effortlessly bridges tradition and innovation. Its flavours, narratives, and rituals continue to nourish both body and soul, mak-
+ing it an integral part of our global culinary heritage. The exploration of these aspects and its potential to create healthful food to fortify the body and mind against modern-
+day challenges forms an intriguing topic for study and research. As we conclude this exploration of the timeless charm of Indian cuisine, let‘s draw inspiration from its en-
+during legacy. Just as Indian cuisine has evolved and adapted over centuries while preserving its essence, we too, as students and faculty of an engineering institute, are on 
+a journey of continuous learning and innovation. Let‘s remember that the essence of engineering, like cooking, lies in creativity, experimentation, and problem-solving. As 
+we delve into the complexities of technology and engineering, let‘s not forget to appreciate the simplicity and elegance of solutions, much like the perfect balance of spices 
+in a well-cooked Indian dish. May we continue to draw inspiration from our rich heritage as we forge ahead, innovating and creating technologies for a better tomorrow. 
+1. Mr. Shubham Gangurde, from TY BTech-Mechanical Dept., secured, ―Gold Medal‖, in 
+―Vishwanath Sports Meet 2024 National Level Archery Competition‖, organized by MIT 
+Campus, Loni Kalbhor. 
+2. Mr. Vikas Bhamare, from SY IT, selected in Ahmadnagar District Volleyball    Team, 
+―Senior State Volleyball Championship‖, being held at Warora, Chandrapur.  
+3. Rutik Bandal from BE Mech selected in SPPU Handball Team for West Zone Inter Univer-
+sity Handball Competition held at Dr. Harisinh Gaur University, Sagar, MP.  
+4. Sankarsh Shelke from TY COMP selected in SPPU Chess Team for Krida Mahostav 
+(Ashwamedh) 2024 being held at Dr. Babasaheb Ambedkar Technical University, Lonere.  
+5. PCCOE FOOTBALL TEAM secured SILVER MEDAL in MIT SUMMIT 2024 National 
+Level Football Competition organized by MIT WPU, Pune Campus  
+याष्रीम भतदाय ददनातनसभत्त वऩंऩयी धचंचलड ाज्जमुकेळन रस्टच्मा (ऩीसीईटी) वऩंऩयी धचंचलड कॉरेज ऑप इंम्जतनअरयंगच्मा (ऩीसीसीओई) वलद्मा्माांना म्ज्हा तनलडणूक अधधकायी, ऩुणे तथा म्ज्हाधधकायी डॉ. याजेळ 
+देळभुद मांच्मा हस्ते “उत्कृष्ट भहावलद्मारम ऩुयस्काय २०२४” देऊन गौयवलण्मात आरे. याष्ट्ट्रीम भतदाय हदनाननभभत्त २०२३ भध्मे ननलडणूक वाषयता अभबमान अिंतगत भशापलद्मारमीन पलद्मार्थमाांभध्मे भताचधकाय, 
+रोकळाशी माविंफधी केरेरी जागृती, नलभतदाय नोंदणी कयणे मावाठी नालीन्मऩूणत उऩक्रभ ऩीवीवीओईने याफपलरे. त्माफद्दर “उत्कृष्ट्ट भशापलद्मारम ऩुयस्काय २०२४” देऊन आणण उत्कृष्ट्ट नोडर ऑक्रपवय पशणून प्रा. हदनेळ 
+कुटे मािंना गौयपलणमात आरे. ऩुणे जजल्शा अचधकायी कामातरमात (हद.२५ जानेलायी) झारेल्मा कामतक्रभात मालेऱी ऩुणे, ननलावी उऩजजल्शाचधकायी ज्मोती कदभ, ऩुणे अप्ऩय जजल्शाचधकायी अजम भोये, ऩुणे उऩजजल्शा 
+ननलडणूक अचधकायी भीनर कऱवकय, जस्लऩ नोडर अचधकायी ऩुणे जजल्शा अचतना तािंफे आदी उऩजस्थत शोते. पऩिंऩयी चचिंचलड कॉरेज ऑप इिंजजनीरयिंगचे ननलडणूक वाषयता भिंडऱाचे नोडर ऑक्रपवय तथा याष्ट्ट्रीम वेला 
+मोजना कामतक्रभाचधकायी प्रा. हदनेळ कुटे ल पलद्माथी प्रनतननधी अभबजजत फनवोडे मािंनी ऩुयस्काय स्लीकायरा. ऩीवीईटीचे अध्मष सानेश्लय रािंडगे, उऩाध्मषा ऩद्माताई बोवरे, वचचल पलठ्ठर काऱबोय, खजजनदाय ळािंतायाभ 
+गयाडे, पलश्लस्त शऴतलधतन ऩाटीर, उद्मोजक नयेंद्र रािंडगे, अजजिंक्म काऱबोय, कामतकायी विंचारक डॉ. चगयीळ देवाई, ऩीवीवीओईचे विंचारक डॉ. गोपलिंद कुरकणी, पलद्माथी कल्माण ल पलकाव अचधष्ट्ठाता डॉ. प्रपलण काऱे, 
+पलद्माथी कल्माण ल पलकाव वश अचधष्ट्ठाता डॉ. अजम गामकलाड मािंनी अभबनिंदन केरे आणण ळुबेच्छा हदल्मा.  
+1 
+2 
+3 
+4 
+5 

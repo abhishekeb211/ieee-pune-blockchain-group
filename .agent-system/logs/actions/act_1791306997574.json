@@ -1,0 +1,13 @@
+{
+  "action_id": "act_1791306997574",
+  "timestamp": "2026-10-06T17:16:37.574448+00:00",
+  "action_type": "fetch_seed",
+  "details": {
+    "seed_id": "PCCOE_FDP_ORGANIZED",
+    "url": "https://computer.pccoepune.com/fdp-organized",
+    "status_code": 200,
+    "content_len": 66434,
+    "error": null
+  },
+  "status": "success"
+}

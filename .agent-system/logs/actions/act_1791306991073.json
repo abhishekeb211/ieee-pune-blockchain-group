@@ -1,0 +1,13 @@
+{
+  "action_id": "act_1791306991073",
+  "timestamp": "2026-10-06T17:16:31.073220+00:00",
+  "action_type": "fetch_seed",
+  "details": {
+    "seed_id": "PCCOE_SAMVAAD_2024",
+    "url": "https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf",
+    "status_code": 200,
+    "content_len": 10298651,
+    "error": null
+  },
+  "status": "success"
+}

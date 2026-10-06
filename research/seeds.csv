@@ -1,0 +1,17 @@
+id,url,tier,category,target_file,description
+BCTC_NEWSLETTER_Q1_2024,https://blockchain.ieee.org/images/files/newsletter/Q1_2024_NewsLetter_IEEE_BCTC_v3.pdf,A,PDF,bctc_newsletter_q1_2024.pdf,IEEE BCTC Q1 2024 Newsletter reporting Pune Symposium and global groups
+BCTC_SLIDE_RAMADOSS,https://blockchain.ieee.org/images/files/pdf/2024/india/pune/2_Ramesh_Ramadoss.pdf,A,PDF,ramesh_ramadoss_symposium.pdf,Presentation on Blockchain Landscape by Dr. Ramesh Ramadoss
+BCTC_SLIDE_DESHMUKH,https://blockchain.ieee.org/images/files/pdf/2024/india/pune/3_Dr_Surekha_Deshmukh.pdf,A,PDF,surekha_deshmukh_energy.pdf,Presentation on Blockchain for Energy Transition by Dr. Surekha Deshmukh
+BCTC_SLIDE_MURTHY,https://blockchain.ieee.org/images/files/pdf/2024/india/pune/5_Dr_BK_Murthy.pdf,A,PDF,bk_murthy_nft_rwa.pdf,Presentation on NFT and Tokenization of RWA by Dr. B. K. Murthy
+IEEE_VTOOLS_GROUP_62,https://vtools.vtools.ieee.org/home/local_groups/view/62,A,HTML,vtools_group_62.html,Official IEEE vTools Local Group Page
+IEEE_BCTC_HOME,https://blockchain.ieee.org/,A,HTML,bctc_home.html,IEEE Blockchain Technical Community homepage
+IEEE_PUNE_SECTION_DOMAIN1,https://ieeepunesection.org/,A,HTML,pune_section_domain1.html,IEEE Pune Section portal check 1
+IEEE_PUNE_SECTION_DOMAIN2,https://ieeepune.org/,A,HTML,pune_section_domain2.html,IEEE Pune Section portal check 2
+PCCOE_SAMVAAD_2024,https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf,B,PDF,pccoe_samvaad_jan_2024.pdf,PCCOE Samvaad Jan 2024 magazine with symposium photos
+PCCOE_EBCT_2024_FLYER,https://www.pccoepune.com/pdf/Flyer_STTP_EBCT-2024_PCCOE.pdf,B,PDF,pccoe_ebct_2024_flyer.pdf,Official STTP EBCT-2024 flyer mentioning IEEE Pune Blockchain Group
+PCCOE_FDP_PAGE,https://www.pccoepune.com/fdw/faculty-development-programs.php,B,HTML,pccoe_fdp_page.html,PCCOE official FDP archive page
+PCCOE_FDP_ORGANIZED,https://computer.pccoepune.com/fdp-organized,B,HTML,pccoe_comp_fdp_organized.html,PCCOE Computer Dept FDP records
+PCCOE_CESA_MAGAZINE_2026,https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf,B,PDF,pccoe_cesa_magazine_2025_2026.pdf,PCCOE CESA 2025-26 magazine with Decentralized AI FDP poster and photos
+MMCOE_BLOCKCHAIN_LAB,https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/,B,HTML,mmcoe_blockchain_lab.html,MMCOE Blockchain Server Room-Lab facilities and equipment
+MMCOE_WORKSHOPS,https://mmcoe.edu.in/departments/information-technology/co-curricular-activities/workshops/,B,HTML,mmcoe_workshops.html,MMCOE workshops and FDP archive including Blockchain for Sustainable Dev
+MMCOE_DEPT_ABOUT,https://mmcoe.edu.in/departments/information-technology/about-department/,B,HTML,mmcoe_dept_about.html,MMCOE IT Dept about page referencing Centre of Excellence in Blockchain

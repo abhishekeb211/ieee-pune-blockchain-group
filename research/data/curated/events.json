@@ -1,0 +1,440 @@
+[
+  {
+    "id": "symposium-2024-02-02",
+    "title": "IEEE Pune Blockchain Symposium",
+    "type": "symposium",
+    "start_date": "2024-02-02",
+    "end_date": "2024-02-02",
+    "duration": "10:00 am \u2013 5:00 pm",
+    "venue": "Seminar Hall, Mechanical Department, PCCOE",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "organizers": [
+      "IEEE Pune Blockchain Group",
+      "Department of Information Technology, PCCOE"
+    ],
+    "pune_group_role": "Primary Organizer",
+    "participants": {
+      "total_reported_pccoe": 115,
+      "breakdown": {
+        "external_participants": 68,
+        "industry_professionals": 15,
+        "pccoe_members": 32
+      },
+      "total_reported_bctc": 112,
+      "safe_display": "110+"
+    },
+    "speakers": [
+      {
+        "name": "Dr. Ramesh Ramadoss",
+        "role": "Chair",
+        "affiliation": "IEEE Blockchain Technical Community"
+      },
+      {
+        "name": "Dr. Surekha Deshmukh",
+        "role": "Domain Consultant",
+        "affiliation": "TCS Pune"
+      },
+      {
+        "name": "Dr. Rajesh Ingle",
+        "role": "Professor & IEEE Leader",
+        "affiliation": "IEEE Region 10 / Pune Section"
+      },
+      {
+        "name": "Dr. B. K. Murthy",
+        "role": "Senior Consultant / Former Director",
+        "affiliation": "MeitY / C-DAC"
+      },
+      {
+        "name": "Dr. Padmaja Joshi",
+        "role": "Senior Director",
+        "affiliation": "C-DAC Pune"
+      },
+      {
+        "name": "Mr. Mehul Gaidhani",
+        "role": "Industry Expert",
+        "affiliation": "Industry Practitioner"
+      },
+      {
+        "name": "Ms. Shruti Kulkarni",
+        "role": "Industry Expert",
+        "affiliation": "Industry Practitioner"
+      },
+      {
+        "name": "Mr. Pavan Adhav",
+        "role": "Industry Expert",
+        "affiliation": "Industry Practitioner"
+      }
+    ],
+    "topics": [
+      "Latest Blockchain Trends & Global Developments",
+      "Blockchain for Energy Transition and Decarbonisation",
+      "Tokenization of Real-World Assets & NFTs",
+      "Blockchain-based Federated Learning",
+      "Enterprise Blockchain Applications Beyond Cryptocurrency"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_SAMVAAD_2024",
+        "url": "https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf",
+        "tier": "B"
+      },
+      {
+        "source_id": "BCTC_NEWSLETTER_Q1_2024",
+        "tier": "A"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "securechaincitycoin-2024-03",
+    "title": "SecureChainCityCoin: A Convergence of Blockchain in Smart Cities",
+    "type": "workshop",
+    "start_date": "2024-03-18",
+    "end_date": "2024-03-22",
+    "venue": "Marathwada Mitra Mandal's College of Engineering (MMCOE)",
+    "city": "Pune",
+    "organizers": [
+      "Department of Information Technology, MMCOE",
+      "IEEE Pune Blockchain Group"
+    ],
+    "pune_group_role": "Association / Technical Partner",
+    "topics": [
+      "Digital Trust in Smart Cities",
+      "Identity Management",
+      "IoT & Blockchain Integration",
+      "Public Infrastructure Security"
+    ],
+    "sources": [
+      {
+        "source_id": "MMCOE_WORKSHOPS",
+        "url": "https://mmcoe.edu.in/departments/information-technology/co-curricular-activities/workshops/",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ebct-2024-07",
+    "title": "Emerging Trends in Blockchain Technology (EBCT-24)",
+    "type": "sttp",
+    "approval": "Indian Society for Technical Education (ISTE) Approved",
+    "start_date": "2024-07-15",
+    "end_date": "2024-07-20",
+    "venue": "PCCOE, Nigdi, Pune",
+    "organizers": [
+      "Department of Computer Engineering & Regional Language, PCCOE",
+      "In Association with IEEE Pune Blockchain Group"
+    ],
+    "pune_group_role": "Association & Technical Co-Sponsor",
+    "coordinators": [
+      "Dr. Rachana Y. Patil",
+      "Prof. Dr. Sonali D. Patil"
+    ],
+    "participants": {
+      "total_verified": 156,
+      "geographic_reach": "Pan-India including J&K, Andhra Pradesh, Tamil Nadu, UP, Maharashtra",
+      "safe_display": "150+"
+    },
+    "speakers": [
+      {
+        "name": "Dr. Ramesh Ramadoss",
+        "role": "Chair",
+        "affiliation": "IEEE Blockchain Technical Community"
+      },
+      {
+        "name": "Ms. Nirmala Salam",
+        "role": "Associate Director",
+        "affiliation": "CDAC Mumbai"
+      },
+      {
+        "name": "Mr. Kamlesh Nagware",
+        "role": "Co-Founder",
+        "affiliation": "FSV Capital"
+      },
+      {
+        "name": "Mr. Gaurav Somvanshi",
+        "role": "Co-founder",
+        "affiliation": "EmerTech Innovations Pvt Ltd"
+      },
+      {
+        "name": "Ms. Garima Singh",
+        "role": "CEO & CTO",
+        "affiliation": "Bitviraj Technology Private Limited"
+      },
+      {
+        "name": "Mr. SurendraSingh S.",
+        "role": "VP Products & Tech",
+        "affiliation": "Dhiway"
+      },
+      {
+        "name": "Dr. Surekha Deshmukh",
+        "role": "Domain Consultant",
+        "affiliation": "TCS Pune"
+      },
+      {
+        "name": "Mr. Shreekant Kulkarni",
+        "role": "VP Tokenization",
+        "affiliation": "HUMB Global HealthTech"
+      },
+      {
+        "name": "Ms. Sonali Patwe",
+        "role": "Senior Product Manager",
+        "affiliation": "Tata Digital"
+      },
+      {
+        "name": "Dr. Ramchandra Mangrulkar",
+        "role": "Professor",
+        "affiliation": "DJSCoE Mumbai"
+      },
+      {
+        "name": "Mr. Rahul Sonkamble",
+        "role": "Research Scholar",
+        "affiliation": "PCU"
+      },
+      {
+        "name": "Mr. Amar Tumballi",
+        "role": "Co-Founder & VP Engineering",
+        "affiliation": "Dhiway"
+      }
+    ],
+    "topics": [
+      "Recent Trends in Blockchain",
+      "Basics of Different Blockchain Platforms",
+      "Ethereum & Solidity with Hands-on",
+      "DApps using Polygon with Hands-on",
+      "Programming with Hyperledger",
+      "Decentralized Finance (DeFi) & NFTs"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_EBCT_2024_FLYER",
+        "url": "https://www.pccoepune.com/pdf/Flyer_STTP_EBCT-2024_PCCOE.pdf",
+        "tier": "B"
+      },
+      {
+        "source_id": "PCCOE_FDP_PAGE",
+        "url": "https://www.pccoepune.com/fdw/faculty-development-programs.php",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "blockchain-cybersecurity-2024-08",
+    "title": "Blockchain: The Next Frontier in Cybersecurity and Privacy",
+    "type": "fdp",
+    "start_date": "2024-08-20",
+    "end_date": "2024-08-24",
+    "venue": "MMCOE, Pune",
+    "organizers": [
+      "Department of Information Technology, MMCOE in association with IEEE Pune Blockchain Group"
+    ],
+    "topics": [
+      "Cryptographic Security",
+      "Privacy Preservation",
+      "Smart Contract Vulnerabilities",
+      "Decentralized Key Management"
+    ],
+    "sources": [
+      {
+        "source_id": "MMCOE_WORKSHOPS",
+        "url": "https://mmcoe.edu.in/departments/information-technology/co-curricular-activities/workshops/",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hyperledger-expert-session-2025-08",
+    "title": "Expert Session on Hyperledger and Its Applications",
+    "type": "expert_session",
+    "start_date": "2025-08-26",
+    "end_date": "2025-08-26",
+    "venue": "PCCOE, Pune (Hybrid Mode)",
+    "organizers": [
+      "LFDT Student Chapter, PCCOE in association with IEEE Pune Blockchain Group"
+    ],
+    "speakers": [
+      {
+        "name": "Dr. Anasuya Threse Innocent",
+        "role": "Executive",
+        "affiliation": "BiniWorld Innovations Pvt. Ltd."
+      }
+    ],
+    "topics": [
+      "Enterprise Blockchain Fundamentals",
+      "Linux Foundation Decentralized Trust Project Matrix",
+      "Hyperledger Fabric, Firefly, Indy, Iroha",
+      "Supply Chain & Healthcare Case Studies"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_CESA_MAGAZINE_2026",
+        "url": "https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fdp-decentralized-ai-2025-08",
+    "title": "Faculty Development Program on Decentralized AI",
+    "type": "fdp",
+    "start_date": "2025-08-18",
+    "end_date": "2025-08-25",
+    "venue": "Department of Computer Engineering, PCCOE, Pune",
+    "coordinators": [
+      "Mrs. Swati Chandurkar",
+      "Dr. Asmita Manna"
+    ],
+    "participants": {
+      "total_verified": 90,
+      "safe_display": "90"
+    },
+    "topics": [
+      "AI + Blockchain Convergence",
+      "Agentic Web & Multi-Agent Collaboration",
+      "Federated Learning",
+      "Verifiable AI",
+      "DePIN",
+      "DAOs",
+      "Zero-Knowledge Proofs"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_FDP_PAGE",
+        "url": "https://www.pccoepune.com/fdw/faculty-development-programs.php",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "icdlt-2025-11",
+    "title": "IEEE International Conference on Distributed Ledger Technologies (ICDLT 2025)",
+    "type": "conference",
+    "start_date": "2025-11-05",
+    "end_date": "2025-11-07",
+    "venue": "Pune, India",
+    "organizers": [
+      "IEEE Blockchain Technical Community",
+      "IEEE Pune Section"
+    ],
+    "pune_group_role": "Supporting Chapter / Local Host Committee",
+    "topics": [
+      "Core DLT Protocols",
+      "Security, Privacy & Zero-Knowledge Systems",
+      "Scalability & Layer-2 Networks",
+      "FinTech & Real-World Assets",
+      "Healthcare & Energy Blockchain"
+    ],
+    "sources": [
+      {
+        "source_id": "IEEE_ICDLT_PORTAL",
+        "url": "https://www.ieeeicdlt.org/",
+        "tier": "A"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "blockchain-sustainable-dev-2025-12",
+    "title": "Blockchain for Sustainable Development: Innovations, Applications, and Future Directions",
+    "type": "fdp",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-05",
+    "venue": "MMCOE, Pune",
+    "organizers": [
+      "Department of Information Technology, MMCOE"
+    ],
+    "topics": [
+      "Smart Contracts",
+      "Private Blockchain Architecture",
+      "Peer-to-Peer Energy Trading",
+      "Chaincode & IPFS",
+      "Sustainable Finance & Circular Economy",
+      "UN SDGs Alignment"
+    ],
+    "sources": [
+      {
+        "source_id": "MMCOE_WORKSHOPS",
+        "url": "https://mmcoe.edu.in/departments/information-technology/co-curricular-activities/workshops/",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "decentrahack-2026-01",
+    "title": "DecentraHACK 2026",
+    "type": "hackathon",
+    "start_date": "2026-01-17",
+    "end_date": "2026-01-23",
+    "venue": "Online / National",
+    "organizers": [
+      "LFDT Student Chapter & PCCOE with IEEE Pune Blockchain Group"
+    ],
+    "judges": [
+      {
+        "name": "Mr. Rohan Raverkar",
+        "role": "Vice President"
+      }
+    ],
+    "topics": [
+      "Blockchain",
+      "Web3",
+      "Agentic AI",
+      "Cybersecurity",
+      "Digital Identity"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_CESA_MAGAZINE_2026",
+        "url": "https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fdp-decentralized-ai-2026-02",
+    "title": "National-Level Faculty Development Program on Decentralized AI",
+    "type": "fdp",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-07",
+    "venue": "PCCOE, Pune",
+    "coordinators": [
+      "Dr. Sonali Patil (Chair, IEEE Pune Blockchain Group)",
+      "Dr. Meghana Lokhande",
+      "Prof. Deepali Jawale",
+      "Prof. Trupti Deshmukh",
+      "Prof. Sonika Gill",
+      "Mr. Pratik Jagdale"
+    ],
+    "participants": {
+      "total_verified": 86,
+      "safe_display": "86"
+    },
+    "topics": [
+      "AI + Blockchain Convergence",
+      "Decentralized Trust Models",
+      "AI Agents Governance & On-Chain Registries",
+      "Decentralized Identity & Verifiable Credentials",
+      "Federated Learning for Privacy-Preserving AI"
+    ],
+    "sources": [
+      {
+        "source_id": "PCCOE_FDP_PAGE",
+        "url": "https://www.pccoepune.com/fdw/faculty-development-programs.php",
+        "tier": "B"
+      },
+      {
+        "source_id": "PCCOE_CESA_MAGAZINE_2026",
+        "tier": "B"
+      }
+    ],
+    "confidence": "high"
+  }
+]

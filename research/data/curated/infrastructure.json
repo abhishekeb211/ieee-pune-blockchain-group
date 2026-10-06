@@ -1,0 +1,49 @@
+[
+  {
+    "institution": "Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune",
+    "department": "Department of Information Technology",
+    "facility_name": "Blockchain Server Room-Lab in association with IEEE Pune Blockchain Group",
+    "centre_of_excellence": "Centre of Excellence in Blockchain Technology",
+    "hardware_specifications": {
+      "server_rig": "19 GPU HPC Server",
+      "processor": "3U 64 Cores",
+      "storage": "1TB SSD",
+      "motherboard": "Asus B250ME",
+      "gpu_support": "Up to 19 GPU sets (8 GB each)",
+      "power_supply": "100-240VAC 50/60HZ, KR-PDU-50KVA Power Supply Unit",
+      "ram": "32GB DDR4 (2x16GB)",
+      "mining_support": "GPU Mining Rig for BTC & ETH Mining, Blockchain Mining Chipsets, Blockchain GPU Accelerator & Compute",
+      "rack": "42U Server Rack"
+    },
+    "supported_frameworks": [
+      "Ethereum",
+      "Hyperledger Fabric",
+      "Solana"
+    ],
+    "smart_contract_languages": [
+      "Solidity",
+      "Rust"
+    ],
+    "tools_environment": [
+      "Truffle Suite",
+      "Hardhat",
+      "Ganache",
+      "Web3.js",
+      "Docker",
+      "Kubernetes"
+    ],
+    "cryptography_consensus": [
+      "SHA-256",
+      "Elliptic Curve Cryptography (ECC)",
+      "Proof of Work (PoW)",
+      "Proof of Stake (PoS)"
+    ],
+    "defi_protocols": [
+      "Uniswap",
+      "Aave",
+      "MakerDAO"
+    ],
+    "source": "https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/",
+    "confidence": "high"
+  }
+]
