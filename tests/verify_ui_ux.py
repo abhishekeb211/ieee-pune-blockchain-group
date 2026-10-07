@@ -94,10 +94,22 @@ def verify_ui_ux():
         full_p = os.path.join(nextjs_dir, comp)
         assert os.path.exists(full_p), f"Next.js component missing: {full_p}"
 
-    with open(os.path.join(nextjs_dir, "app", "page.tsx"), "r", encoding="utf-8") as f:
-        page_content = f.read()
-        assert "<Gallery" in page_content, "Gallery not rendered in Next.js page.tsx"
-        assert "<Lightbox" in page_content, "Lightbox not rendered in Next.js page.tsx"
+    # Verify App Router routes exist
+    app_routes = [
+        "app/page.tsx",
+        "app/about/page.tsx",
+        "app/activities/page.tsx",
+        "app/gallery/page.tsx",
+        "app/join/page.tsx",
+        "app/lab/page.tsx",
+    ]
+    for r in app_routes:
+        assert os.path.exists(os.path.join(nextjs_dir, r)), f"Route missing: {r}"
+
+    with open(os.path.join(nextjs_dir, "app", "gallery", "page.tsx"), "r", encoding="utf-8") as f:
+        gallery_page = f.read()
+        assert "<Gallery" in gallery_page, "Gallery not rendered in Next.js app/gallery/page.tsx"
+        assert "<Lightbox" in gallery_page, "Lightbox not rendered in Next.js app/gallery/page.tsx"
 
     print("[SUCCESS] All UI/UX, Flutter M3, Lightbox, and Media assertions PASSED (100% GREEN)!")
 

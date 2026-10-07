@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter, Outfit } from 'next/font/google'
 import './globals.css'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import Breadcrumbs from '@/components/Breadcrumbs'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -29,7 +32,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} scroll-smooth`}>
-      <body className="font-sans antialiased bg-white text-slate-800">{children}</body>
+      <body className="bg-white font-sans text-ieee-ink antialiased">
+        <Navbar />
+        <Breadcrumbs />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

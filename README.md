@@ -43,16 +43,32 @@ IEEE PUNE BLOCKCHAIN GROUP/
 └── nextjs-app/                  # Full Next.js 14 App Router project
     ├── package.json             # Dependencies (Next.js, React, Tailwind, Lucide)
     ├── tailwind.config.js       # IEEE design tokens & colors
-    ├── public/                  # Logo and favicon assets
+    ├── public/                  # Logo, favicon, and post media assets
+    ├── data/
+    │   └── activities.json      # Structured activity catalog & metadata
     ├── app/
     │   ├── layout.tsx           # SEO metadata, Inter font, HTML head
-    │   ├── page.tsx             # Section composition
+    │   ├── page.tsx             # Home: Hero & Focus Areas overview
+    │   ├── about/page.tsx       # About page & mission
+    │   ├── activities/page.tsx  # Activities Hub & program archives
+    │   ├── gallery/page.tsx     # Authentic event photo gallery & lightbox
+    │   ├── join/page.tsx        # Membership registration & onboarding
+    │   ├── lab/page.tsx         # Blockchain & AI HPC research lab
     │   └── globals.css          # Tailwind directives & utility classes
     └── components/
         ├── Navbar.tsx           # Sticky nav & mobile accordion
         ├── Hero.tsx             # Gradient hero, badges, and stats
-        ├── About.tsx            # About & 4-card 'Who We Serve' grid
-        ├── Events.tsx           # Dark theme cards: IIBF 2023, IIBF 2024, ICDLT 2025
+        ├── ActivitiesHub.tsx    # Multi-tab activity & program browser
+        ├── ActivityDetail.tsx   # Detailed event inspection modal/panel
+        ├── Breadcrumbs.tsx      # Navigation breadcrumbs
+        ├── CollegeArchive.tsx   # College institutional archive
+        ├── MediaResearch.tsx    # Research & media publications
+        ├── Outreach.tsx         # Community outreach programs
+        ├── Events.tsx           # Program browser with year & category filtering
+        ├── Gallery.tsx          # Authentic media gallery grid
+        ├── Lightbox.tsx         # Fullscreen lightbox viewer
+        ├── FocusAreas.tsx       # Core focus areas
+        ├── About.tsx            # About & audience grid
         ├── Leadership.tsx       # Group Chairs & Leads contact cards
         ├── JoinForm.tsx         # Validated registration form with states
         └── Footer.tsx           # Legal, affiliation, and copyright

@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 import { LightboxData } from './Lightbox'
 
 interface GalleryItem {
@@ -17,24 +18,34 @@ interface GalleryItem {
 
 const galleryItems: GalleryItem[] = [
   {
-    id: 'symposium-stage',
+    id: 'symposium-recap',
     category: 'symposium',
     badge: 'Symposium 2024',
-    title: 'Stage Inauguration & Keynote Panel',
-    subtitle: 'PCCOE Seminar Hall · 110+ Delegates',
-    meta: 'Feb 2, 2024 · Seminar Hall, Mechanical Dept, PCCOE · Dr. Ramesh Ramadoss, Dr. Sonali Patil, Dr. Surekha Deshmukh, Dr. Rajesh Ingle',
-    src: '/images/events/symposium-2024-stage.jpg',
-    source: 'https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf',
+    title: 'Blockchain Symposium recap',
+    subtitle: 'PCCOE Pune · 2 February 2024',
+    meta: '2 February 2024 · Pimpri Chinchwad College of Engineering · organized by IEEE Pune Blockchain Group',
+    src: '/images/posts/post-15-1.png',
+    source: 'https://lnkd.in/d2cdQX7v',
   },
   {
-    id: 'symposium-audience',
+    id: 'symposium-exchange',
     category: 'symposium',
     badge: 'Symposium 2024',
-    title: 'Audience & Industry Participants',
-    subtitle: 'Full Hall Engagement',
-    meta: 'Feb 2, 2024 · PCCOE · 115 Total Attendees (68 external, 15 industry, 32 PCCOE)',
-    src: '/images/events/symposium-2024-audience.jpg',
-    source: 'https://www.pccoepune.com/pdf/samvaad/Samvaad-3(4)-Jan-2024.pdf',
+    title: 'Sessions, panels, and demonstrations',
+    subtitle: 'Flagship group event',
+    meta: '2 February 2024 · Sessions, panel discussions, demonstrations, proofs of concept, and use cases',
+    src: '/images/posts/post-15-2.png',
+    source: 'https://lnkd.in/d2cdQX7v',
+  },
+  {
+    id: 'symposium-poster',
+    category: 'symposium',
+    badge: 'Symposium 2024',
+    title: 'Symposium announcement',
+    subtitle: 'Promotional visual',
+    meta: '2 February 2024 · IEEE Pune Blockchain Group in collaboration with IEEE Pune Section',
+    src: '/images/posts/post-16-1.png',
+    source: 'https://lnkd.in/d2cdQX7v',
   },
   {
     id: 'mmcoe-hpc-rig',
@@ -57,46 +68,46 @@ const galleryItems: GalleryItem[] = [
     source: 'https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/',
   },
   {
-    id: 'ebct-2024-poster',
+    id: 'sttp-2024',
     category: 'events',
     badge: 'ISTE STTP',
     badgeClass: 'chip-gold',
-    title: 'EBCT-24 National Training Program',
-    subtitle: '156 Participants Across 5+ States',
-    meta: 'Jul 15–20, 2024 · ISTE Approved · 156 Pan-India Participants',
-    src: '/images/events/ebct-2024-poster.png',
-    source: 'https://www.pccoepune.com/pdf/Flyer_STTP_EBCT-2024_PCCOE.pdf',
+    title: 'Emerging Trends in Blockchain STTP',
+    subtitle: '153 participants across India',
+    meta: '15–20 July 2024 · PCCOE Computer Engineering in association with IEEE Pune Blockchain Group',
+    src: '/images/posts/post-12-1.png',
+    source: '',
   },
   {
-    id: 'hyperledger-session',
+    id: 'decai-fdp-2025',
     category: 'events',
-    badge: 'Expert Session',
-    title: 'Hyperledger Enterprise Trust Session',
-    subtitle: 'LFDT Chapter & IEEE Pune',
-    meta: 'Aug 26, 2025 · PCCOE · Dr. Anasuya Threse Innocent (BiniWorld)',
-    src: '/images/events/hyperledger-session-2025.jpg',
-    source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf',
-  },
-  {
-    id: 'decentrahack-2026',
-    category: 'events',
-    badge: 'Hackathon',
-    title: 'DecentraHACK 2026',
-    subtitle: 'Agentic AI & Web3 Buildathon',
-    meta: 'Jan 17–23, 2026 · 5-Day National Web3 & Agentic AI Hackathon',
-    src: '/images/events/decentrahack-2026.jpg',
-    source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf',
-  },
-  {
-    id: 'decai-fdp-2026',
-    category: 'events',
-    badge: 'National FDP',
+    badge: 'Official FDP',
     badgeClass: 'chip-gold',
-    title: 'Decentralized AI FDP 2026',
-    subtitle: '86 Faculty Participants',
-    meta: 'Feb 2–7, 2026 · PCCOE Pune · 86 Verified Faculty Participants',
-    src: '/images/events/decai-fdp-2026.jpg',
-    source: 'https://computer.pccoepune.com/assets/images/CESA/magazine/2025-2026_compressed.pdf',
+    title: 'Decentralized AI FDP',
+    subtitle: 'Online · 18–25 August 2025',
+    meta: 'Organized by IEEE Pune Blockchain Group and PCCOE, with IEEE Pune Section, IEEE Computer Society Pune Chapter, and IEEE Blockchain Technical Community',
+    src: '/images/posts/post-05-1.png',
+    source: '',
+  },
+  {
+    id: 'sustainable-fdp',
+    category: 'events',
+    badge: 'Group collaboration',
+    title: 'Sustainable Development FDP',
+    subtitle: 'Guest of Honour · MMCOE',
+    meta: '1–5 December 2025 · Department of Information Technology, MMCOE, in association with IEEE Pune Blockchain Group',
+    src: '/images/posts/post-03-1.png',
+    source: '',
+  },
+  {
+    id: 'cyber-fdp',
+    category: 'events',
+    badge: 'Group collaboration',
+    title: 'Cybersecurity and Privacy FDP',
+    subtitle: 'Session by the Chair',
+    meta: '20–24 August 2024 · Organized by MMCOE in collaboration with IEEE Pune Blockchain Group',
+    src: '/images/posts/post-11-1.png',
+    source: '',
   },
 ]
 
@@ -119,21 +130,21 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
             <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
               Visual Archives &amp; Authentic Media
             </span>
-            <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+            <h2 className="font-heading mt-1.5 font-bold text-ieee-navy">
               Photo Showcase Gallery
             </h2>
-            <p className="mt-1 text-xs sm:text-sm text-slate-600 max-w-xl">
+            <p className="measure mt-2 text-base text-slate-600">
               Authentic photographic documentation from our symposia, laboratory facilities, faculty programs, and national hackathons. Click any image for full-screen inspection.
             </p>
           </div>
 
           {/* Flutter Filter Chips */}
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="filter-row">
             {[
               { id: 'all', label: `All Photos (${galleryItems.length})` },
               { id: 'symposium', label: 'Symposium 2024' },
               { id: 'lab', label: 'Blockchain Lab' },
-              { id: 'events', label: 'FDPs & Hackathons' },
+              { id: 'events', label: 'FDPs & STTPs' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -148,31 +159,38 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
         </div>
 
         {/* 8 Curated Gallery Cards Grid */}
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="gallery-grid mt-8">
           {filteredItems.map((item) => (
-            <div
+            <button
               key={item.id}
+              type="button"
               onClick={() =>
                 onSelectPhoto({
                   src: item.src,
                   title: item.title,
                   meta: item.meta,
-                  source: item.source,
+                  source: item.source || undefined,
                 })
               }
-              className="gallery-card"
+              className="gallery-card text-left"
             >
-              <img src={item.src} alt={item.title} loading="lazy" />
+              <Image
+                src={item.src}
+                alt={item.title}
+                fill
+                sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                className="object-cover"
+              />
               <div className="gallery-overlay">
                 <span className={`chip ${item.badgeClass || ''} mb-1.5 w-fit`}>
                   {item.badge}
                 </span>
-                <h4 className="font-heading text-xs font-bold text-white line-clamp-1">
+                <h2 className="font-heading text-base font-bold text-white line-clamp-1">
                   {item.title}
-                </h4>
-                <p className="text-[11px] text-slate-300">{item.subtitle}</p>
+                </h2>
+                <p className="text-sm text-slate-200">{item.subtitle}</p>
               </div>
-            </div>
+            </button>
           ))}
         </div>
       </div>

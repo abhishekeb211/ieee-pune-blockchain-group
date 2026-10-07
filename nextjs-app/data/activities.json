@@ -1,0 +1,742 @@
+{
+  "groupPrograms": [
+    {
+      "id": "sustainable-development-fdp-2025",
+      "title": "Blockchain for Sustainable Development: Innovations, Applications, and Future Directions",
+      "dateLabel": "1–5 December 2025",
+      "year": "2025",
+      "category": "FDP",
+      "classification": "Group collaboration / Guest of Honour",
+      "role": "Guest of Honour at the inaugural session — Dr. Sonali D. Patil",
+      "organizers": "Department of Information Technology, MMCOE Pune",
+      "association": "IEEE Pune Blockchain Group",
+      "venue": "MMCOE Pune · week-long Faculty Development Program",
+      "summary": "Dr. Sonali D. Patil participated in the inaugural session as Guest of Honour for a week-long FDP conducted in association with IEEE Pune Blockchain Group. In her capacity as Chair of the group, she highlighted the growing interest in blockchain for sustainable development and the value of connecting regional activity with the broader vision of the IEEE Blockchain Technical Community.",
+      "topics": [
+        "Blockchain for transparency, trust and sustainability",
+        "Governance, energy, circular economy and smart ecosystems",
+        "Alignment with the IEEE Blockchain Technical Community",
+        "Faculty learning on sustainable blockchain applications"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — Chair, IEEE Pune Blockchain Group; Guest of Honour"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-03-1.png",
+          "caption": "Visual from the Sustainable Development FDP post, 1–5 December 2025.",
+          "alt": "Blockchain for Sustainable Development FDP visual"
+        },
+        {
+          "src": "/images/posts/post-03-2.png",
+          "caption": "Inaugural-session visual for the MMCOE FDP held in association with IEEE Pune Blockchain Group.",
+          "alt": "Sustainable Development FDP inaugural visual"
+        },
+        {
+          "src": "/images/posts/post-03-3.png",
+          "caption": "Program visual on blockchain for transparency, trust and sustainability.",
+          "alt": "Sustainable development blockchain program visual"
+        },
+        {
+          "src": "/images/posts/post-03-4.png",
+          "caption": "Additional visual from the 1–5 December 2025 FDP post.",
+          "alt": "Additional Sustainable Development FDP visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 3"
+    },
+    {
+      "id": "decentralized-ai-fdp-2025",
+      "title": "One-Week Faculty Development Program on Decentralized AI",
+      "dateLabel": "18–25 August 2025",
+      "year": "2025",
+      "category": "FDP",
+      "classification": "Official group program",
+      "role": "Organizer, with Dr. Sonali D. Patil among the expert speakers",
+      "organizers": "IEEE Pune Blockchain Group and Pimpri Chinchwad College of Engineering, Pune",
+      "association": "IEEE Pune Section; IEEE Computer Society Pune Chapter; IEEE Blockchain Technical Community",
+      "venue": "Online",
+      "summary": "A one-week online Faculty Development Program focused on the convergence of decentralized systems and artificial intelligence. The program was positioned around secure and collaborative AI, bringing together experts from academia and industry to discuss emerging architectures and technologies spanning AI, Web3 and blockchain.",
+      "topics": [
+        "AI and Decentralized AI",
+        "Agentic Web",
+        "Multiagent Collaboration",
+        "Web3 and Blockchain",
+        "Federated Learning",
+        "Verifiable AI"
+      ],
+      "people": [
+        "Anantha R K. — Founder & CEO, Sarva Labs",
+        "Dr. Rajesh Ingle — Vice Chancellor, DES Pune University; Chair, IEEE Computer Society Chapter Pune",
+        "Kamlesh Nagware — Blockchain Architect, Founder, FSV Lab",
+        "Ravikant Agrawal — Director, Privado ID",
+        "Vidy Potdar — Director, Blockchain Research & Development Lab, Curtin University, Australia",
+        "Dr. Sonali D. Patil — Professor and Head, Computer Engineering, PCCOE; Chair, IEEE Pune Blockchain Group",
+        "Ankita Patidar — Tech Lead, AYANWORKS; Co-Chair, Hyperledger India Chapter"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-05-1.png",
+          "caption": "Announcement visual for the online Decentralized AI FDP, 18–25 August 2025.",
+          "alt": "Decentralized AI Faculty Development Program announcement"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 5"
+    },
+    {
+      "id": "evolution-blockchain-research-2025",
+      "title": "Evolution of Blockchain and Research Opportunities",
+      "dateLabel": "22 February 2025",
+      "year": "2025",
+      "category": "FDP",
+      "classification": "Official group program",
+      "role": "Expert session by Dr. Sonali D. Patil",
+      "organizers": "IEEE Pune Blockchain Group and Department of Computer Engineering, PCCOE Pune",
+      "association": "IEEE Blockchain Technical Community; IEEE Pune Section",
+      "venue": "One-week FDP on Research Directions in Information Security and Blockchain · faculty and researchers",
+      "summary": "Dr. Sonali D. Patil delivered a session on the evolution of blockchain and research opportunities as part of a one-week FDP jointly organized by IEEE Pune Blockchain Group and the Department of Computer Engineering, PCCOE Pune. The session focused on emerging research directions at the intersection of blockchain and cybersecurity.",
+      "topics": [
+        "Evolution of blockchain technology",
+        "Current and emerging blockchain research opportunities",
+        "Cybersecurity and information-security research",
+        "Emerging trends, challenges and future research directions"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — expert session"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-09-1.png",
+          "caption": "Session visual for Evolution of Blockchain and Research Opportunities, 22 February 2025.",
+          "alt": "Evolution of Blockchain research session visual"
+        },
+        {
+          "src": "/images/posts/post-09-2.png",
+          "caption": "Additional visual from the PCCOE research-directions FDP session.",
+          "alt": "Additional blockchain research FDP visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 9"
+    },
+    {
+      "id": "cybersecurity-privacy-fdp-2024",
+      "title": "Blockchain: The Next Frontier in Cybersecurity and Privacy",
+      "dateLabel": "20–24 August 2024",
+      "year": "2024",
+      "category": "FDP",
+      "classification": "Group collaboration",
+      "role": "Session delivered by Dr. Sonali D. Patil",
+      "organizers": "Marathwada Mitra Mandal College of Engineering (MMCOE)",
+      "association": "IEEE Pune Blockchain Group",
+      "venue": "MMCOE · one-week Faculty Development Program",
+      "summary": "IEEE Pune Blockchain Group collaborated with MMCOE on a one-week FDP focused on blockchain as an emerging frontier in cybersecurity and privacy. Dr. Sonali D. Patil delivered a session during the program. The source frames the activity as part of the group's continuing effort to support blockchain education and cross-organization collaboration.",
+      "topics": [
+        "Blockchain in cybersecurity",
+        "Privacy-oriented blockchain applications",
+        "Academic and professional capacity building",
+        "Cross-organization collaboration"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — session speaker",
+        "Dr. Ramesh Ramadoss — Chair, IEEE Blockchain; acknowledged for encouragement",
+        "Dr. Surekha Deshmukh — Chair, IEEE Pune Section; acknowledged for encouragement"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-11-1.png",
+          "caption": "Visual from the cybersecurity and privacy FDP, 20–24 August 2024.",
+          "alt": "Blockchain cybersecurity and privacy FDP visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 11"
+    },
+    {
+      "id": "emerging-trends-sttp-2024",
+      "title": "ISTE-Approved 6-Day STTP on Emerging Trends in Blockchain",
+      "dateLabel": "15–20 July 2024",
+      "year": "2024",
+      "category": "STTP",
+      "classification": "Group collaboration / STTP",
+      "role": "In association with IEEE Pune Blockchain Group",
+      "organizers": "Computer Engineering Department, PCCOE, and Computer Engineering — Regional Department, PCCOE",
+      "association": "IEEE Pune Blockchain Group",
+      "venue": "PCCOE · 6 days · 153 participants from various states across India",
+      "summary": "A six-day ISTE-approved Short-Term Training Program on Emerging Trends in Blockchain was conducted at PCCOE in association with IEEE Pune Blockchain Group. The program combined conceptual discussions with demonstrations and practical, real-time blockchain use cases and drew 153 participants from multiple states across the country.",
+      "topics": [
+        "Technical discussions",
+        "Practical demonstrations",
+        "Real-time blockchain use cases",
+        "National participation"
+      ],
+      "people": [
+        "Dr. Girish Desai — Executive Director, PCET",
+        "Dr. Govind Kulkarni — Director, PCCOE",
+        "Dr. N. B. Chopade — Deputy Director, PCCOE",
+        "Dr. Ramesh Ramadoss",
+        "Dr. Surekha Deshmukh",
+        "Dr. Padmaja Patwardhan Joshi",
+        "Kamlesh Nagware"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-12-1.png",
+          "caption": "Visual from the ISTE-approved Emerging Trends in Blockchain STTP, 15–20 July 2024.",
+          "alt": "Emerging Trends in Blockchain STTP visual"
+        },
+        {
+          "src": "/images/posts/post-12-2.png",
+          "caption": "Additional STTP visual. The program recorded 153 participants from several states.",
+          "alt": "Additional Emerging Trends in Blockchain STTP visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 12"
+    },
+    {
+      "id": "securechaincitycoin-2024",
+      "title": "SecureChainCityCoin: A Convergence of Blockchain in Smart Cities",
+      "dateLabel": "18–22 March 2024",
+      "year": "2024",
+      "category": "FDP",
+      "classification": "Group collaboration / Expert talk",
+      "role": "Expert talk delivered by Dr. Sonali D. Patil",
+      "organizers": "Team MMCOE",
+      "association": "IEEE Pune Blockchain Group and SoftTech Data Securities",
+      "venue": "National-level one-week FDP hosted by MMCOE",
+      "summary": "Dr. Sonali D. Patil delivered a talk titled SecureChainCityCoin: A Convergence of Blockchain in Smart Cities during a national-level one-week FDP. The activity was conducted in association with IEEE Pune Blockchain Group and SoftTech Data Securities, with the post recognizing the successful organization by Team MMCOE.",
+      "topics": [
+        "Blockchain for smart-city systems",
+        "Decentralized technology and urban digital infrastructure",
+        "National-level faculty development"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — expert talk"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-13-1.png",
+          "caption": "Visual from the SecureChainCityCoin FDP talk, 18–22 March 2024.",
+          "alt": "SecureChainCityCoin FDP visual"
+        },
+        {
+          "src": "/images/posts/post-13-2.png",
+          "caption": "Additional visual from the MMCOE smart-cities FDP held in association with the group.",
+          "alt": "Additional SecureChainCityCoin visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 13"
+    },
+    {
+      "id": "blockchain-symposium-2024",
+      "title": "IEEE Pune Blockchain Group Blockchain Symposium 2024",
+      "dateLabel": "2 February 2024",
+      "year": "2024",
+      "category": "Flagship",
+      "classification": "Flagship group event",
+      "role": "Organized by IEEE Pune Blockchain Group. Coordinator: Dr. Sonali Patil, Chair",
+      "organizers": "IEEE Pune Blockchain Group",
+      "association": "IEEE Pune Section",
+      "venue": "Pimpri Chinchwad College of Engineering, Pune",
+      "summary": "The Blockchain Symposium brought together experts from academia and industry for a focused day of technical exchange at PCCOE Pune. The source records sessions, panel discussions, demonstrations, proof-of-concept showcases and practical use-case conversations, positioning the symposium as a flagship activity of IEEE Pune Blockchain Group.",
+      "topics": [
+        "Technical sessions across the blockchain landscape",
+        "Panel discussions",
+        "Demonstrations and proofs of concept",
+        "Real-world use cases",
+        "Networking among speakers, participants and volunteers"
+      ],
+      "people": [
+        "Dr. Ramesh Ramadoss",
+        "Dr. Surekha Deshmukh",
+        "Dr. Rajesh Ingle",
+        "Dr. Krishna Murthy Bulusu",
+        "Dr. Padmaja Patwardhan Joshi",
+        "Kamlesh Nagware",
+        "Pavan Adhav",
+        "Shreekant Kulkarni",
+        "Shruti Kulkarni",
+        "Vishnu Korde",
+        "Priyanshu Pareek",
+        "Mehul Gaidhani",
+        "Atharv Sabnis",
+        "Dr. Sonali Patil — Chair, IEEE Pune Blockchain Group, and Coordinator"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-15-1.png",
+          "caption": "Recap visual from the Blockchain Symposium, 2 February 2024, PCCOE Pune.",
+          "alt": "Blockchain Symposium 2024 recap visual"
+        },
+        {
+          "src": "/images/posts/post-15-2.png",
+          "caption": "Further symposium visual covering sessions, panels, demonstrations and use cases.",
+          "alt": "Blockchain Symposium 2024 additional visual"
+        },
+        {
+          "src": "/images/posts/post-16-1.png",
+          "caption": "Promotional visual for the Blockchain Symposium at PCCOE on 2 February 2024.",
+          "alt": "Blockchain Symposium 2024 promotional visual"
+        }
+      ],
+      "externalLink": {
+        "label": "Registration link from the promotional post",
+        "url": "https://lnkd.in/d2cdQX7v"
+      },
+      "sourcePost": "Posts 15 and 16"
+    },
+    {
+      "id": "real-world-use-cases-keynote",
+      "title": "Real World Blockchain Use Cases and Future Trends",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "FDP",
+      "classification": "Group collaboration / Keynote",
+      "role": "Keynote speaker — Dr. Sonali D. Patil",
+      "organizers": "Department of Information Technology, Marathwada Mitra Mandal's College of Engineering",
+      "association": "IEEE Pune Blockchain Group",
+      "venue": "One-week national FDP: Blockchain Ecosystem — Research, Innovation, Applications, and SDG Integration",
+      "summary": "Dr. Sonali D. Patil delivered a keynote session on real-world blockchain use cases and future trends during a one-week national-level FDP. The session connected practical applications with standards awareness and emerging research directions, giving faculty members, researchers and blockchain enthusiasts a structured view of current adoption and future convergence areas.",
+      "topics": [
+        "Real-time blockchain use cases",
+        "IEEE Blockchain Standards",
+        "Blockchain and quantum computing",
+        "AI and blockchain"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — keynote speaker"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-01-1.png",
+          "caption": "Visual from the keynote on real-world blockchain use cases and future trends.",
+          "alt": "Real-world blockchain use cases keynote visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 1"
+    }
+  ],
+  "outreach": [
+    {
+      "id": "academia-blockchain-adoption-2025",
+      "title": "Role of Academia in Blockchain Adoption",
+      "dateLabel": "19 September 2025",
+      "year": "2025",
+      "category": "Panel",
+      "classification": "External panel / Chair engagement",
+      "role": "Panel member — Dr. Sonali D. Patil; also a member of the Finance Hackathon planning team",
+      "organizers": "Linux Foundation Decentralized Trust India Chapter; Citi India; India Blockchain Forum",
+      "association": "Not an IEEE Pune Blockchain Group-organized event",
+      "venue": "Citi, EON IT Park, Pune",
+      "summary": "Dr. Sonali D. Patil participated as a panel member in a discussion on the role of academia in blockchain adoption. The program connected academic, startup and enterprise perspectives and was held at Citi's EON IT Park location in Pune. The same post records planning-team involvement in a Finance Hackathon finale with a keynote, expert talks and panel discussions.",
+      "topics": [
+        "Academia's role in blockchain adoption",
+        "Finance Hackathon planning",
+        "1,000+ participants and 250+ teams reported in the source",
+        "Academia, startups and multinational companies"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — panel member"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-04-1.png",
+          "caption": "Visual from the academia and blockchain adoption panel, 19 September 2025.",
+          "alt": "Role of Academia in Blockchain Adoption visual"
+        },
+        {
+          "src": "/images/posts/post-04-2.png",
+          "caption": "Additional panel visual from the program at Citi, EON IT Park, Pune.",
+          "alt": "Academia in blockchain adoption additional visual"
+        },
+        {
+          "src": "/images/posts/post-04-3.png",
+          "caption": "Finance Hackathon planning context recorded alongside the panel.",
+          "alt": "Finance hackathon and panel visual"
+        },
+        {
+          "src": "/images/posts/post-04-4.png",
+          "caption": "Further visual from the 19 September 2025 industry-academia program.",
+          "alt": "Further academia blockchain panel visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 4"
+    },
+    {
+      "id": "fintech-trends-mit-2025",
+      "title": "Blockchain & Cryptocurrency: The Future of Fintech Trends",
+      "dateLabel": "20 March 2025",
+      "year": "2025",
+      "category": "Invited talk",
+      "classification": "External invited talk",
+      "role": "Invited speaker — Dr. Sonali D. Patil",
+      "organizers": "College of Management, MIT-ADT University",
+      "association": "Chair engagement, not a group-organized event",
+      "venue": "7th International Symposium on Innovative Global Technology Trends, MIT-ADT University",
+      "summary": "Dr. Sonali D. Patil delivered a session on blockchain and cryptocurrency at the 7th International Symposium on Innovative Global Technology Trends. The talk discussed the evolving blockchain landscape, its influence on the financial sector and its future potential in fintech.",
+      "topics": [
+        "Blockchain and cryptocurrency",
+        "Fintech trends",
+        "Impact of blockchain on the financial sector",
+        "Future potential of the technology landscape"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — invited speaker"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-08-1.png",
+          "caption": "Visual from the fintech trends session, 20 March 2025.",
+          "alt": "Blockchain and cryptocurrency fintech session visual"
+        },
+        {
+          "src": "/images/posts/post-08-2.png",
+          "caption": "Additional visual from the MIT-ADT international symposium session.",
+          "alt": "MIT-ADT symposium session visual"
+        },
+        {
+          "src": "/images/posts/post-08-3.png",
+          "caption": "Further visual from the invited fintech talk.",
+          "alt": "Further fintech trends talk visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 8"
+    },
+    {
+      "id": "smart-contract-vulnerability-fdp",
+      "title": "Automated Vulnerability Detection for Smart Contracts in Blockchain",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "Invited talk",
+      "classification": "External expert session",
+      "role": "Expert speaker — Dr. Sonali D. Patil",
+      "organizers": "Fr. Conceicao Rodrigues College of Engineering (FCRCE), Bandra (W), Mumbai",
+      "association": "The post does not establish IEEE Pune Blockchain Group as organizer or collaborator",
+      "venue": "AICTE-sponsored ATAL FDP: Navigating the Future of Decentralized Advanced Blockchain Technologies",
+      "summary": "Dr. Sonali D. Patil delivered an expert session on automated vulnerability detection for blockchain smart contracts during an AICTE-sponsored ATAL FDP on advanced decentralized blockchain technologies at Fr. Conceicao Rodrigues College of Engineering, Bandra (W), Mumbai.",
+      "topics": [
+        "Smart-contract security",
+        "Automated vulnerability detection",
+        "Advanced decentralized blockchain technologies",
+        "Faculty development"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — expert speaker"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-10-1.png",
+          "caption": "Visual from the smart-contract vulnerability session at FCRCE.",
+          "alt": "Smart contract vulnerability detection session visual"
+        },
+        {
+          "src": "/images/posts/post-10-2.png",
+          "caption": "Additional visual from the AICTE ATAL FDP expert session.",
+          "alt": "ATAL FDP expert session visual"
+        },
+        {
+          "src": "/images/posts/post-10-3.png",
+          "caption": "Further visual from the FCRCE smart-contract session.",
+          "alt": "Further smart contract session visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 10"
+    },
+    {
+      "id": "women-in-blockchain-2024",
+      "title": "Women in Blockchain — Season V, 2024",
+      "dateLabel": "16 March 2024 · 10:00 AM–5:20 PM IST",
+      "year": "2024",
+      "category": "Community engagement",
+      "classification": "External community engagement",
+      "role": "Dr. Sonali D. Patil featured among women professionals in the program",
+      "organizers": "Hyperledger India Chapter and Hyperledger Foundation",
+      "association": "Hosted by Hyperledger, not by IEEE Pune Blockchain Group",
+      "venue": "Online community program",
+      "summary": "Dr. Sonali D. Patil was included among the women professionals featured in Women in Blockchain Season V, hosted by the Hyperledger India Chapter and Hyperledger Foundation. The program celebrated women working across technical and non-technical areas of blockchain and combined research presentations, panel discussions, fireside chats and networking.",
+      "topics": [
+        "Women working in blockchain",
+        "Research presentations",
+        "Panel discussions",
+        "Fireside chats",
+        "Global networking"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — featured participant",
+        "Deepika Karanji, Ritu Jain, Anasuya Threse Innocent, Nidhi Singh, Kartikey Kashyap, Kamlesh Nagware, Vikram Sharma, Ravi Pratap S. and Aditya Joshi — Hyperledger India Chapter hosts named in the source"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-14-1.png",
+          "caption": "Women in Blockchain Season V visual, 16 March 2024.",
+          "alt": "Women in Blockchain Season V 2024 visual"
+        }
+      ],
+      "externalLink": {
+        "label": "Registration link recorded in the source",
+        "url": "https://lnkd.in/gPpZu48N"
+      },
+      "sourcePost": "Post 14"
+    },
+    {
+      "id": "icbds-2023",
+      "title": "IEEE ICBDS 2023 at IIIT Naya Raipur",
+      "dateLabel": "2023 (exact date not stated)",
+      "year": "2023",
+      "category": "Conference role",
+      "classification": "Conference role and achievement",
+      "role": "Tutorial Chair, Session Chair, and paper author; Best Paper Award",
+      "organizers": "IEEE ICBDS 2023",
+      "association": "Chair scholarly engagement, not a Pune group-organized event",
+      "venue": "IIIT Naya Raipur",
+      "summary": "At IEEE ICBDS 2023, Dr. Sonali D. Patil served in multiple scholarly roles, including Tutorial Chair and Session Chair, contributed as a paper author and received a Best Paper Award. The source emphasizes research interaction and discussions with experts in the blockchain field.",
+      "topics": [
+        "Tutorial Chair",
+        "Session Chair",
+        "Paper authorship",
+        "Best Paper Award",
+        "Research community discussion"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — Tutorial Chair, Session Chair, paper author"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-17-1.png",
+          "caption": "Visual from IEEE ICBDS 2023 at IIIT Naya Raipur.",
+          "alt": "IEEE ICBDS 2023 visual"
+        },
+        {
+          "src": "/images/posts/post-17-2.png",
+          "caption": "Additional ICBDS 2023 visual from the conference engagement.",
+          "alt": "Additional IEEE ICBDS 2023 visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 17"
+    },
+    {
+      "id": "utp-malaysia-research-talk",
+      "title": "Blockchain: Recent Trends and Research Opportunities",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "International engagement",
+      "classification": "International expert talk",
+      "role": "Expert talk and research interaction — Dr. Sonali D. Patil",
+      "organizers": "Universiti Teknologi PETRONAS (UTP)",
+      "association": "International outreach, not a local group-organized event",
+      "venue": "Universiti Teknologi PETRONAS, Malaysia · Ph.D. research scholars",
+      "summary": "Dr. Sonali D. Patil shared insights with Ph.D. research scholars at Universiti Teknologi PETRONAS in Malaysia on recent blockchain trends and research opportunities. The engagement demonstrates research interaction beyond the local Pune ecosystem.",
+      "topics": [
+        "Recent trends in blockchain",
+        "Research opportunities",
+        "Interaction with Ph.D. scholars",
+        "International academic outreach"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — expert talk"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-19-1.png",
+          "caption": "Visual from the research talk at Universiti Teknologi PETRONAS, Malaysia.",
+          "alt": "UTP Malaysia blockchain research talk visual"
+        },
+        {
+          "src": "/images/posts/post-19-2.png",
+          "caption": "Additional visual from the UTP Malaysia session with Ph.D. scholars.",
+          "alt": "Additional UTP Malaysia research talk visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 19"
+    },
+    {
+      "id": "viit-dapps-fdp",
+      "title": "Relevance of Blockchain and dApps in Current Trends",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "Invited talk",
+      "classification": "External FDP talk",
+      "role": "Session delivered by Dr. Sonali D. Patil",
+      "organizers": "Vishwakarma Institute of Information Technology",
+      "association": "IEEE Computer Society, Pune Chapter — not IEEE Pune Blockchain Group",
+      "venue": "One-week Faculty Development Program",
+      "summary": "Dr. Sonali D. Patil delivered a session on the relevance of blockchain and decentralized applications (dApps) in current technology trends during a one-week FDP organized by Vishwakarma Institute of Information Technology in association with IEEE Computer Society Pune Chapter.",
+      "topics": [
+        "Blockchain in current technology trends",
+        "Decentralized applications (dApps)",
+        "Faculty development"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — session speaker"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-20-1.png",
+          "caption": "Visual from the VIIT session on blockchain and dApps.",
+          "alt": "Blockchain and dApps FDP visual"
+        },
+        {
+          "src": "/images/posts/post-20-2.png",
+          "caption": "Additional visual from the VIIT FDP held with IEEE Computer Society Pune Chapter.",
+          "alt": "Additional VIIT dApps session visual"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 20"
+    }
+  ],
+  "media": [
+    {
+      "id": "podcast-blockchain-ai-education",
+      "title": "Podcast: Blockchain, AI & the Future of Education",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "Podcast",
+      "classification": "Podcast / media",
+      "role": "Guest — Dr. Sonali D. Patil",
+      "organizers": "Podcast conversation; the source post includes #AkshayKurhekar",
+      "association": "Media engagement, not an IEEE Pune Blockchain Group-organized event",
+      "venue": "Recorded conversation. Visual title in the post: Blockchain & Education",
+      "summary": "In this expert conversation, Dr. Sonali D. Patil discussed how blockchain, artificial intelligence and education intersect to shape trusted digital systems and student innovation. The discussion connected technology adoption with practical learning and the mindset required for sustained innovation.",
+      "topics": [
+        "Using blockchain to reduce fraud",
+        "Trustworthy AI with decentralized identity",
+        "Continuous learning and practical experience",
+        "Hackathons as learning accelerators",
+        "Students, developers, educators and technology enthusiasts"
+      ],
+      "people": [
+        "Dr. Sonali D. Patil — podcast guest"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-02-1.png",
+          "caption": "Podcast visual: Blockchain, AI and the future of education.",
+          "alt": "Blockchain and education podcast visual"
+        }
+      ],
+      "externalLink": {
+        "label": "Watch the podcast",
+        "url": "https://lnkd.in/gUJyJYtJ"
+      },
+      "sourcePost": "Post 2"
+    }
+  ],
+  "publications": [
+    {
+      "id": "decentralized-healing-book",
+      "title": "Decentralized Healing: Transforming Healthcare with Federated Learning and Blockchain Technologies",
+      "dateLabel": "Date not stated",
+      "year": null,
+      "category": "Publication",
+      "classification": "Publication / thought leadership",
+      "role": "Co-editor — Sonali Dhananjay Patil",
+      "organizers": "CRC Press, Taylor & Francis Group",
+      "association": "Edited with Dr. Rajesh Ingle, Dr. Amar Buchade, and Vidy Potdar",
+      "venue": "Edited book",
+      "summary": "The edited book brings together interdisciplinary perspectives on how federated learning and blockchain can reshape healthcare through security, privacy and decentralized control in data-driven medical systems. The source presents the publication as a collaborative scholarly contribution.",
+      "topics": [
+        "Federated learning in healthcare",
+        "Blockchain in healthcare",
+        "Security and privacy",
+        "Decentralized control of medical data"
+      ],
+      "people": [
+        "Sonali Dhananjay Patil — co-editor",
+        "Dr. Rajesh Ingle — co-editor",
+        "Dr. Amar Buchade — co-editor",
+        "Vidy Potdar — co-editor"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-06-1.png",
+          "caption": "Cover visual for Decentralized Healing, CRC Press.",
+          "alt": "Decentralized Healing book cover"
+        }
+      ],
+      "externalLink": null,
+      "sourcePost": "Post 6"
+    }
+  ],
+  "community": [
+    {
+      "id": "finance-web3-hackathon-2025",
+      "title": "Blockchain Hackathon — Finance and Web3 Innovation",
+      "dateLabel": "Registration deadline: 30 July 2025",
+      "year": "2025",
+      "category": "Community opportunity",
+      "classification": "Community / ecosystem promotion",
+      "role": "Promoted in the source. IEEE Pune Blockchain Group is not established as organizer",
+      "organizers": "Not established in the source",
+      "association": "Blockchain CoP | Consensus Circle; LF Decentralized Trust India Chapter",
+      "venue": "Community hackathon",
+      "summary": "The source promotes a blockchain hackathon focused on building practical solutions across decentralized finance and emerging financial infrastructure. Because the post does not establish IEEE Pune Blockchain Group as organizer, this item is a community opportunity rather than a group event.",
+      "topics": [
+        "Blockchain solutions",
+        "DeFi",
+        "Central Bank Digital Currencies (CBDCs)",
+        "Real-world assets (RWAs)",
+        "Compliance technology"
+      ],
+      "people": [
+        "Kamlesh Nagware",
+        "Prasanna Lohar",
+        "Garima Singh",
+        "Yogesh Karandikar",
+        "Dr. Deepankar Roy"
+      ],
+      "images": [
+        {
+          "src": "/images/posts/post-07-1.png",
+          "caption": "Promotional visual for the finance and Web3 blockchain hackathon.",
+          "alt": "Finance and Web3 blockchain hackathon visual"
+        }
+      ],
+      "externalLink": {
+        "label": "Registration link recorded in the source",
+        "url": "https://lnkd.in/gtQQiXpG"
+      },
+      "sourcePost": "Post 7"
+    }
+  ],
+  "milestone": {
+    "id": "group-formation",
+    "title": "Formation of the IEEE Pune Blockchain Group",
+    "dateLabel": "Formation announcement — exact date not stated",
+    "year": null,
+    "category": "Milestone",
+    "classification": "Group formation milestone",
+    "role": "Chair — Prof. Dr. Sonali Patil",
+    "organizers": "IEEE Blockchain Region 10 Asia-Pacific",
+    "association": "Support acknowledged from Dr. Ramesh Ramadoss, Chair — IEEE Blockchain, and Dr. Surekha Deshmukh, Chair — IEEE Pune Section",
+    "venue": "IEEE Region 10 — Asia-Pacific",
+    "summary": "The formation announcement states that the IEEE Pune Blockchain Group was created under IEEE Blockchain Region 10 Asia-Pacific to bring together professionals interested in networking, learning, knowledge sharing and advancement of blockchain technology. The group's intended activity model includes meetups, events, lectures, seminars and workshops, in person or virtual.",
+    "topics": [
+      "Professional networking and collaboration",
+      "Learning and knowledge sharing",
+      "Advancing blockchain technology",
+      "Meetups, events, lectures, seminars and workshops"
+    ],
+    "people": [
+      "Prof. Dr. Sonali Patil — Chair, IEEE Pune Blockchain Group",
+      "Dr. Ramesh Ramadoss — Chair, IEEE Blockchain",
+      "Dr. Surekha Deshmukh — Chair, IEEE Pune Section"
+    ],
+    "images": [],
+    "externalLink": {
+      "label": "Local group link recorded in the source",
+      "url": "https://lnkd.in/dXXMa2wt"
+    },
+    "sourcePost": "Post 18"
+  }
+}

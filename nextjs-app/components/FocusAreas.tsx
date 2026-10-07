@@ -111,7 +111,7 @@ const focusAreas = [
   },
 ]
 
-export default function FocusAreas() {
+export default function FocusAreas({ limit }: { limit?: number }) {
   return (
     <section id="focus" className="section-padding bg-white border-t border-slate-200">
       <div className="section-container">
@@ -119,16 +119,16 @@ export default function FocusAreas() {
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
             Research &amp; Engineering Scope
           </span>
-          <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
-            12 Core Technical Focus Areas
+          <h2 className="font-heading mt-1.5 font-bold text-ieee-navy">
+            {limit ? 'Technical focus' : '12 Core Technical Focus Areas'}
           </h2>
-          <p className="mt-2 text-sm text-slate-600">
+          <p className="measure mt-2 text-base text-slate-600">
             Our initiatives span fundamental cryptographic infrastructure, enterprise distributed ledgers, and cutting-edge decentralized intelligence.
           </p>
         </div>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {focusAreas.map((area) => (
+          {(limit ? focusAreas.slice(0, limit) : focusAreas).map((area) => (
             <div key={area.title} className="institutional-card top-accent-card">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-ieee-primary/10 text-ieee-primary">
                 {area.icon}
@@ -136,7 +136,7 @@ export default function FocusAreas() {
               <h3 className="font-heading mt-2.5 text-sm font-bold text-ieee-navy">
                 {area.title}
               </h3>
-              <p className="mt-1 text-xs text-slate-600 leading-relaxed">
+              <p className="mt-1 text-sm leading-relaxed text-slate-600">
                 {area.desc}
               </p>
             </div>

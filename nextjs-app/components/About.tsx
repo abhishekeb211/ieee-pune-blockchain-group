@@ -1,4 +1,5 @@
 import React from 'react'
+import activities from '../data/activities.json'
 
 const objectives = [
   { id: '#01', label: 'Technical Education & DLT Awareness' },
@@ -51,6 +52,26 @@ export default function About() {
           </p>
         </div>
 
+        <div className="institutional-card top-accent-card mt-6 p-5">
+          <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">History</span>
+          <h3 className="font-heading mt-1 text-lg font-bold text-ieee-navy">
+            {activities.milestone.title}
+          </h3>
+          <p className="mt-1 text-xs font-medium text-ieee-primary">{activities.milestone.dateLabel}</p>
+          <p className="mt-2 text-sm leading-relaxed text-slate-600">{activities.milestone.summary}</p>
+          <p className="mt-2 text-xs text-slate-600">
+            <strong>Chair: </strong>{activities.milestone.role}. The group sits in {activities.milestone.venue}. {activities.milestone.association}.
+          </p>
+          <a
+            href={activities.milestone.externalLink.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex text-sm font-semibold text-ieee-primary hover:underline"
+          >
+            {activities.milestone.externalLink.label}
+          </a>
+        </div>
+
         {/* Mission & Vision Cards */}
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {/* Mission */}
@@ -61,7 +82,7 @@ export default function About() {
               </svg>
               <h3 className="font-heading text-lg font-bold text-ieee-navy">Our Mission</h3>
             </div>
-            <p className="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="mt-3 text-base leading-relaxed text-slate-600">
               To create a collaborative technical ecosystem that enables professionals, researchers, faculty members, students, and industry experts to <strong>learn, research, experiment with, and advance blockchain, distributed ledger, and trusted decentralized technologies</strong> through technical events, lectures, workshops, symposia, research discussions, and training programmes.
             </p>
           </div>
@@ -75,7 +96,7 @@ export default function About() {
               </svg>
               <h3 className="font-heading text-lg font-bold text-ieee-navy">Our Vision</h3>
             </div>
-            <p className="mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="mt-3 text-base leading-relaxed text-slate-600">
               To establish Pune as a premier regional hub for <strong>Blockchain, Distributed Trust, Decentralized AI, Digital Identity, Applied Cryptography, and Secure Distributed Systems</strong>, directly bridging local talent with the global IEEE Blockchain Technical Community and IEEE Region 10 ecosystem.
             </p>
           </div>

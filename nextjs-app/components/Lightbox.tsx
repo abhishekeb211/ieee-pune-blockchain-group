@@ -69,7 +69,7 @@ export default function Lightbox({
           <button
             type="button"
             onClick={onClose}
-            className="text-slate-400 hover:text-white text-lg p-1 transition"
+            className="lightbox-close text-slate-400 hover:text-white text-lg"
             aria-label="Close dialog"
           >
             ✕
@@ -93,7 +93,7 @@ export default function Lightbox({
           <img
             src={data.src}
             alt={data.title}
-            className="max-w-full max-h-[520px] object-contain"
+            className="max-h-[70dvh] max-w-full object-contain"
           />
           {onNext && (
             <button
@@ -125,7 +125,7 @@ export default function Lightbox({
               Source Document ↗
             </a>
           ) : (
-            <span className="text-xs text-slate-400 italic">Official IEEE Technical Record</span>
+            <span className="text-xs text-slate-400 italic">Photograph from the activity record</span>
           )}
         </div>
       </div>

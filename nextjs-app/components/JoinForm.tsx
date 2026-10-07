@@ -142,7 +142,7 @@ export default function JoinForm() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="grid gap-4">
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4 md:grid-cols-2">
                 <label className="block">
                   <span className="text-xs font-semibold text-slate-700">
                     Full Name <span className="text-rose-500">*</span>
@@ -174,7 +174,7 @@ export default function JoinForm() {
                 </label>
               </div>
 
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4 md:grid-cols-2">
                 <label className="block">
                   <span className="text-xs font-semibold text-slate-700">Phone Number</span>
                   <div className="mt-1">
@@ -202,7 +202,7 @@ export default function JoinForm() {
                 </label>
               </div>
 
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4 md:grid-cols-2">
                 <label className="block">
                   <span className="text-xs font-semibold text-slate-700">
                     Primary Affiliation <span className="text-rose-500">*</span>

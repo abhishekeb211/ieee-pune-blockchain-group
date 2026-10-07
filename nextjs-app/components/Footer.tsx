@@ -1,103 +1,43 @@
-import React from 'react'
+import Link from 'next/link'
+
+const pages = [
+  { href: '/about', label: 'About' },
+  { href: '/activities', label: 'Activities' },
+  { href: '/gallery', label: 'Gallery' },
+  { href: '/lab', label: 'Lab' },
+  { href: '/join', label: 'Join' },
+]
 
 export default function Footer() {
   return (
-    <footer className="bg-footer-main text-slate-400 text-xs border-t border-slate-800">
-      {/* Upper Footer */}
-      <div className="section-container py-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <footer className="border-t border-slate-800 bg-footer-main text-sm text-slate-300">
+      <div className="section-container grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-3">
         <div>
-          <h4 className="font-heading text-sm font-bold text-white">IEEE Pune Blockchain Group</h4>
-          <p className="mt-2 text-xs leading-relaxed text-slate-400">
-            A recognized local technical group under the IEEE Blockchain Technical Community, IEEE Pune Section, and IEEE Region 10 (Asia-Pacific). Spoid: <strong>LGR00120BC</strong>.
+          <h2 className="font-heading text-base font-bold text-white">IEEE Pune Blockchain Group</h2>
+          <p className="mt-2 max-w-prose leading-relaxed">
+            A local technical group of the IEEE Blockchain Technical Community, IEEE Pune Section, and IEEE Region 10. Spoid LGR00120BC.
           </p>
         </div>
-
         <div>
-          <h4 className="font-heading text-sm font-bold text-white">Institutional Affiliations</h4>
-          <ul className="mt-2 space-y-1.5 text-xs">
-            <li>
-              <a href="https://blockchain.ieee.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Blockchain Technical Community
-              </a>
-            </li>
-            <li>
-              <a href="https://ieeepunesection.org/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Pune Section
-              </a>
-            </li>
-            <li>
-              <a href="https://www.ieeer10.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Region 10 (Asia-Pacific)
-              </a>
-            </li>
-            <li>
-              <a href="https://ieee-collabratec.ieee.org/app/workspaces/9028/activities" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Collabratec Workspace
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/ieee-pune-blockchain-group" target="_blank" rel="noopener noreferrer" className="hover:text-white transition text-ieee-brightcyan">
-                LinkedIn Official Group ↗
-              </a>
-            </li>
-            <li>
-              <a href="https://vtools.vtools.ieee.org/home/local_groups/view/62" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE vTools Local Group (62) ↗
-              </a>
-            </li>
-            <li>
-              <a href="https://www.ieee.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                IEEE Worldwide
-              </a>
-            </li>
+          <h2 className="font-heading text-base font-bold text-white">On this site</h2>
+          <ul className="mt-2 space-y-2">
+            {pages.map((page) => (
+              <li key={page.href}>
+                <Link href={page.href} className="hover:text-white">{page.label}</Link>
+              </li>
+            ))}
           </ul>
         </div>
-
         <div>
-          <h4 className="font-heading text-sm font-bold text-white">Quick Navigation</h4>
-          <ul className="mt-2 space-y-1.5 text-xs">
-            <li>
-              <a href="#about" className="hover:text-white transition">About &amp; Mission</a>
-            </li>
-            <li>
-              <a href="#focus" className="hover:text-white transition">12 Technical Focus Areas</a>
-            </li>
-            <li>
-              <a href="#lab" className="hover:text-white transition">Blockchain Lab Infrastructure</a>
-            </li>
-            <li>
-              <a href="#events" className="hover:text-white transition">Chronological Timeline</a>
-            </li>
-            <li>
-              <a href="#leadership" className="hover:text-white transition">Leadership &amp; Governance</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-heading text-sm font-bold text-white">Contact &amp; Support</h4>
-          <p className="mt-2 text-xs leading-relaxed text-slate-400">
-            For academic inquiries, event partnerships, or laboratory research:
-          </p>
+          <h2 className="font-heading text-base font-bold text-white">Contact</h2>
           <a href="mailto:sonalimpatil@gmail.com" className="mt-2 inline-block font-semibold text-ieee-brightcyan hover:underline">
             sonalimpatil@gmail.com
           </a>
-          <p className="mt-2 text-[11px] text-slate-500">
-            Pimpri Chinchwad College of Engineering (PCCOE) / MMCOE, Pune
-          </p>
+          <p className="mt-2">PCCOE and MMCOE, Pune</p>
         </div>
       </div>
-
-      {/* Lower Baseline Footer */}
-      <div className="bg-footer-deep py-4 border-t border-white/5">
-        <div className="section-container flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500">
-          <p>© 2026 IEEE Pune Blockchain Group. All rights reserved.</p>
-          <p className="flex items-center gap-3 text-[11px]">
-            <span>Designed for IEEE Technical Communities</span>
-            <span>·</span>
-            <a href="#top" className="hover:text-slate-300">Back to Top ↑</a>
-          </p>
-        </div>
+      <div className="border-t border-white/10 bg-footer-deep py-4">
+        <p className="section-container text-sm text-slate-400">© 2026 IEEE Pune Blockchain Group.</p>
       </div>
     </footer>
   )

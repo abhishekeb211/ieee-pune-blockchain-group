@@ -1,0 +1,10 @@
+# OS generated files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Logs and cache
+*.log
+*.tsbuildinfo
+nextjs-app/.next/
+nextjs-app/node_modules/

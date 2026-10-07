@@ -3,6 +3,7 @@ Automated Verification Suite for IEEE Pune Blockchain Group Website Integration
 """
 import sys
 import os
+import json
 from bs4 import BeautifulSoup
 
 def verify_integration():
@@ -80,14 +81,15 @@ def verify_integration():
             for p in prohibited:
                 assert p not in content, f"Prohibited string '{p}' found in {comp}!"
 
-    # Verify Events.tsx has 10 events
+    # Verify Events.tsx integrates activities.json and multi-category programs
     with open(os.path.join(nextjs_dir, "components", "Events.tsx"), "r", encoding="utf-8") as f:
         events_tsx = f.read()
-        assert "symposium-2024" in events_tsx
-        assert "ebct-2024" in events_tsx
-        assert "icdlt-2025" in events_tsx
-        assert "decentrahack-2026" in events_tsx
-        assert "fdp-decai-2026" in events_tsx
+        assert "activities.json" in events_tsx
+        assert "groupPrograms" in events_tsx
+    with open(os.path.join(nextjs_dir, "data", "activities.json"), "r", encoding="utf-8") as f:
+        act_data = json.load(f)
+        assert len(act_data.get("groupPrograms", [])) >= 5
+        assert len(act_data.get("outreach", [])) >= 5
 
     print("[SUCCESS] All 15 integration assertions passed successfully!")
     print(f"Verified {len(event_cards)} events across 2024, 2025, 2026.")
