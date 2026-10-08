@@ -54,23 +54,66 @@ export default function Hero() {
   return (
     <>
       <section className="bg-gradient-to-b from-[#E7F7F6] to-[#F7FCFC] text-[#007175]">
-        <div className="section-container rise-in py-10 md:py-14">
-          <p className="text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
-            APAC · Region 10 · South Asia and Pacific
-          </p>
-          <h1 className="font-heading mt-3 max-w-[20ch] text-3xl font-normal text-[#007175] sm:text-5xl">
-            IEEE Pune Blockchain Group
-          </h1>
-          <p className="measure mt-4 text-base leading-relaxed text-[#333333] sm:text-lg">
-            A local group of the IEEE Blockchain Technical Community for researchers, faculty, students, and industry practitioners in Pune.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/join" className="inline-flex min-h-11 items-center bg-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-white">
-              Join
-            </Link>
-            <Link href="/activities" className="inline-flex min-h-11 items-center border border-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-[#007175]">
-              Events
-            </Link>
+        <div className="section-container grid items-center gap-8 py-10 md:py-14 lg:grid-cols-[minmax(0,1.4fr)_minmax(16rem,22rem)]">
+          <div className="rise-in">
+            <p className="text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
+              APAC · Region 10 · South Asia and Pacific
+            </p>
+            <h1 className="mt-4">
+              <Image
+                src="/images/brand/ieee-pune-blockchain-group.png"
+                alt="IEEE Pune Blockchain Group"
+                width={1174}
+                height={648}
+                priority
+                className="h-auto w-full max-w-xl"
+              />
+            </h1>
+            <p className="measure mt-4 text-base leading-relaxed text-[#333333] sm:text-lg">
+              A local group of the IEEE Blockchain Technical Community for researchers, faculty, students, and industry practitioners in Pune.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/join" className="inline-flex min-h-11 items-center bg-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-white">
+                Join
+              </Link>
+              <Link href="/activities" className="inline-flex min-h-11 items-center border border-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-[#007175]">
+                Events
+              </Link>
+            </div>
+          </div>
+
+          <div className="rise-in rise-delay-2">
+            <article className="lift-card flex flex-col items-start p-5 sm:p-6">
+              <Image
+                src="/images/guests/sonali-patil.jpg"
+                alt="Prof. Dr. Sonali D. Patil, Chair of the IEEE Pune Blockchain Group"
+                width={200}
+                height={200}
+                className="h-[200px] w-[200px] rounded-full object-cover ring-4 ring-[#007175]"
+              />
+              <h2 className="font-heading mt-4 text-2xl font-normal text-[#007175]">
+                Prof. Dr. Sonali D. Patil
+              </h2>
+              <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
+                Chair, IEEE Pune Blockchain Group
+              </p>
+              <p className="mt-3 text-base leading-relaxed text-[#333333]">
+                Professor and Head of Computer Engineering, PCCOE, and a Region 10 coordinator for IEEE Blockchain local groups.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-4">
+                <a
+                  href="https://www.linkedin.com/in/dr-sonali-d-patil-9413681b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-semibold text-[#007175] hover:underline"
+                >
+                  LinkedIn
+                </a>
+                <Link href="/about" className="text-sm font-semibold text-[#007175] hover:underline">
+                  About
+                </Link>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -98,9 +141,6 @@ export default function Hero() {
             <h2 className="font-heading text-xl font-normal text-[#008B8B]">Community</h2>
             <p className="mt-4 text-base leading-relaxed text-[#333333]">
               IEEE Pune Blockchain Group is listed with the IEEE Blockchain Technical Community under APAC, Region 10, South Asia and Pacific.
-            </p>
-            <p className="mt-3 text-base leading-relaxed text-[#333333]">
-              Chair: Dr. Sonali D. Patil, Professor and Head of Computer Engineering at PCCOE, and a Region 10 coordinator for IEEE Blockchain local groups.
             </p>
             <Link href="/about" className="mt-3 inline-block text-sm font-semibold text-[#007175] hover:underline">
               About the group
