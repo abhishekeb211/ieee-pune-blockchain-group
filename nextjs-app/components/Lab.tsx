@@ -51,13 +51,13 @@ export default function Lab({ onSelectPhoto }: LabProps) {
   const currentSubsystem = subsystems[activeIdx]
 
   return (
-    <section id="lab" className="section-padding bg-white border-t border-slate-200">
+    <section id="lab" className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
             Research Facilities &amp; CoE
           </span>
-          <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+          <h2 className="page-title mt-3">
             Blockchain Laboratory &amp; Research Infrastructure
           </h2>
           <p className="mt-2 text-sm text-slate-600">

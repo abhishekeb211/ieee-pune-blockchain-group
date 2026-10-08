@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 
 const labels: Record<string, string> = {
   about: 'About',
-  activities: 'Activities',
+  activities: 'Events',
   gallery: 'Gallery',
   lab: 'Lab',
   join: 'Join',

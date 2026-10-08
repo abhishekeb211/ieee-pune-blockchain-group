@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Leadership() {
   return (
-    <section id="leadership" className="section-padding bg-white">
+    <section id="leadership" className="section-padding">
       <div className="section-container">
         <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
           Governance &amp; Officers

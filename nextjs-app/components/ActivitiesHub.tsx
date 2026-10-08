@@ -22,7 +22,7 @@ export default function ActivitiesHub() {
 
   return (
     <>
-      <div className="border-b border-slate-200 bg-white">
+      <div className="border-b border-[#D5EDEC] bg-white">
         <div className="section-container filter-row py-4" role="tablist" aria-label="Activity sections">
           {tabs.map((item) => (
             <button
@@ -41,7 +41,7 @@ export default function ActivitiesHub() {
       {tab === 'programs' && <Events onSelectPhoto={setPhoto} />}
       {tab === 'outreach' && <Outreach onOpenLightbox={setPhoto} />}
       {tab === 'media' && <MediaResearch onOpenLightbox={setPhoto} />}
-      {tab === 'archive' && <CollegeArchive />}
+      {tab === 'archive' && <CollegeArchive onOpenLightbox={setPhoto} />}
       <Lightbox data={photo} onClose={() => setPhoto(null)} />
     </>
   )

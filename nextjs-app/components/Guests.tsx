@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import guestsJson from '../data/guests.json'
 import eventsJson from '../data/events.json'
+import { byLatest } from './activity'
 
 interface Guest {
   id: string
@@ -46,7 +47,7 @@ export default function Guests() {
   })
 
   return (
-    <section id="guests" className="section-padding bg-slate-50 border-t border-slate-200">
+    <section id="guests" className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
@@ -98,8 +99,9 @@ export default function Guests() {
           {filteredGuests.map(g => {
             const appearedEvents = (g.events || []).map(evId => {
               const found = allEvents.find(e => e.id === evId)
-              return found ? { id: found.id, name: found.name, year: found.year } : null
-            }).filter(Boolean)
+              return found ? { id: found.id, name: found.name, year: found.year, date: found.date } : null
+            }).filter((event): event is { id: string; name: string; year: string; date: string } => Boolean(event))
+              .sort(byLatest((event) => event.date))
 
             return (
               <div key={g.id} className="guest-card">
@@ -133,43 +135,37 @@ export default function Guests() {
                           href="#events"
                           className="text-[10px] bg-slate-100 hover:bg-sky-100 hover:text-ieee-primary text-slate-700 px-2 py-0.5 rounded transition font-medium text-left truncate max-w-[190px]"
                         >
-                          {ev!.year} · {ev!.name}
+                          {ev.year} · {ev.name}
                         </a>
                       ))}
                     </div>
                   </div>
                 )}
 
-                {/* Profile Links */}
-                <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-                  {g.linkedin ? (
-                    <a
-                      href={g.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 font-semibold text-ieee-primary hover:text-ieee-brightcyan transition"
-                    >
-                      <svg className="w-3.5 h-3.5 text-[#0077b5]" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                      </svg>
-                      <span>LinkedIn</span>
-                      <span className="text-[10px] text-emerald-600 font-bold">✓</span>
-                    </a>
-                  ) : (
-                    <span className="text-[11px] text-slate-400">Profile on record</span>
-                  )}
-
-                  {g.website && (
-                    <a
-                      href={g.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs text-slate-500 hover:text-ieee-navy font-medium ml-auto"
-                    >
-                      Official Site ↗
-                    </a>
-                  )}
-                </div>
+                {(g.linkedin || g.website) && (
+                  <div className="mt-3 flex flex-wrap items-center gap-3 border-t border-slate-100 pt-2 text-sm">
+                    {g.linkedin && (
+                      <a
+                        href={g.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-ieee-primary hover:underline"
+                      >
+                        LinkedIn
+                      </a>
+                    )}
+                    {g.website && (
+                      <a
+                        href={g.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-ieee-navy hover:underline"
+                      >
+                        Website
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             )
           })}

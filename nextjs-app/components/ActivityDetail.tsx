@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import { LightboxData } from './Lightbox'
 import { Activity, activityToLightbox, badgeClass } from './activity'
+import ProfileLinks, { guestForPerson } from './ProfileLinks'
 
 interface ActivityDetailProps {
   activity: Activity
@@ -25,7 +26,7 @@ export default function ActivityDetail({ activity, onOpen, surface = 'dark' }: A
           {cover ? (
             <button
               type="button"
-              className="group relative block aspect-[4/3] w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100 text-left shadow-card-soft"
+              className="group relative block aspect-[4/3] w-full overflow-hidden rounded-xl border border-slate-200 bg-[#F4F7FB] text-left shadow-card-soft"
               onClick={() => onOpen?.(activityToLightbox(activity, cover))}
             >
               <Image
@@ -33,7 +34,7 @@ export default function ActivityDetail({ activity, onOpen, surface = 'dark' }: A
                 alt={cover.alt}
                 fill
                 sizes="(max-width: 1024px) 100vw, 33vw"
-                className="object-cover"
+                className="object-contain object-center"
               />
               <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/85 via-black/20 to-transparent p-3.5">
                 <span className="chip mb-1 w-fit">{activity.category}</span>
@@ -110,10 +111,10 @@ export default function ActivityDetail({ activity, onOpen, surface = 'dark' }: A
               <button
                 key={image.src}
                 type="button"
-                className="group relative aspect-[4/3] overflow-hidden rounded-xl border border-slate-200 bg-slate-100 text-left"
+                className="group relative aspect-[4/3] overflow-hidden rounded-xl border border-slate-200 bg-[#F4F7FB] text-left"
                 onClick={() => onOpen?.(activityToLightbox(activity, image))}
               >
-                <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-cover" />
+                <Image src={image.src} alt={image.alt} fill sizes="(max-width: 640px) 100vw, 33vw" className="object-contain object-center" />
                 <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2 text-[10px] leading-tight text-white">
                   {image.caption}
                 </span>
@@ -129,11 +130,15 @@ export default function ActivityDetail({ activity, onOpen, surface = 'dark' }: A
             People recorded in the source
           </h4>
           <ul className={`grid gap-1.5 text-xs sm:grid-cols-2 ${dark ? 'text-slate-200' : 'text-slate-700'}`}>
-            {activity.people.map((person) => (
-              <li key={person} className={dark ? 'rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5' : 'rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1.5'}>
-                {person}
-              </li>
-            ))}
+            {activity.people.map((person) => {
+              const profile = guestForPerson(person)
+              return (
+                <li key={person} className={dark ? 'rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5' : 'rounded-lg border border-slate-200 bg-slate-50 px-2.5 py-1.5'}>
+                  <span>{person}</span>
+                  <ProfileLinks linkedin={profile?.linkedin} website={profile?.website} className="mt-1 block text-sm" />
+                </li>
+              )
+            })}
           </ul>
         </div>
       )}

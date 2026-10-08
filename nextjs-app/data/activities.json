@@ -23,22 +23,22 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-03-1.png",
+          "src": "/images/events/sustainable-development-fdp-2025-1.png",
           "caption": "Visual from the Sustainable Development FDP post, 1–5 December 2025.",
           "alt": "Blockchain for Sustainable Development FDP visual"
         },
         {
-          "src": "/images/posts/post-03-2.png",
+          "src": "/images/events/sustainable-development-fdp-2025-2.png",
           "caption": "Inaugural-session visual for the MMCOE FDP held in association with IEEE Pune Blockchain Group.",
           "alt": "Sustainable Development FDP inaugural visual"
         },
         {
-          "src": "/images/posts/post-03-3.png",
+          "src": "/images/events/sustainable-development-fdp-2025-3.png",
           "caption": "Program visual on blockchain for transparency, trust and sustainability.",
           "alt": "Sustainable development blockchain program visual"
         },
         {
-          "src": "/images/posts/post-03-4.png",
+          "src": "/images/events/sustainable-development-fdp-2025-4.png",
           "caption": "Additional visual from the 1–5 December 2025 FDP post.",
           "alt": "Additional Sustainable Development FDP visual"
         }
@@ -77,7 +77,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-05-1.png",
+          "src": "/images/events/decentralized-ai-fdp-2025.png",
           "caption": "Announcement visual for the online Decentralized AI FDP, 18–25 August 2025.",
           "alt": "Decentralized AI Faculty Development Program announcement"
         }
@@ -108,12 +108,12 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-09-1.png",
+          "src": "/images/events/evolution-blockchain-research-2025-1.png",
           "caption": "Session visual for Evolution of Blockchain and Research Opportunities, 22 February 2025.",
           "alt": "Evolution of Blockchain research session visual"
         },
         {
-          "src": "/images/posts/post-09-2.png",
+          "src": "/images/events/evolution-blockchain-research-2025-2.png",
           "caption": "Additional visual from the PCCOE research-directions FDP session.",
           "alt": "Additional blockchain research FDP visual"
         }
@@ -146,7 +146,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-11-1.png",
+          "src": "/images/events/cybersecurity-privacy-fdp-2024.png",
           "caption": "Visual from the cybersecurity and privacy FDP, 20–24 August 2024.",
           "alt": "Blockchain cybersecurity and privacy FDP visual"
         }
@@ -183,14 +183,19 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-12-1.png",
+          "src": "/images/events/emerging-trends-sttp-2024-1.png",
           "caption": "Visual from the ISTE-approved Emerging Trends in Blockchain STTP, 15–20 July 2024.",
           "alt": "Emerging Trends in Blockchain STTP visual"
         },
         {
-          "src": "/images/posts/post-12-2.png",
+          "src": "/images/events/emerging-trends-sttp-2024-2.png",
           "caption": "Additional STTP visual. The program recorded 153 participants from several states.",
           "alt": "Additional Emerging Trends in Blockchain STTP visual"
+        },
+        {
+          "src": "/images/events/2024/ebct/ebct-2024-poster.png",
+          "caption": "Official flyer and schedule of the ISTE-approved Emerging Trends in Blockchain STTP.",
+          "alt": "Emerging Trends in Blockchain STTP brochure and speaker roster"
         }
       ],
       "externalLink": null,
@@ -218,12 +223,12 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-13-1.png",
+          "src": "/images/events/securechaincitycoin-2024-1.png",
           "caption": "Visual from the SecureChainCityCoin FDP talk, 18–22 March 2024.",
           "alt": "SecureChainCityCoin FDP visual"
         },
         {
-          "src": "/images/posts/post-13-2.png",
+          "src": "/images/events/securechaincitycoin-2024-2.png",
           "caption": "Additional visual from the MMCOE smart-cities FDP held in association with the group.",
           "alt": "Additional SecureChainCityCoin visual"
         }
@@ -268,19 +273,34 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-15-1.png",
+          "src": "/images/events/blockchain-symposium-2024-1.png",
           "caption": "Recap visual from the Blockchain Symposium, 2 February 2024, PCCOE Pune.",
           "alt": "Blockchain Symposium 2024 recap visual"
         },
         {
-          "src": "/images/posts/post-15-2.png",
+          "src": "/images/events/blockchain-symposium-2024-2.png",
           "caption": "Further symposium visual covering sessions, panels, demonstrations and use cases.",
           "alt": "Blockchain Symposium 2024 additional visual"
         },
         {
-          "src": "/images/posts/post-16-1.png",
+          "src": "/images/events/blockchain-symposium-2024-3.png",
           "caption": "Promotional visual for the Blockchain Symposium at PCCOE on 2 February 2024.",
           "alt": "Blockchain Symposium 2024 promotional visual"
+        },
+        {
+          "src": "/images/events/2024/symposium/symposium-2024-stage.jpg",
+          "caption": "Keynote address and distinguished guests on stage at the PCCOE seminar hall.",
+          "alt": "Dignitaries on stage during the Blockchain Symposium 2024"
+        },
+        {
+          "src": "/images/events/2024/symposium/symposium-2024-audience.jpg",
+          "caption": "Participants attending technical presentations at the Blockchain Symposium.",
+          "alt": "Audience during a Blockchain Symposium 2024 technical session"
+        },
+        {
+          "src": "/images/events/2024/symposium/symposium-2024-banner.jpg",
+          "caption": "Symposium branding for IEEE Blockchain Technical Community and IEEE Pune Section.",
+          "alt": "Blockchain Symposium 2024 banner"
         }
       ],
       "externalLink": {
@@ -312,7 +332,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-01-1.png",
+          "src": "/images/events/real-world-use-cases-keynote.png",
           "caption": "Visual from the keynote on real-world blockchain use cases and future trends.",
           "alt": "Real-world blockchain use cases keynote visual"
         }
@@ -345,22 +365,22 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-04-1.png",
+          "src": "/images/events/academia-blockchain-adoption-2025-1.png",
           "caption": "Visual from the academia and blockchain adoption panel, 19 September 2025.",
           "alt": "Role of Academia in Blockchain Adoption visual"
         },
         {
-          "src": "/images/posts/post-04-2.png",
+          "src": "/images/events/academia-blockchain-adoption-2025-2.png",
           "caption": "Additional panel visual from the program at Citi, EON IT Park, Pune.",
           "alt": "Academia in blockchain adoption additional visual"
         },
         {
-          "src": "/images/posts/post-04-3.png",
+          "src": "/images/events/academia-blockchain-adoption-2025-3.png",
           "caption": "Finance Hackathon planning context recorded alongside the panel.",
           "alt": "Finance hackathon and panel visual"
         },
         {
-          "src": "/images/posts/post-04-4.png",
+          "src": "/images/events/academia-blockchain-adoption-2025-4.png",
           "caption": "Further visual from the 19 September 2025 industry-academia program.",
           "alt": "Further academia blockchain panel visual"
         }
@@ -391,17 +411,17 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-08-1.png",
+          "src": "/images/events/fintech-trends-mit-2025-1.png",
           "caption": "Visual from the fintech trends session, 20 March 2025.",
           "alt": "Blockchain and cryptocurrency fintech session visual"
         },
         {
-          "src": "/images/posts/post-08-2.png",
+          "src": "/images/events/fintech-trends-mit-2025-2.png",
           "caption": "Additional visual from the MIT-ADT international symposium session.",
           "alt": "MIT-ADT symposium session visual"
         },
         {
-          "src": "/images/posts/post-08-3.png",
+          "src": "/images/events/fintech-trends-mit-2025-3.png",
           "caption": "Further visual from the invited fintech talk.",
           "alt": "Further fintech trends talk visual"
         }
@@ -432,17 +452,17 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-10-1.png",
+          "src": "/images/events/smart-contract-vulnerability-fdp-1.png",
           "caption": "Visual from the smart-contract vulnerability session at FCRCE.",
           "alt": "Smart contract vulnerability detection session visual"
         },
         {
-          "src": "/images/posts/post-10-2.png",
+          "src": "/images/events/smart-contract-vulnerability-fdp-2.png",
           "caption": "Additional visual from the AICTE ATAL FDP expert session.",
           "alt": "ATAL FDP expert session visual"
         },
         {
-          "src": "/images/posts/post-10-3.png",
+          "src": "/images/events/smart-contract-vulnerability-fdp-3.png",
           "caption": "Further visual from the FCRCE smart-contract session.",
           "alt": "Further smart contract session visual"
         }
@@ -475,7 +495,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-14-1.png",
+          "src": "/images/events/women-in-blockchain-2024.png",
           "caption": "Women in Blockchain Season V visual, 16 March 2024.",
           "alt": "Women in Blockchain Season V 2024 visual"
         }
@@ -510,12 +530,12 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-17-1.png",
+          "src": "/images/events/icbds-2023-1.png",
           "caption": "Visual from IEEE ICBDS 2023 at IIIT Naya Raipur.",
           "alt": "IEEE ICBDS 2023 visual"
         },
         {
-          "src": "/images/posts/post-17-2.png",
+          "src": "/images/events/icbds-2023-2.png",
           "caption": "Additional ICBDS 2023 visual from the conference engagement.",
           "alt": "Additional IEEE ICBDS 2023 visual"
         }
@@ -546,12 +566,12 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-19-1.png",
+          "src": "/images/events/utp-malaysia-research-talk-1.png",
           "caption": "Visual from the research talk at Universiti Teknologi PETRONAS, Malaysia.",
           "alt": "UTP Malaysia blockchain research talk visual"
         },
         {
-          "src": "/images/posts/post-19-2.png",
+          "src": "/images/events/utp-malaysia-research-talk-2.png",
           "caption": "Additional visual from the UTP Malaysia session with Ph.D. scholars.",
           "alt": "Additional UTP Malaysia research talk visual"
         }
@@ -581,12 +601,12 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-20-1.png",
+          "src": "/images/events/viit-dapps-fdp-1.png",
           "caption": "Visual from the VIIT session on blockchain and dApps.",
           "alt": "Blockchain and dApps FDP visual"
         },
         {
-          "src": "/images/posts/post-20-2.png",
+          "src": "/images/events/viit-dapps-fdp-2.png",
           "caption": "Additional visual from the VIIT FDP held with IEEE Computer Society Pune Chapter.",
           "alt": "Additional VIIT dApps session visual"
         }
@@ -620,7 +640,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-02-1.png",
+          "src": "/images/events/podcast-blockchain-ai-education.png",
           "caption": "Podcast visual: Blockchain, AI and the future of education.",
           "alt": "Blockchain and education podcast visual"
         }
@@ -659,7 +679,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-06-1.png",
+          "src": "/images/events/decentralized-healing-book.png",
           "caption": "Cover visual for Decentralized Healing, CRC Press.",
           "alt": "Decentralized Healing book cover"
         }
@@ -697,7 +717,7 @@
       ],
       "images": [
         {
-          "src": "/images/posts/post-07-1.png",
+          "src": "/images/events/finance-web3-hackathon-2025.png",
           "caption": "Promotional visual for the finance and Web3 blockchain hackathon.",
           "alt": "Finance and Web3 blockchain hackathon visual"
         }

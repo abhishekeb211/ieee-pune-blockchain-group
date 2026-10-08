@@ -17,13 +17,13 @@ const objectives = [
 
 export default function About() {
   return (
-    <section id="about" className="section-padding bg-slate-50">
+    <section id="about" className="section-padding">
       <div className="section-container">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
             About the Chapter
           </span>
-          <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+          <h2 className="page-title mt-3">
             Building Trusted Decentralized Ecosystems in Pune
           </h2>
           <p className="mt-3 text-sm text-slate-600 leading-relaxed">

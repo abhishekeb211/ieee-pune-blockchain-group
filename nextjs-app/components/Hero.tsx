@@ -1,74 +1,147 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import activities from '../data/activities.json'
+import { Activity, byLatest } from './activity'
 
-const proofs = [
+interface Proof {
+  href: string
+  src: string
+  alt: string
+  kicker: string
+  title: string
+  meta: string
+  dateLabel: string
+}
+
+const archiveProofs: Proof[] = [
   {
     href: '/activities',
-    src: '/images/posts/post-15-1.png',
-    alt: 'Blockchain Symposium 2024 recap visual',
-    kicker: 'Flagship',
-    title: 'Blockchain Symposium 2024',
-    meta: '2 February 2024 · PCCOE Pune',
-  },
-  {
-    href: '/activities',
-    src: '/images/posts/post-12-1.png',
-    alt: 'Emerging Trends in Blockchain STTP visual',
-    kicker: 'STTP',
-    title: 'Emerging Trends in Blockchain',
-    meta: '15–20 July 2024 · 153 participants',
-  },
-  {
-    href: '/activities',
-    src: '/images/posts/post-05-1.png',
-    alt: 'Decentralized AI Faculty Development Program announcement',
+    src: '/images/events/2026/decai-fdp/decai-fdp-2026.jpg',
+    alt: 'National-Level Faculty Development Program on Decentralized AI',
     kicker: 'FDP',
     title: 'Decentralized AI FDP',
-    meta: '18–25 August 2025 · Online',
+    meta: '02–07 February 2026 · PCCOE Pune',
+    dateLabel: '02 - 07 February 2026',
+  },
+  {
+    href: '/activities',
+    src: '/images/events/2026/decentrahack/decentrahack-2026.jpg',
+    alt: 'DecentraHACK 2026 national hackathon',
+    kicker: 'Hackathon',
+    title: 'DecentraHACK 2026',
+    meta: '17–23 January 2026',
+    dateLabel: '17 - 23 January 2026',
   },
 ]
 
+const programProofs: Proof[] = (activities.groupPrograms as Activity[])
+  .filter((event) => event.images[0])
+  .map((event) => ({
+    href: '/activities',
+    src: event.images[0].src,
+    alt: event.images[0].alt,
+    kicker: event.category,
+    title: event.title.split(':')[0].trim(),
+    meta: `${event.dateLabel} · ${event.venue.split('·')[0].trim()}`,
+    dateLabel: event.dateLabel,
+  }))
+
+const proofs = [...archiveProofs, ...programProofs].sort(byLatest((item) => item.dateLabel))
+const newest = proofs[0]
+const highlights = proofs.slice(1, 3)
+
 export default function Hero() {
   return (
-    <section className="bg-white">
-      <div className="section-container grid items-center gap-8 py-10 md:py-14 lg:grid-cols-2">
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-ieee-primary">
-            IEEE Region 10 · Pune Section
+    <>
+      <section className="bg-gradient-to-b from-[#E7F7F6] to-[#F7FCFC] text-[#007175]">
+        <div className="section-container rise-in py-10 md:py-14">
+          <p className="text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
+            APAC · Region 10 · South Asia and Pacific
           </p>
-          <h1 className="font-heading mt-3 max-w-[18ch] font-extrabold text-ieee-navy">
+          <h1 className="font-heading mt-3 max-w-[20ch] text-3xl font-normal text-[#007175] sm:text-5xl">
             IEEE Pune Blockchain Group
           </h1>
-          <p className="measure mt-4 text-base leading-relaxed text-slate-600 sm:text-lg">
-            A local technical group for researchers, faculty, students, and industry practitioners working on blockchain and decentralized systems.
+          <p className="measure mt-4 text-base leading-relaxed text-[#333333] sm:text-lg">
+            A local group of the IEEE Blockchain Technical Community for researchers, faculty, students, and industry practitioners in Pune.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link href="/join" className="btn-primary">Join the community</Link>
-            <Link href="/activities" className="btn-outline">Explore events</Link>
+            <Link href="/join" className="inline-flex min-h-11 items-center bg-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-white">
+              Join
+            </Link>
+            <Link href="/activities" className="inline-flex min-h-11 items-center border border-[#007175] px-4 text-sm font-semibold uppercase tracking-wide text-[#007175]">
+              Events
+            </Link>
           </div>
         </div>
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
-          {proofs.map((item, index) => (
-            <Link key={item.src} href={item.href} className="institutional-card overflow-hidden p-0">
-              <div className="relative aspect-[4/3]">
-                <Image
-                  src={item.src}
-                  alt={item.alt}
-                  fill
-                  priority={index === 0}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 33vw, 20vw"
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-3">
-                <p className="text-sm font-semibold text-ieee-primary">{item.kicker}</p>
-                <h2 className="font-heading text-base font-bold text-ieee-navy">{item.title}</h2>
-                <p className="mt-1 text-sm text-slate-600">{item.meta}</p>
-              </div>
+      </section>
+
+      <section className="section-padding">
+        <div className="section-container grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+          <div className="rise-in rise-delay-1">
+          <article className="lift-card h-full p-4">
+            <h2 className="font-heading text-xl font-normal text-[#008B8B]">What’s New</h2>
+            {newest && (
+              <Link href={newest.href} className="mt-4 block">
+                <div className="relative aspect-[4/3] bg-[#F4F7FB]">
+                  <Image src={newest.src} alt={newest.alt} fill priority sizes="(max-width: 768px) 100vw, 25vw" className="object-contain object-center" />
+                </div>
+                <p className="mt-3 text-sm font-semibold text-[#007175]">{newest.kicker}</p>
+                <p className="font-heading text-base text-[#333333]">{newest.title}</p>
+                <p className="mt-1 text-sm text-slate-600">{newest.meta}</p>
+              </Link>
+            )}
+          </article>
+          </div>
+
+          <div className="rise-in rise-delay-2">
+          <article className="lift-card h-full p-4">
+            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Community</h2>
+            <p className="mt-4 text-base leading-relaxed text-[#333333]">
+              IEEE Pune Blockchain Group is listed with the IEEE Blockchain Technical Community under APAC, Region 10, South Asia and Pacific.
+            </p>
+            <p className="mt-3 text-base leading-relaxed text-[#333333]">
+              Chair: Dr. Sonali D. Patil, Professor and Head of Computer Engineering at PCCOE, and a Region 10 coordinator for IEEE Blockchain local groups.
+            </p>
+            <Link href="/about" className="mt-3 inline-block text-sm font-semibold text-[#007175] hover:underline">
+              About the group
             </Link>
-          ))}
+          </article>
+          </div>
+
+          <div className="rise-in rise-delay-3">
+          <article className="lift-card h-full p-4">
+            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Event Highlights</h2>
+            <ul className="mt-4 space-y-4">
+              {highlights.map((item) => (
+                <li key={item.src}>
+                  <Link href={item.href} className="block">
+                    <p className="text-sm font-semibold text-[#007175]">{item.meta}</p>
+                    <p className="font-heading text-base text-[#333333]">{item.title}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link href="/activities" className="mt-4 inline-block text-sm font-semibold text-[#007175] hover:underline">
+              All events
+            </Link>
+          </article>
+          </div>
+
+          <div className="rise-in rise-delay-4">
+          <article className="lift-card h-full p-4">
+            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Feature</h2>
+            <Link href="/lab" className="mt-4 block">
+              <div className="relative aspect-[4/3] bg-[#F4F7FB]">
+                <Image src="/images/lab/mmcoe-hpc-rig.png" alt="Blockchain laboratory GPU compute rig at MMCOE" fill sizes="(max-width: 768px) 100vw, 25vw" className="object-contain object-center" />
+              </div>
+              <p className="mt-3 text-sm font-semibold text-[#007175]">Lab</p>
+              <p className="font-heading text-base text-[#333333]">Blockchain laboratory at MMCOE</p>
+              <p className="mt-1 text-sm text-slate-600">GPU compute, server rack, and student workstations used with the group.</p>
+            </Link>
+          </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

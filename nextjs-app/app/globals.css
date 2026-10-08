@@ -9,7 +9,7 @@
     line-height: 1.58;
   }
   body {
-    @apply bg-white text-ieee-ink antialiased font-sans;
+    @apply bg-[#F4FBFA] text-ieee-ink antialiased font-sans;
     font-size: clamp(0.875rem, 0.2vw + 0.85rem, 1.0625rem);
     overflow-x: hidden;
   }
@@ -21,8 +21,8 @@
     @apply font-heading;
   }
   ::selection {
-    background-color: rgba(0, 153, 216, 0.25);
-    color: #002855;
+    background-color: rgba(0, 113, 117, 0.2);
+    color: #007175;
   }
 }
 
@@ -73,27 +73,36 @@ h2 {
   line-height: 1.25;
 }
 
+.page-title {
+  color: #7A7A7A;
+  font-weight: 400;
+  font-size: clamp(2rem, 2vw + 1rem, 3rem);
+  line-height: 1.2;
+  border-bottom: 3px solid #007175;
+  padding-bottom: 0.65rem;
+}
+
 .institutional-card {
   background-color: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #D5EDEC;
   border-radius: 12px;
   padding: 1.15rem;
-  box-shadow: 0 2px 8px -2px rgba(0, 40, 85, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0 2px 8px -2px rgba(0, 113, 117, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
   position: relative;
 }
 
 .institutional-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 18px -6px rgba(0, 102, 153, 0.18);
-  border-top-color: #006699;
+  box-shadow: 0 8px 18px -8px rgba(0, 113, 117, 0.28);
+  border-color: #007175;
 }
 
 .top-accent-card {
   border-top: 2px solid transparent;
 }
 .top-accent-card:hover {
-  border-top-color: #006699;
+  border-top-color: #007175;
 }
 
 .chip {
@@ -101,9 +110,9 @@ h2 {
   align-items: center;
   gap: 0.35rem;
   border-radius: 9999px;
-  border: 1px solid rgba(0, 180, 216, 0.35);
-  background-color: rgba(0, 180, 216, 0.1);
-  color: #0369A1;
+  border: 1px solid rgba(0, 113, 117, 0.35);
+  background-color: rgba(0, 113, 117, 0.1);
+  color: #007175;
   padding: 0.2rem 0.65rem;
   font-size: 0.75rem;
   font-weight: 600;
@@ -112,9 +121,9 @@ h2 {
 }
 
 .chip-gold {
-  border-color: rgba(255, 184, 28, 0.4);
-  background-color: rgba(255, 184, 28, 0.12);
-  color: #FFB81C;
+  border-color: rgba(0, 139, 139, 0.45);
+  background-color: rgba(0, 113, 117, 0.18);
+  color: #d6f3f3;
 }
 
 .btn-primary {
@@ -123,9 +132,9 @@ h2 {
   justify-content: center;
   gap: 0.4rem;
   border-radius: 9999px;
-  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  background: linear-gradient(135deg, #007175 0%, #008B8B 100%);
   color: #FFFFFF;
-  font-family: var(--font-outfit), sans-serif;
+  font-family: var(--font-roboto), sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
   padding: 0.55rem 1.25rem;
@@ -135,7 +144,7 @@ h2 {
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #004B75 0%, #006699 100%);
+  background: linear-gradient(135deg, #005A5E 0%, #007175 100%);
   box-shadow: 0 4px 12px rgba(0, 102, 153, 0.35);
   transform: translateY(-1px);
 }
@@ -148,9 +157,9 @@ h2 {
   gap: 0.4rem;
   border-radius: 9999px;
   background: transparent;
-  color: #006699;
-  border: 1px solid #006699;
-  font-family: var(--font-outfit), sans-serif;
+  color: #007175;
+  border: 1px solid #007175;
+  font-family: var(--font-roboto), sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
   padding: 0.55rem 1.25rem;
@@ -160,8 +169,8 @@ h2 {
 .btn-secondary:hover,
 .btn-outline:hover {
   background: rgba(0, 102, 153, 0.08);
-  border-color: #004B75;
-  color: #004B75;
+  border-color: #005A5E;
+  color: #005A5E;
 }
 
 .btn-primary:focus-visible,
@@ -170,7 +179,7 @@ h2 {
 .timeline-tab:focus-visible,
 .filter-chip:focus-visible,
 .event-selector-pill:focus-visible {
-  outline: 2px solid #006699;
+  outline: 2px solid #007175;
   outline-offset: 2px;
 }
 
@@ -187,7 +196,7 @@ h2 {
 }
 
 .form-input:focus {
-  border-color: #006699;
+  border-color: #007175;
   box-shadow: 0 0 0 3px rgba(0, 102, 153, 0.15);
 }
 
@@ -208,13 +217,13 @@ h2 {
 }
 
 .pill-checkbox:hover {
-  border-color: #006699;
+  border-color: #007175;
   background-color: #F8FAFC;
 }
 
 .pill-checkbox.is-checked {
-  border-color: #006699;
-  background-color: #006699;
+  border-color: #007175;
+  background-color: #007175;
   color: #FFFFFF;
   font-weight: 500;
 }
@@ -236,14 +245,14 @@ h2 {
 }
 
 .timeline-tab:hover {
-  color: #006699;
+  color: #007175;
   background-color: #F8FAFC;
-  border-color: #0099D8;
+  border-color: #008B8B;
 }
 
 .timeline-tab.active {
   color: #FFFFFF;
-  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  background: linear-gradient(135deg, #007175 0%, #008B8B 100%);
   border-color: transparent;
   box-shadow: 0 2px 8px rgba(0, 180, 216, 0.35);
 }
@@ -275,7 +284,7 @@ h2 {
 
 .badge-conference {
   background-color: rgba(0, 102, 153, 0.12);
-  color: #004B75;
+  color: #005A5E;
   border: 1px solid rgba(0, 75, 117, 0.35);
 }
 
@@ -328,9 +337,9 @@ h2 {
 }
 
 .spec-badge span:last-child {
-  color: #002855;
+  color: #007175;
   font-weight: 700;
-  font-family: var(--font-outfit), sans-serif;
+  font-family: var(--font-roboto), sans-serif;
 }
 
 /* Flutter M3 Light Surfaces & Elevators */
@@ -366,14 +375,14 @@ h2 {
 }
 
 .filter-chip:hover {
-  color: #006699;
-  border-color: #0099D8;
+  color: #007175;
+  border-color: #008B8B;
   background-color: #F8FAFC;
 }
 
 .filter-chip.active {
   color: #FFFFFF;
-  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  background: linear-gradient(135deg, #007175 0%, #008B8B 100%);
   border-color: transparent;
   box-shadow: 0 2px 8px rgba(0, 180, 216, 0.35);
 }
@@ -390,26 +399,24 @@ h2 {
   overflow: hidden;
   aspect-ratio: 4 / 3;
   border-radius: 16px;
-  background-color: #0F172A;
-  box-shadow: 0 4px 12px -2px rgba(0, 40, 85, 0.08);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border: 1px solid #D5EDEC;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px -2px rgba(0, 113, 117, 0.08);
+  transition: box-shadow 200ms ease-out, transform 200ms ease-out, border-color 200ms ease-out;
   cursor: pointer;
 }
 
 .gallery-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px -4px rgba(0, 102, 153, 0.22);
+  border-color: #007175;
+  box-shadow: 0 8px 18px -8px rgba(0, 113, 117, 0.28);
 }
 
 .gallery-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform 0.2s ease;
-}
-
-.gallery-card:hover img {
-  transform: scale(1.02);
+  object-fit: contain;
+  object-position: center;
 }
 
 button.gallery-card {
@@ -508,15 +515,15 @@ button.gallery-card {
 }
 
 .inspector-hotspot:hover {
-  border-color: #006699;
+  border-color: #007175;
   background-color: #F8FAFC;
   transform: translateX(2px);
 }
 
 .inspector-hotspot.active {
-  border-color: #006699;
+  border-color: #007175;
   background: linear-gradient(135deg, rgba(0, 102, 153, 0.08) 0%, rgba(0, 180, 216, 0.12) 100%);
-  color: #006699;
+  color: #007175;
   box-shadow: 0 2px 6px rgba(0, 102, 153, 0.1);
 }
 
@@ -553,14 +560,14 @@ button.gallery-card {
 }
 
 .event-selector-pill:hover {
-  color: #006699;
+  color: #007175;
   background-color: #F8FAFC;
-  border-color: #0099D8;
+  border-color: #008B8B;
 }
 
 .event-selector-pill.active {
   color: #FFFFFF;
-  background: linear-gradient(135deg, #006699 0%, #00B4D8 100%);
+  background: linear-gradient(135deg, #007175 0%, #008B8B 100%);
   border-color: transparent;
   box-shadow: 0 2px 10px rgba(0, 180, 216, 0.35);
 }
@@ -568,19 +575,19 @@ button.gallery-card {
 /* Guest Cards */
 .guest-card {
   background-color: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #D5EDEC;
   border-radius: 14px;
   padding: 1.15rem;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 1px 3px rgba(0, 40, 85, 0.04);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 1px 3px rgba(0, 113, 117, 0.06);
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
 }
 
 .guest-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(0, 102, 153, 0.3);
-  box-shadow: 0 8px 20px -4px rgba(0, 102, 153, 0.12);
+  border-color: #007175;
+  box-shadow: 0 8px 18px -8px rgba(0, 113, 117, 0.28);
 }
 
 .guest-avatar-ring {
@@ -588,7 +595,7 @@ button.gallery-card {
   height: 52px;
   border-radius: 9999px;
   padding: 2px;
-  background: linear-gradient(135deg, #006699, #00B4D8);
+  background: linear-gradient(135deg, #007175, #008B8B);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -607,12 +614,12 @@ button.gallery-card {
   width: 100%;
   height: 100%;
   border-radius: 9999px;
-  background-color: #002855;
+  background-color: #007175;
   color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-outfit), sans-serif;
+  font-family: var(--font-roboto), sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
 }
@@ -647,8 +654,8 @@ button.gallery-card {
 }
 
 .lightbox-nav-btn:hover {
-  background-color: #006699;
-  border-color: #00B4D8;
+  background-color: #007175;
+  border-color: #008B8B;
   transform: translateY(-50%) scale(1.08);
 }
 
@@ -673,7 +680,7 @@ button.gallery-card {
 
 .hero-highlight-card:hover {
   transform: translateY(-2px);
-  border-color: #00B4D8;
+  border-color: #008B8B;
   box-shadow: 0 8px 20px rgba(0, 180, 216, 0.3);
 }
 
@@ -714,7 +721,8 @@ button.gallery-card {
   .institutional-card:hover,
   .flutter-card:hover,
   .hero-highlight-card:hover,
-  .guest-card:hover {
+  .guest-card:hover,
+  .lift-card:hover {
     transform: none;
   }
 
@@ -727,6 +735,69 @@ button.gallery-card {
   .lightbox-nav-btn:hover {
     transform: translateY(-50%);
   }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise-in {
+  animation: rise-in 400ms ease-out both;
+}
+
+.rise-delay-1 { animation-delay: 60ms; }
+.rise-delay-2 { animation-delay: 120ms; }
+.rise-delay-3 { animation-delay: 180ms; }
+.rise-delay-4 { animation-delay: 240ms; }
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.55rem;
+  height: 2px;
+  background: #FFFFFF;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 200ms ease-out;
+}
+
+.nav-link:hover::after,
+.nav-link[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+.drawer-in {
+  animation: rise-in 200ms ease-out both;
+}
+
+.lift-card {
+  background: #FFFFFF;
+  border: 1px solid #D5EDEC;
+  border-radius: 12px;
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
+}
+
+.lift-card:hover {
+  transform: translateY(-2px);
+  border-color: #007175;
+  box-shadow: 0 8px 18px -8px rgba(0, 113, 117, 0.28);
+}
+
+.lift-card.is-selected {
+  border-color: #007175;
 }
 
 @media (prefers-reduced-motion: reduce) {

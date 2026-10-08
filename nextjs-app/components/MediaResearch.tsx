@@ -4,15 +4,16 @@ import React from 'react'
 import activities from '../data/activities.json'
 import { LightboxData } from './Lightbox'
 import ActivityDetail from './ActivityDetail'
-import { Activity } from './activity'
+import { Activity, byLatest } from './activity'
 
 interface MediaResearchProps {
   onOpenLightbox?: (data: LightboxData) => void
 }
 
-const media = activities.media as Activity[]
-const publications = activities.publications as Activity[]
-const community = activities.community as Activity[]
+const latest = byLatest<Activity>((item) => item.dateLabel)
+const media = [...(activities.media as Activity[])].sort(latest)
+const publications = [...(activities.publications as Activity[])].sort(latest)
+const community = [...(activities.community as Activity[])].sort(latest)
 
 function Block({
   id,
@@ -45,7 +46,7 @@ function Block({
 
 export default function MediaResearch({ onOpenLightbox }: MediaResearchProps) {
   return (
-    <section className="section-padding border-t border-slate-200 bg-slate-50">
+    <section className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container space-y-12">
         <Block
           id="media"

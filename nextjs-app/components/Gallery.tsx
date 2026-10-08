@@ -2,11 +2,13 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
+import activities from '../data/activities.json'
+import { Activity, byLatest } from './activity'
 import { LightboxData } from './Lightbox'
 
 interface GalleryItem {
   id: string
-  category: 'symposium' | 'lab' | 'events'
+  category: 'symposium' | 'lab' | 'events' | 'record'
   badge: string
   badgeClass?: string
   title: string
@@ -16,37 +18,111 @@ interface GalleryItem {
   source: string
 }
 
-const galleryItems: GalleryItem[] = [
+function galleryCategory(activity: Activity): GalleryItem['category'] {
+  if (activity.id === 'blockchain-symposium-2024') return 'symposium'
+  if (activity.category === 'FDP' || activity.category === 'STTP') return 'events'
+  return 'record'
+}
+
+const activityRecords = [
+  ...(activities.groupPrograms as Activity[]),
+  ...(activities.outreach as Activity[]),
+  ...(activities.media as Activity[]),
+  ...(activities.publications as Activity[]),
+  ...(activities.community as Activity[]),
+]
+
+const activityItems: GalleryItem[] = activityRecords.flatMap((activity) =>
+  activity.images.map((image, index) => ({
+    id: `${activity.id}-${index + 1}`,
+    category: galleryCategory(activity),
+    badge: activity.category,
+    badgeClass: activity.category === 'FDP' || activity.category === 'STTP' ? 'chip-gold' : undefined,
+    title: activity.title,
+    subtitle: activity.dateLabel,
+    meta: image.caption,
+    src: image.src,
+    source: activity.externalLink?.url || '',
+  }))
+)
+
+const archiveItems: GalleryItem[] = [
   {
-    id: 'symposium-recap',
-    category: 'symposium',
-    badge: 'Symposium 2024',
-    title: 'Blockchain Symposium recap',
-    subtitle: 'PCCOE Pune · 2 February 2024',
-    meta: '2 February 2024 · Pimpri Chinchwad College of Engineering · organized by IEEE Pune Blockchain Group',
-    src: '/images/posts/post-15-1.png',
-    source: 'https://lnkd.in/d2cdQX7v',
+    id: 'decai-fdp-2026-1',
+    category: 'events',
+    badge: 'FDP',
+    badgeClass: 'chip-gold',
+    title: 'National-Level Faculty Development Program on Decentralized AI',
+    subtitle: '02 - 07 February 2026',
+    meta: 'Inaugural session of the National FDP on Decentralized AI at PCCOE Computer Engineering Dept.',
+    src: '/images/events/2026/decai-fdp/decai-fdp-2026.jpg',
+    source: '',
   },
   {
-    id: 'symposium-exchange',
-    category: 'symposium',
-    badge: 'Symposium 2024',
-    title: 'Sessions, panels, and demonstrations',
-    subtitle: 'Flagship group event',
-    meta: '2 February 2024 · Sessions, panel discussions, demonstrations, proofs of concept, and use cases',
-    src: '/images/posts/post-15-2.png',
-    source: 'https://lnkd.in/d2cdQX7v',
+    id: 'decai-fdp-2026-2',
+    category: 'events',
+    badge: 'FDP',
+    badgeClass: 'chip-gold',
+    title: 'National-Level Faculty Development Program on Decentralized AI',
+    subtitle: '02 - 07 February 2026',
+    meta: 'Hands-on lab training during the Decentralized AI FDP.',
+    src: '/images/events/2026/decai-fdp/decai-fdp-hands-on.jpg',
+    source: '',
   },
   {
-    id: 'symposium-poster',
-    category: 'symposium',
-    badge: 'Symposium 2024',
-    title: 'Symposium announcement',
-    subtitle: 'Promotional visual',
-    meta: '2 February 2024 · IEEE Pune Blockchain Group in collaboration with IEEE Pune Section',
-    src: '/images/posts/post-16-1.png',
-    source: 'https://lnkd.in/d2cdQX7v',
+    id: 'decai-fdp-2026-3',
+    category: 'events',
+    badge: 'FDP',
+    badgeClass: 'chip-gold',
+    title: 'National-Level Faculty Development Program on Decentralized AI',
+    subtitle: '02 - 07 February 2026',
+    meta: 'Valedictory session of the Decentralized AI FDP.',
+    src: '/images/events/2026/decai-fdp/decai-fdp-valedictory.jpg',
+    source: '',
   },
+  {
+    id: 'decentrahack-2026',
+    category: 'record',
+    badge: 'Hackathon',
+    title: 'DecentraHACK 2026',
+    subtitle: '17 - 23 January 2026',
+    meta: 'DecentraHACK 2026 keynote demonstration and project judging ceremony.',
+    src: '/images/events/2026/decentrahack/decentrahack-2026.jpg',
+    source: '',
+  },
+  {
+    id: 'hyperledger-2025-1',
+    category: 'record',
+    badge: 'Expert session',
+    title: 'Expert Session on Hyperledger and Enterprise Applications',
+    subtitle: '26 August 2025',
+    meta: 'Expert speaker addressing students on enterprise blockchain architectures.',
+    src: '/images/events/2025/hyperledger/hyperledger-session-2025.jpg',
+    source: '',
+  },
+  {
+    id: 'hyperledger-2025-2',
+    category: 'record',
+    badge: 'Expert session',
+    title: 'Expert Session on Hyperledger and Enterprise Applications',
+    subtitle: '26 August 2025',
+    meta: 'Architectural breakdown of Hyperledger Fabric peers, orderers, and chaincode.',
+    src: '/images/events/2025/hyperledger/hyperledger-session-presentation.jpg',
+    source: '',
+  },
+  {
+    id: 'hyperledger-2025-3',
+    category: 'record',
+    badge: 'Expert session',
+    title: 'Expert Session on Hyperledger and Enterprise Applications',
+    subtitle: '26 August 2025',
+    meta: 'Student questions on enterprise consortium networks and private channels.',
+    src: '/images/events/2025/hyperledger/hyperledger-interactive.jpg',
+    source: '',
+  },
+]
+
+const labItems: GalleryItem[] = [
   {
     id: 'mmcoe-hpc-rig',
     category: 'lab',
@@ -67,48 +143,11 @@ const galleryItems: GalleryItem[] = [
     src: '/images/lab/mmcoe-server-rack.png',
     source: 'https://mmcoe.edu.in/departments/information-technology/learning-infrastructure/blockchain/',
   },
-  {
-    id: 'sttp-2024',
-    category: 'events',
-    badge: 'ISTE STTP',
-    badgeClass: 'chip-gold',
-    title: 'Emerging Trends in Blockchain STTP',
-    subtitle: '153 participants across India',
-    meta: '15–20 July 2024 · PCCOE Computer Engineering in association with IEEE Pune Blockchain Group',
-    src: '/images/posts/post-12-1.png',
-    source: '',
-  },
-  {
-    id: 'decai-fdp-2025',
-    category: 'events',
-    badge: 'Official FDP',
-    badgeClass: 'chip-gold',
-    title: 'Decentralized AI FDP',
-    subtitle: 'Online · 18–25 August 2025',
-    meta: 'Organized by IEEE Pune Blockchain Group and PCCOE, with IEEE Pune Section, IEEE Computer Society Pune Chapter, and IEEE Blockchain Technical Community',
-    src: '/images/posts/post-05-1.png',
-    source: '',
-  },
-  {
-    id: 'sustainable-fdp',
-    category: 'events',
-    badge: 'Group collaboration',
-    title: 'Sustainable Development FDP',
-    subtitle: 'Guest of Honour · MMCOE',
-    meta: '1–5 December 2025 · Department of Information Technology, MMCOE, in association with IEEE Pune Blockchain Group',
-    src: '/images/posts/post-03-1.png',
-    source: '',
-  },
-  {
-    id: 'cyber-fdp',
-    category: 'events',
-    badge: 'Group collaboration',
-    title: 'Cybersecurity and Privacy FDP',
-    subtitle: 'Session by the Chair',
-    meta: '20–24 August 2024 · Organized by MMCOE in collaboration with IEEE Pune Blockchain Group',
-    src: '/images/posts/post-11-1.png',
-    source: '',
-  },
+]
+
+const galleryItems: GalleryItem[] = [
+  ...[...activityItems, ...archiveItems].sort(byLatest((item) => item.subtitle)),
+  ...labItems,
 ]
 
 interface GalleryProps {
@@ -123,14 +162,14 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
   )
 
   return (
-    <section id="gallery" className="section-padding bg-[#F0F4F8] border-t border-slate-200">
+    <section id="gallery" className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
               Visual Archives &amp; Authentic Media
             </span>
-            <h2 className="font-heading mt-1.5 font-bold text-ieee-navy">
+            <h2 className="page-title mt-3">
               Photo Showcase Gallery
             </h2>
             <p className="measure mt-2 text-base text-slate-600">
@@ -138,7 +177,6 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
             </p>
           </div>
 
-          {/* Flutter Filter Chips */}
           <div className="filter-row">
             {[
               { id: 'all', label: `All Photos (${galleryItems.length})` },
@@ -149,7 +187,7 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
               <button
                 key={tab.id}
                 type="button"
-                onClick={() => setSelectedCategory(tab.id as any)}
+                onClick={() => setSelectedCategory(tab.id as 'all' | 'symposium' | 'lab' | 'events')}
                 className={`filter-chip ${selectedCategory === tab.id ? 'active' : ''}`}
               >
                 {tab.label}
@@ -158,7 +196,6 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
           </div>
         </div>
 
-        {/* 8 Curated Gallery Cards Grid */}
         <div className="gallery-grid mt-8">
           {filteredItems.map((item) => (
             <button
@@ -176,10 +213,10 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
             >
               <Image
                 src={item.src}
-                alt={item.title}
+                alt={item.meta}
                 fill
                 sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                className="object-cover"
+                className="object-contain object-center"
               />
               <div className="gallery-overlay">
                 <span className={`chip ${item.badgeClass || ''} mb-1.5 w-fit`}>

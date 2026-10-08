@@ -1,8 +1,9 @@
 import Link from 'next/link'
 
 const pages = [
+  { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/activities', label: 'Activities' },
+  { href: '/activities', label: 'Events' },
   { href: '/gallery', label: 'Gallery' },
   { href: '/lab', label: 'Lab' },
   { href: '/join', label: 'Join' },
@@ -15,8 +16,11 @@ export default function Footer() {
         <div>
           <h2 className="font-heading text-base font-bold text-white">IEEE Pune Blockchain Group</h2>
           <p className="mt-2 max-w-prose leading-relaxed">
-            A local technical group of the IEEE Blockchain Technical Community, IEEE Pune Section, and IEEE Region 10. Spoid LGR00120BC.
+            Communities / APAC / Region 10 / South Asia and Pacific / IEEE Pune Blockchain Group. A local group of the IEEE Blockchain Technical Community. Spoid LGR00120BC.
           </p>
+          <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-semibold text-[#7dcece] hover:underline">
+            IEEE Blockchain communities
+          </a>
         </div>
         <div>
           <h2 className="font-heading text-base font-bold text-white">On this site</h2>
@@ -30,7 +34,7 @@ export default function Footer() {
         </div>
         <div>
           <h2 className="font-heading text-base font-bold text-white">Contact</h2>
-          <a href="mailto:sonalimpatil@gmail.com" className="mt-2 inline-block font-semibold text-ieee-brightcyan hover:underline">
+          <a href="mailto:sonalimpatil@gmail.com" className="mt-2 inline-block font-semibold text-[#7dcece] hover:underline">
             sonalimpatil@gmail.com
           </a>
           <p className="mt-2">PCCOE and MMCOE, Pune</p>

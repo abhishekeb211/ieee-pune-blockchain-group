@@ -4,20 +4,20 @@ import React, { useState } from 'react'
 import activities from '../data/activities.json'
 import { LightboxData } from './Lightbox'
 import ActivityDetail from './ActivityDetail'
-import { Activity, badgeClass } from './activity'
+import { Activity, badgeClass, byLatest } from './activity'
 
 interface OutreachProps {
   onOpenLightbox?: (data: LightboxData) => void
 }
 
-const talks = activities.outreach as Activity[]
+const talks = [...(activities.outreach as Activity[])].sort(byLatest((item) => item.dateLabel))
 
 export default function Outreach({ onOpenLightbox }: OutreachProps) {
   const [activeId, setActiveId] = useState(talks[0].id)
   const active = talks.find((item) => item.id === activeId) || talks[0]
 
   return (
-    <section id="outreach" className="section-padding border-t border-slate-200 bg-white">
+    <section id="outreach" className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container">
         <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
           Leadership and outreach

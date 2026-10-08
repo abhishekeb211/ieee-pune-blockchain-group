@@ -96,14 +96,14 @@ export default function JoinForm() {
   }
 
   return (
-    <section id="join" className="section-padding bg-slate-50 border-t border-slate-200">
+    <section id="join" className="section-padding border-t border-[#D5EDEC]">
       <div className="section-container grid gap-8 lg:grid-cols-5">
         {/* Left Column */}
         <div className="lg:col-span-2">
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
             Membership &amp; Engagement
           </span>
-          <h2 className="font-heading mt-1.5 text-2xl font-bold text-ieee-navy sm:text-3xl">
+          <h2 className="page-title mt-3">
             Join the Community
           </h2>
           <p className="mt-3 text-xs text-slate-600 leading-relaxed sm:text-sm">

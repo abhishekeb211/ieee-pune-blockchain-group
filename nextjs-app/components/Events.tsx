@@ -5,14 +5,14 @@ import Image from 'next/image'
 import activities from '../data/activities.json'
 import { LightboxData } from './Lightbox'
 import ActivityDetail from './ActivityDetail'
-import { Activity, activityToLightbox, badgeClass } from './activity'
+import { Activity, activityToLightbox, badgeClass, byLatest } from './activity'
 
 interface EventsProps {
   onSelectPhoto?: (data: LightboxData) => void
   onOpenLightbox?: (data: LightboxData) => void
 }
 
-const programs = activities.groupPrograms as Activity[]
+const programs = [...(activities.groupPrograms as Activity[])].sort(byLatest((event) => event.dateLabel))
 const categories = ['Flagship', 'FDP', 'STTP'] as const
 
 function matchesQuery(event: Activity, query: string) {
@@ -72,14 +72,14 @@ export default function Events({ onSelectPhoto, onOpenLightbox }: EventsProps) {
   }
 
   return (
-    <section id="events" className="section-padding bg-white text-ieee-ink">
+    <section id="events" className="section-padding text-ieee-ink">
       <div className="section-container">
         <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
           <div>
             <span className="text-sm font-bold uppercase tracking-wider text-ieee-primary">
               Group programs and collaborations
             </span>
-            <h2 className="font-heading mt-1.5 font-bold text-ieee-navy">
+            <h2 className="page-title mt-3">
               Events
             </h2>
             <p className="measure mt-2 text-base text-slate-600">
@@ -186,15 +186,15 @@ export default function Events({ onSelectPhoto, onOpenLightbox }: EventsProps) {
             return (
               <article
                 key={event.id}
-                className={`flex flex-col rounded-xl border bg-white p-4 shadow-card-soft transition ${activeEvent?.id === event.id ? 'border-ieee-primary' : 'border-slate-200 hover:border-ieee-cyan'}`}
+                className={`lift-card flex flex-col rounded-xl bg-white p-4 ${activeEvent?.id === event.id ? 'is-selected' : ''}`}
               >
                 {cover && (
                   <button
                     type="button"
-                    className="group relative mb-3 aspect-[4/3] w-full overflow-hidden rounded-lg"
+                    className="group relative mb-3 aspect-[4/3] w-full overflow-hidden rounded-lg bg-[#F4F7FB]"
                     onClick={() => openPhoto?.(activityToLightbox(event, cover))}
                   >
-                    <Image src={cover.src} alt={cover.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                    <Image src={cover.src} alt={cover.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain object-center" />
                     <span className="absolute bottom-2 right-2 rounded bg-black/70 px-2 py-0.5 text-[10px] font-medium text-white">
                       Open photo
                     </span>

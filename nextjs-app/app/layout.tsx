@@ -1,19 +1,20 @@
 import type { Metadata } from 'next'
-import { Inter, Outfit } from 'next/font/google'
+import { Open_Sans, Roboto } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
-const inter = Inter({ 
+const openSans = Open_Sans({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-open-sans',
   display: 'swap',
 })
 
-const outfit = Outfit({
+const roboto = Roboto({
   subsets: ['latin'],
-  variable: '--font-outfit',
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
   display: 'swap',
 })
 
@@ -31,8 +32,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${outfit.variable} scroll-smooth`}>
-      <body className="bg-white font-sans text-ieee-ink antialiased">
+    <html lang="en" className={`${openSans.variable} ${roboto.variable} scroll-smooth`}>
+      <body className="bg-[#F4FBFA] font-sans text-ieee-ink antialiased">
         <Navbar />
         <Breadcrumbs />
         {children}

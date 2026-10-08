@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'ieee-primary': '#006699',
-        'ieee-dark': '#004B75',
-        'ieee-navy': '#002855',
-        'ieee-ink': '#0F2744',
+        'ieee-primary': '#007175',
+        'ieee-dark': '#005A5E',
+        'ieee-navy': '#008B8B',
+        'ieee-ink': '#333333',
         'ieee-nearblack': '#001E3D',
         'ieee-cyan': '#0099D8',
         'ieee-brightcyan': '#00B4D8',
@@ -18,7 +18,7 @@ module.exports = {
         'ieee-golddark': '#E09B00',
         'ieee-success': '#15803D',
         'surface': '#FFFFFF',
-        'surface-muted': '#FAFBFC',
+        'surface-muted': '#F4FBFA',
         'footer-main': '#091A2B',
         'footer-deep': '#05101D',
       },
@@ -45,8 +45,8 @@ module.exports = {
         '22': '5.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        heading: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-open-sans)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         'card-soft': '0 2px 8px -2px rgba(0, 40, 85, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04)',

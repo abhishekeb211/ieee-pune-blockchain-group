@@ -5,7 +5,7 @@
       "name": "Dr. Ramesh Ramadoss",
       "role": "Chair, IEEE Blockchain Technical Community",
       "organization": "IEEE Blockchain",
-      "photo": "assets/images/events/2024/symposium/symposium-2024-stage.jpg",
+      "photo": "assets/images/guests/ramesh-ramadoss.jpg",
       "linkedin": "https://www.linkedin.com/in/ramesh-ramadoss-phd-5130b54b/",
       "website": "https://blockchain.ieee.org/",
       "linkedinVerified": true,
@@ -21,10 +21,10 @@
       "name": "Dr. Sonali D. Patil",
       "role": "Chair & Coordinator",
       "organization": "IEEE Pune Blockchain Group & PCCOE",
-      "photo": "assets/images/events/2026/decai-fdp/decai-fdp-2026.jpg",
-      "linkedin": null,
+      "photo": "assets/images/guests/sonali-patil.jpg",
+      "linkedin": "https://www.linkedin.com/in/dr-sonali-d-patil-9413681b",
       "website": "https://www.pccoepune.com/",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "email": "sonalimpatil@gmail.com",
       "events": [
@@ -39,10 +39,10 @@
       "name": "Dr. Surekha Deshmukh",
       "role": "Domain Consultant (IoT & Digital Engineering), TCS",
       "organization": "Tata Consultancy Services (TCS) Pune / Former Chair, IEEE Pune Section",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/surekha-deshmukh.jpg",
+      "linkedin": "https://www.linkedin.com/in/dr-surekha-deshmukh-01a8213b",
       "website": "https://www.tcs.com",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "symposium-2024-02-02",
@@ -56,9 +56,9 @@
       "role": "Professor & IEEE Leader",
       "organization": "IEEE Region 10 / Former Chair, IEEE Pune Section",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/ingle",
       "website": "https://ieeepunesection.org/",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "symposium-2024-02-02"
@@ -71,9 +71,9 @@
       "role": "Former Senior Director (Scientist G) & Group Coordinator, MeitY",
       "organization": "MeitY, Government of India (Former) / IIT Bhilai",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/dr-bk-murthy-a016747",
       "website": "https://www.meity.gov.in/",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "symposium-2024-02-02"
@@ -85,10 +85,10 @@
       "name": "Dr. Padmaja Joshi",
       "role": "Scientist G & Senior Director",
       "organization": "Centre for Development of Advanced Computing (C-DAC)",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/padmaja-joshi.jpg",
+      "linkedin": "https://www.linkedin.com/in/padmajajoshi",
       "website": "https://www.cdac.in/",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "symposium-2024-02-02"
@@ -100,10 +100,10 @@
       "name": "Mr. Kamlesh Nagware",
       "role": "Co-Founder & Hyperledger India Leader",
       "organization": "FSV Capital / Hyperledger India",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/kamlesh-nagware.jpg",
+      "linkedin": "https://www.linkedin.com/in/kamlesh-nagware-1456094b",
       "website": "https://fsv.capital",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "ebct-2024-07"
@@ -115,10 +115,10 @@
       "name": "Mr. Gaurav Somvanshi",
       "role": "Co-Founder & CEO",
       "organization": "EmerTech Innovations Pvt Ltd",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/gaurav-somvanshi.jpg",
+      "linkedin": "https://www.linkedin.com/in/gauravsomwanshi",
       "website": "https://emertech.in",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "ebct-2024-07"
@@ -131,9 +131,9 @@
       "role": "Co-Founder & Chief Technology Officer (CTO)",
       "organization": "Dhiway",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/tumballi",
       "website": "https://dhiway.com",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "ebct-2024-07"
@@ -176,9 +176,9 @@
       "role": "CEO & CTO",
       "organization": "Bitviraj Technology Private Limited",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/garima-singh-03907229",
       "website": null,
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": false,
       "events": [
         "ebct-2024-07"
@@ -205,10 +205,10 @@
       "name": "Dr. Ramchandra Mangrulkar",
       "role": "Professor",
       "organization": "DJSCoE Mumbai",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/ramchandra-mangrulkar.jpg",
+      "linkedin": "https://www.linkedin.com/in/dr-ramchandra-mangrulkar-07b51866",
       "website": "https://djsce.ac.in",
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": true,
       "events": [
         "ebct-2024-07"
@@ -220,10 +220,10 @@
       "name": "Dr. Anasuya Threse Innocent",
       "role": "Executive & Hyperledger Specialist",
       "organization": "BiniWorld Innovations Pvt. Ltd.",
-      "photo": "assets/images/events/2025/hyperledger/hyperledger-session-2025.jpg",
-      "linkedin": null,
+      "photo": "assets/images/guests/anasuya-innocent.jpg",
+      "linkedin": "https://www.linkedin.com/in/anasuyathrese",
       "website": null,
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": false,
       "events": [
         "hyperledger-expert-session-2025-08"
@@ -235,7 +235,7 @@
       "name": "Mr. Rohan Raverkar",
       "role": "Vice President & Hackathon Judge",
       "organization": "Industry Technical Leader",
-      "photo": "assets/images/events/2026/decentrahack/decentrahack-2026.jpg",
+      "photo": null,
       "linkedin": null,
       "website": null,
       "linkedinVerified": false,
@@ -280,10 +280,10 @@
       "name": "Mr. Mehul Gaidhani",
       "role": "Industry Expert",
       "organization": "Blockchain Architecture Practitioner",
-      "photo": null,
-      "linkedin": null,
+      "photo": "assets/images/guests/mehul-gaidhani.jpg",
+      "linkedin": "https://www.linkedin.com/in/mmmehulll",
       "website": null,
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": false,
       "events": [
         "symposium-2024-02-02"
@@ -296,9 +296,9 @@
       "role": "Industry Expert",
       "organization": "Distributed Systems Practitioner",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/shrutihk",
       "website": null,
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": false,
       "events": [
         "symposium-2024-02-02"
@@ -311,9 +311,9 @@
       "role": "Industry Expert",
       "organization": "Industry Practitioner",
       "photo": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/pavan-adhav",
       "website": null,
-      "linkedinVerified": false,
+      "linkedinVerified": true,
       "websiteVerified": false,
       "events": [
         "symposium-2024-02-02"
