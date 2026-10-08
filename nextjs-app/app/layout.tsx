@@ -21,8 +21,14 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: 'IEEE Pune Blockchain Group | IEEE Blockchain Technical Community',
   description: 'Official portal for the IEEE Pune Blockchain Group — connecting students, researchers, academicians, and industry professionals across distributed ledger technologies in Pune and Region 10 APAC.',
+  keywords: ['IEEE Pune Blockchain Group', 'IEEEBlockchain', 'Pune', 'Region10'],
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon.png',
+  },
+  openGraph: {
+    title: 'IEEE Pune Blockchain Group',
+    description: 'A local group of the IEEE Blockchain Technical Community in Pune, Region 10.',
+    images: ['/images/brand/ieee-pune-blockchain-group.png'],
   },
 }
 

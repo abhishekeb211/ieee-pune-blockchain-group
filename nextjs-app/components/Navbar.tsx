@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
@@ -40,10 +41,20 @@ export default function Navbar() {
       </div>
 
       <Link href="/" className="flex flex-col items-center px-4 py-4 text-center">
-        <span className="font-heading text-2xl font-bold tracking-[0.12em] text-[#007175] sm:text-3xl">
-          IEEE BLOCKCHAIN
+        <Image
+          src="/images/brand/ieee-pune-blockchain-group.png"
+          alt=""
+          width={1174}
+          height={648}
+          priority
+          className="h-16 w-auto sm:h-20"
+        />
+        <span className="mt-2 font-heading text-sm font-semibold tracking-wide text-[#007175] sm:text-base">
+          IEEE Pune Blockchain Group
         </span>
-        <span className="mt-1 text-sm font-medium tracking-[0.28em] text-[#008B8B]">PUNE</span>
+        <span className="mt-1 text-xs font-medium tracking-wide text-[#008B8B]">
+          #IEEEBlockchain #Pune #Region10
+        </span>
       </Link>
 
       <div className="bg-[#007175] text-white">
@@ -97,19 +108,17 @@ export default function Navbar() {
         )}
       </div>
 
-      <p className="section-container flex flex-wrap items-center gap-x-2 gap-y-1 py-2 text-sm text-[#333333]">
-        <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#007175] hover:underline">
-          Communities
-        </a>
-        <span aria-hidden="true">/</span>
-        <span>APAC</span>
-        <span aria-hidden="true">/</span>
-        <span>Region 10</span>
-        <span aria-hidden="true">/</span>
-        <span>South Asia and Pacific</span>
-        <span aria-hidden="true">/</span>
+      <div className="section-container flex flex-wrap items-center gap-x-2 gap-y-1 py-2 text-sm text-[#333333]">
+        <Image
+          src="/images/brand/ieee-pune-blockchain-group.png"
+          alt=""
+          width={1174}
+          height={648}
+          className="h-12 w-auto"
+        />
         <span className="font-semibold text-[#007175]">IEEE Pune Blockchain Group</span>
-      </p>
+        <span className="text-[#008B8B]">#IEEEBlockchain #Pune #Region10</span>
+      </div>
     </header>
   )
 }
