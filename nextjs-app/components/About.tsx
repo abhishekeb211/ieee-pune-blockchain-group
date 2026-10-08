@@ -27,7 +27,7 @@ export default function About() {
             Building Trusted Decentralized Ecosystems in Pune
           </h2>
           <p className="mt-3 text-sm text-slate-600 leading-relaxed">
-            The <strong>IEEE Pune Blockchain Group</strong> emerged in <strong>2023</strong> as part of the growing global network of the{' '}
+            The <strong>IEEE Blockchain Pune Local Group</strong> emerged in <strong>2023</strong> as part of the growing global network of the{' '}
             <a
               href="https://blockchain.ieee.org/"
               target="_blank"

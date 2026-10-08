@@ -1,4 +1,4 @@
-// IEEE Pune Blockchain Group - Interactive Client Logic & Flutter M3 Widgets
+// IEEE Blockchain Pune Local Group - Interactive Client Logic & Flutter M3 Widgets
 // Master Data Source: window.IEEE_DATA (loaded from data/site-data.js)
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
 
           <p class="mt-3 text-xs text-slate-600 leading-relaxed flex-1 line-clamp-3">
-            ${g.bio || 'Distinguished subject-matter expert contributing to IEEE Pune Blockchain Group initiatives.'}
+            ${g.bio || 'Distinguished subject-matter expert contributing to IEEE Blockchain Pune Local Group initiatives.'}
           </p>
 
           <!-- Appeared At Badges -->

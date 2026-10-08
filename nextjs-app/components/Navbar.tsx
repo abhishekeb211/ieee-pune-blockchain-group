@@ -95,11 +95,11 @@ export default function Navbar() {
         <Image
           src="/images/brand/ieee-pune-blockchain-group.png"
           alt=""
-          width={1174}
-          height={648}
+          width={1188}
+          height={662}
           className="h-12 w-auto"
         />
-        <span className="font-semibold text-[#007175]">IEEE Pune Blockchain Group</span>
+        <span className="font-semibold text-[#007175]">IEEE Blockchain Pune Local Group</span>
         <span className="text-[#0C8F8A]">#IEEEBlockchain #Pune #Region10</span>
       </div>
     </header>

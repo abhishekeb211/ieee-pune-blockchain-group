@@ -131,7 +131,7 @@ export default function JoinForm() {
                 Registration Recorded
               </h3>
               <p className="mt-1.5 text-xs text-emerald-800 leading-relaxed">
-                Thank you for registering with the IEEE Pune Blockchain Group. Your details have been submitted to the chapter coordinators.
+                Thank you for registering with the IEEE Blockchain Pune Local Group. Your details have been submitted to the chapter coordinators.
               </p>
               <button
                 type="button"

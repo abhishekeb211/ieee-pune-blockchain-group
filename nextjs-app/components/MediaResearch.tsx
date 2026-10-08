@@ -68,7 +68,7 @@ export default function MediaResearch({ onOpenLightbox }: MediaResearchProps) {
           id="community"
           kicker="Community"
           title="Ecosystem opportunities"
-          intro="This hackathon was promoted in the source. The post does not establish IEEE Pune Blockchain Group as the organizer, so it stays outside the event archive."
+          intro="This hackathon was promoted in the source. The post does not establish IEEE Blockchain Pune Local Group as the organizer, so it stays outside the event archive."
           items={community}
           onOpenLightbox={onOpenLightbox}
         />

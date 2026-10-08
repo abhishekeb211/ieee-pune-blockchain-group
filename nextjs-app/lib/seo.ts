@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 
 export const siteUrl = 'https://ieee-pune-blockchain-group.vercel.app'
 
-export const siteName = 'IEEE Pune Blockchain Group'
+export const siteName = 'IEEE Blockchain Pune Local Group'
 
-export const homeTitle = 'IEEE Pune Blockchain Group | Official Community Website'
+export const homeTitle = 'IEEE Blockchain Pune Local Group | Official Community Website'
 
 export const homeDescription =
-  'Explore IEEE Pune Blockchain Group, part of the IEEE Blockchain Technical Community. Discover blockchain events, workshops, research and conferences in Pune.'
+  'Explore IEEE Blockchain Pune Local Group, part of the IEEE Blockchain Technical Community. Discover blockchain events, workshops, research and conferences in Pune.'
 
 const organizationId = `${siteUrl}/#organization`
 const websiteId = `${siteUrl}/#website`
@@ -39,7 +39,7 @@ export function organizationGraph() {
         '@type': 'Organization',
         '@id': organizationId,
         name: siteName,
-        alternateName: ['IEEE Blockchain Pune', 'IEEE Pune Blockchain'],
+        alternateName: ['IEEE Pune Blockchain Group', 'IEEE Blockchain Pune', 'IEEE Pune Blockchain'],
         url: siteUrl,
         logo: `${siteUrl}/images/brand/ieee-pune-blockchain-group.png`,
         description: homeDescription,
@@ -57,7 +57,7 @@ export function organizationGraph() {
         employee: {
           '@type': 'Person',
           name: 'Prof. Dr. Sonali D. Patil',
-          jobTitle: 'Chair, IEEE Pune Blockchain Group',
+          jobTitle: 'Chair, IEEE Blockchain Pune Local Group',
           sameAs: 'https://www.linkedin.com/in/dr-sonali-d-patil-9413681b',
         },
       },

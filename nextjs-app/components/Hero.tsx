@@ -62,9 +62,9 @@ export default function Hero() {
             <h1 className="mt-4">
               <Image
                 src="/images/brand/ieee-pune-blockchain-group.png"
-                alt="IEEE Pune Blockchain Group"
-                width={1174}
-                height={648}
+                alt="IEEE Blockchain Pune Local Group"
+                width={1188}
+                height={662}
                 priority
                 className="h-auto w-full max-w-xl"
               />
@@ -86,7 +86,7 @@ export default function Hero() {
             <article className="lift-card flex flex-col items-start p-5 sm:p-6">
               <Image
                 src="/images/guests/sonali-patil.jpg"
-                alt="Prof. Dr. Sonali D. Patil, Chair of the IEEE Pune Blockchain Group"
+                alt="Prof. Dr. Sonali D. Patil, Chair of the IEEE Blockchain Pune Local Group"
                 width={200}
                 height={200}
                 className="h-[200px] w-[200px] rounded-full object-cover ring-4 ring-[#007175]"
@@ -95,7 +95,7 @@ export default function Hero() {
                 Prof. Dr. Sonali D. Patil
               </h2>
               <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-[#0C8F8A]">
-                Chair, IEEE Pune Blockchain Group
+                Chair, IEEE Blockchain Pune Local Group
               </p>
               <p className="mt-3 text-base leading-relaxed text-[#333333]">
                 Professor and Head of Computer Engineering, PCCOE, and a Region 10 coordinator for IEEE Blockchain local groups.
@@ -140,7 +140,7 @@ export default function Hero() {
           <article className="lift-card h-full p-4">
             <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">Community</h2>
             <p className="mt-4 text-base leading-relaxed text-[#333333]">
-              IEEE Pune Blockchain Group is listed with the IEEE Blockchain Technical Community under APAC, Region 10, South Asia and Pacific.
+              IEEE Blockchain Pune Local Group is listed with the IEEE Blockchain Technical Community under APAC, Region 10, South Asia and Pacific.
             </p>
             <Link href="/about" className="mt-3 inline-block text-sm font-semibold text-[#007175] hover:underline">
               About the group

@@ -7,7 +7,7 @@ import { breadcrumbGraph, pageMetadata } from '@/lib/seo'
 
 export const metadata: Metadata = pageMetadata(
   'About',
-  'About the IEEE Pune Blockchain Group, its chair Prof. Dr. Sonali D. Patil, and the guests who have spoken with the group in Pune.',
+  'About the IEEE Blockchain Pune Local Group, its chair Prof. Dr. Sonali D. Patil, and the guests who have spoken with the group in Pune.',
   '/about',
 )
 

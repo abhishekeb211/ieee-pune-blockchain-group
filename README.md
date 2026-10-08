@@ -1,6 +1,6 @@
-# IEEE Pune Blockchain Group
+# IEEE Blockchain Pune Local Group
 
-A responsive, high-performance web portal for the **IEEE Pune Blockchain Group**, affiliated with the **IEEE Blockchain Technical Community** (Region 10 APAC) and **IEEE Pune Section**.
+A responsive, high-performance web portal for the **IEEE Blockchain Pune Local Group**, affiliated with the **IEEE Blockchain Technical Community** (Region 10 APAC) and **IEEE Pune Section**.
 
 Cloned and enhanced from `https://ieee-bengaluru-bctc.vercel.app/` with full Pune Section alignment, event features, leadership contacts, and registration workflows.
 

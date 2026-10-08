@@ -11,7 +11,7 @@ export default function Leadership() {
           Leadership &amp; Institutional Governance
         </h2>
         <p className="mt-2 max-w-2xl text-xs text-slate-600 sm:text-sm">
-          The IEEE Pune Blockchain Group is guided by academic researchers, technical chairs, and IEEE Section officers dedicated to serving the region.
+          The IEEE Blockchain Pune Local Group is guided by academic researchers, technical chairs, and IEEE Section officers dedicated to serving the region.
         </p>
 
         <div className="mt-6 grid gap-6 md:grid-cols-2">
@@ -23,7 +23,7 @@ export default function Leadership() {
                   SP
                 </div>
                 <div className="min-w-0 flex-1">
-                  <span className="chip">Chair, IEEE Pune Blockchain Group</span>
+                  <span className="chip">Chair, IEEE Blockchain Pune Local Group</span>
                   <h3 className="font-heading mt-1 text-lg font-bold text-ieee-navy">
                     Dr. Sonali D. Patil
                   </h3>

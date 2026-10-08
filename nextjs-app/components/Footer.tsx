@@ -14,9 +14,9 @@ export default function Footer() {
     <footer className="border-t border-slate-800 bg-footer-main text-sm text-slate-300">
       <div className="section-container grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-3">
         <div>
-          <h2 className="font-heading text-base font-bold text-white">IEEE Pune Blockchain Group</h2>
+          <h2 className="font-heading text-base font-bold text-white">IEEE Blockchain Pune Local Group</h2>
           <p className="mt-2 max-w-prose leading-relaxed">
-            Communities / APAC / Region 10 / South Asia and Pacific / IEEE Pune Blockchain Group. A local group of the IEEE Blockchain Technical Community. Spoid LGR00120BC.
+            Communities / APAC / Region 10 / South Asia and Pacific / IEEE Blockchain Pune Local Group. A local group of the IEEE Blockchain Technical Community. Spoid LGR00120BC.
           </p>
           <a href="https://blockchain.ieee.org/communities/" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-semibold text-[#7dcece] hover:underline">
             IEEE Blockchain communities
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 bg-footer-deep py-4">
-        <p className="section-container text-sm text-slate-400">© 2026 IEEE Pune Blockchain Group.</p>
+        <p className="section-container text-sm text-slate-400">© 2026 IEEE Blockchain Pune Local Group.</p>
       </div>
     </footer>
   )

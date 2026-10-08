@@ -83,7 +83,7 @@ export default function Events({ onSelectPhoto, onOpenLightbox }: EventsProps) {
               Events
             </h2>
             <p className="measure mt-2 text-base text-slate-600">
-              Flagship events, faculty development programs, and the STTP that the content pack records as organized by IEEE Pune Blockchain Group or conducted in association with the group.
+              Flagship events, faculty development programs, and the STTP that the content pack records as organized by IEEE Blockchain Pune Local Group or conducted in association with the group.
             </p>
           </div>
           <div className="filter-row" role="tablist" aria-label="Event years">

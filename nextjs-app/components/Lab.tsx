@@ -36,7 +36,7 @@ const subsystems = [
     label: '4. Centre of Excellence (CoE) Facility',
     stat: 'MMCOE IT Dept',
     title: 'Centre of Excellence Facility',
-    desc: 'Officially recognized Centre of Excellence within MMCOE Information Technology department, operating in direct partnership with the IEEE Pune Blockchain Group to facilitate academic research, FDPs, and prototypes.',
+    desc: 'Officially recognized Centre of Excellence within MMCOE Information Technology department, operating in direct partnership with the IEEE Blockchain Pune Local Group to facilitate academic research, FDPs, and prototypes.',
     img: '/images/lab/mmcoe-coe-facility.png',
     caption: 'Centre of Excellence in Blockchain Technology Facility Entrance',
   },
@@ -61,7 +61,7 @@ export default function Lab({ onSelectPhoto }: LabProps) {
             Blockchain Laboratory &amp; Research Infrastructure
           </h2>
           <p className="mt-2 text-sm text-slate-600">
-            Dedicated high-performance compute and testbed environments established in direct association with the IEEE Pune Blockchain Group.
+            Dedicated high-performance compute and testbed environments established in direct association with the IEEE Blockchain Pune Local Group.
           </p>
         </div>
 

@@ -26,7 +26,7 @@ export default function Outreach({ onOpenLightbox }: OutreachProps) {
           Chair talks, panels, and conference roles
         </h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-600">
-          Dr. Sonali D. Patil took part in these programs as a speaker, panelist, or conference leader. They are not labeled as IEEE Pune Blockchain Group events.
+          Dr. Sonali D. Patil took part in these programs as a speaker, panelist, or conference leader. They are not labeled as IEEE Blockchain Pune Local Group events.
         </p>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

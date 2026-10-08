@@ -1,5 +1,5 @@
 /**
- * IEEE Pune Blockchain Group - Master Structured Data
+ * IEEE Blockchain Pune Local Group - Master Structured Data
  * Generated automatically from curated institutional research records.
  */
 window.IEEE_DATA = {
@@ -69,7 +69,7 @@ window.IEEE_DATA = {
         "id": "sonali-patil",
         "name": "Dr. Sonali D. Patil",
         "role": "Chair & Coordinator",
-        "organization": "IEEE Pune Blockchain Group & PCCOE",
+        "organization": "IEEE Blockchain Pune Local Group & PCCOE",
         "photo": "assets/images/events/2026/decai-fdp/decai-fdp-2026.jpg",
         "linkedin": null,
         "website": "https://www.pccoepune.com/",
@@ -81,7 +81,7 @@ window.IEEE_DATA = {
           "ebct-2024-07",
           "fdp-decentralized-ai-2026-02"
         ],
-        "bio": "Chair of IEEE Pune Blockchain Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
+        "bio": "Chair of IEEE Blockchain Pune Local Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
       }
     ]
   },
@@ -270,7 +270,7 @@ window.IEEE_DATA = {
         "id": "sonali-patil",
         "name": "Dr. Sonali D. Patil",
         "role": "Chair & Coordinator",
-        "organization": "IEEE Pune Blockchain Group & PCCOE",
+        "organization": "IEEE Blockchain Pune Local Group & PCCOE",
         "photo": "assets/images/events/2026/decai-fdp/decai-fdp-2026.jpg",
         "linkedin": null,
         "website": "https://www.pccoepune.com/",
@@ -282,7 +282,7 @@ window.IEEE_DATA = {
           "ebct-2024-07",
           "fdp-decentralized-ai-2026-02"
         ],
-        "bio": "Chair of IEEE Pune Blockchain Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
+        "bio": "Chair of IEEE Blockchain Pune Local Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
       }
     ]
   },
@@ -430,7 +430,7 @@ window.IEEE_DATA = {
     "startDate": "2024-02-02",
     "endDate": "2024-02-02",
     "venue": "Seminar Hall, Mechanical Department, PCCOE, Pune",
-    "description": "Flagship symposium organized by IEEE Pune Blockchain Group and Department of IT, PCCOE. Featured keynote lectures from global IEEE Blockchain Technical Community leaders, C-DAC directors, MeitY advisors, and industry pioneers.",
+    "description": "Flagship symposium organized by IEEE Blockchain Pune Local Group and Department of IT, PCCOE. Featured keynote lectures from global IEEE Blockchain Technical Community leaders, C-DAC directors, MeitY advisors, and industry pioneers.",
     "puneGroupRole": "Primary Organizer",
     "participants": "110+ Delegates (68 External, 15 Industry, 32 Institutional)",
     "coverImage": "assets/images/events/2024/symposium/symposium-2024-stage.jpg",
@@ -963,7 +963,7 @@ window.IEEE_DATA = {
     "id": "sonali-patil",
     "name": "Dr. Sonali D. Patil",
     "role": "Chair & Coordinator",
-    "organization": "IEEE Pune Blockchain Group & PCCOE",
+    "organization": "IEEE Blockchain Pune Local Group & PCCOE",
     "photo": "assets/images/events/2026/decai-fdp/decai-fdp-2026.jpg",
     "linkedin": null,
     "website": "https://www.pccoepune.com/",
@@ -975,7 +975,7 @@ window.IEEE_DATA = {
       "ebct-2024-07",
       "fdp-decentralized-ai-2026-02"
     ],
-    "bio": "Chair of IEEE Pune Blockchain Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
+    "bio": "Chair of IEEE Blockchain Pune Local Group (Spoid: LGR00120BC) and Coordinator for IEEE Region 10 Blockchain Groups; Professor & Head of Computer Engineering, PCCOE."
   },
   {
     "id": "surekha-deshmukh",

@@ -56,7 +56,7 @@ export default function Guests() {
               Guests, Keynote Speakers &amp; Coordinators
             </h2>
             <p className="mt-1 text-xs text-slate-600 max-w-2xl sm:text-sm">
-              Verified directory of global IEEE chairs, government advisors, corporate technology leaders, and academic researchers who have presented at IEEE Pune Blockchain Group initiatives.
+              Verified directory of global IEEE chairs, government advisors, corporate technology leaders, and academic researchers who have presented at IEEE Blockchain Pune Local Group initiatives.
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function Guests() {
                 </div>
 
                 <p className="mt-3 text-xs text-slate-600 leading-relaxed flex-1 line-clamp-3">
-                  {g.bio || 'Distinguished subject-matter expert contributing to IEEE Pune Blockchain Group initiatives.'}
+                  {g.bio || 'Distinguished subject-matter expert contributing to IEEE Blockchain Pune Local Group initiatives.'}
                 </p>
 
                 {/* Appeared At Badges */}

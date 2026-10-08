@@ -36,7 +36,7 @@ export async function POST(request: Request) {
       headers: { 'Content-Type': 'text/plain' },
       body: JSON.stringify({
         ...result.record,
-        chapter: 'IEEE Pune Blockchain Group',
+        chapter: 'IEEE Blockchain Pune Local Group',
         submittedAt: new Date().toISOString(),
       }),
       redirect: 'follow',
