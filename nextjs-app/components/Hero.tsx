@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import activities from '../data/activities.json'
 import { Activity, byLatest } from './activity'
+import HomeMarquee from './HomeMarquee'
 
 interface Proof {
   href: string
@@ -47,7 +48,6 @@ const programProofs: Proof[] = (activities.groupPrograms as Activity[])
   }))
 
 const proofs = [...archiveProofs, ...programProofs].sort(byLatest((item) => item.dateLabel))
-const newest = proofs[0]
 const highlights = proofs.slice(1, 3)
 
 export default function Hero() {
@@ -119,23 +119,11 @@ export default function Hero() {
       </section>
 
       <section className="section-padding">
-        <div className="section-container grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+        <div className="section-container">
           <div className="rise-in rise-delay-1">
-          <article className="lift-card h-full p-4">
-            <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">What’s New</h2>
-            {newest && (
-              <Link href={newest.href} className="mt-4 block">
-                <div className="relative aspect-[4/3] bg-[#F4F7FB]">
-                  <Image src={newest.src} alt={newest.alt} fill priority sizes="(max-width: 768px) 100vw, 25vw" className="object-contain object-center" />
-                </div>
-                <p className="mt-3 text-sm font-semibold text-[#007175]">{newest.kicker}</p>
-                <p className="font-heading text-base text-[#333333]">{newest.title}</p>
-                <p className="mt-1 text-sm text-slate-600">{newest.meta}</p>
-              </Link>
-            )}
-          </article>
+            <HomeMarquee />
           </div>
-
+          <div className="mt-8 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           <div className="rise-in rise-delay-2">
           <article className="lift-card h-full p-4">
             <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">Community</h2>
@@ -179,6 +167,7 @@ export default function Hero() {
               <p className="mt-1 text-sm text-slate-600">GPU compute, server rack, and student workstations used with the group.</p>
             </Link>
           </article>
+          </div>
           </div>
         </div>
       </section>
