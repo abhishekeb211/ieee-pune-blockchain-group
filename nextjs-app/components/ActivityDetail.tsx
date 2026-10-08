@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { LightboxData } from './Lightbox'
 import { Activity, activityToLightbox, badgeClass } from './activity'
 import ProfileLinks, { guestForPerson } from './ProfileLinks'
@@ -63,6 +64,9 @@ export default function ActivityDetail({ activity, onOpen, surface = 'dark' }: A
           <h3 className={`font-heading mt-2 text-xl font-bold sm:text-2xl ${dark ? 'text-white' : 'text-ieee-navy'}`}>
             {activity.title}
           </h3>
+          <Link href={`/activities/${activity.id}`} className="mt-2 inline-block text-sm font-semibold text-ieee-primary hover:underline">
+            Open this record
+          </Link>
           <p className="mt-1 text-sm font-medium text-ieee-primary">{activity.venue}</p>
           <p className={`mt-2.5 text-base leading-relaxed ${dark ? 'text-slate-200' : 'text-slate-600'}`}>
             {activity.summary}

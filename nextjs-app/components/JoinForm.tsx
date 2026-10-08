@@ -69,22 +69,23 @@ export default function JoinForm() {
       organization: String(data.get('organization') || '').trim(),
       areasOfInterest: selectedInterests,
       message: String(data.get('message') || '').trim(),
-      chapter: 'IEEE Pune Blockchain Group',
-      submittedAt: new Date().toISOString(),
+      company: String(data.get('company') || '').trim(),
     }
 
     setStatus('submitting')
 
     try {
-      await fetch(
-        'https://script.google.com/macros/s/AKfycbzwS5F36cS8behn9sgMW-tfEBiRtcY2zzlfUqbhGu62gkwxNtgCuKSawPD0W-v3bOhZsg/exec',
-        {
-          method: 'POST',
-          mode: 'no-cors',
-          headers: { 'Content-Type': 'text/plain' },
-          body: JSON.stringify(payload),
-        }
-      )
+      const response = await fetch('/api/join', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      if (!response.ok) {
+        const result = await response.json().catch(() => ({}))
+        setStatus('error')
+        setErrorMsg(result.error || 'Something went wrong. Please try again.')
+        return
+      }
       setStatus('success')
       form.reset()
       setSelectedInterests([])
@@ -141,7 +142,13 @@ export default function JoinForm() {
               </button>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="grid gap-4">
+            <form onSubmit={handleSubmit} className="relative grid gap-4">
+              <div className="absolute -left-[9999px]" aria-hidden="true">
+                <label>
+                  Company
+                  <input name="company" tabIndex={-1} autoComplete="off" />
+                </label>
+              </div>
               <div className="grid gap-4 md:grid-cols-2">
                 <label className="block">
                   <span className="text-xs font-semibold text-slate-700">
@@ -284,6 +291,10 @@ export default function JoinForm() {
                 </p>
               )}
 
+              <p className="text-xs leading-relaxed text-slate-600">
+                The name, email, affiliation, interests, and any optional phone number, IEEE membership number, organization, or comment are sent to the chapter coordinators so they can respond about group activities. To ask for a correction or deletion, write to{' '}
+                <a href="mailto:sonalimpatil@gmail.com" className="font-medium text-ieee-primary hover:underline">sonalimpatil@gmail.com</a>.
+              </p>
               <div className="pt-1">
                 <button
                   type="submit"
