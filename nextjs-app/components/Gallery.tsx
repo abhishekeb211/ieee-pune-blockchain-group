@@ -162,7 +162,7 @@ export default function Gallery({ onSelectPhoto }: GalleryProps) {
   )
 
   return (
-    <section id="gallery" className="section-padding border-t border-[#D5EDEC]">
+    <section id="gallery" className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>

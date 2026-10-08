@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import { homeDescription, homeTitle, siteName, siteUrl } from '@/lib/seo'
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -19,15 +20,28 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'IEEE Pune Blockchain Group | IEEE Blockchain Technical Community',
-  description: 'Official portal for the IEEE Pune Blockchain Group — connecting students, researchers, academicians, and industry professionals across distributed ledger technologies in Pune and Region 10 APAC.',
-  keywords: ['IEEE Pune Blockchain Group', 'IEEEBlockchain', 'Pune', 'Region10'],
-  icons: {
-    icon: '/icon.png',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: homeTitle,
+    template: `%s | ${siteName}`,
   },
+  description: homeDescription,
+  alternates: { canonical: '/' },
+  robots: { index: true, follow: true },
+  icons: { icon: '/icon.png' },
   openGraph: {
-    title: 'IEEE Pune Blockchain Group',
-    description: 'A local group of the IEEE Blockchain Technical Community in Pune, Region 10.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName,
+    title: homeTitle,
+    description: homeDescription,
+    url: '/',
+    images: [{ url: '/images/brand/ieee-pune-blockchain-group.png', alt: siteName }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: homeTitle,
+    description: homeDescription,
     images: ['/images/brand/ieee-pune-blockchain-group.png'],
   },
 }
@@ -38,8 +52,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${openSans.variable} ${roboto.variable} scroll-smooth`}>
-      <body className="bg-[#F4FBFA] font-sans text-ieee-ink antialiased">
+    <html lang="en-IN" className={`${openSans.variable} ${roboto.variable} scroll-smooth`}>
+      <body className="bg-[#F7FDFC] font-sans text-ieee-ink antialiased">
         <Navbar />
         <Breadcrumbs />
         {children}

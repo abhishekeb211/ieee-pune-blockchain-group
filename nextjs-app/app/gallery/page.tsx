@@ -1,16 +1,19 @@
-'use client'
+import type { Metadata } from 'next'
+import GalleryView from '@/components/GalleryView'
+import JsonLd from '@/components/JsonLd'
+import { breadcrumbGraph, pageMetadata } from '@/lib/seo'
 
-import React, { useState } from 'react'
-import Gallery from '@/components/Gallery'
-import Lightbox, { LightboxData } from '@/components/Lightbox'
+export const metadata: Metadata = pageMetadata(
+  'Gallery',
+  'Photographs from IEEE Pune Blockchain Group events, faculty programs, and the laboratory.',
+  '/gallery',
+)
 
 export default function GalleryPage() {
-  const [photo, setPhoto] = useState<LightboxData | null>(null)
-
   return (
     <main>
-      <Gallery onSelectPhoto={setPhoto} />
-      <Lightbox data={photo} onClose={() => setPhoto(null)} />
+      <JsonLd data={breadcrumbGraph('Gallery', '/gallery')} />
+      <GalleryView />
     </main>
   )
 }

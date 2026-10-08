@@ -53,10 +53,10 @@ const highlights = proofs.slice(1, 3)
 export default function Hero() {
   return (
     <>
-      <section className="bg-gradient-to-b from-[#E7F7F6] to-[#F7FCFC] text-[#007175]">
+      <section className="bg-gradient-to-b from-[#F0FBFA] to-[#FFFFFF] text-[#007175]">
         <div className="section-container grid items-center gap-8 py-10 md:py-14 lg:grid-cols-[minmax(0,1.4fr)_minmax(16rem,22rem)]">
           <div className="rise-in">
-            <p className="text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
+            <p className="text-sm font-semibold uppercase tracking-wide text-[#0C8F8A]">
               APAC · Region 10 · South Asia and Pacific
             </p>
             <h1 className="mt-4">
@@ -94,7 +94,7 @@ export default function Hero() {
               <h2 className="font-heading mt-4 text-2xl font-normal text-[#007175]">
                 Prof. Dr. Sonali D. Patil
               </h2>
-              <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-[#008B8B]">
+              <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-[#0C8F8A]">
                 Chair, IEEE Pune Blockchain Group
               </p>
               <p className="mt-3 text-base leading-relaxed text-[#333333]">
@@ -122,7 +122,7 @@ export default function Hero() {
         <div className="section-container grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           <div className="rise-in rise-delay-1">
           <article className="lift-card h-full p-4">
-            <h2 className="font-heading text-xl font-normal text-[#008B8B]">What’s New</h2>
+            <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">What’s New</h2>
             {newest && (
               <Link href={newest.href} className="mt-4 block">
                 <div className="relative aspect-[4/3] bg-[#F4F7FB]">
@@ -138,7 +138,7 @@ export default function Hero() {
 
           <div className="rise-in rise-delay-2">
           <article className="lift-card h-full p-4">
-            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Community</h2>
+            <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">Community</h2>
             <p className="mt-4 text-base leading-relaxed text-[#333333]">
               IEEE Pune Blockchain Group is listed with the IEEE Blockchain Technical Community under APAC, Region 10, South Asia and Pacific.
             </p>
@@ -150,7 +150,7 @@ export default function Hero() {
 
           <div className="rise-in rise-delay-3">
           <article className="lift-card h-full p-4">
-            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Event Highlights</h2>
+            <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">Event Highlights</h2>
             <ul className="mt-4 space-y-4">
               {highlights.map((item) => (
                 <li key={item.src}>
@@ -169,7 +169,7 @@ export default function Hero() {
 
           <div className="rise-in rise-delay-4">
           <article className="lift-card h-full p-4">
-            <h2 className="font-heading text-xl font-normal text-[#008B8B]">Feature</h2>
+            <h2 className="font-heading text-xl font-normal text-[#0C8F8A]">Feature</h2>
             <Link href="/lab" className="mt-4 block">
               <div className="relative aspect-[4/3] bg-[#F4F7FB]">
                 <Image src="/images/lab/mmcoe-hpc-rig.png" alt="Blockchain laboratory GPU compute rig at MMCOE" fill sizes="(max-width: 768px) 100vw, 25vw" className="object-contain object-center" />

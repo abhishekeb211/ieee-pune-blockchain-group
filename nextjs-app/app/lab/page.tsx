@@ -1,16 +1,19 @@
-'use client'
+import type { Metadata } from 'next'
+import LabView from '@/components/LabView'
+import JsonLd from '@/components/JsonLd'
+import { breadcrumbGraph, pageMetadata } from '@/lib/seo'
 
-import React, { useState } from 'react'
-import Lab from '@/components/Lab'
-import Lightbox, { LightboxData } from '@/components/Lightbox'
+export const metadata: Metadata = pageMetadata(
+  'Lab',
+  'The blockchain laboratory used with the IEEE Pune Blockchain Group at MMCOE, Pune.',
+  '/lab',
+)
 
 export default function LabPage() {
-  const [photo, setPhoto] = useState<LightboxData | null>(null)
-
   return (
     <main>
-      <Lab onSelectPhoto={setPhoto} />
-      <Lightbox data={photo} onClose={() => setPhoto(null)} />
+      <JsonLd data={breadcrumbGraph('Lab', '/lab')} />
+      <LabView />
     </main>
   )
 }

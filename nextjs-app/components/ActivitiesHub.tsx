@@ -22,7 +22,7 @@ export default function ActivitiesHub() {
 
   return (
     <>
-      <div className="border-b border-[#D5EDEC] bg-white">
+      <div className="border-b border-[#C9EBE8] bg-white">
         <div className="section-container filter-row py-4" role="tablist" aria-label="Activity sections">
           {tabs.map((item) => (
             <button

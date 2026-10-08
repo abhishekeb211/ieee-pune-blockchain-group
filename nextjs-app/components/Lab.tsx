@@ -51,7 +51,7 @@ export default function Lab({ onSelectPhoto }: LabProps) {
   const currentSubsystem = subsystems[activeIdx]
 
   return (
-    <section id="lab" className="section-padding border-t border-[#D5EDEC]">
+    <section id="lab" className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container">
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">

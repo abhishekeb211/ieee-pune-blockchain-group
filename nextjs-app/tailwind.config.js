@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'ieee-primary': '#007175',
         'ieee-dark': '#005A5E',
-        'ieee-navy': '#008B8B',
+        'ieee-navy': '#0C8F8A',
         'ieee-ink': '#333333',
         'ieee-nearblack': '#001E3D',
         'ieee-cyan': '#0099D8',
@@ -18,7 +18,7 @@ module.exports = {
         'ieee-golddark': '#E09B00',
         'ieee-success': '#15803D',
         'surface': '#FFFFFF',
-        'surface-muted': '#F4FBFA',
+        'surface-muted': '#F7FDFC',
         'footer-main': '#091A2B',
         'footer-deep': '#05101D',
       },

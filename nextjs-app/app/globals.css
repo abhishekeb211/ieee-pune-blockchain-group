@@ -9,7 +9,7 @@
     line-height: 1.58;
   }
   body {
-    @apply bg-[#F4FBFA] text-ieee-ink antialiased font-sans;
+    @apply bg-[#F7FDFC] text-ieee-ink antialiased font-sans;
     font-size: clamp(0.875rem, 0.2vw + 0.85rem, 1.0625rem);
     overflow-x: hidden;
   }
@@ -84,7 +84,7 @@ h2 {
 
 .institutional-card {
   background-color: #FFFFFF;
-  border: 1px solid #D5EDEC;
+  border: 1px solid #C9EBE8;
   border-radius: 12px;
   padding: 1.15rem;
   box-shadow: 0 2px 8px -2px rgba(0, 113, 117, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
@@ -399,7 +399,7 @@ h2 {
   overflow: hidden;
   aspect-ratio: 4 / 3;
   border-radius: 16px;
-  border: 1px solid #D5EDEC;
+  border: 1px solid #C9EBE8;
   background-color: #FFFFFF;
   box-shadow: 0 4px 12px -2px rgba(0, 113, 117, 0.08);
   transition: box-shadow 200ms ease-out, transform 200ms ease-out, border-color 200ms ease-out;
@@ -575,7 +575,7 @@ button.gallery-card {
 /* Guest Cards */
 .guest-card {
   background-color: #FFFFFF;
-  border: 1px solid #D5EDEC;
+  border: 1px solid #C9EBE8;
   border-radius: 14px;
   padding: 1.15rem;
   display: flex;
@@ -785,7 +785,7 @@ button.gallery-card {
 
 .lift-card {
   background: #FFFFFF;
-  border: 1px solid #D5EDEC;
+  border: 1px solid #C9EBE8;
   border-radius: 12px;
   transition: transform 200ms ease-out, box-shadow 200ms ease-out, border-color 200ms ease-out;
 }

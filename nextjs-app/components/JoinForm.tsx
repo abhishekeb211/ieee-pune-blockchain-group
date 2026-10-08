@@ -96,7 +96,7 @@ export default function JoinForm() {
   }
 
   return (
-    <section id="join" className="section-padding border-t border-[#D5EDEC]">
+    <section id="join" className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container grid gap-8 lg:grid-cols-5">
         {/* Left Column */}
         <div className="lg:col-span-2">

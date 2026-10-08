@@ -17,7 +17,7 @@ export default function Outreach({ onOpenLightbox }: OutreachProps) {
   const active = talks.find((item) => item.id === activeId) || talks[0]
 
   return (
-    <section id="outreach" className="section-padding border-t border-[#D5EDEC]">
+    <section id="outreach" className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container">
         <span className="text-xs font-bold uppercase tracking-wider text-ieee-primary">
           Leadership and outreach

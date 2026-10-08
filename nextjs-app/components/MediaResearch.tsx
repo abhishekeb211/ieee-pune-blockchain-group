@@ -46,7 +46,7 @@ function Block({
 
 export default function MediaResearch({ onOpenLightbox }: MediaResearchProps) {
   return (
-    <section className="section-padding border-t border-[#D5EDEC]">
+    <section className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container space-y-12">
         <Block
           id="media"

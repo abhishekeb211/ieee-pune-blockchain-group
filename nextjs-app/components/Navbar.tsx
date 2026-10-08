@@ -52,7 +52,7 @@ export default function Navbar() {
         <span className="mt-2 font-heading text-sm font-semibold tracking-wide text-[#007175] sm:text-base">
           IEEE Pune Blockchain Group
         </span>
-        <span className="mt-1 text-xs font-medium tracking-wide text-[#008B8B]">
+        <span className="mt-1 text-xs font-medium tracking-wide text-[#0C8F8A]">
           #IEEEBlockchain #Pune #Region10
         </span>
       </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
           className="h-12 w-auto"
         />
         <span className="font-semibold text-[#007175]">IEEE Pune Blockchain Group</span>
-        <span className="text-[#008B8B]">#IEEEBlockchain #Pune #Region10</span>
+        <span className="text-[#0C8F8A]">#IEEEBlockchain #Pune #Region10</span>
       </div>
     </header>
   )

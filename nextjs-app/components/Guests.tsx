@@ -47,7 +47,7 @@ export default function Guests() {
   })
 
   return (
-    <section id="guests" className="section-padding border-t border-[#D5EDEC]">
+    <section id="guests" className="section-padding border-t border-[#C9EBE8]">
       <div className="section-container">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
