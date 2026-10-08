@@ -40,23 +40,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      <Link href="/" className="flex flex-col items-center px-4 py-4 text-center">
-        <Image
-          src="/images/brand/ieee-pune-blockchain-group.png"
-          alt=""
-          width={1174}
-          height={648}
-          priority
-          className="h-16 w-auto sm:h-20"
-        />
-        <span className="mt-2 font-heading text-sm font-semibold tracking-wide text-[#007175] sm:text-base">
-          IEEE Pune Blockchain Group
-        </span>
-        <span className="mt-1 text-xs font-medium tracking-wide text-[#0C8F8A]">
-          #IEEEBlockchain #Pune #Region10
-        </span>
-      </Link>
-
       <div className="bg-[#007175] text-white">
         <div className="section-container flex items-center justify-between gap-3">
           <nav className="hidden flex-wrap items-center gap-1 md:flex" aria-label="Primary">
